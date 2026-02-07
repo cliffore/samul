@@ -1,0 +1,322 @@
+{
+    "comments": "Only two non-English languages work right now",
+    "experiment_folder": "/Users/",
+    "experiment_id": "1",
+    "log_file": "main-log.log",
+    "process_validation": true,
+    "process_translations": false,
+    "process_activations": false,
+    "process_averages": false,
+    "process_similarities": false,
+    "process_correlations": false,
+    "data_source_folder": "source_data",
+    "corpus": "semeval",
+    "translated_source_folder": "translated",
+    "activations_source_folder": "activations",
+    "averages_source_folder": "averages",
+    "similarities_source_folder": "similarities",
+    "data_start_file": "semeval_2014.csv",
+    "ground_truth_file": "semeval_2014_all_mappings.csv",
+    "activation_function": "max-per-concept",
+    "average_function": "full_mean",
+    "inspect": true,
+    "inspect_concepts": [
+        "paragraph2sentence.test-CQA-3-1",
+        "paragraph2sentence.test-CQA-3-2",
+        "paragraph2sentence.test-CQA-5-1",
+        "paragraph2sentence.test-CQA-5-2"
+    ],
+    "languages": [
+        "fr",
+        "zh-CN"
+    ],
+    "log_tensors": false,
+    "activations_layer_list": [
+        0
+    ],
+    "sparsity": "both",
+    "concept_pos_in_file": 3,
+    "multi_row_concept_match": false,
+    "delete_existing": false,
+    "filerepo": "google/gemma-scope-2b-pt-res",
+    "sparse_autoencoder": "openai/gpt2",
+    "layer_sparsity_type": "mid",
+    "google/gemma-scope-2b-pt-mlp": [
+        {
+            "layer": 0,
+            "type": "mid",
+            "value": 60
+        },{
+            "layer": 25,
+            "type": "mid",
+            "value": 59
+        }
+    ],
+    "google/gemma-scope-2b-pt-res": [
+        {
+            "layer": 0,
+            "type": "lower",
+            "value": 13
+        },
+        {
+            "layer": 0,
+            "type": "upper",
+            "value": 105
+        },
+        {
+            "layer": 1,
+            "type": "lower",
+            "value": 20
+        },
+        {
+            "layer": 1,
+            "type": "upper",
+            "value": 102
+        },
+        {
+            "layer": 2,
+            "type": "lower",
+            "value": 13
+        },
+        {
+            "layer": 2,
+            "type": "upper",
+            "value": 141
+        },
+        {
+            "layer": 3,
+            "type": "lower",
+            "value": 14
+        },
+        {
+            "layer": 3,
+            "type": "upper",
+            "value": 142
+        },
+        {
+            "layer": 4,
+            "type": "lower",
+            "value": 17
+        },
+        {
+            "layer": 4,
+            "type": "upper",
+            "value": 124
+        },
+        {
+            "layer": 5,
+            "type": "lower",
+            "value": 18
+        },
+        {
+            "layer": 5,
+            "type": "upper",
+            "value": 143
+        },
+        {
+            "layer": 6,
+            "type": "lower",
+            "value": 19
+        },
+        {
+            "layer": 6,
+            "type": "upper",
+            "value": 144
+        },
+        {
+            "layer": 7,
+            "type": "lower",
+            "value": 20
+        },
+        {
+            "layer": 7,
+            "type": "upper",
+            "value": 137
+        },
+        {
+            "layer": 8,
+            "type": "lower",
+            "value": 20
+        },
+        {
+            "layer": 8,
+            "type": "upper",
+            "value": 142
+        },
+        {
+            "layer": 9,
+            "type": "lower",
+            "value": 21
+        },
+        {
+            "layer": 9,
+            "type": "upper",
+            "value": 151
+        },
+        {
+            "layer": 10,
+            "type": "lower",
+            "value": 21
+        },
+        {
+            "layer": 10,
+            "type": "upper",
+            "value": 166
+        },
+        {
+            "layer": 11,
+            "type": "lower",
+            "value": 22
+        },
+        {
+            "layer": 11,
+            "type": "upper",
+            "value": 168
+        },
+        {
+            "layer": 12,
+            "type": "lower",
+            "value": 22
+        },
+        {
+            "layer": 12,
+            "type": "upper",
+            "value": 176
+        },
+        {
+            "layer": 13,
+            "type": "lower",
+            "value": 23
+        },
+        {
+            "layer": 13,
+            "type": "upper",
+            "value": 173
+        },
+        {
+            "layer": 14,
+            "type": "lower",
+            "value": 23
+        },
+        {
+            "layer": 14,
+            "type": "upper",
+            "value": 173
+        },
+        {
+            "layer": 15,
+            "type": "lower",
+            "value": 23
+        },
+        {
+            "layer": 15,
+            "type": "upper",
+            "value": 150
+        },
+        {
+            "layer": 16,
+            "type": "lower",
+            "value": 23
+        },
+        {
+            "layer": 16,
+            "type": "upper",
+            "value": 154
+        },
+        {
+            "layer": 17,
+            "type": "lower",
+            "value": 23
+        },
+        {
+            "layer": 17,
+            "type": "upper",
+            "value": 150
+        },
+        {
+            "layer": 18,
+            "type": "lower",
+            "value": 23
+        },
+        {
+            "layer": 18,
+            "type": "upper",
+            "value": 138
+        },
+        {
+            "layer": 19,
+            "type": "lower",
+            "value": 23
+        },
+        {
+            "layer": 19,
+            "type": "upper",
+            "value": 137
+        },
+        {
+            "layer": 20,
+            "type": "lower",
+            "value": 22
+        },
+        {
+            "layer": 20,
+            "type": "mid",
+            "value": 71
+        },
+        {
+            "layer": 20,
+            "type": "upper",
+            "value": 139
+        },
+        {
+            "layer": 21,
+            "type": "lower",
+            "value": 22
+        },
+        {
+            "layer": 21,
+            "type": "upper",
+            "value": 139
+        },
+        {
+            "layer": 22,
+            "type": "lower",
+            "value": 21
+        },
+        {
+            "layer": 22,
+            "type": "upper",
+            "value": 147
+        },
+        {
+            "layer": 23,
+            "type": "lower",
+            "value": 21
+        },
+        {
+            "layer": 23,
+            "type": "upper",
+            "value": 157
+        },
+        {
+            "layer": 24,
+            "type": "lower",
+            "value": 20
+        },
+        {
+            "layer": 24,
+            "type": "upper",
+            "value": 158
+        },
+        {
+            "layer": 25,
+            "type": "lower",
+            "value": 16
+        },
+        {
+            "layer": 25,
+            "type": "upper",
+            "value": 116
+        }
+    ]
+}

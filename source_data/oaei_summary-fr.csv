@@ -1,0 +1,865 @@
+concept,prompt
+confof-administrative_event,Événement administratif Événement Enregistrement des participants Événement Événement Événement Révision de l'événement Révision des résultats Événement Camera Ready Event Event Administrative Event
+confof-administrator,Administrateur
+confof-assistant,Adjoint
+confof-author,Auteur Certaines écrites contribution uniquement écrit la contribution de la personne
+confof-banquet,Événement social de banquet
+confof-camera_ready_event,Événement administratif de l'événement de la caméra Ready
+confof-chair_pc,Chaise PC personne
+confof-city,Ville
+confof-company,Organisation d'entreprise
+confof-conference,Événement de travail de la conférence
+confof-contribution,Contribution exactement 1 de Hastitle au moins 1 de Haskeyword Thing au moins 1 de ContactEmail exactement 1 de l'abstrait uniquement de transactions
+confof-country,Pays
+confof-event,Événement événementiel événementiel événementiel événement social
+confof-member,Membre du participant
+confof-member_pc,Membre du PC membre Certains examinateurs Contribution uniquement d'experts
+confof-organization,Université d'entreprise d'organisation
+confof-paper,Cotisation
+confof-participant,Étudiant régulier membre de la personne participante
+confof-person,Personne exactement 1 de Hassurname une City Hascity City Au moins 1 de Haspostalcode une certaine organisation employée au moins 1 de Hasemail exactement 1 de Hasfirstname Thing Au moins 1 de Hasstreet unique
+confof-poster,Contribution de l'affiche
+confof-reception,Événement social de réception
+confof-registration_of_participants_event,Enregistrement de l'événement d'événement des participants
+confof-regular,Participant régulier
+confof-reviewing_event,Examen de l'événement administratif des événements
+confof-reviewing_results_event,Examen de l'événement d'événement des résultats
+confof-scholar,Personne Scholar Study University University Studyat University University
+confof-science_worker,Travailleur scientifique
+confof-short_paper,Contribution du papier court
+confof-social_event,Événement social exactement 1 de l'emplacement exactement 1 de DefaultChoice exactement 1 de Titre Event Event Banquet Reception Reception
+confof-student,Étudiant participant
+confof-submission_event,Événement de soumission Événement administratif
+confof-topic,Sujet
+confof-trip,Événement social de voyage
+confof-tutorial,Événement de travail du tutoriel
+confof-university,Organisation universitaire
+confof-volunteer,Bénévole
+confof-working_event,Événement de travail exactement 1 de a le titre un sujet hastopic exactement 1 de DefaultChoice exactement 1 de l'événement de localisation uniquement du sujet hastopic Conférence de conférence
+confof-workshop,Événement de travail de l'atelier
+confof-thing,Contribution de la personne
+edas-academiaorganization,Organisation de l'organisation universitaire
+edas-academicevent,Academicevent Conferenceevent OrganizationalMeet Talkevent Workshop Paperpresentation Call
+edas-acceptrating,Accéptrer la révision
+edas-acceptedpaper,Papier en papier accepté Paperpresentation
+edas-accommodationplace,Lieu d'hébergement
+edas-accpetifroomrating,Accpetifroom qui revient la révision
+edas-activepaper,Papier actif papier notepapers reviedRating
+edas-antennastopic,Sujet antennastopique
+edas-attendee,Participant
+edas-author,Document de présentateur d'auteur
+edas-breakevent,Breas d'événements non académiques Break -break Freetimebreak Freetimebreak
+edas-cadtopic,Sujet cadtopique
+edas-call,Appelez CallForPapers CallFormanUscripts CallForReviews AcademiceVetre conférenceChair ou SessionChair ou TPCMember
+edas-callformanuscripts,Appel de callformanUscripts
+edas-callforpapers,Appel CallForPapers
+edas-callforreviews,Appel CallForReviews
+edas-closingtalk,ClosingTalk Talkevent
+edas-coffeebreak,Coffeebreak Breakevent
+edas-communicationtheorytopic,Sujet de communicationtheorytopic
+edas-communicationstopic,Sujet de la communication
+edas-computerarchitecturetopic,Sujet de l'architecture informatique
+edas-computernetworksaapplicationstopic,Ordro publicworksaApplicationStopic ComputerNetWorkstopic
+edas-computernetworksenterprisetopic,OrdrodNetWorkSenterPrisetopic ComputerworkStopic
+edas-computernetworksmanagementtopic,ComputerNetWorksManagementTopic ComputerNetWorkstopic
+edas-computernetworksmeasurementstopic,Ordro publicworksMeasurementStopic ComputerNetworkStopic
+edas-computernetworksopticaltopic,Ordro publicworksopticaltopic Computhernetworkstopic
+edas-computernetworkssecuritytopic,Ordro publicworkssecurityTopic ComputerNetWorkstopic
+edas-computernetworkssensortopic,OrdinternorworksSensortopic ComputerNetWorkstopic
+edas-computernetworksswitchingtopic,ComputerNetWorksSwitchingTopic ComputerNetWorkstopic
+edas-computernetworkstopic,ComputationNetworkStopic Sujet ComputerNetWorksOpticalTopic ComputerNetWorksManagementTopic ComputerNetWorksWitchTopic ComputerworksSensortopic ComputerNetWorksMeasurementStopic Computertork
+edas-conference,Chose de conférence exactement 1 de Hasname exactement 1 de Hascountry exactement 1 de Hastopic au plus 1 de PaperDueon au plus 1 de ManuscriptDueon au plus 1 de l'enregistrement au plus au plus 1 de la fin du plus 1 de la personne du pays startdate
+edas-conferencechair,Conférences
+edas-conferencedinner,Conférencé Méalevent
+edas-conferenceevent,Conferenceevent Academicevent Notacademicevent Person Place Programme Programme
+edas-conferencesession,Conférences
+edas-conferencevenueplace,Place de conférence
+edas-contactinformation,Coordonnées
+edas-country,Pays
+edas-cryptographytopic,Sujet cryptographytopique
+edas-diningplace,Diningplace Place
+edas-document,Document Review Paper MealMenu Programme Slideset Academicevent ou Conférence ou conférences ou personne
+edas-excursion,Excursion Socialevent
+edas-freetimebreak,Freetimebreak Breakevent
+edas-governmentorganization,Organisation d'organisation gouvernementale
+edas-industryorganization,Organisation de l'organisation de l'industrie
+edas-mealbreak,Pause des repas Pause même
+edas-mealevent,MEEALEVER NONACADEMICEvent conférencé MEALMENU
+edas-mealmenu,Document MealMenu Mealevent
+edas-medicinetopic,Sujet médicinétopique
+edas-meetingroomplace,Lieu de réunion
+edas-microelectronicstopic,Sujet du sujet de la microélectronique
+edas-mobilecomputingtopic,Sujet MobileComputingTopic
+edas-multimediatopic,Sujet multimédiatopique
+edas-ngo,Organisation des ONG
+edas-nonacademicevent,Événement de la conférence sur l'événement non académique Meanevent Breakevent Socialevent
+edas-numericalreviewquestion,NumericalReviewESTtion Review
+edas-operatingtopicsystems,Sujet opération de systèmes
+edas-organization,Organisation ONG ONGA-Oorganisation L'organisation de l'industrie Organisation du parrainage de l'organisation du gouvernement
+edas-organizationalmeeting,Réunion organisationnelle Événement académique
+edas-paper,Document de papier retiré Papier accepté Publié Publication en attente de papier de papier rejeté Conférence active ConferenceChair ou Reviewer ou SessionChair ou TPCMember Auteur
+edas-paperpresentation,Paperpresentation AcademiceVetre accepté Papier
+edas-parallelanddistributedcomputingtopic,Sujet de maîtrise de la maîtrise de la répartition
+edas-pendingpaper,Papier en attente
+edas-performancetopic,Sujet performancetopic
+edas-person,Personne Conference Conference de la conférence de la conférence de session de session TPCMemberchair
+edas-personalhistory,Personalhistory PersonalreViewHistory PersonalPublicationhistory
+edas-personalpublicationhistory,PersonalPublicationhistory History
+edas-personalreviewhistory,PersonalReviewHistory PersonalHistory Reviewer
+edas-place,PlacezroplacePlace DiningPlace HodationPlace ConferenceVenueplace ConferenceEvent
+edas-powerlinetransmissiontopic,Sujet PowerLineTransmissiontopic
+edas-presenter,Présentateur
+edas-programme,Conference de document de programme
+edas-publishedpaper,Papier de papier publié
+edas-radiocommunicationstopic,Radiocommunications Sujet Sujet
+edas-ratedpapers,RatedPapers Faper actif
+edas-reception,Socialevent de réception
+edas-rejectrating,REJECTRER REVIEDRATING
+edas-rejectedpaper,Papier rejeté
+edas-review,Examen du document
+edas-reviewform,REVUEFORM
+edas-reviewquestion,ReviewQuestion textualRieViewESTtion NumericalReviewQutation
+edas-reviewrating,Revue REJECTRATION ACCEPTEFORMATING ACCEPTRATION WEDEDRATRINT
+edas-reviewer,Réviseur PersonalReviewHistory
+edas-satelliteandspacecommunicationstopic,SatelliteAndPaceCommunicationstopic
+edas-securitytopic,Sujet de sécurité
+edas-sessionchair,Chair de session
+edas-signalprocessingtopic,Signal ProcessingTopic Sujet
+edas-singlelevelconference,SinglelevelConference
+edas-slideset,Document Slideset
+edas-socialevent,Événement social Excursion de réception d'événements non académiques
+edas-sponsorship,Organisation de parrainage TravelGrant
+edas-tpcmember,Tpcmembember
+edas-talkevent,Talkevent Academicevent Welcometalk ClosingTalk
+edas-testonlytopic,Sujet testonlytopique
+edas-textualreviewquestion,TextualReviewQtiontion Review
+edas-topic,Topic MedicineTopic ComputerNetworksTopic AntennasTopic MicroelectronicsTopic MobileComputingTopic ParallelAndDistributedComputingTopic MultimediaTopic CADTopic SecurityTopic SignalProcessingTopic TestOnlyTopic PowerlineTransmissionTopic CommunicationTheoryTopic PerformanceTopic CryptographyTopic CommunicationsTopic SATELLITEADSPACECOMUNICATIONSTOPIC ComputerArchitectureTopic WirelessCommunicationStopic radiocommunicationstopic OperatingTopicSystems ou document
+edas-travelgrant,Parrainage TravelGrant
+edas-twolevelconference,TwolevelConference
+edas-weekrejectrating,WeekRejectrating Review Ratation
+edas-welcometalk,Welcometalk Talkevent
+edas-wirelesscommunicationstopic,Sujet de la communication sans fil
+edas-withdrawnpaper,Papier retiré
+edas-workshop,Atelier AcademiceVevent
+edas-thing,Conférence
+conference-abstract,Résumé Document ou présentation abstraite étendue
+conference-accepted_contribution,Contribution acceptée Contribution Contribution Caméra Prêt Contribution
+conference-active_conference_participant,Le participant à la conférence active a invité un conférencier ou une présentation régulière des participants à la conférence de la conférence des auteurs
+conference-call_for_paper,Appel pour le document de conférence sur papier
+conference-call_for_participation,Document de conférence d'appel d'appel
+conference-camera_ready_contribution,Contribution de la caméra à contribution acceptée
+conference-chair,Comité des membres du comité
+conference-co-chair,Comité des membres du comité des co-réprimatiques
+conference-committee,Comité d'organisation du comité du comité du comité du comité directeur du comité du comité comité co-réprésente du comité des membres du comité de conférence Volume
+conference-committee_member,Membre du comité président comité coprésident
+conference-conference,Volume de conférence de la conférence
+conference-conference_announcement,Document de conférence d'annonce de la conférence
+conference-conference_applicant,Demandeur de la conférence
+conference-conference_contribution,Conférence Contribution Document de conférence Présentation de contribution écrite Affiche Volume Conférence
+conference-conference_contributor,Cont contributeur de la conférence invitée conférencier actif participant auteur régulier
+conference-conference_document,Conférence de la conférence Conférence www Review Informations pour les participants Appel à la participation Conférence Contribution Conférence Annonce de conférence pour personne Person
+conference-conference_fees,Frais de conférence
+conference-conference_part,Conférence partielle du tutoriel atelier Track-Workshop Chair Topic Conference Volume Conference
+conference-conference_participant,Participant de la conférence Personne active participant à la conférence active participant à la conférence passive
+conference-conference_proceedings,Éditeur des actes de conférence
+conference-conference_volume,Volume de conférence du comité de conférence du comité du comité du comité directeur du comité d'organisation Comité de conférence Contribution des dates importantes
+conference-conference_www,Document de conférence de la conférence WWW
+conference-contribution_1th-author,Contribution auteur régulier du 1er auteur
+conference-contribution_co-author,Co-auteur co-auteur de contribution
+conference-early_paid_applicant,Le demandeur payant précoce
+conference-extended_abstract,Résumé de contribution régulière étendue Résumé
+conference-important_dates,Volume de conférence des dates importantes
+conference-information_for_participants,Informations sur le document de la conférence des participants
+conference-invited_speaker,Contributeur de la conférence des conférenciers invités
+conference-invited_talk,Présentation de la conversation invitée
+conference-late_paid_applicant,Demandeur rémunéré en retard
+conference-organization,Organisation
+conference-organizer,Membre ou organisation du comité d'organisateur
+conference-organizing_committee,Volume de conférence des comités d'organisation des comités
+conference-paid_applicant,Demandeur rémunéré demandeur enregistré précoce du demandeur de tardite demandeur payant
+conference-paper,Contribution régulière du papier
+conference-passive_conference_participant,Participant de la conférence passive participant à la conférence
+conference-person,Personne Track-Workshop Conference Conference Conference Deviceur Conference Conference Conference Committee Member Reviewer Conference Document
+conference-poster,Contribution de la conférence d'affiches
+conference-presentation,Contribution de la conférence de présentation Invitée Participant Conférence Active Conference
+conference-program_committee,Volume de conférence du comité des comités de programme
+conference-publisher,Actes de conférence des éditeurs
+conference-registeered_applicant,Demandeur de conférence de la demandeur enregistrée demandeur
+conference-regular_author,Contributeur de la conférence des auteurs réguliers co-auteur co-auteur du 1er auteur
+conference-regular_contribution,Contribution régulière Contribution écrite Document abstrait étendu
+conference-rejected_contribution,Contribution rejetée Contribution examinée
+conference-review,Le document de conférence de révision ne fait que le réviseur des auteurs a examiné la contribution
+conference-review_expertise,Expertise de révision Certains appartiennent aux réviseurs Réviseur Thing Certains ont une contribution soumise à contribution soumise à contribution
+conference-review_preference,Examiner la préférence Certains ont un sujet ou une contribution de soumission soumise à contribution ou un sujet appartient à la réviseurs de réviseurs Contribution ou sujet soumis
+conference-reviewed_contribution,Contribution examinée Soumise Contribution Acceptée Contribution Rejetée REVUE DES CONTRIBUTIONS
+conference-reviewer,Expertise en revue de la personne examinée ou réviser le réviseur des préférences
+conference-steering_committee,Volume de conférence du comité du comité du pilotage
+conference-submitted_contribution,Contribution soumise Affiche de contribution écrite ou révision de la contribution régulière Expertise en revue de contribution
+conference-topic,Partie de conférence sur les préférences d'examen du sujet
+conference-track,Partie de la conférence sur piste
+conference-track-workshop_chair,Personne de conférence du président de la piste de la piste
+conference-tutorial,Partie de la conférence du tutoriel
+conference-workshop,Partie de la conférence de l'atelier
+conference-written_contribution,Contribution écrite CONFÉRENCE Affiche ou contribution régulière Contribution Soumise Contribution régulière
+conference-thing,Expertise expertise Organisateur Review Préférence
+myreview-acceptedpaper,Papier en papier accepté Un examen isratedby a une valeur d'accepter pour Hasstatus une séance de chaise isaccepted par
+myreview-administrator,Administrateur Programme CommitTeMember Criterion ou Paperstatus or Question ou Research Sujet
+myreview-author,Personne auteur Contactez le document de l'auteur
+myreview-bookletofabstracts,Livretofabstraits OutputDocument
+myreview-cd-rom,CD-ROM OutputDocument
+myreview-chair,PROGRAMME PROGRAMME COMMITTEMEMBER Session de réviseur de papier
+myreview-conference,Chose de conférence exactement 1 de Hasname exactement 1 de Hasacronyl exactement 1 de Hasemail
+myreview-conferenceattendant,Conférencestendants Certains frais MUSTPAY ont une valeur vraie pour payé exactement 1 de Hasphone exactement 1 des frais de personne Hasadress
+myreview-conferenceprogram,ConferenceProgram Thing exactement 1 de la conférence des emplacements Isprogramof
+myreview-contactauthor,ContactAuthor Eactement 1 de l'auteur Hasemail PaperAbstract
+myreview-criterion,Critère exactement 1 de Hasweight
+myreview-document,Document d'évaluation du document PaperAbstract
+myreview-evaluation,Revue du document d'évaluation
+myreview-externalreviewer,ExternalReviewer Some CooperatesReviewer Reviewer Person Reviewer
+myreview-externalreviewerslist,ExternalReviewersList OutputDocument
+myreview-fee,Frais
+myreview-indexofauthors,Indexofautors OutputDocument
+myreview-listofabstracts,Listofabsacts OutputDocument
+myreview-outputdocument,OutputDocument Thing Certains sont produits par chaise PCMemberslist Bookletofabstracts CD-ROM Proceedings Program ExternalReviewersList IndexofAutors Listofabstracts Président
+myreview-pcmemberslist,PCMemberslist OutputDocument
+myreview-paper,Papier un auteur PaperIsUbmitetedBy exactement 1 de Hasabstract exactement 1 de Hasmaintopic exactement 1 de HasId documente un auteur de Hasauthor exactement 1 de Hastitle RejectPaper PaperAbstrAt Author Researchtopic Polerstatus Chair Review Reviewer
+myreview-paperabstract,PaperAbStract Document Certains AbstralStissUbmitedBy ContactAuthor ContactAuthor Paper
+myreview-paperquestion,Question sur papier
+myreview-paperstatus,Papier Paperstatus
+myreview-paymentmode,Mode de paiement
+myreview-person,Personne exactement 1 de HasFirstname exactement 1 de HaslastName Thing exactement 1 de Hasaffiliation ConferenceAttendant ProgramcomMitteember ExternalRewerwer Auteur
+myreview-proceedings,Procédures Certaines incluent IndexofAutors OutputDocument.
+myreview-program,Programme OutputDocument
+myreview-programcommittee,Programme comitté THOSE Quelque chose Hasmmember préside un peu d'administrateur Hasmmember CommunteeMember
+myreview-programcommitteemember,ProgramcomMitTeem le 1er exactement du programme de président de la personne Hasemail REPHERCIER COMMENTATION COMMISSION
+myreview-question,Question sur le document Question sur la question
+myreview-rejectedpaper,Rejeté Papier de la chaise IsRejectEdBy Certains Isratedby Review ont rejeter la valeur pour Hasstatus
+myreview-researchtopic,Sujet de recherche quelqu'un est affecté par l'administrateur
+myreview-review,Examiner le document exactement 1 des taux exactement 1 de contenu
+myreview-reviewquestion,Question de revue
+myreview-reviewer,Programme de réviseur CommitTemember Papier externalreviewer ResearchTopic Review
+myreview-session,Session exactement 1 de l'isassociatedo thing accepté la machine à sous en papier
+myreview-slot,Machine à sous exactement 1 de la date exactement 1 des débutants exactement 1 de la session de la conférence de la conférence Endsat Thing
+myreview-thing,Thing Session ConferenceProgram Person OutproutDocument Research Criterion Criterion Program Communitee Slot Conference
+sigkdd-acm_sigkdd,ACM SIGKDD SUIT DÉMELLE DE CONCEPTION Quel
+sigkdd-abstract,Document abstrait
+sigkdd-author,Auteur une notification jusqu'à la date limite d'auteur Notification Conférencier Auteur de Paper Auteur de Paper Student Deadline Auteur Notification Awtifice Prix Paper
+sigkdd-author_of_paper,Auteur de Paper Author Some Award Best Research Paper Award Some Award Best Applications Paper Award
+sigkdd-author_of_paper_student,Auteur de Paper Student Some Award Best Student Paper Award Auteur
+sigkdd-award,Prix ​​Meilleur papier étudiant prix Meilleur papier de recherche Prix du papier pour meilleures applications
+sigkdd-best_applications_paper_award,Prix ​​du prix de la meilleure application du papier
+sigkdd-best_paper_awards_committee,Meilleur comité de récompense de papier
+sigkdd-best_research_paper_award,Meilleur prix de recherche sur le prix de recherche
+sigkdd-best_student_paper_award,Meilleur prix de papier étudiant
+sigkdd-best_student_paper_supporter,Meilleur partisan du papier étudiant Sponzor
+sigkdd-bronze_supporter,Supporter de bronze Sponzor
+sigkdd-committee,Comité du comité du comité du comité des prix du comité du comité de récompense du comité
+sigkdd-conference,Conférence ACM SIGKDD
+sigkdd-conference_hall,Place de la salle de conférence
+sigkdd-deadline,Date limite de la date limite de la date limite de la date limite de la date limite de la date limite du papier Date limite de soumission abstraite ACM SIGKDD
+sigkdd-deadline_abstract_submission,Date limite de soumission abstraite date limite
+sigkdd-deadline_author_notification,Date limite de la date limite de la date limite
+sigkdd-deadline_paper_submission,Date limite de soumission du papier date limite
+sigkdd-document,Document review document abstrait le haut-parleur date limite
+sigkdd-exhibitor,Exposant Sponzor
+sigkdd-fee,Frais d'inscription des frais Sponzor Frais
+sigkdd-general_chair,Organisation de chaire générale
+sigkdd-gold_supporter,Sponzor du partisan de l'or
+sigkdd-hotel,Lieu de l'hôtel
+sigkdd-invited_speaker,Président invité
+sigkdd-listener,Auditeur
+sigkdd-main_office,Lieu de bureau principal
+sigkdd-organizator,Organisation du programme Personne présidente présidente du comité de programme Webmaster membre d'organisation membre du comité d'organisation
+sigkdd-organizing_committee,Comité d'organisation du comité
+sigkdd-organizing_committee_member,Organisation des membres du comité
+sigkdd-paper,Document papier
+sigkdd-person,Person Thing  certains peuvent rester dans l'auditeur de l'hôtel conférencier Organisation de la place des frais d'inscription
+sigkdd-place,Place Hotel Main Office Conference Hall
+sigkdd-platinum_supporter,Sponzor du support de platine
+sigkdd-program_chair,Organisation du président du programme
+sigkdd-program_committee,Comité de programme
+sigkdd-program_committee_member,Organisation des membres du comité du programme
+sigkdd-registration_non-member,Enregistrement des frais d'enregistrement non membres
+sigkdd-registration_sigkdd_member,Inscription Frais d'enregistrement des membres SIGKDD
+sigkdd-registration_sigmod_member,Inscription Frais d'enregistrement des membres SIGMOD
+sigkdd-registration_student,Frais d'inscription des étudiants en inscription
+sigkdd-registration_fee,Inscription aux frais Inscription Étudiant Inscription des membres SIGMOD INSTRUCTION DE LA SIGMOD
+sigkdd-review,Examen du document
+sigkdd-silver_supporter,Sponzor en argent
+sigkdd-speaker,PERSONNE PERSONNE AUTEUR DOCUMENT DE PRÉSTENDE AVITE
+sigkdd-sponzor,Sponzor Bronze Supporter Exposoir meilleur étudiant supporter de papier Platine Supporter Silver Supporter Gold Supporter ACM SIGKDD
+sigkdd-sponzor_fee,Frais de Sponzor
+sigkdd-webmaster,Organisateur de webmaster
+sigkdd-thing,Chose personne acm sigkdd
+linklings-abstract,Contenu abstrait
+linklings-acceptedsubmission,Absencement
+linklings-adminregistered,Administré exactement 1 de l'iscriptions par un rôle inscrit de son insuffisance
+linklings-administrator,Administrateur Quelque rôle de colocatrie de setset
+linklings-applicant,Rôle du demandeur Une application d'isroleinvolvedin
+linklings-application,Application Soumission Type d'un demandeur de Hasroleinbolved
+linklings-author,Rôle de l'auteur Un document Isroleinvolvedin
+linklings-basicuser,BasicUser un rôle auto-enregistré hastersonsigned
+linklings-conference,Événement de la conférence Un peu de Hastheme of Type XSD: String quelques conférences Hassession
+linklings-conferencesession,Conférences
+linklings-content,Contenu uniquement HascontentType ContentType Some HascontentType ContentType Résumé FullText
+linklings-contenttype,Contenu
+linklings-event,Événement Some Hasplace Place une conférence HastimeInterval TimeInterval Session
+linklings-fulltext,Contenu en texte complet
+linklings-panel,Panneau Soupmission de panéliste de sroleinbolved
+linklings-panelmoderator,Rôle de PanelModerator Some Isroleinvolvedin Panel
+linklings-panelist,Rôle du panéliste Un panneau d'isroleinvelvedin
+linklings-paper,Papier un auteur de soumission de l'auteur de la sroleinbolved
+linklings-person,Personne Some Hassurename de Type XSD: String Some HasFirstName de Type XSD: String Some Hasaddress of Type XSD: String non enregistré
+linklings-place,Placer exactement 1 de la salle Hasaddress
+linklings-registeredperson,Personne inscrite Administration enregistrée auto-inscrite
+linklings-rejectedsubmission,Soumission rejetée
+linklings-reviewer,Critique
+linklings-role,Rôle Certains ont été administrés par l'administrateur de la gasset
+linklings-rolesettings,Paramètres de colocat
+linklings-room,Salle Exactement 1 de Hascapacity exactement 1 de HasLength Someroomname de Type XSD: String exactement 1 de Haswidth exactement 1 de Hasheight Place
+linklings-selfregistered,Auto-inscrit à un Hasrole BasicUser exactement 1 de l'enregistrement ISCister par
+linklings-session,Événement de session
+linklings-sessionchair,SessionChair Un rôle de conférences-conférences-disgramme
+linklings-settings,Paramètres SoumissionFeaturesSettings
+linklings-submission,Soumission exactement 1 de HassubmissionType un peu de tronçon de type XSD: String un contenu de hascontent
+linklings-submissionfeaturesettings,Soumissionfeaturessetings Certains paramètres de soumission de soumission
+linklings-submissionstatus,SoumissionStatus Quelques émissions de soumission de soumission unique
+linklings-submissiontype,Soumission Type de la soumission de soumission de soumission Papier de panneau d'application
+linklings-timeinterval,TimeInterval exactement 1 de Hasstartdate exactement 1 de HasendDate
+linklings-undecidedsubmission,Soumission indécise
+linklings-unregisteredperson,Personne non enregistrée personne exactement 1 des registres
+pcs-accepted_paper,Revue externe en papier accepté ou réviseur secondaire
+pcs-administrator,Administrateur Some Génération Rapport Un e-mail Envoyer un e-mail Some Generate Electronic Proceding Person Procédure électronique ou rapport Email
+pcs-author,Auteur Some Write Paper ConferenceMembember Paper
+pcs-cd,Procédure électronique du CD
+pcs-committeemember,Comité du comité conférentiel du réviseur du secondaire Primor Review Document
+pcs-conference,Conférence de conférence ConferenceMember
+pcs-conferencemember,Conférence de conférences de la personne du comité des auteurs
+pcs-document,Personne du journal de révision des documents
+pcs-electronic_proceeding,Site Web de CD de procédure électronique
+pcs-email,Administrateur d'informations sur l'invitation par e-mail
+pcs-external_reviewer,Personne externe Personne Some Writing Review
+pcs-information,Courriel d'information
+pcs-invitation,E-mail d'invitation
+pcs-person,Person Thing certains obtiennent l'administrateur d'information ConferenceMember Document du système de messagerie examinateur externe
+pcs-paper,Document papier accepté Paper Rejeté Comité du comité du comité
+pcs-primary_reviewer,Réviseur principal certains acceptent le document Some Assigne Review Review CoumitteeMembe REVUE
+pcs-programme,Conférence de programme
+pcs-rejected_paper,Papier rejeté en papier
+pcs-report,Rapport
+pcs-review,Revoir le document réviseur principal réviseur externe ou réviseur secondaire
+pcs-secondary_reviewer,Comité du réviseur secondaire REVIS SUR LA RÉVISION ÉCRIRE
+pcs-system,Système
+pcs-web_site,Procédure électronique du site Web
+pcs-thing,Chose personne
+paperdyne-abstract,Fichier de contribution abstrait
+paperdyne-abstract_and_paper_submission_phase,Résumé et la phase de soumission du papier phase de conférence
+paperdyne-assignment_phase,Affectation phase phaseofConferencePreparation a une valeur fausse pour perteuploadcrc a une valeur fausse pour pertereView a une valeur fausse pour permis usitpaper a une valeur fausse pour pertegister a la valeur false pour perte
+paperdyne-author,Auteur Some Create Contribution Person Selon le document au moins 0 de la contribution du co-auteur de Speaks
+paperdyne-bidding_and_paper_submission_phase,Les enchères et la phase de soumission du papier ont une valeur vraie pour la phase d'appel d'offres permis d'autorisation
+paperdyne-bidding_phase,Phase d'appel
+paperdyne-bidding_without_paper_submission_phase,Les enchères sans phase de soumission de papier ont une valeur fausse pour la phase d'appel d'offres permis d'autorisation
+paperdyne-blocked_phase,La phase bloquée a une valeur fausse pour allowbid a une valeur fausse pour pertegister a la valeur fausse pour perteuploadcrc a une valeur fausse pour permetsUmitpaper phaseofconferencePreparation a la valeur false pour allowRiew
+paperdyne-camera_ready_copy,Fichier de contribution de copie de l'appareil photo
+paperdyne-camera_ready_copy_phase,La phase de copie prêt à la caméra a une valeur fausse pour pertegister a une valeur fausse pour permis uitumi phaseofconferencePreparation a une valeur fausse pour pertewiew a la valeur false pour allowbid
+paperdyne-closed_phase,La phase fermée a une valeur fausse pour permis usimit a valeur false pour pertegister phaseofconferencePreparation a une valeur fausse pour pertewiew a la valeur false pour allowbid a une valeur fausse pour perteuploadcrc
+paperdyne-co-author,Co-auteur de l'auteur certains coaudits avec co-auteur ou principal auteur au moins 1 de coautheurs avec
+paperdyne-conference,Conférence uniquement organisée par le comité de programme Traite Chose du programme de programme Président du comité de programme Lieu
+paperdyne-confirmed_conflict,Conflit confirmé uniquement visibleBy examinateur certains rapportent des conflits d'intérêts sur papier.
+paperdyne-conflict_of_interest,Conflit d'intérêts uniquement géré par des règles de conflit
+paperdyne-conflict_rules,Les règles de conflit ne gèrent que le conflit d'intérêts
+paperdyne-contribution,Contribution Un auteur créé par un sujet de couverture
+paperdyne-contribution_file,Fichier de contribution Certains soumis par auteur Contribution Affiche abstraite Pièces de la caméra Ready Copy Paper File Source Archive
+paperdyne-deleted_conflict,Le conflit supprimé le conflit d'intérêts ne concerne pas le document BlockAssigningToreViewer
+paperdyne-discussion,Discussion
+paperdyne-e-mail_pc_meeting,La réunion de PC par e-mail a une valeur vraie pour la réunion du comité de programme virtuel
+paperdyne-hidden_conflict,Le conflit caché ne concerne pas le document BlockAssigningToreViewer proposé uniquement par le président du programme Comité Conflit d'intérêts
+paperdyne-invitation_of_reviewers_phase,Invitation des examinateurs Phase de phase de conférence
+paperdyne-location,Emplacement
+paperdyne-mainauthor,Auteur MainAuthor Certains soumettent le dossier de contribution au moins 0 des vues uniquement les vues proposées au moins 0 de coaudits avec au moins 0 de la propose  certains proposent un conflit proposé seulement des coaudits avec co-auteur
+paperdyne-pc_meeting,La réunion du comité du programme de réunion de réunion PC a une valeur fausse pour est virtuel
+paperdyne-paper,Contribution du papier au moins 0 de Isinconflict avec seulement Speaker par Speaking Speaker Certains IsinConflict avec le programme de réviseur Comité PROGRAMME PROGRAMME COMITÉ COMITÉ COMIT
+paperdyne-paper_file,Fichier de contribution du fichier papier
+paperdyne-pending_proposed_conflict,En attente de conflit proposé uniquement visible par un conflit d'intérêts sur le revêtement de BlockAssigningToreViewer examinateur
+paperdyne-person,Persant Président du programme Comité Président auteur
+paperdyne-phaseofconferencepreparation,PhaseofconferencePreparation Phase de soumission Fermé phase Résumé et la phase de soumission de la phase de soumission Papier Prêt de la phase de phase de phase de phase de phase de phase de phase de phase de phase de phase de phase de phase de phase de phase des examinateurs
+paperdyne-poster,Fichier de contribution de l'affiche
+paperdyne-program_comitee,Programme comitee Thing Some Hasmembers Program Committee présidente certains membres du hachage Japer
+paperdyne-program_comitee_chair,Programme comitee président Certains membres du programme comitee Certains organisent le programme comitee rencontrant certaines organisations de la conférence au moins 0 de vues quelques vues Conflit d'intérêts
+paperdyne-program_comitee_meeting,Réunion du comité de programme Certains contient une discussion uniquement se déroule la réunion de la réunion du PC
+paperdyne-proposed_conflict,Conflit proposé Certains blockAssigningToreViewer Paper Conflit d'intérêts
+paperdyne-review,Revoir un document CreatedBy Reviewer Thing Some Japer
+paperdyne-review_phase,La phase de révision a une valeur fausse pour pertebibid phaseofConferencePreparation a la valeur fausse pour permettre que la sous-papier a une valeur fausse pour pertegister
+paperdyne-reviewer,Examinateur Au moins 0 des vues  certains Isinconflict avec un article n'ont fait que ConflictType confirmé un conflit ou un conflit proposé en attente au moins 0 de Isinconflict avec certains soumises la personne à la personne dans un membre du programme Comité au moins 0 de HasconflictType
+paperdyne-self_conflict,Auto-conflit uniquement visible par mainauteur et réviseur certains blockAssigningToreViewer Paper Conflict of Intérêts
+paperdyne-setup_phase,La phase de configuration a une valeur fausse pour allowbid phaseofConferencePreparation a une valeur fausse pour pertegister a la valeur fausse pour perteuploadcrc a une valeur fausse pour pertewiew a la valeur false pour permisubmitpaper
+paperdyne-slides,Fichier de contribution des diapositives
+paperdyne-source_archive,Fichier de contribution des archives source
+paperdyne-speaker,Personnelle au moins 1 de la parole du papier parle
+paperdyne-topic,Sujet une chose couverte de contribution
+paperdyne-thing,Chose Conflict Intest Program Committee Committee Committee Comité Réunion Contribution Règles Conference du sujet Examen des règles
+openconf-adobe_pdf,Format Adobe PDF
+openconf-advocate,Advocate plaidait le document
+openconf-advocated_paper,Défenseur du papier préconisé
+openconf-author,Auteur Some Writs Paper Paper People Contactez le papier auteur
+openconf-balanced_theory_and_practice,Théorie équilibrée et catégorisation de l'article de pratique
+openconf-clarity_to_present_understanding,Clarité pour présenter la compréhension de la valeur globale
+openconf-classic_papers,Sujets de papiers classiques
+openconf-clear_accept,Accepter clairement recommandation
+openconf-clear_reject,Recommandation de rejet claire
+openconf-committees,Sujet du domaine des comités
+openconf-computer_science,Sujets informatiques
+openconf-conference_program,PROGRAMME DU PROGRAMME DE CONFIÉ
+openconf-contact_author,Contacter l'auteur de l'auteur
+openconf-corel_word_perfect,Format parfait de mot corel
+openconf-domain_topic,Domain Sujet People Comité Paper
+openconf-format,Format Valeur partition Corel Word Perfect MS Word HTML RTF Adobe PDF Text Postcript
+openconf-html,Format HTML
+openconf-high,FAMLILILIARITÉ HAUTE
+openconf-highly_practical,Catégorisation de papier très pratique
+openconf-highly_theoretical,Catégorisation de papier hautement théorique
+openconf-humour,Sujets d'humour
+openconf-long_bool,Long bool
+openconf-low,FAMILILIARITÉ DE LOI AVEC
+openconf-ms_word,Format MS Word
+openconf-marginal_tend_to_accept,Marginal a tendance à accepter la recommandation
+openconf-marginal_tend_to_reject,Marginal a tendance à rejeter la recommandation
+openconf-member,Membres du peuple
+openconf-moderate,Réviseur modéré Famliliarity
+openconf-must_accept,Doit accepter la recommandation
+openconf-networking,Sujets de réseautage
+openconf-new_information,Nouvelle valeur globale d'information
+openconf-new_perspective_issue_problem_solving,Nouveau problème de perspective résoudre la valeur globale de la résolution de la valeur globale
+openconf-not_much,Pas beaucoup de valeur globale
+openconf-other,Autre valeur globale
+openconf-overall_value,Valeur globale Valeurs de revue Clarity pour présenter à la compréhension de nouveaux problèmes de perspective Résoudre d'autres non-nouvelles informations confirmation précieuse des connaissances actuelles
+openconf-paper,Document certains sont écrits par le sujet du domaine de l'auteur soumis auteur de papier
+openconf-paper_categorization,Catégorisation de l'article revue les valeurs de théorie et de pratique très théoriques et de pratique très pratiques tend à la pratique des tendons à la théorie
+openconf-paper_file,Format de fichier papier
+openconf-paper_review,Catégorisation de la critique de la revue du papier Long Livre Recommandation de valeur globale
+openconf-people,Personnes Domain Sujet Auteur Membre
+openconf-planed_paper,Programme de conférence sur papier planed
+openconf-portable_reject,Recommandation de rejet portable
+openconf-postscript,Format post-scriptum
+openconf-program_committee,Comité de programme
+openconf-program_chair,Programme de conférence du président du programme
+openconf-programming,Programmation des sujets
+openconf-rfc,Sujets RFC
+openconf-rtf,Format RTF
+openconf-reccommendation,Recommandation examen valeurs marginales tend à rejeter clairement accepter le rejet claire marginal a tendance à accepter doit accepter le rejet portable
+openconf-result_of_advocate,Résultat de l'avocat
+openconf-review_committee,Comité d'examen
+openconf-review_values,Revoir Valeurs Valeur Partition Valeur globale Recommandation de catégorisation du papier
+openconf-reviewed_paper,Document examiné
+openconf-reviewer,Revue du document de la critique
+openconf-reviewer_famliliarity,Réviseur Famliliarité faible modéré
+openconf-submitted_paper,Papier soumis certains sont stockés dans le fichier papier Certains ont été envoyés par contact auteur du papier Contact Contact auteur Fichier papier
+openconf-tends_towards_practical,Tend vers la catégorisation pratique du papier
+openconf-tends_towards_theoretical,Tend vers la catégorisation théorique des articles
+openconf-text,Format de texte
+openconf-topics,Sujets valeur partition Classic Papers Programming RFC Humor Networking Informatique
+openconf-valuable_confirmation_of_present_knowledge,Confirmation précieuse de la valeur globale des connaissances actuelles
+openconf-value_partition,Valeur des sujets de format de partition examine les valeurs
+cmt-acceptance,Décision d'acceptation
+cmt-administrator,Administrateur d'utilisateur Paper ProgratComMitteeMember Reviewer Conference
+cmt-associatedchair,AssociatedChair ConferenceMember
+cmt-author,Auteur User ConferenceMember Co-auteur AuthornOreViewer Paper
+cmt-authornotreviewer,Auteur AuthornoteViewer
+cmt-bid,Examinateur de soumission
+cmt-chairman,Président
+cmt-co-author,Document de l'auteur co-auteur
+cmt-conference,Conférence au moins 1 de la date de la date exactement 1 de la revue de la revue exactement 1 de l'administrateur de nom ConferenceMember
+cmt-conferencechair,Conférences conférences
+cmt-conferencemember,ConferenceMember Person ProgramCommiteeMember ConferenceChair Auteur AssociatedChair Reviewer Conference
+cmt-decision,Rejet d'acceptation de décision
+cmt-document,Document de révision des documents
+cmt-externalreviewer,ExternalReviewer Exactement 1 de la réviseur de la personne AssignedByreViewer
+cmt-meta-review,Revue de méta-révision
+cmt-meta-reviewer,Réviseur de méta-évaluateur
+cmt-paper,Papier Au moins 1 de ReadByReviewer Au moins 0 du document Hasdecision au plus 1 de ReadBymeta-Reviewer au plus 1 de Hasdecision PaperAbstrustry Paperfullversion Administrateur Reviewer Author Bid Co-Author Decision Decision Meta-Reviewer
+cmt-paperabstract,Papier papier
+cmt-paperfullversion,Papier de papier
+cmt-person,Personne ConferenceMember ProgramComMitTemember Président du président ExternalViewer Document
+cmt-preference,Préférence
+cmt-programcommittee,Programme comitté Commissariat
+cmt-programcommitteechair,ProgramCommitteEchair ProgramComMitteeMember Revue
+cmt-programcommitteemember,ProgramcommitteeMember ConferenceMember Person Program CommitTeEchAir Administrateur Progratrice Communie
+cmt-rejection,Décision de rejet
+cmt-review,Revoir Document Meta-Review Reviewer
+cmt-reviewer,Réviseur User ConferenceMember Meta-Reviewer Bid ExternalReyViewer Administrator Paper Review
+cmt-subjectarea,Sujette
+cmt-user,Administrateur de réviseur d'auteur de la personne utilisateur
+cmt-thing,Conférence
+iasted-accepting_manuscript,Accepter l'activité manuscrite avant la conférence
+iasted-activity,Activité d'activité avant la conférence Activité de conférence Activité après la conférence ou l'heure
+iasted-activity_after_conference,Activité après conférence Une partie de la conférence après les jours de conférence Activité Tourne complète Départ de tournée
+iasted-activity_before_conference,Activité avant la conférence  une partie de la conférence Avant les jours de conférence Activité recevant la location de manuscrits acceptant la recherche manuscrit refusant le manuscrit
+iasted-audiovisual_equipment,Équipement audiovisuel Un peu est situé dans la salle de session  certains sont utilisés par un élément d'encein
+iasted-author,Président de l'auteur Certains donnent une brève introduction pour le président de session Some Préparer la transparence du didacticiel Président du livre des auteurs inclus le conférencier Auteur CD Procédure incluse la conférence plénière Président
+iasted-author_attendee_book_registration_fee,Frais d'inscription au livre des participants à l'auteur Certains sont payés pour les frais d'inscription à la procédure de livre
+iasted-author_attendee_cd_registration_fee,Frais d'inscription CD à participation auteur Certains sont payés pour les frais d'inscription à procédure CD
+iasted-author_book_proceedings_included,Les procédures du livre d'auteur incluent l'auteur une procédure d'obtention du livre
+iasted-author_cd_proceedings_included,Les procédures de CD de l'auteur comprenaient certains CD processeur auteur
+iasted-author_information_form,Formulaire d'information sur l'auteur
+iasted-bank_transfer,Document de paiement de transfert bancaire
+iasted-book_proceeding,Publication de bourse
+iasted-brief_introduction_for_session_chair,Bref introduction pour la présidence de session  certains sont donnés au président de session  certains sont donnés par un document de l'auteur
+iasted-building,Building Place University Conference Hotel Conference Hotel Sponsor Sponsor Company House House House Conference Restaurant Conference Conference
+iasted-camera_ready_manuscript_deadline,Date limite du manuscrit prêt à la caméra
+iasted-car,Véhicule de transport automobile
+iasted-card,Carte de crédit d'article de carte
+iasted-cd_proceening,CD procédure publication
+iasted-cheque,Vérifier le document de paiement
+iasted-city,City Thing Certains est situé dans le sponsor de l'État City Trip City Conference City Présentateur City
+iasted-coctail_reception,Activité de conférence de réception de cocktails Certains sont conçus pour le délégué
+iasted-coffee_break,Activité de conférence de pause café  certains sont conçus pour le délégué
+iasted-computer,Équipement audiovisuel informatique
+iasted-conference_hiker,Délégué des randonneurs de la conférence
+iasted-conference_activity,Activité de la conférence Une partie de l'activité des jours de conférence.
+iasted-conference_airport,Aéroport de conférence Certains sont situés dans l'État de conférence  certains sont situés dans le bâtiment de la ville de la conférence
+iasted-conference_building,Conférence Building Certains est occupé par le délégué  certains sont situés dans la ville de conférence  certains sont situés dans le bâtiment de l'État de la conférence
+iasted-conference_city,Conférence City Certains sont visitées par Delegate City
+iasted-conference_days,Journées de conférence Certaines sont conçues pour le délégué Time One Conference Day
+iasted-conference_hall,Place de la salle de conférence certains est situé dans le bâtiment de la conférence
+iasted-conference_hotel,Hôtel de conférence Certains sont situés dans la conférence City Building Certains est conçu pour le présentateur d'hôtel  certains sont situés dans l'État de la conférence
+iasted-conference_restaurant,Restaurant de conférence Certains sont occupés par le délégué Build
+iasted-conference_state,État de la conférence Certains est visité par Delegat State
+iasted-credit_card,Carte de crédit  certains sont conçus pour les frais ou l'éponzonnerie ou la taxe
+iasted-currency,Devise
+iasted-deadline,Temps de date limite certains sont conçus pour la date limite du délégué pour la notification de la régistation d'acceptation Date limite Date limite de la date limite de la date limite de la caméra prête à la date limite de la date limite de la date limite de l'hôtel réservation
+iasted-deadline_for_notification_of_acceptance,Date limite de notification de la date limite d'acceptation
+iasted-deadline_hotel_reservation,Date limite de réservation de la date limite
+iasted-delegate,Délégué personne certains frais d'enregistrement de rémunération Certains obtiennent une lettre d'invitation certains occupants présentant un peu besoin de la présentatrice de présentateur occupant une occupation de présentatrice de l'occupation
+iasted-departure,Activité de départ après la conférence
+iasted-departure_tax,Taxe d'impôt de départ  certains sont conçus pour le départ
+iasted-dinner_banquet,Banquet de dîner  certains sont conçus pour le programme social non un jour présentateur
+iasted-document,Document Article VIZA Liste de diffusion Brief Introduction pour la session Paiement de paie
+iasted-double_hotel_room,Chambre d'hôtel double chambre d'hôtel
+iasted-fee,Frais d'argent Certains sont payés avec une carte de crédit ou un document de paiement des frais d'inscription pour les frais d'hôtel supplémentaires
+iasted-fee_for_extra_trip,Frais pour les frais de voyage supplémentaires Certains sont payés par randonneur de conférence  certains sont payés pour une tournée complète
+iasted-final_manuscript,Manuscrit final  certains passent par la soumission du manuscrit
+iasted-form,Formulaire certains sont donnés pour déléguer le formulaire d'information sur l'auteur du formulaire d'enregistrement
+iasted-full_day_tour,Activité de tournée en pleine journée Après la conférence  certains ont lieu lors du jour du voyage  certains ont lieu à Trip City  certains sont conçus pour le délégué
+iasted-hotel_fee,Frais d'hôtel Certains sont payés par des frais de présentateur d'hôtel
+iasted-hotel_presenter,Hôtel Présentant à la fois un hôtel de conférence Occupy et un délégué de frais d'hôtel payant
+iasted-hotel_registration_form,Formulaire d'inscription à l'hôtel
+iasted-hotel_room,Chambre d'hôtel certains est conçu pour le présentateur d'hôtel Place Certains est situé dans la conférence Hôtel Double chambre d'hôtel Single Hotel Room
+iasted-iasted_member,Délégué membre Iasted
+iasted-iasted_non_member,Délégué non membre iasted
+iasted-initial_manuscipt,Soumission du manuscrit initial Certains passent par refus du manuscrit
+iasted-introduction,Introduction Activité de la conférence Introduction du conférencier
+iasted-introduction_of_speaker,Introduction de l'introduction du conférencier
+iasted-invitation_letter,Lettre d'invitation certains est conçu pour le délégué du document
+iasted-item,Article Audiovisuel Document Documentation Publication Transport Carte de véhicule Activité Personne Personne Temps Article Activité ou argent
+iasted-lcd_projector,Équipement audiovisuel du projecteur LCD
+iasted-lecture,Activité de conférence de conférence Certains sont conçus pour la session de tutoriel auditeur Lecture plénière
+iasted-lecturer,Conférencier Auteur Some Speak in Session Room Student Maître de conférencier Conférencier
+iasted-listener,Auditeur certains sont présents dans la salle de conférence ou la salle de séance
+iasted-mailing_list,Document de liste de diffusion Certains sont conçus pour le délégué
+iasted-main_office,Lieu de bureau principal
+iasted-memeber_registration_fee,Frais d'inscription des membres Certains sont conçus pour les frais d'inscription aux membres Iasted
+iasted-modelling,Modélisation de la recherche
+iasted-money,Affiche de la fiscalité de la Tise de l'argent Activité Personne ou élément de construction d'articles
+iasted-non_speaker,Non-conférencier délégué étudiant non conférencier non conférencier
+iasted-nonauthor_registration_fee,Frais d'enregistrement des non-auteurs Certains sont conçus pour les frais d'enregistrement sans conférenciers
+iasted-nonmember_registration_fee,Frais d'inscription aux non-membres
+iasted-one_conference_day,Un jour de conférence Jours de conférence
+iasted-one_day_presenter,Délégué de présentateur d'un jour
+iasted-overhead_projector,Équipement audiovisuel projecteur aérien
+iasted-payment_document,Document de paiement Certains sont conçus pour les frais ou le transfert de bancs de documents de frais fiscaux
+iasted-person,Personne sponsor l'activité déléguée ou le lieu de temps ou les articles du temps Bâtiment ou argent de la ville ou de l'État
+iasted-place,Place Certains est situé dans la conférence State Thing  certains sont situés dans la conférence City Hall Hall Office Office Session Building Building Room Item
+iasted-plenary_lecture,Conférence plénière
+iasted-plenary_lecture_speaker,Conférencier plénière Président de conférence Speak in Conference Hall Auteur
+iasted-powerpoint_presentation,Présentation de PowerPoint
+iasted-presentation,Présentation Conférence Activité Video Présentation PowerPoint Présentation
+iasted-presenter_city,Présentateur City City Certains sont occupés par le délégué
+iasted-presenter_house,House de présentateur Certains sont situés dans l'État de présentateur  certains sont occupés par la construction de délégués  certains sont situés dans la ville de présentateur
+iasted-presenter_state,État de l'État du présentateur  certains sont occupés par le délégué
+iasted-presenter_university,Université de présentateur Certains sont situés dans le présentateur City Certains sont situés dans le bâtiment des présentateurs
+iasted-publication,Publication Certaines est faite à partir du livre final du manuscrit
+iasted-receiving_manuscript,Recevoir une activité manuscrit avant la conférence
+iasted-record_of_attendance,Enregistrement de la fréquentation certains sont signés par le document de l'auditeur  certains sont situés dans la salle de session
+iasted-refusing_manuscript,Refuser l'activité manuscrit avant la conférence
+iasted-registation_deadline,Date limite d'inscription à la date limite
+iasted-registration,Activité de conférence d'enregistrement Certains sont conçus pour le délégué
+iasted-registration_fee,Frais d'inscription des frais certains sont payés par délégué Certains sont payés pour une activité de conférence Frais d'inscription non membre Frais d'inscription des étudiants
+iasted-registration_form,Formulaire d'enregistrement
+iasted-renting,Activité de location avant la conférence  certains sont liés à la voiture
+iasted-research,Activité de recherche avant la modélisation de la conférence simulant
+iasted-review,Revoir Document quelqu'un est écrit par le critique
+iasted-reviewer,Conférencier
+iasted-session,Session Certaines est donnée par l'auteur ou la chaise de session  une partie de la conférence de la salle de séance
+iasted-session_chair,Président de session Déléguer Certains obtiennent une brève introduction pour le président de session
+iasted-session_room,Salle de session certains sont équipés d'un équipement audiovisuel.
+iasted-shuttle_bus,Véhicule de transport de navette
+iasted-simulating,Simulation de la recherche
+iasted-single_hotel_room,Chambre d'hôtel unique
+iasted-social_program,Programme social Certains sont conçus pour le banquet du dîner d'activité de conférence des délégués
+iasted-speaker,Conférencier certains donnent un délégué des conférences
+iasted-speaker_lecture,Session de conférences de conférencier
+iasted-sponsor,Sponsor Certains Occupy Sponsor Company House Certains Occupy Sponsor State Certains Occupy Sponsor City Person
+iasted-sponsor_city,Sponsor City City Certains sont occupés par le sponsor
+iasted-sponsor_company_house,Sponsor Company House Certains est situé dans le commanditaire Building  certains sont occupés par le sponsor  certains sont situés dans la ville de sponsor
+iasted-sponsor_state,État parrain de l'État
+iasted-sponzorship,Argent du parrainage
+iasted-state,Conférence de la Conférence d'État Présentateur d'État Sponsor État
+iasted-student_lecturer,Maître de conférencier
+iasted-student_non_speaker,Étudiant non conférencier non conférencier
+iasted-student_registration_fee,Frais d'inscription des étudiants Frais d'inscription
+iasted-submission,Document de soumission quelqu'un est écrit par le manuscrit final du haut-parleur
+iasted-submissions_deadline,Date limite des soumissions
+iasted-tax,Tax de taxe sur la taxe sur la valeur ajoutée
+iasted-taxi,Véhicule de transport de taxi
+iasted-technic_activity,Activité technique Un peu est donné par l'activité de la conférence technique du comité
+iasted-technical_commitee,Comité technique Déléguer certains passer par une activité technique
+iasted-time,Date limite de jour de la conférence de conférence
+iasted-time_zone,Fuseau horaire
+iasted-tip,Astuce de l'argent Certains sont payés dans le restaurant de conférence
+iasted-transparency,Document de transparence Certains sont préparés par le locuteur
+iasted-transport_vehicle,Véhicule de transport Une partie est utilisée par le délégué des articles en taxi navette
+iasted-trip_city,Trip City Certains est visité par la ville de conférence City
+iasted-trip_day,Jour de voyage  certains sont conçus pour l'heure du délégué
+iasted-tutorial,Conférence de tutoriel
+iasted-tutorial_speaker,Auteur de conférencier du tutoriel Some Speak in Conference Hall
+iasted-value_added_tax,Taxe fiscale à valeur ajoutée
+iasted-van,Véhicule de transport de fourgonnette
+iasted-video_cassette_player,Équipement de cassette vidéo audiovisuelle
+iasted-video_presentation,Présentation vidéo
+iasted-viza,Viza document certains sont nécessaires pour le délégué
+iasted-welcome_address,Activité de conférence de bienvenue à l'adresse
+iasted-worker_lecturer,Maître de conférencier
+iasted-worker_non_speaker,Travailleur non orateur non conférencier
+iasted-thing,Thing Place City
+crs_dr-abstract,Article de document abstrait
+crs_dr-article,Article Document Auteur Résumé Réviseur
+crs_dr-author,Article de la personne de l'auteur
+crs_dr-chair,Programme de réviseur de la personne présidente
+crs_dr-conference,Programme d'événements de conférence
+crs_dr-document,Résumé de l'article de la revue de document
+crs_dr-event,Conférence de session de réunion de PC d'événement
+crs_dr-participant,Conférence des personnes participantes
+crs_dr-pc_meeting,Événement de réunion PC
+crs_dr-person,Personne auteur-président du président-directeur
+crs_dr-program,Président de session de programme
+crs_dr-review,Revoir le réviseur de documents
+crs_dr-reviewer,Revue de la personne examinateur
+crs_dr-session,Événement de session
+micro-activity,Activité Some Iscondented par Auteur Somestartof Conference Thing Thing Workshop Lecture Tutorial Topic Conference
+micro-activitysubmissionform,ActivitySubmissionForm Thing Only IssumitedBy Auteur Selon l'auteur du Papier de didacticiel de l'ouvain
+micro-author,Auteur au moins 0 des conflits
+micro-committeemember,Organisateur du comité du comité
+micro-conference,Chose de conférence uniquement est organisé par l'organisation d'organisation des commissions.
+micro-doubleblindreview,DoubleBlindReview Thing Only IsExecutedBy Outsidereferee ou Reviewer Only Appristo Lecture Reviewer
+micro-financechair,Comité d'organisation du président des finances
+micro-generalcochair,GeneralCochair Organizing Committee
+micro-lecture,Conférence Activité QualitatVielelect Traditionalallecture
+micro-location,Emplacement
+micro-organizer,Organisateur Person Comité réviseur
+micro-organizingcommittee,Organisation des communicés n'engagent que le comité du comité
+micro-outsidereferee,Personne d'origine
+micro-paper,Papier uniquement Application de conférence Activité Activité Submission
+micro-papersubmissionchair,PAPERSUBMISSIONSCHAIR ORGANISATION COMMITÉE
+micro-person,Personne Organisateur Auteur Outdereferee
+micro-programcochair,Comité d'organisation de programmes de programme
+micro-publicationschair,PublicationsChair Organizing Committee
+micro-publicitywebchair,PublicityWebchair Organizing Committee
+micro-qualitatvielecture,QualitatVielelect
+micro-registrationchair,Comité d'organisation du président d'enregistrement
+micro-reviewer,Critiquement Some Exécute l'organisateur de DoubleBlindreview DoubleBlindReview
+micro-steeringcommittee,Comité d'organisation du comité directeur
+micro-studentadvocate,Comité d'organisation des défenseurs des étudiants
+micro-topic,Activité de sujet
+micro-traditionallecture,Traditionalallecture Certains hastopic de la conférence avant-gardiste
+micro-tutorial,Activité de tutoriel
+micro-tutorialproposal,TutorialProposal ActivitysUbmissionForm Only Applesto Tutoriel
+micro-workshop,Activité d'atelier
+micro-workshoptutorialchair,Organisation des Organisations d'atelier
+micro-worksopproposal,WorksOpproposal ActivitysUbmissionForm Only Applesto Workshop
+micro-thing,Thing ActivitySubmissionForm Activity DoubleBlindReview Conference Organizing Committetee
+ekaw-abstract,Résumé Document Tutorial Abstract invité Talk Résumé
+ekaw-academic_institution,Université de l'institut de recherche de l'organisation des établissements universitaires
+ekaw-accepted_paper,Papier accepté Some Hasreview Positive Review Paper
+ekaw-agency_staff_member,Membre du personnel de l'agence
+ekaw-assigned_paper,Document attribué au moins 3 du document évalué par Hasreviewer Paper évalué
+ekaw-camera_ready_paper,Papier prêt à la caméra Un peu de papier à jour de papier accepté certains participants à la conférence écrits
+ekaw-conference,Événement scientifique de la conférence
+ekaw-conference_banquet,Événement social du banquet de conférence
+ekaw-conference_paper,Journal de conférence
+ekaw-conference_participant,Participant de la conférence Personne de conférence Contant des membres du Prévu sur l'atelier de membre OC Président de la session de la session du président de la session de la session de la session de la session
+ekaw-conference_proceedings,Actes de conférence uniquement VolumeContainspaper Conference Paper ou Invited Talk Abstract Proceedings
+ekaw-conference_session,Session de la conférence Une partie de la session de conférence partofevent session industrielle
+ekaw-conference_trip,Événement social de voyage de conférence
+ekaw-contributed_talk,Talk contribué Présentation individuelle exactement 1 de la présentation de la présentation de la présentation du papier prêt à la caméra
+ekaw-demo_chair,Participant de la conférence à la présidence de démonstration
+ekaw-demo_paper,Papier de démonstration
+ekaw-demo_session,Session de session de démonstration
+ekaw-document,Programme de documents Brochure Review Multi-Auteur Volume Paper Site Web Flyer Résumé Personne de document
+ekaw-early-registered_participant,Participant à la conférence des participants enregistrés précoces
+ekaw-evaluated_paper,Papier évalué au moins 3 du papier rejeté du papier rejeté de papier ARVIEW Papier accepté
+ekaw-event,Événement Social Event Scientific Event Program Brochure ou site Web Organisation ou personne de localisation d'événements
+ekaw-flyer,Document Flyer
+ekaw-individual_presentation,Présentation individuelle Tutoriel d'événement scientifique contribué à parler invité à parler abstrait ou papier
+ekaw-industrial_paper,Papier industriel
+ekaw-industrial_session,Session de la session industrielle Session
+ekaw-invited_speaker,Présentateur de conférencier invité
+ekaw-invited_talk,Présentation individuelle invitée
+ekaw-invited_talk_abstract,Résumé abstrait invité
+ekaw-late-registered_participant,Participant à la conférence des participants inscrits tardifs
+ekaw-location,Événement de localisation
+ekaw-multi-author_volume,Procédures de documents de volume multi-auteur
+ekaw-negative_review,Revue de revue négative
+ekaw-neutral_review,Revue de revue neutre
+ekaw-oc_chair,Président OC Membre OC
+ekaw-oc_member,Président OC de la conférence des membres OC OC
+ekaw-organisation,Organisation d'organisation des agences Procédures Éditeur Flyer d'institution académique ou de volume multi-auteur ou de brochure de programme ou de site Web
+ekaw-organising_agency,Organisation d'agences d'organisation
+ekaw-pc_chair,Membre du président de la conférence PC Membre PC
+ekaw-pc_member,PC Membre Possible réviseur SC Membre Tutorial Président de l'atelier
+ekaw-paper,Document de document Demo Paper Industrial Paper Camera Ready Paper Papier Papier Papter Papter Paper Papier Papier Papier Papier Soumis Paper Review Possible Revitor
+ekaw-paper_author,Journal auteur
+ekaw-person,Personne Conférence Participant Student Agency Member Member Document Author Document Reviewer Document
+ekaw-positive_review,Revue positive
+ekaw-possible_reviewer,Document de membre PC Person du réviseur
+ekaw-poster_paper,Papier affiche
+ekaw-poster_session,Session de l'affiche
+ekaw-presenter,Le participant de la conférence de présentateur a invité
+ekaw-proceedings,Procédure uniquement VolumeContainspaper accepté du papier ou invité Talk Abstract Multi-Autor Volume Au moins 1 des actes de conférence VolumeContainspaper
+ekaw-proceedings_publisher,Organisation des éditeurs de procédures
+ekaw-programme_brochure,Document de brochure de programme
+ekaw-regular_paper,Papier régulier
+ekaw-regular_session,Session de session régulière
+ekaw-rejected_paper,Papier rejeté du papier évalué
+ekaw-research_institute,Institut de recherche institution académique
+ekaw-research_topic,Événement de sujet de recherche ou article
+ekaw-review,Revue document Positive Review Review Neutral Review document Possible Reviewer
+ekaw-sc_member,Membre SC Membre PC
+ekaw-scientific_event,Conférence de la session d'événement de la session d'événement scientifique Présentation individuelle
+ekaw-session,Session une partie de la conférence ou de l'atelier sur une présentation individuelle de la conférence ou une piste ou un atelier sur l'événement scientifique de la session de démonstration de la session de la session de la session de la conférence régulière
+ekaw-session_chair,Président de session Conférence participante PC Membre
+ekaw-social_event,Voyage de la conférence de la conférence sur l'événement social
+ekaw-student,Étudiant
+ekaw-submitted_paper,Papier de papier soumis en papier attribué
+ekaw-track,Suivre l'événement scientifique
+ekaw-tutorial,Tutoriel présentation individuelle
+ekaw-tutorial_abstract,Résumé abstrait du tutoriel
+ekaw-tutorial_chair,Tutorial chaire PC Member Conference Participant
+ekaw-university,Établissement universitaire universitaire
+ekaw-web_site,Document de site Web
+ekaw-workshop,Événement scientifique de l'atelier
+ekaw-workshop_chair,Président de l'atelier Conférence participante PC Membre
+ekaw-workshop_paper,Papier d'atelier
+ekaw-workshop_session,Session d'atelier de session
+ekaw-thing,Chose
+confious-accepted_paper,Papier en papier accepté
+confious-automatic_paper_assignment,Affectation automatique de papier
+confious-chair_url,URL de la chaise
+confious-contact_person,Personne de contacter quelqu'un concerne la conférence de la conférence de conférence créée humaine
+confious-contact_person_url,URL de la personne de contact
+confious-manual_paper_assignment,Affectation de papier manuel
+confious-program_committee_chair,Président du comité du programme Certains sont des préoccupations conférence de la conférence Conférence de création humaine  une activité effectue une activité gérée du processus de conférence
+confious-program_committee_member,Membre du comité de programme humain Certains sont concernés la configuration de la configuration de la conférence
+confious-regular_program_committee_member,Membre membre du comité de programme régulier membre du programme de programme
+confious-regular_reviewer_url,URL de l'examinateur régulier
+confious-rejected_paper,Papier rejeté en papier
+confious-senior_program_committee_member,Membre du comité de programme principal dans la plupart des 4 de supervises membre du comité du programme
+confious-senior_reviewer_url,URL de l'examinateur senior
+confious-url,Url Thing quelqu'un concerne la conférence de la conférence de conférence Mettre en place un réviseur régulier URL Personne de contact URL Président URL Réviseur principal URL
+confious-undecided_paper,Papier papier indécis  certains passent par le processus d'examen
+confious-abstract_of_paper,Résumé du papier Certains concerne l'article papier du papier
+confious-abstract_submission_date,Résumé Date de soumission Date Date de début de la soumission abstraite Date de fin de la soumission abstraite
+confious-acceptance_notification_email,Notification d'acceptation Email Email e-mail ne concerne le document accepté du papier accepté
+confious-activity,Processus de soumission Activité Notification de l'affectation du papier revue ProCes Gestion de la conférence Offre de l'appel d'offre de l'intensité de l'examinateur Activité humaine
+confious-article,Article Revue de la notification du papier Contrôle Revue Résumé Résumé du papier Résumé des avis Activité de classification des e-mails Groupe Human
+confious-bidding_of_reviewer,Enchérir de l'examinateur uniquement est effectué par le membre du comité du programme  un certain nombre d'intensité a une intensité exactement exactement un est effectué par certains est concerné l'activité papier du papier
+confious-camera-ready_submission_date,Date de soumission de la caméra Date Date de démarrage Date de la soumission de la caméra Date de fin de la soumission de la caméra prête à la caméra
+confious-classification,classification
+confious-conference,CONFÉRENCE QUELAISSON EST DANS LA PHASE DE CONFÉRENCE DE CONFÉRENCE QUELQU'UNE CONFIGURATION DE CONFÉRENCE DE CONFIGURATION DE CONFÉRENCE PHASE DE CONFÉRENCE
+confious-conference_setup,Conférence Conférence Quelques ensembles Date de fin de la soumission Résumé Date de fin de la soumission de la soumission Résumé Date de début de la caméra Prêt Date de début Date de début de la soumission de la caméra pour la caméra Quelques ensembles SPC URL Senior Reviner URL Définit la personne de la personne de contact URL de l'URL
+confious-date,Date certains concernent la configuration de la conférence Configuration de la conférence Date de notification Date de soumission du papier complet Date de soumission de la conférence Date de soumission de l'appareil photo
+confious-date_of_conference,Date de conférence Date de début Date de conférence Date de fin de conférence
+confious-date_of_notification,Date de notification Date
+confious-end_date_of_abstract_submission,Date de fin de la soumission abstraite Date de soumission abstraite
+confious-end_date_of_camera-ready_submission,Date de fin de la soumission de soumission de soumission prête pour la caméra
+confious-end_date_of_conference,Date de fin de la conférence Date de conférence
+confious-end_date_of_full_paper_submission,Date de fin de la soumission complète du papier Date de soumission du papier complet
+confious-full_paper_submission_date,Date de soumission du papier complet Date Date de début de la soumission complète de la soumission du papier Date de fin de la soumission complète du papier
+confious-group_email,Article par e-mail de groupe quelqu'un est envoyé à l'humain  il s'agit de réviser le processus
+confious-human,Comité des programmes humains membres du programme de programme Président Personne de contact Personne de contact Article Activité de l'institut
+confious-institute,institut
+confious-intensity,intensité
+confious-lower_tier_reviewing_process,Processus de révision de niveau inférieur Un certain temps est effectué par le comité de programme régulier de révision des membres Procecs exactement 1 est vérifié dans certains a des résultats examen un certain temps est vérifié dans le processus de révision de niveau supérieur  certains sont suivis par le processus de révision de niveau supérieur.
+confious-managing_of_conference_process,Gestion du processus de conférence uniquement est effectué par l'activité du président du comité du programme.
+confious-notification,notification exactement 1 de a le résultat unique est effectué par le président du comité du programme au moins 1 est effectué par certains est concerné l'activité papier du papier
+confious-notification_email,NOTIFICATION EMAIL ACHETE A LITEUR DU COMITÉ DE PROGRAMME D'AUTEUR AUTOR
+confious-paper,document uniquement a un auteur Personne de contact avec une conférence concernée au moins 1 de l'article de l'auteur a rejeté le papier accepté du papier indécis
+confious-paper_assignment,Affectation papier uniquement est effectuée par le président du comité du programme  un certain temps est suivi par un processus de révision de niveau inférieur.
+confious-phase_of_conference,phase de conférence
+confious-rejection_notification_email,Notification de rejet Email Email E-mail est concerné le papier rejeté du papier rejeté
+confious-review,Examiner certains a un membre du comité du programme d'auteur Un article sur papier est concerné
+confious-review_form,Le formulaire de révision exactement 1 de est créé dans exactement 1 de la structure de révision de la structure créée par un comité de programme  un auteur a une structure de programme de programme d'auteur uniquement la structure créée par le comité de programme président  certains sont créés dans l'article du processus de révision de niveau inférieur
+confious-reviewing_proces,Examen de l'activité proces
+confious-start_date_of_abstract_submission,Date de début de la soumission abstraite Date de soumission abstraite
+confious-start_date_of_camera-ready_submission,Date de début de la soumission de soumission de soumission de la caméra prête pour la caméra
+confious-start_date_of_conference,Date de début de la date de conférence de la conférence
+confious-start_date_of_full_paper_submission,Date de début de la soumission complète du papier Date de soumission du papier complet
+confious-submission_process,Processus de soumission Certains sont suivis d'une affectation en papier exactement 1 de l'activité  un document de papier est préoccupé
+confious-summary_of_reviews,Résumé des revues Some Author Author Senior Program Committee Member Some Coree Coree Review Un peu est créé dans le processus d'examen de niveau supérieur exactement 1 de est créé dans l'article
+confious-topic,sujet
+confious-upper_tier_reviewing_process,Processus de révision de niveau supérieur Certains sont suivis de la notification Certains ont un résumé des résultats des examens examinant les proces unique
+confious-thing,Conférence de conférence de conférence Configuration de la conférence URL
+cocus-abstract,Document abstrait
+cocus-account,Compte
+cocus-activity,Activité Événement Approbation Événement Création d'enregistrement Document ou personne d'événement
+cocus-admin_role,Rôle de rôle de l'administrateur
+cocus-administrator,Administrateur Personne Certains exécutent l'approbation de l'événement Some Approuver l'événement Rôle de l'événement
+cocus-approval_email,Événement par e-mail d'approbation par e-mail
+cocus-assistance,Demande d'aide d'assistance
+cocus-author,Auteur Utilisateur Some Supprimer l'auteur Some Recevoir Approbation Email ou Rejection Email Some Ajouter l'auteur Some Execute Event Creation Correspondant Auteur
+cocus-author_role,Rôle de rôle de l'auteur
+cocus-committe_role,Rôle de rôle de comité
+cocus-committee,Utilisateur de comité
+cocus-conference,Événement de conférence
+cocus-corresponding_author,Auteur correspondant
+cocus-description,Description
+cocus-detail,Détail Thoide un peu modifié par la personne
+cocus-document,Document Thoise Quelque chose par le modèle de révision de la personne
+cocus-email,Email par e-mail par e-mail de la personne Rejet de document Email Approbation AMAIL EMAIL EMAIL EMAIL EMAIL
+cocus-email_template,Configuration de l'événement du modèle de messagerie
+cocus-event,Événement certains conistes de pistes d'événements Thing Some Confirmed by Approval Email Symposium Workshop Conference Administrateur Approbation Email Tracks Event Tours Configuration de l'événement
+cocus-event_approval,L'activité d'approbation des événements n'a que le courrier électronique d'approbation des résultats
+cocus-event_creation,Activité de création d'événements Un certain événement a un événement de résultat
+cocus-event_setup,Configuration de l'événement Sujet de recherche Modèle de messagerie Typologies Typologies Réviser le modèle de soumission Modèle d'événement Pistes d'événements
+cocus-event_tracks,Configuration des événements d'événements
+cocus-event_url,URL de l'événement URL Un événement d'événement concerné
+cocus-feature_request,Demande de demande d'aide de la demande
+cocus-full_paper,Papier complet
+cocus-group_email,E-mail de groupe e-mail
+cocus-head_role,Rôle de rôle
+cocus-help_request,AIDE DEMANDE DEMANDE Assistance Fonctionnement de la fonctionnalité Misc
+cocus-inforamtion,Information
+cocus-invited_paper,Papier de papier invité
+cocus-misc,Demande d'aide à mission
+cocus-notification_email,E-mail de notification e-mail
+cocus-paper,Papier certains soumis par un document d'auteur correspondant abstrait papier complet de papier court court papier invité
+cocus-paper_typologies,Configuration des événements de typologies papier
+cocus-person,Person Thing certains obtiennent l'administrateur de l'information Activité de la personne ou le rôle d'informations de rôle Document de compte ou de compte ou de détachement
+cocus-preview,Formulaire de révision de prévisualisation
+cocus-registration,Activité d'enregistrement Certains ont un résultat utilisateur
+cocus-rejection_email,E-mail de rejet e-mail
+cocus-request,Demande d'aide à l'activité Demande
+cocus-research_topic,Configuration de l'événement du sujet de recherche
+cocus-review,Examen du document
+cocus-review_form,Revoi du formulaire Configuration de l'événement Aperçu de la configuration du formulaire de révision
+cocus-review_form_setup,Formulaire de configuration du formulaire de révision
+cocus-reviewer_role,Rôle de rôle
+cocus-role,Rôle certains attribués par l'administrateur Choix Rôle Rôle Rôle Comité Comité Rôle Rôle Rôle Administrateur Administrateur
+cocus-short_paper,Papier court
+cocus-submission,Document de soumission
+cocus-submission_template,Configuration de l'événement du modèle de soumission
+cocus-symposium,Événement de symposium
+cocus-template,Document de modèle utilisé par la personne
+cocus-url,URL de l'événement URL
+cocus-user,Utilisateur certains participent à l'événement Personne certains envoient un document de comité d'aide au comité ou un document d'événement
+cocus-workshop,Événement d'atelier
+cocus-thing,Chose Person Detail Event Rôle Document

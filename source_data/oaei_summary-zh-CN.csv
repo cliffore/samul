@@ -1,0 +1,865 @@
+concept,prompt
+confof-administrative_event,参与者活动事件活动审查事件提交活动摄像机准备事件审查结果事件管理事件的行政事件活动注册
+confof-administrator,管理员
+confof-assistant,助理人
+confof-author,作者有些人写贡献只写贡献
+confof-banquet,宴会社交活动
+confof-camera_ready_event,摄像机准备事件管理活动
+confof-chair_pc,椅子人员
+confof-city,城市
+confof-company,公司组织
+confof-conference,会议工作活动
+confof-contribution,贡献某些交易主题恰好是Hastitle的1个摘要的1个摘要1至少1个haskeyword至少1个联系电子邮件仅处理主题海报纸纸简短纸主题作者
+confof-country,国家
+confof-event,活动管理活动社交活动工作活动
+confof-member,会员参与者
+confof-member_pc,成员PC仅专业主题某些评论贡献人员仅审查贡献某些专家主题主题贡献
+confof-organization,组织大学公司
+confof-paper,纸张贡献
+confof-participant,参与者成员学生正常
+confof-person,人物至少有1个hasemail中的1个至少1个haspostalcode中的1个恰好是Hassurname的1个hasscountry国家，只有组织雇用某些雇用的组织，恰好是Hasfirstname的1个HasfirstName的某些HASCITY CITY CITIONARE主席PC会员PC成员PC成员PC作者参与者参与者助理科学工作助理科学工作人员助理科学工作者组织
+confof-poster,海报贡献
+confof-reception,接待社交活动
+confof-registration_of_participants_event,参与者活动的注册活动活动
+confof-regular,常规参与者
+confof-reviewing_event,审查活动管理活动
+confof-reviewing_results_event,审查结果事件管理活动
+confof-scholar,学者某些研究大学仅学习大学大学
+confof-science_worker,科学工作人员
+confof-short_paper,短纸贡献
+confof-social_event,社交活动恰好1个位置的1个位置的1个正好是DefaultChoice接待旅行宴会的1
+confof-student,学生参与者
+confof-submission_event,提交事件管理事件
+confof-topic,话题
+confof-trip,旅行社交活动
+confof-tutorial,教程工作活动
+confof-university,大学组织
+confof-volunteer,志愿者
+confof-working_event,工作事件仅hastopic主题恰好1个标题中的某个急速主题恰好1 defaultchoice 1恰恰是1个位置活动会议教程研讨会的行政事件主题
+confof-workshop,研讨会工作活动
+confof-thing,事情贡献者
+edas-academiaorganization,学术组织组织
+edas-academicevent,Academicevent ConferenceEvent PaperPresentation Talkevent研讨会组织会议呼叫
+edas-acceptrating,AccePtrating审查
+edas-acceptedpaper,接受纸纸纸张
+edas-accommodationplace,住宿地点
+edas-accpetifroomrating,Accpetifroomerrating审查
+edas-activepaper,Active Paper Paper评估纸张审查
+edas-antennastopic,触角话题
+edas-attendee,与会者的人
+edas-author,作者主持人论文
+edas-breakevent,收支平衡的非学术活动餐点休息咖啡折断
+edas-cadtopic,摄影主题
+edas-call,呼叫call formanuscripts callforpapers callforreviews Academicevent Conferencechair或Session Chair或TPCMember
+edas-callformanuscripts,呼叫formanuscripts调用
+edas-callforpapers,CallForpapers致电
+edas-callforreviews,callforreviews调用
+edas-closingtalk,ClosingTalk talkevent
+edas-coffeebreak,咖啡磨损
+edas-communicationtheorytopic,通信理论主题
+edas-communicationstopic,通信史蒂分主题
+edas-computerarchitecturetopic,计算机架构主题
+edas-computernetworksaapplicationstopic,ComputernetworksaapplicationStopic ComputernetworkStopic
+edas-computernetworksenterprisetopic,Computernetworksenterprisetic ComputernetworkStopic
+edas-computernetworksmanagementtopic,ComputernetworksmanagementTopic ComputernetworkStopic
+edas-computernetworksmeasurementstopic,ComputernetworksmeasurementStopic ComputernetworkStopic
+edas-computernetworksopticaltopic,Computernetworksopticaltopic computernetworkStopic
+edas-computernetworkssecuritytopic,computernetworkssecuritytopic computernetworkStopic
+edas-computernetworkssensortopic,computernetworkssentopic computernetworkStopic
+edas-computernetworksswitchingtopic,ComputernetworksswitchingTopic ComputernetworkStopic
+edas-computernetworkstopic,ComputerNetworksTopic Topic ComputerNetworksSensorTopic ComputerNetworksAapplicationsTopic ComputerNetworksManagementTopic ComputerNetworksSecurityTopic ComputerNetworksEnterpriseTopic ComputerNetworksMeasurementsTopic ComputerNetworksSwitchingTopic ComputerNetworksOpticalTopic
+edas-conference,最多在登记处的最多1个距hascountry的1个终点的1个，最多是1个手稿的1个，最多是1个startdate的1个正好是1个hasname的1个paperdueon的1个恰好是匆忙的事物的1个
+edas-conferencechair,Conferencechair人
+edas-conferencedinner,会议的Mealevent
+edas-conferenceevent,会议Event Academicevent非academicevent Person Place计划
+edas-conferencesession,会议
+edas-conferencevenueplace,会议Venueplace Place
+edas-contactinformation,联系信息
+edas-country,国家
+edas-cryptographytopic,密码学主题
+edas-diningplace,餐厅的地方
+edas-document,文档SlideSet评论fealmenu计划论文学院或会议或会议或人
+edas-excursion,游览社会诉讼
+edas-freetimebreak,Freetime Break Breakevent
+edas-governmentorganization,政府组织
+edas-industryorganization,行业组织
+edas-mealbreak,即使是用餐休息
+edas-mealevent,Mealevent NonAcademicevent会议
+edas-mealmenu,MealMenu文件Mealevent
+edas-medicinetopic,医学主题
+edas-meetingroomplace,会议室的地方
+edas-microelectronicstopic,微电子学主题
+edas-mobilecomputingtopic,MobileComputingTopic主题
+edas-multimediatopic,多次病主题
+edas-ngo,非政府组织组织
+edas-nonacademicevent,非核糖会议会议Event reakevent Mealevent Socialevent
+edas-numericalreviewquestion,数字reviewQuestion评论问题
+edas-operatingtopicsystems,OpertyTopicSystems主题
+edas-organization,组织非政府组织政府组织学院组织业务组织赞助
+edas-organizationalmeeting,组织会议学术活动
+edas-paper,纸质文档删除纸张发布的纸张activepaper被拒绝的纸置纸申请文件conferencechair或审稿人或sessionchair或tpcmember作者作者
+edas-paperpresentation,PaperPresentation Academicevent接受的纸
+edas-parallelanddistributedcomputingtopic,Paralleland -DistributedComputingTopic主题
+edas-pendingpaper,待纸纸
+edas-performancetopic,表演主题
+edas-person,人会议会议会议主人tpcmember与会者会议会议会议
+edas-personalhistory,个人历史个人浏览史个人观众史
+edas-personalpublicationhistory,个人公开史的个人历史
+edas-personalreviewhistory,个人阅读史的个人历史审稿人
+edas-place,放置会议室餐厅住宿会议会议会议会议会议
+edas-powerlinetransmissiontopic,PowerlineTransmissionTopic主题
+edas-presenter,主持人作者
+edas-programme,程序文档会议Event
+edas-publishedpaper,出版纸论文
+edas-radiocommunicationstopic,放射性通信主题
+edas-ratedpapers,评分纸的活动纸
+edas-reception,接待社会行动
+edas-rejectrating,拒绝审查率
+edas-rejectedpaper,拒绝的纸张
+edas-review,评论文件
+edas-reviewform,评论form
+edas-reviewquestion,评论Question NumericalReviewQuestion textualReviewQuestion
+edas-reviewrating,审查周的审查置置拒绝额定额度室友
+edas-reviewer,评论者个人浏览史
+edas-satelliteandspacecommunicationstopic,SatelliteandspaceCommunicationStopic主题
+edas-securitytopic,SecurityTopic主题
+edas-sessionchair,会议人员
+edas-signalprocessingtopic,SignalProcessingTopic主题
+edas-singlelevelconference,SinglelevelConference
+edas-slideset,滑块文档
+edas-socialevent,社交活动非学术活动接待
+edas-sponsorship,赞助旅行社组织
+edas-tpcmember,TPCMEMBER人
+edas-talkevent,Talkevent Academicevent welcometalk closingTalk
+edas-testonlytopic,testonlytopic主题
+edas-textualreviewquestion,TextualReviewQuestion评论问题
+edas-topic,Topic MobileComputingTopic WirelessCommunicationsTopic SatelliteAndSpaceCommunicationsTopic SignalProcessingTopic PowerlineTransmissionTopic TestOnlyTopic MedicineTopic RadioCommunicationsTopic CommunicationsTopic MicroelectronicsTopic PerformanceTopic ComputerArchitectureTopic CADTopic SecurityTopic ComputerNetworksTopic OperatingTopicsystems通信Theytopic密码学topicratipic Antenastopic Paralleland -DistribudedComputingTopic多室外会议或论文
+edas-travelgrant,TravelGrant赞助
+edas-twolevelconference,TwolevelConference
+edas-weekrejectrating,每周回顾审查
+edas-welcometalk,welcometalk talkevent
+edas-wirelesscommunicationstopic,无线通信主题
+edas-withdrawnpaper,撤回纸
+edas-workshop,研讨会学院
+edas-thing,事情会议
+conference-abstract,抽象的扩展抽象论文或海报或演示文稿
+conference-accepted_contribution,公认的贡献审查了贡献摄像机现成的贡献
+conference-active_conference_participant,主动会议参与者会议撰稿人会议参与者邀请演讲者或定期作者演讲
+conference-call_for_paper,致电纸质会议文件
+conference-call_for_participation,呼吁参加会议文件
+conference-camera_ready_contribution,相机准备贡献接受了贡献
+conference-chair,委员会主席
+conference-co-chair,联合主席委员会委员会
+conference-committee,委员会组织委员会指导委员会计划委员会主席联席主席委员会会员会议批量
+conference-committee_member,委员会成员联席主席委员会
+conference-conference,会议卷
+conference-conference_announcement,会议公告会议文件
+conference-conference_applicant,会议申请人注册申请人
+conference-conference_contribution,会议贡献会议文件书面贡献海报演示会议卷
+conference-conference_contributor,会议撰稿人常规作家主动会议参与者邀请演讲者
+conference-conference_document,会议文件审核参与者会议贡献会议会议会议www会议公告呼吁参与纸质人
+conference-conference_fees,会议费
+conference-conference_part,会议部分轨道教程研讨会轨道工作坊主题主题会议卷
+conference-conference_participant,会议参与者被动会议参与者主动会议参与者
+conference-conference_proceedings,会议记录出版商
+conference-conference_volume,会议卷会议委员会计划委员会指导委员会组织委员会会议贡献重要日期会议部分跟踪教程研讨会
+conference-conference_www,会议www会议文件
+conference-contribution_1th-author,贡献第一名作者常规作者
+conference-contribution_co-author,贡献合着者定期作者
+conference-early_paid_applicant,提早付费申请人付费申请人
+conference-extended_abstract,扩展抽象的常规贡献摘要
+conference-important_dates,重要日期会议卷
+conference-information_for_participants,参与者会议文件的信息
+conference-invited_speaker,邀请演讲者会议贡献者
+conference-invited_talk,邀请的谈话演示
+conference-late_paid_applicant,延迟付费申请人付费申请人
+conference-organization,组织
+conference-organizer,组织者事物委员会成员或组织
+conference-organizing_committee,组织委员会会议卷
+conference-paid_applicant,付费申请人注册申请人提早付费申请人迟来付费申请人
+conference-paper,纸的定期贡献
+conference-passive_conference_participant,被动会议参与者会议参与者
+conference-person,参加人会议申请人赛道工作家主席会议捐助者委员会成员审阅者会议参与者会议文件
+conference-poster,海报会议贡献
+conference-presentation,演示会议贡献邀请谈话主动会议参与者
+conference-program_committee,计划委员会会议卷
+conference-publisher,出版商会议记录
+conference-registeered_applicant,注册申请人会议申请人付费申请人
+conference-regular_author,定期作者会议贡献者贡献合着者贡献第一名
+conference-regular_contribution,定期贡献书面贡献扩展抽象论文
+conference-rejected_contribution,拒绝贡献审查的贡献
+conference-review,审核会议文件只有作者审核者审查贡献
+conference-review_expertise,评论专业知识的某些提交捐款提交的捐款有些属于审稿人提交的捐款
+conference-review_preference,评论偏好有些有主题或提交捐款提交捐款或主题的事物，有些属于审稿人审稿人提交了贡献或主题
+conference-reviewed_contribution,审查捐款提交的捐款拒绝供款接受供款审查
+conference-reviewer,审阅者审查专业知识或审查偏好审核者
+conference-steering_committee,指导委员会会议卷
+conference-submitted_contribution,提交的捐款书面贡献海报或常规贡献审查贡献审查审查专业知识
+conference-topic,主题审查偏好会议部分
+conference-track,轨道会议部分
+conference-track-workshop_chair,田径工作工厂主席会议部分
+conference-tutorial,教程会议部分
+conference-workshop,研讨会会议部分
+conference-written_contribution,书面贡献会议捐款海报或定期捐款定期捐款提交捐款
+conference-thing,事情组织者评论专业知识审查偏好
+myreview-acceptedpaper,接受纸一些椅子纸纸的录取的纸张有价值接受一些审查会话
+myreview-administrator,管理员programCommittembermember标准或Paperstatus或问题或研究主题
+myreview-author,作者联系人作者纸
+myreview-bookletofabstracts,bookletofabstracts outputdocument
+myreview-cd-rom,CD-ROM输出图
+myreview-chair,主席conmagmittembermember纸审稿人会话outputdocument Document费用或付款模式
+myreview-conference,会议恰好是hasname的1恰好是hasemail的1个恰好是hasAcrony的1件事
+myreview-conferenceattendant,恰好有1个hasphone的人的会议人员对付费的1个hasadress的价值为真，
+myreview-conferenceprogram,会议编程恰好是插槽会议的1
+myreview-contactauthor,Contactauthor作者正好是Hasemail Paperabstract的1
+myreview-criterion,标准恰好是一项重量
+myreview-document,文档paperabtrattrats评估审查论文
+myreview-evaluation,评估文件审查
+myreview-externalreviewer,外部浏览器人员一些CooperateRateReviewer审稿人审稿人
+myreview-externalreviewerslist,外部reviewerslist outputDocument
+myreview-fee,费用
+myreview-indexofauthors,IndexoFauthors outputDocument
+myreview-listofabstracts,ListOfabstracts outputdocument
+myreview-outputdocument,outputDocument某些椅子的事物indexofauthors insuperReviewersList pcmemberslist bookletofabstracts会议程序cd-rom listofabstracts椅子
+myreview-pcmemberslist,PCMEMBERSLIST OUTPUTDOCUMENT
+myreview-paper,论文某些Husauthor作者文件恰好是hasabtract的1个恰好的1个恰好是hasmaintopic的1恰好是Hastitle的1个恰好是Hasid的1 papersiSsubsubsubsibled Papersibsubledpaper拒绝纸纸abtratter paperabtrats作者研究塔普尔斯塔图斯董事会主席评论者评论者
+myreview-paperabstract,PaperAbtrats文档通过ContactAuthor Contactauthor Paper的一些摘要摘要
+myreview-paperquestion,纸问题
+myreview-paperstatus,Paperstatus纸
+myreview-paymentmode,付款模式
+myreview-person,恰好是haslastname的1个恰好是Hasfirstname externalReviewer conferenCeatTendant programmitteembermementemberementemberemerementemberemerementemberemberementemberemem
+myreview-proceedings,程序一些包括PCMEMBERSLIST的某些包括接受的paper outputdocument的某些包括externalReviewerSlist list liste insuce indexofauthors acccampedpaper或externalReviewersList或indexofauthors或pcmemberslist
+myreview-program,程序输出图
+myreview-programcommittee,程序员一些Hasmember椅子某些hasmember管理员programmitteembember
+myreview-programcommitteemember,ProgramCommittembermErbember正好是Hasemail Person Review Eright主席管理员计划委员会的1个
+myreview-question,问题纸问题评论问题
+myreview-rejectedpaper,拒绝的纸一些主持人的拒绝的椅子对hasstatus纸的价值拒绝了一些被列为评论
+myreview-researchtopic,研究主题的事情有人由管理员分配
+myreview-review,精确的1个包含分摊的1恰好的1个费率的1个Iswritenby审稿人文档评估审稿人纸
+myreview-reviewquestion,评论问题
+myreview-reviewer,审阅者programmittembermember纸外部浏览器研究台面评论
+myreview-session,恰好是Issypied to Thing Thing thing Paper椅子插槽的会话。
+myreview-slot,恰好日期的1个恰好的1端1恰好是1 beginsat ConferenceProgram会话的1
+myreview-thing,Thing Thing outputDocument程序委员会人士标准会议计划研究插槽会议会议会议会议
+sigkdd-acm_sigkdd,ACM sigkdd某些设计截止日期，一些举行会议一些搜索Sponzor截止日期会议Sponzor
+sigkdd-abstract,抽象文档
+sigkdd-author,作者发言人一些通知，直到截止日期的作者通知作者纸纸截止日期截止日期作者作者通知奖纸
+sigkdd-author_of_paper,作者一些奖项奖最佳研究论文奖的作者一些奖项奖最佳应用论文奖作者
+sigkdd-author_of_paper_student,纸学生作者的作者一些奖项最佳学生纸奖
+sigkdd-award,奖奖最佳学生纸奖最佳应用程序纸张奖最佳研究论文奖
+sigkdd-best_applications_paper_award,最佳应用纸奖
+sigkdd-best_paper_awards_committee,最佳纸质奖委员会委员会
+sigkdd-best_research_paper_award,最佳研究论文奖
+sigkdd-best_student_paper_award,最佳学生纸奖
+sigkdd-best_student_paper_supporter,最好的学生纸支持者Sponzor
+sigkdd-bronze_supporter,青铜支持者Sponzor
+sigkdd-committee,委员会委员会最佳纸质奖委员会组织委员会
+sigkdd-conference,会议ACM sigkdd
+sigkdd-conference_hall,会议厅的地方
+sigkdd-deadline,截止截止日期提交截止日期抽象提交截止日期截止日期作者通知ACM SIGKDD
+sigkdd-deadline_abstract_submission,截止日期抽象提交截止日期
+sigkdd-deadline_author_notification,截止日期作者通知截止日期
+sigkdd-deadline_paper_submission,截止日期提交截止日期
+sigkdd-document,文档评论摘要纸张扬声器截止日期
+sigkdd-exhibitor,参展商Sponzor
+sigkdd-fee,费用注册费用Sponzor费用
+sigkdd-general_chair,总主席组织者
+sigkdd-gold_supporter,黄金支持者Sponzor
+sigkdd-hotel,酒店广场
+sigkdd-invited_speaker,邀请发言人
+sigkdd-listener,听众的人
+sigkdd-main_office,主要办公地点
+sigkdd-organizator,组织者人员计划委员会成员组织委员会成员总主席网站管理员
+sigkdd-organizing_committee,组织委员会委员会
+sigkdd-organizing_committee_member,委员会成员
+sigkdd-paper,纸质文件
+sigkdd-person,有些人可以留在酒店的事物发言人组织者听众位置注册费
+sigkdd-place,放置酒店会议厅主办公室
+sigkdd-platinum_supporter,白金支持者Sponzor
+sigkdd-program_chair,计划主席组织
+sigkdd-program_committee,计划委员会
+sigkdd-program_committee_member,计划委员
+sigkdd-registration_non-member,注册非成员注册费
+sigkdd-registration_sigkdd_member,注册SIGKDD会员注册费
+sigkdd-registration_sigmod_member,注册Sigmod会员注册费
+sigkdd-registration_student,注册学生注册费
+sigkdd-registration_fee,注册费费用注册SIGMOD会员注册非会员注册SIGKDD成员注册学生
+sigkdd-review,评论文件
+sigkdd-silver_supporter,银支持者Sponzor
+sigkdd-speaker,发言人邀请发言人作者文件
+sigkdd-sponzor,Sponzor参展商青铜支持者银色支持者金色支持者铂金支持者最佳学生纸支持者ACM Sigkdd
+sigkdd-sponzor_fee,Sponzor费用
+sigkdd-webmaster,网站管理员组织者
+sigkdd-thing,acm sigkdd的人
+linklings-abstract,抽象内容
+linklings-acceptedsubmission,接受
+linklings-adminregistered,管理注册人的某些HASROLE角色恰好1
+linklings-administrator,管理员角色某些设置设定的cubismissFeaturesEttings仅注册了一些设置设置的RoleSettings
+linklings-applicant,申请人角色某些Isroleinvolvedin应用
+linklings-application,申请提交类型的一些Hosroleinvolvolvolvolvol的申请人
+linklings-author,作者一些Isroleinvolvedin纸角色
+linklings-basicuser,基础用户一些人签名的自我注册角色
+linklings-conference,会议活动一些哈斯essionsessionsessession XSD类型的ConferenceName：字符串的一些类型XSD：字符串
+linklings-conferencesession,会议
+linklings-content,content仅hasContentType contentType一些hascontconttype contentType fullText摘要
+linklings-contenttype,ContentType
+linklings-event,活动有些人放置一些HastimeInterval TimeInterval会话会议
+linklings-fulltext,完整内容
+linklings-panel,面板订购一些悬挂式面板模型的一些Hasroleinvolvolvolvolvolvolvold的小组成员
+linklings-panelmoderator,面板改型器角色一些异烯伏洛文素面板
+linklings-panelist,小组成员角色一些Isroleinvolvedin面板
+linklings-paper,纸一些涉及大量作者提交类型的作者
+linklings-person,XSD类型的某些hasaddress：字符串XSD类型的一些hasfirstname：字符串XSD类型的hassureName：字符串注册unregisteredperson
+linklings-place,恰好放置1个Hasaddress Room
+linklings-registeredperson,注册人员管理员注册自注册
+linklings-rejectedsubmission,拒绝提交
+linklings-reviewer,评论者
+linklings-role,角色有些人签名的管理员招聘了一些Hassetting Rolesettings SessionChair管理员PanelModerator作者Panelist Panelist panelists Basicuser Basicuser
+linklings-rolesettings,reolesettings设置某些issetby管理员某些issetting for working for wore
+linklings-room,房间有些带有XSD类型的房间名称：string恰好位置的1个正好的1个正好的1个hashength的1个正好的1个正好的1个
+linklings-selfregistered,精确地注册了1个HASROLE BASICUSER注册者的1
+linklings-session,会话事件
+linklings-sessionchair,Session Chair角色一些Hasprogramagramissign的会议
+linklings-settings,设置rolesettings intimingfeaturesettings
+linklings-submission,提交一些istypeof提交恰好是hassubmissigntype的1个hasscontent内容，XSD类型的hastitle：字符串
+linklings-submissionfeaturesettings,FibsissionFeaturesEttings一些issettingting for提议类型某些Issetby管理员设置
+linklings-submissionstatus,提交某些issubmissionStatusof提交仅issubmissionStatusof提交的iSstatussetby审稿人
+linklings-submissiontype,排序类型的一些麻烦的cutfeaturesettings申请面板纸
+linklings-timeinterval,TimeInterval正好是Hasenddate的1个恰好1
+linklings-undecidedsubmission,不确定的提交
+linklings-unregisteredperson,未注册的人未注册人
+pcs-accepted_paper,接受的纸纸外部审稿人或二级审稿人
+pcs-administrator,管理员有些生成电子程序某些生成报告某些发送电子邮件人员电子程序或报告电子邮件
+pcs-author,作者会议记录一些写纸纸
+pcs-cd,CD电子程序
+pcs-committeemember,委员会会议委员会二级审核者小学论文
+pcs-conference,会议计划会议编程
+pcs-conferencemember,会议成员人士委员会作者会议
+pcs-document,文件评论纸人
+pcs-electronic_proceeding,电子程序网站CD
+pcs-email,电子邮件信息邀请管理员
+pcs-external_reviewer,外部审查者某些费率纸接受论文某些阅读论文接受的论文一些写作评论
+pcs-information,信息电子邮件
+pcs-invitation,邀请电子邮件
+pcs-person,某些人获得信息会议会议记录外部审阅者管理员电子邮件系统文档
+pcs-paper,纸文件接受的纸张拒绝纸质委员会作者
+pcs-primary_reviewer,小学审核者一些接受论文某些分配审核委员会审查审核
+pcs-programme,计划会议
+pcs-rejected_paper,拒绝的纸张
+pcs-report,报告
+pcs-review,评论文档主要审稿人外部审核者或二级审核者
+pcs-secondary_reviewer,中学审阅者委员会一些写作评论
+pcs-system,系统
+pcs-web_site,网站电子程序
+pcs-thing,事物
+paperdyne-abstract,抽象贡献文件
+paperdyne-abstract_and_paper_submission_phase,摘要和纸张提交阶段阶段ofConferencePrexration
+paperdyne-assignment_phase,分配阶段具有值为false的值，因为允许的值为false false for falleRegister阶段opofepreprepreprepration具有false false false forse forseuploadcrc具有false false false false falsebmitpaper具有alse false forse
+paperdyne-author,作者有些人创造贡献至少0个讲话的纸张缅因州合着者合着者贡献
+paperdyne-bidding_and_paper_submission_phase,投标和提交提交阶段的投标阶段的价值为aLLEVIBMITPAPER
+paperdyne-bidding_phase,竞标阶段阶段阶段会议竞标和提交阶段的招标，而没有纸提交阶段
+paperdyne-bidding_without_paper_submission_phase,没有纸提交阶段的竞标对于允许bibmitpaper招标阶段的价值为false
+paperdyne-blocked_phase,阻止阶段具有值为false的值false forsement具有false false false false false abely as valy false false false false falloadcrc具有false false false forse allowReview phaseofconferencepreparationpreparation具有false false fals for fals for lasterubmitpaper
+paperdyne-camera_ready_copy,相机就绪复制贡献文件
+paperdyne-camera_ready_copy_phase,摄像机准备就绪复制阶段具有值为false的值false for允许阶段opofconferencePrexerationpreation具有值false false false false valy false false fals for laseubmitpaper具有值false forse forse
+paperdyne-closed_phase,封闭的阶段阶段ofConferencePrexeration具有值为false的值，因为允许bimitpaper具有值false false false false false false false forse falleuploAdcrc具有false false false false false falleReview具有值false forse forse
+paperdyne-co-author,合着者与合着者或缅因州合着者合着至少1个合着者。
+paperdyne-conference,会议仅由计划委员会主席事物计划委员会主席主题位置组织
+paperdyne-confirmed_conflict,确认冲突某些论文某些BlockAssigningToreViewer论文某些审稿人利益冲突仅可见审稿人
+paperdyne-conflict_of_interest,利益冲突某些可见的计划comitee主席仅由冲突规则管理事物自我冲突提议冲突隐藏冲突删除冲突已确认的冲突，等待拟议的冲突
+paperdyne-conflict_rules,冲突规则只能管理利益冲突事物
+paperdyne-contribution,贡献一些涵盖主题的某些创建作者贡献文件论文作者
+paperdyne-contribution_file,贡献文件一些提交的作者贡献海报抽象幻灯片摄像头准备副本源存档纸文件
+paperdyne-deleted_conflict,删除的利益冲突冲突与BlockAssigningToreViewer纸无关
+paperdyne-discussion,讨论
+paperdyne-e-mail_pc_meeting,电子邮件PC会议计划委员会会议对虚拟具有价值真实
+paperdyne-hidden_conflict,仅由计划委员会主席提出的隐藏的利益冲突冲突与BlockAssigningToreViewer纸无关
+paperdyne-invitation_of_reviewers_phase,审阅者的邀请阶段阶段会议编制
+paperdyne-location,地点
+paperdyne-mainauthor,MAINAUTHOR一些提议的冲突至少有0个提议的冲突，至少有0个合作者，只有观点仅提议的冲突，只有共同作者至少有0个观点的作者，作者有作者一些提交的贡献文件
+paperdyne-pc_meeting,PC会议计划委员会会议对虚拟有价值虚假
+paperdyne-paper,论文至少0个isinconflictwith贡献了一些isinconflictwith审稿人唯一的spokenby演讲者comitee主席comitee comitee评论者
+paperdyne-paper_file,纸文件贡献文件
+paperdyne-pending_proposed_conflict,审议的冲突仅可见，审稿人的利益冲突某些BlockAssigningToreViewer纸质审稿人
+paperdyne-person,人计划委员会主席发言人审稿人
+paperdyne-phaseofconferencepreparation,阶段会议编程抽象和纸张提交阶段分配阶段相机准备阶段设置阶段相位销售阶段闭合阶段审查阶段封锁审查员阶段的相位邀请
+paperdyne-poster,海报贡献文件
+paperdyne-program_comitee,计划委员会一些哈希成员审稿人一些Hasembers计划委员会主席事物论文
+paperdyne-program_comitee_chair,计划comitee主席一些观点的利益冲突一些组织会议人员一些组织的计划comitee会议会议的一些comitee comitee至少0视图纸审稿人会议comitee comitee epeceofConferencePreparationPreparationprearationpreationpreation
+paperdyne-program_comitee_meeting,计划委员会会议某些讨论仅发生在位置PC会议电子邮件PC会议会议
+paperdyne-proposed_conflict,提出的利益冲突冲突缅因州的某些提议的仅证明是作者的作者一些BlockAssigningToreviewer纸
+paperdyne-review,回顾一些法官纸的东西一些创建的审稿人
+paperdyne-review_phase,审核阶段的值为false fals for允许的值false fals falsebmitpaper具有false false false forse regregister阶段opofreferationprearationpreation
+paperdyne-reviewer,Reviewer at least 0 of hasConflictType some memberOf Program Comitee Person at least 0 of views some views Confirmed Conflict or Pending Proposed Conflict some creates Review some submits Review at least 0 of isInConflictWith only hasConflictType Confirmed Conflict or Pending Proposed Conflict some isInConflictWith Paper Program Comitee Chair Paper Pending Proposed Conflict
+paperdyne-self_conflict,自我冲突某些BlockAssigningToreviewer纸张利益冲突仅可见缅因州和审稿人
+paperdyne-setup_phase,设置阶段具有值为false的值fals，for lasteruploadcrc阶段opofepreprepreprepreprepreprepreparation具有false false false ablesubmitpaper具有false false false false false false false fals false false false false forse forse forse ablowReview forse forse
+paperdyne-slides,幻灯片贡献文件
+paperdyne-source_archive,源存档贡献文件
+paperdyne-speaker,发言人至少有1个说话的人会说纸
+paperdyne-topic,主题的一些贡献
+paperdyne-thing,事物会议计划委员会贡献主题计划委员会召开利益冲突审查冲突规则
+openconf-adobe_pdf,Adobe PDF格式
+openconf-advocate,提倡纸
+openconf-advocated_paper,倡导论文倡导者
+openconf-author,作者有些写纸纸联系作者纸
+openconf-balanced_theory_and_practice,平衡理论与实践论文分类
+openconf-clarity_to_present_understanding,明确理解总体价值
+openconf-classic_papers,经典论文主题
+openconf-clear_accept,清楚接受建议
+openconf-clear_reject,明确拒绝建议
+openconf-committees,委员会领域主题
+openconf-computer_science,计算机科学主题
+openconf-conference_program,会议计划主席计划纸
+openconf-contact_author,联系作者提交的论文
+openconf-corel_word_perfect,Corel Word Perfect Format
+openconf-domain_topic,领域主题人委员会论文
+openconf-format,格式值分区postcript html corel word perfect rtf ms word text adobe pdf
+openconf-html,HTML格式
+openconf-high,高级评论者家族
+openconf-highly_practical,高度实用的论文分类
+openconf-highly_theoretical,高度理论纸分类
+openconf-humour,幽默主题
+openconf-long_bool,长布尔
+openconf-low,低评论者家族
+openconf-ms_word,MS Word格式
+openconf-marginal_tend_to_accept,边缘倾向于接受建议
+openconf-marginal_tend_to_reject,边际倾向于拒绝建议
+openconf-member,会员人
+openconf-moderate,中等评论者家族
+openconf-must_accept,必须接受建议
+openconf-networking,网络主题
+openconf-new_information,新信息总价值
+openconf-new_perspective_issue_problem_solving,新的观点问题解决总体价值
+openconf-not_much,总体价值不多
+openconf-other,其他总体价值
+openconf-overall_value,总体价值评论值新信息的其他不明显的信息来呈现理解新的观点问题问题解决当前知识的有价值的确认
+openconf-paper,论文有些是由作者域主题提交的论文作者撰写的
+openconf-paper_categorization,纸分类评论值高度理论倾向于理论倾向于实用的高度实用平衡理论和实践
+openconf-paper_file,纸文件格式
+openconf-paper_review,论文评论审稿人长书籍纸分类总体价值建议
+openconf-people,人域主题成员作者
+openconf-planed_paper,计划纸质会议计划
+openconf-portable_reject,便携式拒绝建议
+openconf-postscript,后记格式
+openconf-program_committee,计划委员会
+openconf-program_chair,计划主席会议计划
+openconf-programming,编程主题
+openconf-rfc,RFC主题
+openconf-rtf,RTF格式
+openconf-reccommendation,建议审查值清楚接受必须接受边际倾向于接受便携式拒绝拒绝拒绝边际倾向于拒绝
+openconf-result_of_advocate,倡导者的结果
+openconf-review_committee,审查委员会
+openconf-review_values,审查值值分区纸分类总价值建议
+openconf-reviewed_paper,审查论文
+openconf-reviewer,审稿人纸评论
+openconf-reviewer_famliliarity,评论者famliariyity高度中等
+openconf-submitted_paper,提交的纸张纸有些存储在纸文件中，有些已通过联系人联系人联系人纸文件发送
+openconf-tends_towards_practical,倾向于实用纸分类
+openconf-tends_towards_theoretical,倾向于理论论文分类
+openconf-text,文本格式
+openconf-topics,主题价值分区经典论文编程计算机科学RFC幽默网络
+openconf-valuable_confirmation_of_present_knowledge,有价值的当前知识总体价值的确认
+openconf-value_partition,价值分区格式评论值主题
+cmt-acceptance,接受决定
+cmt-administrator,管理员用户纸程序committeembermember审核者会议
+cmt-associatedchair,AssocationChair Cherencemember
+cmt-author,作者用户会议编者合着者authornotreviewer纸
+cmt-authornotreviewer,AuthornOtreviewer作者
+cmt-bid,出价审稿人
+cmt-chairman,董事长
+cmt-co-author,合着者作者论文
+cmt-conference,会议恰好是评论纸的1个名称中的1个至少1个日期管理员会议记录
+cmt-conferencechair,会议会议会议
+cmt-conferencemember,会议记录人员ProgramCommittembermemberm Conterenceair审稿人作者AssipedChair会议
+cmt-decision,决策接受拒绝
+cmt-document,文件纸评论
+cmt-externalreviewer,ExternalReviewer正好是分配的Reviewer人审稿人
+cmt-meta-review,元评论评论
+cmt-meta-reviewer,Meta-Reviewer评论者
+cmt-paper,纸张至少有1个readbyReviewer文档至少1个hasDecision，最多是1个hasDecision，最多有1个readbymeta-reviewer paperfullversion paperfullversion paperabtracter paperabstracter caperabraterator审阅者作者bid bid bid bid posuthor bid posuter dikiss offication offectarea meta-reviewer
+cmt-paperabstract,纸上纸
+cmt-paperfullversion,Paperfullversion纸
+cmt-person,Person Conferencember用户外部Reviewer董事长programmitteembember文档
+cmt-preference,偏爱
+cmt-programcommittee,programCommittee programmitteemember
+cmt-programcommitteechair,programMomteechair programmitteembember评论
+cmt-programcommitteemember,programCommitteemberm会议仪表人员programmitteechair管理员programcommittee
+cmt-rejection,拒绝决定
+cmt-review,评论文档元评论审阅者
+cmt-reviewer,审阅者会议记录用户meta-Reviewer出价外部浏览器管理员纸质评论
+cmt-subjectarea,主体
+cmt-user,用户人管理员作者审稿人
+cmt-thing,事情会议
+iasted-accepting_manuscript,会议前接受手稿活动
+iasted-activity,会议之后的活动活动在会议时间或时间之前活动活动
+iasted-activity_after_conference,会议活动后的活动在会议之后的全天巡回演出之后举行了一些
+iasted-activity_before_conference,会议活动之前的活动在会议日之前举行一些接受手稿的手稿，以租用手稿
+iasted-audiovisual_equipment,视听设备有些设计用于听众项目的某些演讲者使用的某些位于会议室视频盒式录音机lcd投影仪高架投影仪
+iasted-author,作者一些简短的会议主席简短介绍一些准备透明度作者书籍程序包括讲师教程演讲者全体演讲演讲者作者CD诉讼程序包括
+iasted-author_attendee_book_registration_fee,作者与会者书籍注册费注册费有些用于书籍程序
+iasted-author_attendee_cd_registration_fee,作者与会者CD注册费有些支付CD促进注册费
+iasted-author_book_proceedings_included,作者书籍程序包括作者一些获得书籍程序
+iasted-author_cd_proceedings_included,作者CD程序包括一些获得CD的创作作者
+iasted-author_information_form,作者信息表格表格在截止日期后发送一些通知接受
+iasted-bank_transfer,银行转帐付款文件
+iasted-book_proceeding,书籍程序出版物
+iasted-brief_introduction_for_session_chair,会议主席简要介绍一些会议主席文档，作者提供了一些
+iasted-building,建筑场所主持人大会会议大会会议机场会议餐厅会议餐厅饭店主持人大学赞助商公司房屋
+iasted-camera_ready_manuscript_deadline,相机准备的手稿截止日期截止日期
+iasted-car,汽车运输车
+iasted-card,卡项信用卡
+iasted-cd_proceening,CD促进出版物
+iasted-cheque,检查付款文件
+iasted-city,城市事物有些位于州旅行城市赞助商City City City City City中
+iasted-coctail_reception,鸡尾酒会有些专为代表会议活动而设计
+iasted-coffee_break,咖啡休息会议活动有些是为代表设计的
+iasted-computer,计算机视听设备
+iasted-conference_hiker,会议徒步旅行者代表
+iasted-conference_activity,会议活动在会议状态活动中举行了一些会议日，在会议日举行了咖啡休息时间cocctail接待介绍注册介绍社会计划欢迎地址技术活动讲座
+iasted-conference_airport,会议机场大楼一些位于会议州，一些位于会议城市
+iasted-conference_building,会议大楼有些人占领了一些位于会议城市的会议城市。
+iasted-conference_city,会议城市有一些代表访问
+iasted-conference_days,会议时间有些是为会议当天的代表设计的
+iasted-conference_hall,会议厅的一些地方位于会议大楼
+iasted-conference_hotel,会议酒店大楼一些位于会议州，有些位于会议城市，有些是为酒店主持人设计的
+iasted-conference_restaurant,会议餐厅一些位于会议州，有些位于会议城大楼中，有些人被代表占领
+iasted-conference_state,会议国家的某些代表访问了一些
+iasted-credit_card,信用卡有些是为了费用或船长或税收的设计
+iasted-currency,货币
+iasted-deadline,截止日期有些是为委托时间截止日期预订提交的截止摄像机准备截止日期截止日期截止日期截止日期截止日期截止日期，以通知接受
+iasted-deadline_for_notification_of_acceptance,通知接受截止日期的截止日期
+iasted-deadline_hotel_reservation,截止日期预订截止日期
+iasted-delegate,Delegate some obtain Invitation letter some send Registration form Person some pay Registration fee some occupy Presenter city some need Viza some occupy Presenter state some occupy Presenter house One day presenter Non speaker Hotel presenter Session chair IASTED member Listener Technical commitee Speaker Conference Hiker IASTED non member
+iasted-departure,会议后出发活动
+iasted-departure_tax,出发税有些是为出发税而设计的
+iasted-dinner_banquet,晚餐宴会有些是为了有一天的主持人社交计划而设计的
+iasted-document,文档项目付款文件记录出勤透明度简介会议主席提交邀请函的简介表格审查viza邮件列表
+iasted-double_hotel_room,双酒店房间酒店房间
+iasted-fee,费用有些人用信用卡或付款文件付款酒店费用注册费
+iasted-fee_for_extra_trip,额外旅行的费用，有些人会通过会议徒步旅行费支付一些费用
+iasted-final_manuscript,最终手稿提交有些人接受手稿
+iasted-form,表格文件有些给出委托注册表格作者信息表格饭店注册表
+iasted-full_day_tour,会议之后的全天游览活动是为代表设计的
+iasted-hotel_fee,酒店费用有些由酒店主持人支付
+iasted-hotel_presenter,酒店主持人委派一些占领会议酒店和一些薪酬酒店费用
+iasted-hotel_registration_form,酒店注册表格有些在截止日期预订表格之前发送
+iasted-hotel_room,酒店房间有些是专为酒店主持人设计的，有些人位于会议酒店的单身房间双旅馆房间
+iasted-iasted_member,IASTED成员代表
+iasted-iasted_non_member,非会员代表
+iasted-initial_manuscipt,初始手稿提交有些拒绝手稿
+iasted-introduction,简介会议活动介绍演讲者
+iasted-introduction_of_speaker,介绍介绍
+iasted-invitation_letter,邀请信某些是为委托文档设计的
+iasted-item,物品卡出版文件运输车辆视觉设备活动人员项目时间活动或金钱
+iasted-lcd_projector,LCD投影仪视听设备
+iasted-lecture,演讲会议活动有些是为听众会议全体讲座教程设计的
+iasted-lecturer,讲师在会议室作者学生讲师工人讲师讲师讲师讲师
+iasted-listener,听众在会议厅或会议室中有一些出席代表的标志记录
+iasted-mailing_list,邮件列表有些是为委托文档设计的
+iasted-main_office,主要办公地点
+iasted-memeber_registration_fee,会员注册费有些专为IASTED会员注册费而设计
+iasted-modelling,建模研究
+iasted-money,赞助税提示人活动或项目建设项目
+iasted-non_speaker,非说话者代表学生非说话者非说话者
+iasted-nonauthor_registration_fee,非企业注册费有些专为非说话者注册费而设计
+iasted-nonmember_registration_fee,非会员注册费有些专为ISAISED非会员注册费而设计
+iasted-one_conference_day,会议日会议日
+iasted-one_day_presenter,有一天主持人代表
+iasted-overhead_projector,高架投影仪视听设备
+iasted-payment_document,付款文件有些是为了费用或税收银行转移支票而设计的
+iasted-person,人代表赞助商活动或商品时间地点或时间项目建设或城市或国家资金
+iasted-place,某些地方有些位于会议状态，有些位于会议城市会议厅会议室房间房间主办公室建筑物
+iasted-plenary_lecture,全体讲座
+iasted-plenary_lecture_speaker,全体演讲发言人在会议厅作者中演讲
+iasted-powerpoint_presentation,PowerPoint演示文稿
+iasted-presentation,演示会议活动PowerPoint演示视频演示文稿
+iasted-presenter_city,主持人城有些被代表城占领
+iasted-presenter_house,主持人之家有些位于主持人城市，有些人被代表占领，有些位于主持人国家大楼
+iasted-presenter_state,主持人国家国家有些人被代表占领
+iasted-presenter_university,主持人大学一些位于主持人国家大楼，有些位于主持人城
+iasted-publication,出版一些是由最终手稿项目书籍制成的。
+iasted-receiving_manuscript,会议前接受手稿活动
+iasted-record_of_attendance,出勤记录有些位于会议室文件中，有些人签署了听众
+iasted-refusing_manuscript,会议前拒绝手稿活动
+iasted-registation_deadline,注册截止日期截止日期
+iasted-registration,注册有些是为代表会议活动而设计的
+iasted-registration_fee,注册费有些人支付会议活动的支付一些代表费用的支付作者参与者书名注册费学生注册费非授权人注册费成员注册费费用作者参与者参与者CD注册费非会员注册费
+iasted-registration_form,注册表格在注册截止日期之前发送某些人是由代表表格发送的
+iasted-renting,租用一些与汽车活动相关的会议
+iasted-research,会议建模模拟之前的研究活动
+iasted-review,评论有些是由审稿人文件撰写的
+iasted-reviewer,评论者发言人
+iasted-session,会议由作者或会议主席演讲进行
+iasted-session_chair,会议主持人一些会议主席代表的简要介绍
+iasted-session_room,会议室的地方有些设备设备有些设备有些位于会议大楼
+iasted-shuttle_bus,班车运输车
+iasted-simulating,模拟研究
+iasted-single_hotel_room,单一酒店房间酒店房间
+iasted-social_program,社会计划有些是为代表会议活动晚宴宴会设计的
+iasted-speaker,演讲者委派一些演讲一些写一些撰写最终手稿审稿人作者
+iasted-speaker_lecture,演讲者讲座会议
+iasted-sponsor,赞助商一些占用的赞助商一些占领国州人的人占领了赞助商公司房屋
+iasted-sponsor_city,赞助商有些人被赞助商市占领
+iasted-sponsor_company_house,赞助商公司房屋某些位于赞助商州，有些位于赞助商市建筑物中，有些人被赞助商占用
+iasted-sponsor_state,赞助国家国家
+iasted-sponzorship,赞助金
+iasted-state,州会议国家主持人国家赞助国家
+iasted-student_lecturer,学生讲师讲师
+iasted-student_non_speaker,学生非说话者非说话者
+iasted-student_registration_fee,学生注册费注册费有些是为学生讲师或学生非说话者设计的
+iasted-submission,提交有些由演讲者文档撰写的初始手稿最终手稿
+iasted-submissions_deadline,提交截止日期截止日期
+iasted-tax,税款增值税征税税
+iasted-taxi,出租车运输车辆
+iasted-technic_activity,技术活动有些由技术委员会会议活动给出
+iasted-technical_commitee,技术委员会有些人参加技术活动代表
+iasted-time,时间会议日旅行日截止日期
+iasted-time_zone,时区
+iasted-tip,提示有些在会议餐厅的钱中付款
+iasted-transparency,透明度文件有些由演讲者准备
+iasted-transport_vehicle,运输车辆物品有些由代表出租车班车车货车使用
+iasted-trip_city,会议徒步旅行者参观了旅行城市
+iasted-trip_day,旅行日时间有些是为代表设计的
+iasted-tutorial,教程讲座
+iasted-tutorial_speaker,教程演讲者在会议厅作者中演讲
+iasted-value_added_tax,增值税税
+iasted-van,货车运输车辆
+iasted-video_cassette_player,视频盒式播放器视听设备
+iasted-video_presentation,视频演示演示文稿
+iasted-viza,Viza需要一些代表文档
+iasted-welcome_address,欢迎地址会议活动
+iasted-worker_lecturer,工人讲师讲师
+iasted-worker_non_speaker,工人非说话者非说话者
+iasted-thing,事物城市
+crs_dr-abstract,摘要文档文章
+crs_dr-article,文档作者摘要审稿人
+crs_dr-author,作者人士文章
+crs_dr-chair,主席审阅者计划
+crs_dr-conference,会议活动计划
+crs_dr-document,文档文章摘要评论
+crs_dr-event,活动PC会议会议
+crs_dr-participant,参与者会议
+crs_dr-pc_meeting,PC会议活动
+crs_dr-person,人作者审稿人参与者主席
+crs_dr-program,计划会议主席
+crs_dr-review,评论文档审阅者
+crs_dr-reviewer,审阅者人评论
+crs_dr-session,会话事件
+micro-activity,活动某些ISPARTOF会议，一些作者事物教程研讨会主题会议会议会议
+micro-activitysubmissionform,ActivitySumpissionForm仅由作者事物构成一些hashuathor作者Worksoposposal Propoposal Paper Paper Witer
+micro-author,Author at least 0 of conflictsWith some isAuthorOf ActivitySubmissionForm Person some conducts Activity some conflictsWith Author or Organizer or OutsideReferee at least 0 of conducts Lecture or Tutorial or WorkShop Author or Organizer or OutsideReferee ActivitySubmissionForm
+micro-committeemember,委员会组织者一些组织委员会
+micro-conference,会议仅组织委员会的组织组织委员会地点
+micro-doubleblindreview,DoubleBlindReview Thing只有Appliesto演讲仅由外部或审稿人评论者遵守
+micro-financechair,金融主席组织委员会
+micro-generalcochair,综合主教会组织委员会
+micro-lecture,讲座活动质量典范
+micro-location,地点
+micro-organizer,组织者人员委员会审稿人
+micro-organizingcommittee,组织委员会仅召集会员委员会一些组织会议的事物ProgramAdvocate fanceradechair SteeringCommittee General Chair Chair Chair Chair ChaptutorialChair PapistityWebchair PublicationsChair PublicationsChair PublicationsChair Capersibrisebismission ChimpersioncommissionChair CristrationChair ChirastrationChair ChirectrationChair ChirectrationChair会议
+micro-outsidereferee,外部人士
+micro-paper,仅纸张appliesto sutctionsumissimpriseform
+micro-papersubmissionchair,纸质审判委员会组织委员会
+micro-person,人组织者作者郊区
+micro-programcochair,程序联合会主组组织委员会
+micro-publicationschair,出版社举行委员会
+micro-publicitywebchair,PafficityWebchair组织委员会
+micro-qualitatvielecture,QualitatVielecture演讲一些急性编译器，微结构或系统之一
+micro-registrationchair,登记主席委员会
+micro-reviewer,审阅者组织者有些执行DoubleBlindReview double Blinblindreview
+micro-steeringcommittee,指导委员会委员会
+micro-studentadvocate,学生倡导者组织委员会
+micro-topic,主题活动
+micro-traditionallecture,传统结构的一些急性远前景讲座之一
+micro-tutorial,教程活动
+micro-tutorialproposal,辅导Propopossh仅appliesto tutorial Activitysumissimperform
+micro-workshop,研讨会活动
+micro-workshoptutorialchair,研讨会组织组织委员会
+micro-worksopproposal,Worksoposal Activitysumpissimprism Form仅appliesto研讨会
+micro-thing,组织委员会会议活动umissionsumissmissform Activity doubleblindreview
+ekaw-abstract,摘要文件邀请讨论摘要教程摘要
+ekaw-academic_institution,学术机构组织大学研究所
+ekaw-accepted_paper,接受的论文一些Hasreview正面评论评估了论文
+ekaw-agency_staff_member,机构工作人员
+ekaw-assigned_paper,分配的纸张提交的纸至少3个藏有评估的纸张
+ekaw-camera_ready_paper,相机准备纸一些书面会议参与者纸一些接受纸的更新文章
+ekaw-conference,会议科学事件
+ekaw-conference_banquet,会议宴会社交活动
+ekaw-conference_paper,会议纸
+ekaw-conference_participant,会议参与者OC会员演示主席教程主席会议主席早期注册的参与者晚期注册的参与者PC主席主持人研讨会主席
+ekaw-conference_proceedings,会议诉讼程序仅限卷纸纸会议论文或被邀请的谈话摘要
+ekaw-conference_session,会议会议某些部分会议工业会议
+ekaw-conference_trip,会议旅行社交活动
+ekaw-contributed_talk,贡献的交谈个人演示文稿正好在呈现纸上的1个呈现纸摄像机准备纸
+ekaw-demo_chair,演示主席会议参与者
+ekaw-demo_paper,演示纸
+ekaw-demo_session,演示会话
+ekaw-document,文档网站程序小册子传单多作者卷论文摘要评论文档人员
+ekaw-early-registered_participant,早期注册的参与者会议参与者
+ekaw-evaluated_paper,评估的纸张至少有3个Hastreview分配的纸纸被拒绝的纸张
+ekaw-event,活动科学活动社交活动计划手册或网站事件活动位置组织或人员
+ekaw-flyer,传单文件
+ekaw-individual_presentation,个人演讲科学事件邀请谈话教程贡献摘要或论文
+ekaw-industrial_paper,工业纸
+ekaw-industrial_session,工业会议会议
+ekaw-invited_speaker,邀请演讲者主持人
+ekaw-invited_talk,邀请谈话个人演示
+ekaw-invited_talk_abstract,邀请说话摘要摘要
+ekaw-late-registered_participant,晚期注册的参与者会议参与者
+ekaw-location,位置活动
+ekaw-multi-author_volume,多作者卷文档程序
+ekaw-negative_review,负面评论
+ekaw-neutral_review,中立审查评论
+ekaw-oc_chair,OC主席OC成员
+ekaw-oc_member,OC成员会议参与者OC主席
+ekaw-organisation,组织组织代理程序发行商学术机构传单或多作者量或计划手册或网站
+ekaw-organising_agency,组织机构组织
+ekaw-pc_chair,PC主席会议参与者PC成员
+ekaw-pc_member,PC会员可能的审阅者教程主席会议主席SC会员PC主席研讨会主席
+ekaw-paper,纸文档演示纸研讨会纸会议纸提交纸业纸张海报常规纸摄像头准备好纸评论可能的评论者
+ekaw-paper_author,纸作者的人
+ekaw-person,参加者会议参与者机构工作人员可能会审阅者纸质作者学生文件
+ekaw-positive_review,正面评论
+ekaw-possible_reviewer,可能的审稿人PC会员纸
+ekaw-poster_paper,海报纸
+ekaw-poster_session,海报会话
+ekaw-presenter,主持人会议参与者邀请演讲者
+ekaw-proceedings,会议记录数量仅限卷文书纸接受纸张或被邀请的摘要摘要至少1卷卷纸会议记录
+ekaw-proceedings_publisher,程序发布者组织
+ekaw-programme_brochure,程序手册文件
+ekaw-regular_paper,常规纸张
+ekaw-regular_session,常规会议
+ekaw-rejected_paper,被拒绝的纸张评估纸
+ekaw-research_institute,研究机构学术机构
+ekaw-research_topic,研究主题活动或论文
+ekaw-review,评论文档负面评论正面评论中性审核论文可能的审核者
+ekaw-sc_member,SC会员PC成员
+ekaw-scientific_event,科学活动会议会议会议研讨会个人演示
+ekaw-session,会议科学事件某些部分会议或研讨会某些个人演示文稿仅部分会议或曲目或研讨会海报会话常规会议研讨会演示会议会议会议会议会议会议会议
+ekaw-session_chair,会议主席会议参与者PC成员
+ekaw-social_event,社交活动会议宴会会议之旅
+ekaw-student,学生人
+ekaw-submitted_paper,提交的纸张分配的纸张
+ekaw-track,跟踪科学事件
+ekaw-tutorial,教程个人演示
+ekaw-tutorial_abstract,教程摘要
+ekaw-tutorial_chair,教程主席PC会员会议参与者
+ekaw-university,大学学术机构
+ekaw-web_site,网站文档
+ekaw-workshop,研讨会科​​学事件
+ekaw-workshop_chair,研讨会主席会议参与者PC成员
+ekaw-workshop_paper,车间纸
+ekaw-workshop_session,研讨会会话
+ekaw-thing,事物
+confious-accepted_paper,接受纸
+confious-automatic_paper_assignment,自动纸质分配纸分配
+confious-chair_url,椅子URL URL
+confious-contact_person,联系人某人关心会议设置会议设置人类
+confious-contact_person_url,联系人URL URL
+confious-manual_paper_assignment,手动纸分配纸分配
+confious-program_committee_chair,计划委员会主席一些表演活动管理会议流程的活动有些与会议设置会议设置有关
+confious-program_committee_member,计划委员会成员人类有些主题主题主题有些人关注会议设置会议设置常规计划委员会成员高级计划委员会成员
+confious-regular_program_committee_member,计划委员会成员计划委员会成员
+confious-regular_reviewer_url,常规审阅者URL URL
+confious-rejected_paper,拒绝的纸张
+confious-senior_program_committee_member,最多4名监督计划委员会成员的高级计划委员会成员
+confious-senior_reviewer_url,高级审阅者URL URL
+confious-url,URL有些人担心会议设置会议设置事物高级审阅者URL主席URL常规审稿人URL联系人url URL
+confious-undecided_paper,不确定的论文有些人经过审查Proces论文
+confious-abstract_of_paper,论文摘要一些有关纸质纸文章
+confious-abstract_submission_date,抽象提交日期的摘要提交结束日期抽象提交日期的开始日期
+confious-acceptance_notification_email,接受通知电子邮件通知电子邮件仅有关纸张接受纸
+confious-activity,活动提交过程通知纸质分配审核者审核审查审查审核的管理会议过程强度文章活动人类
+confious-article,文章通知电子邮件组电子邮件评论纸质评论表摘要论文摘要评论分类活动人类
+confious-bidding_of_reviewer,审阅者的招标有些有关论文的论文某些具有强度强度活动仅由计划委员会成员执行的恰恰是1
+confious-camera-ready_submission_date,摄像头提交日期的日期结束日期可以使用摄像机提交的开始日期，请提交的提交日期
+confious-classification,分类
+confious-conference,会议有些在会议的阶段，有些人与会议设置阶段有关会议阶段
+confious-conference_setup,conference setup some is made by Program Committee Chair some sets date of notification date of notification some sets CP URL Contact Person URL some sets end date of camera ready submission end date of camera-ready submission only is made by Program Committee Chair some sets start date or full paper submission start date of full paper submission some sets end date full paper submission end date of full paper submission some sets member PCC Program Committee Chair some sets start date of conference start date of conference some includes topic topic some sets SPC URL Senior Reviewer URL some sets member RPC Regular Program Committee member Thing some sets RPC URL Regular Reviewer URL some sets Chair URL Chair URL some is concerned conference conference some sets start date of abstract submission start date of abstract submission some sets member SPC Senior Program Committee member some sets member CP Contact Person some sets end date of abstract submission end date of abstract submission some sets start date of camera ready submission start date of camera-ready submission some sets end会议结束日期会议主题的日期人类URL日期
+confious-date,约会事物有些人关注会议设置会议会议设置日期通知抽象提交日期摄像头准备日期全文提交日期会议日期
+confious-date_of_conference,会议日期结束日期会议开始日期会议的日期
+confious-date_of_notification,通知日期
+confious-end_date_of_abstract_submission,抽象提交抽象提交日期的结束日期
+confious-end_date_of_camera-ready_submission,摄像机准备就绪摄像头准备日期的结束日期提交日期
+confious-end_date_of_conference,会议结束日期会议日期
+confious-end_date_of_full_paper_submission,完整纸提交完整提交提交日期的结束日期
+confious-full_paper_submission_date,全文提交日期的完整日期结束日期完整提交提交开始日期
+confious-group_email,小组电子邮件有些发送给人类有些人担心审查Proces文章
+confious-human,人类计划委员会成员联系人计划委员会主席主题学院活动
+confious-institute,研究所
+confious-intensity,强度
+confious-lower_tier_reviewing_process,下层审查过程有些由高级计划委员会成员监督的某些结果审查确切的1次检查，以审查某些审查，然后在上层审查过程中检查某些在上层审查过程中检查某些结果审查表格，有些计划委员会成员进行了审查表格。
+confious-managing_of_conference_process,管理会议流程的管理一些有关会议会议仅由计划委员会主席进行一些会议，一些计划委员会主席活动会议
+confious-notification,通知恰好1至少1次通过活动执行的1个，有些涉及论文仅由计划委员会主席执行
+confious-notification_email,通知电子邮件有些有作者计划委员会主席有些人关注的论文有些人被送往Person Artical Actions Notification Notification电子邮件拒绝通知电子邮件
+confious-paper,纸张只有作者联系人文章，至少有1个作者有些是有关会议会议的会议接受纸拒绝的纸张未决定的论文
+confious-paper_assignment,纸质分配活动至少有1个由某些有关的纸张纸张不确定的论文，然后再进行较低的审查过程
+confious-phase_of_conference,会议阶段
+confious-rejection_notification_email,拒绝通知电子邮件仅有关纸张拒绝的纸质通知电子邮件
+confious-review,审查文章准确的分类仅在下层审查过程中创建某些涉及论文1的恰好创建的论文1在有作者计划委员会成员中创建的文章
+confious-review_form,审查表格文章准确1 eys Is conviences Review的某些结构由计划委员会主席创建的一些结构，在较低层的审查过程中创建了1个在某些拥有作者计划委员会成员的结构中，仅由计划委员会主席创建
+confious-reviewing_proces,审查程序有些有关纸质论文活动下层审查过程上层审查过程
+confious-start_date_of_abstract_submission,抽象提交抽象提交日期的开始日期
+confious-start_date_of_camera-ready_submission,开始使用摄像头提交摄像头准备日期的提交日期
+confious-start_date_of_conference,会议的开始日期
+confious-start_date_of_full_paper_submission,完整纸提交完整提交提交日期的开始日期
+confious-submission_process,提交过程有些之后是纸质分配的，有些涉及纸张未定的纸张恰好1通过活动执行的纸张。
+confious-summary_of_reviews,评论摘要文章一些有作者高级计划委员会成员在上层审查过程中创建了一些有关评论的评论，恰好创建1
+confious-topic,话题
+confious-upper_tier_reviewing_process,高级计划委员会成员仅执行上层审查过程，至少有1个由某些人执行的，然后是通知，某些结果摘要摘要审查了审查Proces
+confious-thing,事物会议设置会议URL日期
+cocus-abstract,抽象论文
+cocus-account,帐户人员
+cocus-activity,活动活动批准注册事件创建请求文件或活动人员
+cocus-admin_role,管理员角色
+cocus-administrator,管理员某些执行活动批准一些批准的活动人活动角色
+cocus-approval_email,批准电子邮件活动
+cocus-assistance,帮助请求
+cocus-author,作者一些添加作者一些执行事件创建用户一些删除作者一些接收批准电​​子邮件或拒绝电子邮件通讯作者
+cocus-author_role,作者角色
+cocus-committe_role,委员会角色
+cocus-committee,委员会用户
+cocus-conference,会议活动
+cocus-corresponding_author,通讯作者
+cocus-description,描述
+cocus-detail,细节有些人修改的东西
+cocus-document,记录某些人提交评论纸质电子邮件模板用户使用的东西
+cocus-email,通过人文件组收到的一些电子邮件发送电子邮件电子邮件批准电子邮件通知电子邮件拒绝电子邮件
+cocus-email_template,电子邮件模板事件设置
+cocus-event,活动的一些事件的圆锥体跟踪一些通过批准电子邮件事物会议研讨会管理员批准电子邮件活动踪迹事件设置的一些确认的事件。
+cocus-event_approval,活动批准活动只有结果批准电子邮件
+cocus-event_creation,事件创建有些有结果活动活动
+cocus-event_setup,事件设置研究主题电子邮件模板提交模板事件事件录制表单纸类型事件
+cocus-event_tracks,活动跟踪事件设置
+cocus-event_url,活动网址一些有关活动
+cocus-feature_request,功能请求帮助请求
+cocus-full_paper,完整的纸张
+cocus-group_email,组电子邮件
+cocus-head_role,头部角色
+cocus-help_request,帮助请求请求MISC功能请求帮助
+cocus-inforamtion,信息
+cocus-invited_paper,受邀纸
+cocus-misc,MISC帮助请求
+cocus-notification_email,通知电子邮件
+cocus-paper,纸文档，由通讯作者简短纸摘要全文邀请纸提交的一些纸
+cocus-paper_typologies,纸张类型事件设置
+cocus-person,某些人获取信息用户管理员活动或角色信息文档或人帐户或详细帐户活动活动文件
+cocus-preview,预览审查表格
+cocus-registration,注册活动有些结果用户
+cocus-rejection_email,拒绝电子邮件
+cocus-request,请求活动帮助请求
+cocus-research_topic,研究主题活动设置
+cocus-review,评论文件
+cocus-review_form,审核表格事件设置预览审核表格设置
+cocus-review_form_setup,审核表格设置审核表
+cocus-reviewer_role,审稿人的角色
+cocus-role,行政人员任务的角色管理员角色作者主任审查员角色角色委员会角色管理员
+cocus-short_paper,短纸
+cocus-submission,提交文件
+cocus-submission_template,提交模板事件设置
+cocus-symposium,研讨会活动
+cocus-template,模板文档人使用的一些
+cocus-url,URL事件URL
+cocus-user,用户有些人参加活动人员，一些发送帮助请求委员会作者文件或事件文件
+cocus-workshop,研讨会活动
+cocus-thing,事物详细事件角色文件人

@@ -1,0 +1,865 @@
+concept,prompt
+confof-administrative_event,Administrative event Event Reviewing results event Registration of participants event Camera Ready event Submission event Reviewing event Administrative event
+confof-administrator,Administrator Person
+confof-assistant,Assistant Person
+confof-author,Author some writes Contribution only writes Contribution Person Contribution
+confof-banquet,Banquet Social event
+confof-camera_ready_event,Camera Ready event Administrative event
+confof-chair_pc,Chair PC Person
+confof-city,City 
+confof-company,Company Organization
+confof-conference,Conference Working event
+confof-contribution,Contribution at least 1 of hasKeyword at least 1 of contactEmail exactly 1 of abstract some dealsWith Topic Thing exactly 1 of hasTitle only dealsWith Topic Short paper Poster Paper Topic Author
+confof-country,Country 
+confof-event,Event Working event Social event Administrative event
+confof-member,Member Participant
+confof-member_pc,Member PC some reviewes Contribution Person only reviewes Contribution only expertOn Topic some expertOn Topic Topic Contribution
+confof-organization,Organization Company University
+confof-paper,Paper Contribution
+confof-participant,Participant Person Member Student Regular
+confof-person,Person some employedBy Organization Thing some hasCountry Country exactly 1 of hasFirstName at least 1 of hasEmail only employedBy Organization at least 1 of hasPostalCode at least 1 of hasStreet exactly 1 of hasSurname some hasCity City Participant Administrator Assistant Scholar Volunteer Author Science Worker Chair PC Member PC Organization
+confof-poster,Poster Contribution
+confof-reception,Reception Social event
+confof-registration_of_participants_event,Registration of participants event Administrative event
+confof-regular,Regular Participant
+confof-reviewing_event,Reviewing event Administrative event
+confof-reviewing_results_event,Reviewing results event Administrative event
+confof-scholar,Scholar Person only studyAt University some studyAt University University
+confof-science_worker,Science Worker Person
+confof-short_paper,Short paper Contribution
+confof-social_event,Social event exactly 1 of defaultChoice exactly 1 of has title exactly 1 of location Event Banquet Reception Trip
+confof-student,Student Participant
+confof-submission_event,Submission event Administrative event
+confof-topic,Topic 
+confof-trip,Trip Social event
+confof-tutorial,Tutorial Working event
+confof-university,University Organization
+confof-volunteer,Volunteer Person
+confof-working_event,Working event some hasTopic Topic exactly 1 of has title exactly 1 of defaultChoice Event exactly 1 of location only hasTopic Topic Tutorial Conference Workshop Administrative event Topic
+confof-workshop,Workshop Working event
+confof-thing,Thing Contribution Person
+edas-academiaorganization,AcademiaOrganization Organization
+edas-academicevent,AcademicEvent ConferenceEvent PaperPresentation TalkEvent OrganizationalMeeting Workshop Call
+edas-acceptrating,AcceptRating ReviewRating
+edas-acceptedpaper,AcceptedPaper Paper PaperPresentation
+edas-accommodationplace,AccommodationPlace Place
+edas-accpetifroomrating,AccpetIfRoomRating ReviewRating
+edas-activepaper,ActivePaper Paper RatedPapers ReviewRating
+edas-antennastopic,AntennasTopic Topic
+edas-attendee,Attendee Person
+edas-author,Author Presenter Paper
+edas-breakevent,BreakEvent NonAcademicEvent MealBreak CoffeeBreak FreeTimeBreak
+edas-cadtopic,CADTopic Topic
+edas-call,Call CallForManuscripts CallForReviews CallForPapers AcademicEvent ConferenceChair or SessionChair or TPCMember
+edas-callformanuscripts,CallForManuscripts Call
+edas-callforpapers,CallForPapers Call
+edas-callforreviews,CallForReviews Call
+edas-closingtalk,ClosingTalk TalkEvent
+edas-coffeebreak,CoffeeBreak BreakEvent
+edas-communicationtheorytopic,CommunicationTheoryTopic Topic
+edas-communicationstopic,CommunicationsTopic Topic
+edas-computerarchitecturetopic,ComputerArchitectureTopic Topic
+edas-computernetworksaapplicationstopic,ComputerNetworksAapplicationsTopic ComputerNetworksTopic
+edas-computernetworksenterprisetopic,ComputerNetworksEnterpriseTopic ComputerNetworksTopic
+edas-computernetworksmanagementtopic,ComputerNetworksManagementTopic ComputerNetworksTopic
+edas-computernetworksmeasurementstopic,ComputerNetworksMeasurementsTopic ComputerNetworksTopic
+edas-computernetworksopticaltopic,ComputerNetworksOpticalTopic ComputerNetworksTopic
+edas-computernetworkssecuritytopic,ComputerNetworksSecurityTopic ComputerNetworksTopic
+edas-computernetworkssensortopic,ComputerNetworksSensorTopic ComputerNetworksTopic
+edas-computernetworksswitchingtopic,ComputerNetworksSwitchingTopic ComputerNetworksTopic
+edas-computernetworkstopic,ComputerNetworksTopic Topic ComputerNetworksEnterpriseTopic ComputerNetworksManagementTopic ComputerNetworksAapplicationsTopic ComputerNetworksSwitchingTopic ComputerNetworksSecurityTopic ComputerNetworksMeasurementsTopic ComputerNetworksSensorTopic ComputerNetworksOpticalTopic
+edas-conference,Conference exactly 1 of hasCountry exactly 1 of hasName at most 1 of manuscriptDueOn at most 1 of startDate exactly 1 of hasTopic at most 1 of paperDueOn at most 1 of registrationDueOn Thing at most 1 of endDate Country Person
+edas-conferencechair,ConferenceChair Person
+edas-conferencedinner,ConferenceDinner MealEvent
+edas-conferenceevent,ConferenceEvent AcademicEvent NonAcademicEvent Person Place Programme
+edas-conferencesession,ConferenceSession 
+edas-conferencevenueplace,ConferenceVenuePlace Place
+edas-contactinformation,ContactInformation 
+edas-country,Country 
+edas-cryptographytopic,CryptographyTopic Topic
+edas-diningplace,DiningPlace Place
+edas-document,Document Paper Review MealMenu SlideSet Programme AcademicEvent or Conference or ConferenceSession or Person
+edas-excursion,Excursion SocialEvent
+edas-freetimebreak,FreeTimeBreak BreakEvent
+edas-governmentorganization,GovernmentOrganization Organization
+edas-industryorganization,IndustryOrganization Organization
+edas-mealbreak,MealBreak BreakEvent
+edas-mealevent,MealEvent NonAcademicEvent ConferenceDinner MealMenu
+edas-mealmenu,MealMenu Document MealEvent
+edas-medicinetopic,MedicineTopic Topic
+edas-meetingroomplace,MeetingRoomPlace Place
+edas-microelectronicstopic,MicroelectronicsTopic Topic
+edas-mobilecomputingtopic,MobileComputingTopic Topic
+edas-multimediatopic,MultimediaTopic Topic
+edas-ngo,NGO Organization
+edas-nonacademicevent,NonAcademicEvent ConferenceEvent BreakEvent MealEvent SocialEvent
+edas-numericalreviewquestion,NumericalReviewQuestion ReviewQuestion
+edas-operatingtopicsystems,OperatingTopicsystems Topic
+edas-organization,Organization GovernmentOrganization NGO AcademiaOrganization IndustryOrganization Sponsorship
+edas-organizationalmeeting,OrganizationalMeeting AcademicEvent
+edas-paper,Paper Document PublishedPaper PendingPaper WithdrawnPaper AcceptedPaper ActivePaper RejectedPaper ConferenceChair or Reviewer or SessionChair or TPCMember Author
+edas-paperpresentation,PaperPresentation AcademicEvent AcceptedPaper
+edas-parallelanddistributedcomputingtopic,ParallelAndDistributedComputingTopic Topic
+edas-pendingpaper,PendingPaper Paper
+edas-performancetopic,PerformanceTopic Topic
+edas-person,Person TPCMember Attendee ConferenceChair SessionChair ConferenceEvent Conference
+edas-personalhistory,PersonalHistory PersonalReviewHistory PersonalPublicationHistory
+edas-personalpublicationhistory,PersonalPublicationHistory PersonalHistory
+edas-personalreviewhistory,PersonalReviewHistory PersonalHistory Reviewer
+edas-place,Place MeetingRoomPlace ConferenceVenuePlace AccommodationPlace DiningPlace ConferenceEvent
+edas-powerlinetransmissiontopic,PowerlineTransmissionTopic Topic
+edas-presenter,Presenter Author
+edas-programme,Programme Document ConferenceEvent
+edas-publishedpaper,PublishedPaper Paper
+edas-radiocommunicationstopic,RadioCommunicationsTopic Topic
+edas-ratedpapers,RatedPapers ActivePaper
+edas-reception,Reception SocialEvent
+edas-rejectrating,RejectRating ReviewRating
+edas-rejectedpaper,RejectedPaper Paper
+edas-review,Review Document
+edas-reviewform,ReviewForm 
+edas-reviewquestion,ReviewQuestion TextualReviewQuestion NumericalReviewQuestion
+edas-reviewrating,ReviewRating AcceptRating AccpetIfRoomRating WeekRejectRating RejectRating
+edas-reviewer,Reviewer PersonalReviewHistory
+edas-satelliteandspacecommunicationstopic,SatelliteAndSpaceCommunicationsTopic Topic
+edas-securitytopic,SecurityTopic Topic
+edas-sessionchair,SessionChair Person
+edas-signalprocessingtopic,SignalProcessingTopic Topic
+edas-singlelevelconference,SingleLevelConference 
+edas-slideset,SlideSet Document
+edas-socialevent,SocialEvent NonAcademicEvent Excursion Reception
+edas-sponsorship,Sponsorship TravelGrant Organization
+edas-tpcmember,TPCMember Person
+edas-talkevent,TalkEvent AcademicEvent ClosingTalk WelcomeTalk
+edas-testonlytopic,TestOnlyTopic Topic
+edas-textualreviewquestion,TextualReviewQuestion ReviewQuestion
+edas-topic,Topic WirelessCommunicationsTopic SatelliteAndSpaceCommunicationsTopic TestOnlyTopic RadioCommunicationsTopic SecurityTopic CryptographyTopic SignalProcessingTopic CommunicationTheoryTopic MedicineTopic PowerlineTransmissionTopic ComputerArchitectureTopic MultimediaTopic ParallelAndDistributedComputingTopic PerformanceTopic CADTopic AntennasTopic MobileComputingTopic OperatingTopicsystems ComputerNetworksTopic CommunicationsTopic MicroelectronicsTopic Conference or Paper
+edas-travelgrant,TravelGrant Sponsorship
+edas-twolevelconference,TwoLevelConference 
+edas-weekrejectrating,WeekRejectRating ReviewRating
+edas-welcometalk,WelcomeTalk TalkEvent
+edas-wirelesscommunicationstopic,WirelessCommunicationsTopic Topic
+edas-withdrawnpaper,WithdrawnPaper Paper
+edas-workshop,Workshop AcademicEvent
+edas-thing,Thing Conference
+conference-abstract,Abstract Extended abstract Paper or Poster or Presentation
+conference-accepted_contribution,Accepted contribution Reviewed contribution Camera ready contribution
+conference-active_conference_participant,Active conference participant Conference participant Conference contributor Invited speaker or Regular author Presentation
+conference-call_for_paper,Call for paper Conference document
+conference-call_for_participation,Call for participation Conference document
+conference-camera_ready_contribution,Camera ready contribution Accepted contribution
+conference-chair,Chair Committee member Committee
+conference-co-chair,Co-chair Committee member Committee
+conference-committee,Committee Steering committee Program committee Organizing committee Chair Co-chair Committee member Conference volume
+conference-committee_member,Committee member Person Chair Co-chair Committee
+conference-conference,Conference Conference volume
+conference-conference_announcement,Conference announcement Conference document
+conference-conference_applicant,Conference applicant Person Registeered applicant
+conference-conference_contribution,Conference contribution Conference document Written contribution Presentation Poster Conference volume
+conference-conference_contributor,Conference contributor Person Regular author Active conference participant Invited speaker
+conference-conference_document,Conference document Call for participation Information for participants Review Call for paper Conference www Conference contribution Conference announcement Person
+conference-conference_fees,Conference fees 
+conference-conference_part,Conference part Workshop Track Tutorial Track-workshop chair Topic Conference volume
+conference-conference_participant,Conference participant Person Passive conference participant Active conference participant
+conference-conference_proceedings,Conference proceedings Publisher
+conference-conference_volume,Conference volume Conference Committee Program committee Steering committee Organizing committee Conference contribution Important dates Conference part Track Tutorial Workshop
+conference-conference_www,Conference www Conference document
+conference-contribution_1th-author,Contribution 1th-author Regular author
+conference-contribution_co-author,Contribution co-author Regular author
+conference-early_paid_applicant,Early paid applicant Paid applicant
+conference-extended_abstract,Extended abstract Regular contribution Abstract
+conference-important_dates,Important dates Conference volume
+conference-information_for_participants,Information for participants Conference document
+conference-invited_speaker,Invited speaker Conference contributor
+conference-invited_talk,Invited talk Presentation
+conference-late_paid_applicant,Late paid applicant Paid applicant
+conference-organization,Organization 
+conference-organizer,Organizer Committee member or Organization Thing
+conference-organizing_committee,Organizing committee Committee Conference volume
+conference-paid_applicant,Paid applicant Registeered applicant Early paid applicant Late paid applicant
+conference-paper,Paper Regular contribution
+conference-passive_conference_participant,Passive conference participant Conference participant
+conference-person,Person Conference applicant Conference contributor Track-workshop chair Committee member Conference participant Reviewer Conference document
+conference-poster,Poster Conference contribution
+conference-presentation,Presentation Conference contribution Invited talk Active conference participant
+conference-program_committee,Program committee Committee Conference volume
+conference-publisher,Publisher Conference proceedings
+conference-registeered_applicant,Registeered applicant Conference applicant Paid applicant
+conference-regular_author,Regular author Conference contributor Contribution 1th-author Contribution co-author
+conference-regular_contribution,Regular contribution Written contribution Extended abstract Paper
+conference-rejected_contribution,Rejected contribution Reviewed contribution
+conference-review,Review only has authors Reviewer Conference document Reviewed contribution
+conference-review_expertise,Review expertise some has a submitted contribution Submitted contribution Thing some belongs to reviewers Reviewer Submitted contribution
+conference-review_preference,Review preference Thing some has a topic or a submission contribution Submitted contribution or Topic some belongs to reviewers Reviewer Submitted contribution or Topic
+conference-reviewed_contribution,Reviewed contribution Submitted contribution Accepted contribution Rejected contribution Review
+conference-reviewer,Reviewer Person Review expertise or Review preference Reviewer
+conference-steering_committee,Steering committee Committee Conference volume
+conference-submitted_contribution,Submitted contribution Written contribution Poster or Regular contribution Reviewed contribution Review expertise
+conference-topic,Topic Review preference Conference part
+conference-track,Track Conference part
+conference-track-workshop_chair,Track-workshop chair Person Conference part
+conference-tutorial,Tutorial Conference part
+conference-workshop,Workshop Conference part
+conference-written_contribution,Written contribution Conference contribution Poster or Regular contribution Submitted contribution Regular contribution
+conference-thing,Thing Review expertise Review preference Organizer
+myreview-acceptedpaper,AcceptedPaper some isRatedBy Review Paper has value Accept for hasStatus some isAcceptedBy Chair Session
+myreview-administrator,Administrator ProgramCommitteeMember Criterion or PaperStatus or Question or ResearchTopic
+myreview-author,Author Person ContactAuthor Paper
+myreview-bookletofabstracts,BookletOfAbstracts OutputDocument
+myreview-cd-rom,CD-ROM OutputDocument
+myreview-chair,Chair ProgramCommitteeMember Paper Reviewer Session OutputDocument Fee or PaymentMode
+myreview-conference,Conference Thing exactly 1 of hasEmail exactly 1 of hasName exactly 1 of hasAcronym
+myreview-conferenceattendant,ConferenceAttendant has value true for paid exactly 1 of hasAdress exactly 1 of hasPhone Person some mustPay Fee Fee
+myreview-conferenceprogram,ConferenceProgram exactly 1 of isProgramOf Thing Slot Conference
+myreview-contactauthor,ContactAuthor Author exactly 1 of hasEmail PaperAbstract
+myreview-criterion,Criterion Thing exactly 1 of hasWeight
+myreview-document,Document PaperAbstract Paper Review Evaluation
+myreview-evaluation,Evaluation Document Review
+myreview-externalreviewer,ExternalReviewer some cooperatesReviewer Reviewer Person Reviewer
+myreview-externalreviewerslist,ExternalReviewersList OutputDocument
+myreview-fee,Fee 
+myreview-indexofauthors,IndexOfAuthors OutputDocument
+myreview-listofabstracts,ListOfAbstracts OutputDocument
+myreview-outputdocument,OutputDocument some isProducedBy Chair Thing ExternalReviewersList IndexOfAuthors BookletOfAbstracts ListOfAbstracts CD-ROM Program PCMembersList Proceedings Chair
+myreview-pcmemberslist,PCMembersList OutputDocument
+myreview-paper,Paper exactly 1 of hasID exactly 1 of hasTitle some hasAuthor Author exactly 1 of hasMainTopic Document exactly 1 of hasAbstract some paperIsSubmittedBy Author AcceptedPaper RejectedPaper PaperAbstract Author ResearchTopic PaperStatus Chair Review Reviewer
+myreview-paperabstract,PaperAbstract Document some abstractIsSubmittedBy ContactAuthor ContactAuthor Paper
+myreview-paperquestion,PaperQuestion Question
+myreview-paperstatus,PaperStatus Paper
+myreview-paymentmode,PaymentMode 
+myreview-person,Person exactly 1 of hasFirstName exactly 1 of hasLastName exactly 1 of hasAffiliation Thing ConferenceAttendant ProgramCommitteeMember ExternalReviewer Author
+myreview-proceedings,Proceedings some includes IndexOfAuthors some includes PCMembersList some includes ExternalReviewersList some includes AcceptedPaper OutputDocument AcceptedPaper or ExternalReviewersList or IndexOfAuthors or PCMembersList
+myreview-program,Program OutputDocument
+myreview-programcommittee,ProgramCommittee some hasMember Administrator Thing some hasMember Chair ProgramCommitteeMember
+myreview-programcommitteemember,ProgramCommitteeMember exactly 1 of hasEmail Person Chair Reviewer Administrator ProgramCommittee
+myreview-question,Question PaperQuestion ReviewQuestion
+myreview-rejectedpaper,RejectedPaper Paper some isRatedBy Review some isRejectedBy Chair has value Reject for hasStatus
+myreview-researchtopic,ResearchTopic Thing some isAssignedBy Administrator
+myreview-review,Review Document exactly 1 of containsEvaluation some isWritenBy Reviewer exactly 1 of rates Evaluation Reviewer Paper
+myreview-reviewquestion,ReviewQuestion Question
+myreview-reviewer,Reviewer ProgramCommitteeMember Paper ExternalReviewer ResearchTopic Review
+myreview-session,Session Thing exactly 1 of isAssociatedTo AcceptedPaper Chair Slot
+myreview-slot,Slot Thing exactly 1 of endsAt exactly 1 of beginsAt exactly 1 of date ConferenceProgram Session
+myreview-thing,Thing ConferenceProgram Person Session ResearchTopic Conference ProgramCommittee Criterion OutputDocument Slot
+sigkdd-acm_sigkdd,ACM SIGKDD some hold Conference some search Sponzor Thing some design Deadline Deadline Conference Sponzor
+sigkdd-abstract,Abstract Document
+sigkdd-author,Author Speaker some notification until Deadline Author notification Author of paper Author of paper student Deadline Author notification Award Paper
+sigkdd-author_of_paper,Author of paper some award Best Applications Paper Award some award Best Research Paper Award Author
+sigkdd-author_of_paper_student,Author of paper student some award Best Student Paper Award Author
+sigkdd-award,Award Best Student Paper Award Best Research Paper Award Best Applications Paper Award
+sigkdd-best_applications_paper_award,Best Applications Paper Award Award
+sigkdd-best_paper_awards_committee,Best Paper Awards Committee Committee
+sigkdd-best_research_paper_award,Best Research Paper Award Award
+sigkdd-best_student_paper_award,Best Student Paper Award Award
+sigkdd-best_student_paper_supporter,Best Student Paper Supporter Sponzor
+sigkdd-bronze_supporter,Bronze Supporter Sponzor
+sigkdd-committee,Committee Program Committee Best Paper Awards Committee Organizing Committee
+sigkdd-conference,Conference ACM SIGKDD
+sigkdd-conference_hall,Conference hall Place
+sigkdd-deadline,Deadline Deadline Paper Submission Deadline Abstract Submission Deadline Author notification ACM SIGKDD
+sigkdd-deadline_abstract_submission,Deadline Abstract Submission Deadline
+sigkdd-deadline_author_notification,Deadline Author notification Deadline
+sigkdd-deadline_paper_submission,Deadline Paper Submission Deadline
+sigkdd-document,Document Abstract Review Paper Speaker Deadline
+sigkdd-exhibitor,Exhibitor Sponzor
+sigkdd-fee,Fee Registration fee Sponzor fee
+sigkdd-general_chair,General Chair Organizator
+sigkdd-gold_supporter,Gold Supporter Sponzor
+sigkdd-hotel,Hotel Place
+sigkdd-invited_speaker,Invited Speaker Speaker
+sigkdd-listener,Listener Person
+sigkdd-main_office,Main office Place
+sigkdd-organizator,Organizator Person Webmaster General Chair Program Committee member Program Chair Organizing Committee member
+sigkdd-organizing_committee,Organizing Committee Committee
+sigkdd-organizing_committee_member,Organizing Committee member Organizator
+sigkdd-paper,Paper Document
+sigkdd-person,Person Thing some can stay in Hotel Organizator Listener Speaker Place Registration fee
+sigkdd-place,Place Hotel Conference hall Main office
+sigkdd-platinum_supporter,Platinum Supporter Sponzor
+sigkdd-program_chair,Program Chair Organizator
+sigkdd-program_committee,Program Committee Committee
+sigkdd-program_committee_member,Program Committee member Organizator
+sigkdd-registration_non-member,Registration Non-Member Registration fee
+sigkdd-registration_sigkdd_member,Registration SIGKDD Member Registration fee
+sigkdd-registration_sigmod_member,Registration SIGMOD Member Registration fee
+sigkdd-registration_student,Registration Student Registration fee
+sigkdd-registration_fee,Registration fee Fee Registration Student Registration SIGMOD Member Registration SIGKDD Member Registration Non-Member Person
+sigkdd-review,Review Document
+sigkdd-silver_supporter,Silver Supporter Sponzor
+sigkdd-speaker,Speaker Person Invited Speaker Author Document
+sigkdd-sponzor,Sponzor Best Student Paper Supporter Gold Supporter Exhibitor Silver Supporter Platinum Supporter Bronze Supporter ACM SIGKDD
+sigkdd-sponzor_fee,Sponzor fee Fee
+sigkdd-webmaster,Webmaster Organizator
+sigkdd-thing,Thing Person ACM SIGKDD
+linklings-abstract,Abstract Content
+linklings-acceptedsubmission,AcceptedSubmission 
+linklings-adminregistered,AdminRegistered exactly 1 of isRegisteredBy some hasRole Role RegisteredPerson
+linklings-administrator,Administrator some setsSetting RoleSettings Role only registers AdminRegistered some setsSetting SubmissionFeatureSettings
+linklings-applicant,Applicant some isRoleInvolvedIn Application Role
+linklings-application,Application SubmissionType some hasRoleInvolved Applicant
+linklings-author,Author some isRoleInvolvedIn Paper Role
+linklings-basicuser,BasicUser some hasPersonAssigned SelfRegistered Role
+linklings-conference,Conference some hasTheme of type xsd:string some hasSession ConferenceSession Event some hasConferenceName of type xsd:string
+linklings-conferencesession,ConferenceSession 
+linklings-content,Content some hasContentType ContentType only hasContentType ContentType FullText Abstract
+linklings-contenttype,ContentType 
+linklings-event,Event some hasTimeInterval TimeInterval some hasPlace Place Session Conference
+linklings-fulltext,FullText Content
+linklings-panel,Panel some hasRoleInvolved Panelist SubmissionType some hasRoleInvolved PanelModerator
+linklings-panelmoderator,PanelModerator some isRoleInvolvedIn Panel Role
+linklings-panelist,Panelist some isRoleInvolvedIn Panel Role
+linklings-paper,Paper some hasRoleInvolved Author SubmissionType
+linklings-person,Person some hasAddress of type xsd:string some hasSureName of type xsd:string some hasFirstName of type xsd:string UnregisteredPerson RegisteredPerson
+linklings-place,Place exactly 1 of hasAddress Room
+linklings-registeredperson,RegisteredPerson Person AdminRegistered SelfRegistered
+linklings-rejectedsubmission,RejectedSubmission 
+linklings-reviewer,Reviewer 
+linklings-role,Role some hasSetting RoleSettings some hasPersonAssigned AdminRegistered Administrator BasicUser Applicant SessionChair PanelModerator Author Panelist
+linklings-rolesettings,RoleSettings Settings some isSetBy Administrator some isSettingFor Role
+linklings-room,Room Place some hasRoomName of type xsd:string exactly 1 of hasHeight exactly 1 of hasLength exactly 1 of hasWidth exactly 1 of hasCapacity
+linklings-selfregistered,SelfRegistered exactly 1 of isRegisteredBy some hasRole BasicUser RegisteredPerson
+linklings-session,Session Event
+linklings-sessionchair,SessionChair Role some hasProgramAssigned ConferenceSession
+linklings-settings,Settings SubmissionFeatureSettings RoleSettings
+linklings-submission,Submission some isTypeOf Submission exactly 1 of hasSubmissionType some hasTitle of type xsd:string some hasContent Content
+linklings-submissionfeaturesettings,SubmissionFeatureSettings Settings some isSetBy Administrator some isSettingFor SubmissionType
+linklings-submissionstatus,SubmissionStatus only isSubmissionStatusOf Submission some isStatusSetBy Reviewer some isSubmissionStatusOf Submission
+linklings-submissiontype,SubmissionType some hasSetting SubmissionFeatureSettings Application Panel Paper
+linklings-timeinterval,TimeInterval exactly 1 of hasStartDate exactly 1 of hasEndDate
+linklings-undecidedsubmission,UndecidedSubmission 
+linklings-unregisteredperson,UnregisteredPerson Person exactly 1 of registers
+pcs-accepted_paper,Accepted paper Paper External Reviewer or Secondary Reviewer
+pcs-administrator,Administrator some generate Electronic proceeding some send Email PERSON some generate Report Electronic proceeding or Report Email
+pcs-author,Author some write paper Paper ConferenceMember Paper
+pcs-cd,CD Electronic proceeding
+pcs-committeemember,CommitteeMember ConferenceMember Secondary Reviewer Primary Reviewer Paper
+pcs-conference,Conference Programme ConferenceMember
+pcs-conferencemember,ConferenceMember PERSON Author CommitteeMember Conference
+pcs-document,DOCUMENT Paper Review PERSON
+pcs-electronic_proceeding,Electronic proceeding Web site CD
+pcs-email,Email Information Invitation Administrator
+pcs-external_reviewer,External Reviewer some write review Review some rate paper Accepted paper PERSON some read paper Accepted paper
+pcs-information,Information Email
+pcs-invitation,Invitation Email
+pcs-person,PERSON Thing some get Information ConferenceMember Administrator External Reviewer Email System DOCUMENT
+pcs-paper,Paper DOCUMENT Rejected paper Accepted paper CommitteeMember Author
+pcs-primary_reviewer,Primary Reviewer some assign review Review CommitteeMember some accept Paper Review
+pcs-programme,Programme Conference
+pcs-rejected_paper,Rejected paper Paper
+pcs-report,Report 
+pcs-review,Review DOCUMENT Primary Reviewer External Reviewer or Secondary Reviewer
+pcs-secondary_reviewer,Secondary Reviewer CommitteeMember some write review Review
+pcs-system,System 
+pcs-web_site,Web site Electronic proceeding
+pcs-thing,Thing PERSON
+paperdyne-abstract,Abstract Contribution File
+paperdyne-abstract_and_paper_submission_phase,Abstract And Paper Submission Phase PhaseOfConferencePreparation
+paperdyne-assignment_phase,Assignment Phase PhaseOfConferencePreparation has value false for allowReview has value false for allowBid has value false for allowUploadCRC has value false for allowSubmitPaper has value false for allowRegister
+paperdyne-author,Author at least 0 of speaks some speaks Paper some creates Contribution Person Co-Author MainAuthor Contribution
+paperdyne-bidding_and_paper_submission_phase,Bidding And Paper Submission Phase has value true for allowSubmitPaper Bidding Phase
+paperdyne-bidding_phase,Bidding Phase PhaseOfConferencePreparation Bidding Without Paper Submission Phase Bidding And Paper Submission Phase
+paperdyne-bidding_without_paper_submission_phase,Bidding Without Paper Submission Phase Bidding Phase has value false for allowSubmitPaper
+paperdyne-blocked_phase,Blocked Phase has value false for allowBid has value false for allowUploadCRC has value false for allowSubmitPaper PhaseOfConferencePreparation has value false for allowReview has value false for allowRegister
+paperdyne-camera_ready_copy,Camera Ready Copy Contribution File
+paperdyne-camera_ready_copy_phase,Camera Ready Copy Phase has value false for allowSubmitPaper has value false for allowBid PhaseOfConferencePreparation has value false for allowRegister has value false for allowReview
+paperdyne-closed_phase,Closed Phase has value false for allowReview has value false for allowSubmitPaper has value false for allowRegister PhaseOfConferencePreparation has value false for allowBid has value false for allowUploadCRC
+paperdyne-co-author,Co-Author Author at least 1 of coauthorsWith some coauthorsWith Co-Author or MainAuthor
+paperdyne-conference,Conference only organisedBy Program Comitee Chair Thing Program Comitee Chair Topic Location
+paperdyne-confirmed_conflict,Confirmed Conflict some relates Paper some blockAssigningToReviewer Paper only visibleBy Reviewer Conflict Of Interest some relates Reviewer
+paperdyne-conflict_of_interest,Conflict Of Interest only managedBy Conflict Rules some visibleBy Program Comitee Chair Thing Hidden Conflict Proposed Conflict Deleted Conflict Self Conflict Confirmed Conflict Pending Proposed Conflict
+paperdyne-conflict_rules,Conflict Rules only manages Conflict Of Interest Thing
+paperdyne-contribution,Contribution Thing some covers Topic some createdBy Author Paper Contribution File Author
+paperdyne-contribution_file,Contribution File Contribution some submittedBy Author Paper File Source Archive Abstract Poster Camera Ready Copy Slides
+paperdyne-deleted_conflict,Deleted Conflict does not relate to blockAssigningToReviewer Paper Conflict Of Interest
+paperdyne-discussion,Discussion 
+paperdyne-e-mail_pc_meeting,E-mail PC Meeting Program Comitee Meeting has value true for isVirtual
+paperdyne-hidden_conflict,Hidden Conflict does not relate to blockAssigningToReviewer Paper Conflict Of Interest only proposedBy Program Comitee Chair
+paperdyne-invitation_of_reviewers_phase,Invitation Of Reviewers Phase PhaseOfConferencePreparation
+paperdyne-location,Location 
+paperdyne-mainauthor,MainAuthor at least 0 of coauthorsWith only coauthorsWith Co-Author at least 0 of proposes Author some submits Contribution File at least 0 of views some proposes Proposed Conflict only views Proposed Conflict
+paperdyne-pc_meeting,PC Meeting has value false for isVirtual Program Comitee Meeting
+paperdyne-paper,Paper Contribution only spokenBy Speaker some isInConflictWith Reviewer at least 0 of isInConflictWith Program Comitee Chair Program Comitee Reviewer
+paperdyne-paper_file,Paper File Contribution File
+paperdyne-pending_proposed_conflict,Pending Proposed Conflict some blockAssigningToReviewer Paper Conflict Of Interest only visibleBy Reviewer Reviewer
+paperdyne-person,Person Author Speaker Program Comitee Chair Reviewer
+paperdyne-phaseofconferencepreparation,PhaseOfConferencePreparation Closed Phase Bidding Phase Review Phase Assignment Phase Setup Phase Invitation Of Reviewers Phase Blocked Phase Abstract And Paper Submission Phase Camera Ready Copy Phase
+paperdyne-poster,Poster Contribution File
+paperdyne-program_comitee,Program Comitee Thing some hasMembers Program Comitee Chair some hasMembers Reviewer Paper
+paperdyne-program_comitee_chair,Program Comitee Chair Person some organises Conference some memberOf Program Comitee some views Conflict Of Interest some organises Program Comitee Meeting at least 0 of views Paper Reviewer Conference Program Comitee PhaseOfConferencePreparation
+paperdyne-program_comitee_meeting,Program Comitee Meeting Thing only takesPlace Location some contains Discussion E-mail PC Meeting PC Meeting
+paperdyne-proposed_conflict,Proposed Conflict only visibleBy Author some proposedBy MainAuthor some blockAssigningToReviewer Paper Conflict Of Interest
+paperdyne-review,Review some judges Paper some createdBy Reviewer Thing
+paperdyne-review_phase,Review Phase has value false for allowSubmitPaper has value false for allowBid PhaseOfConferencePreparation has value false for allowRegister
+paperdyne-reviewer,Reviewer some memberOf Program Comitee only hasConflictType Confirmed Conflict or Pending Proposed Conflict at least 0 of hasConflictType at least 0 of isInConflictWith some submits Review some creates Review some isInConflictWith Paper Person some views Confirmed Conflict or Pending Proposed Conflict at least 0 of views Program Comitee Chair Paper Pending Proposed Conflict
+paperdyne-self_conflict,Self Conflict Conflict Of Interest only visibleBy both MainAuthor and Reviewer some blockAssigningToReviewer Paper
+paperdyne-setup_phase,Setup Phase has value false for allowSubmitPaper PhaseOfConferencePreparation has value false for allowRegister has value false for allowBid has value false for allowReview has value false for allowUploadCRC
+paperdyne-slides,Slides Contribution File
+paperdyne-source_archive,Source Archive Contribution File
+paperdyne-speaker,Speaker Person at least 1 of speaks some speaks Paper
+paperdyne-topic,Topic some coveredBy Contribution Thing
+paperdyne-thing,Thing Review Conflict Rules Program Comitee Contribution Conflict Of Interest Conference Program Comitee Meeting Topic
+openconf-adobe_pdf,Adobe PDF Format
+openconf-advocate,Advocate Advocated Paper
+openconf-advocated_paper,Advocated Paper Advocate
+openconf-author,Author some writes Paper Paper People Contact Author Paper
+openconf-balanced_theory_and_practice,Balanced Theory and Practice Paper Categorization
+openconf-clarity_to_present_understanding,Clarity to Present Understanding Overall Value
+openconf-classic_papers,Classic Papers Topics
+openconf-clear_accept,Clear Accept Reccommendation
+openconf-clear_reject,Clear Reject Reccommendation
+openconf-committees,Committees Domain Topic
+openconf-computer_science,Computer Science Topics
+openconf-conference_program,Conference Program Program chair Planed Paper
+openconf-contact_author,Contact Author Author Submitted Paper
+openconf-corel_word_perfect,Corel Word Perfect Format
+openconf-domain_topic,Domain Topic Paper People Committees
+openconf-format,Format Value Partition Adobe PDF PostScript Corel Word Perfect Text RTF HTML MS Word
+openconf-html,HTML Format
+openconf-high,High Reviewer Famliliarity
+openconf-highly_practical,Highly Practical Paper Categorization
+openconf-highly_theoretical,Highly Theoretical Paper Categorization
+openconf-humour,Humour Topics
+openconf-long_bool,Long bool 
+openconf-low,Low Reviewer Famliliarity
+openconf-ms_word,MS Word Format
+openconf-marginal_tend_to_accept,Marginal Tend to Accept Reccommendation
+openconf-marginal_tend_to_reject,Marginal Tend to Reject Reccommendation
+openconf-member,Member People
+openconf-moderate,Moderate Reviewer Famliliarity
+openconf-must_accept,Must Accept Reccommendation
+openconf-networking,Networking Topics
+openconf-new_information,New Information Overall Value
+openconf-new_perspective_issue_problem_solving,New Perspective Issue Problem Solving Overall Value
+openconf-not_much,Not Much Overall Value
+openconf-other,Other Overall Value
+openconf-overall_value,Overall Value Review Values Other Not Much New Information New Perspective Issue Problem Solving Clarity to Present Understanding Valuable Confirmation of Present Knowledge
+openconf-paper,Paper Domain Topic some is written by Author Submitted Paper Author
+openconf-paper_categorization,Paper Categorization Review Values Highly Practical Tends Towards Theoretical Balanced Theory and Practice Tends Towards Practical Highly Theoretical
+openconf-paper_file,Paper File Format
+openconf-paper_review,Paper Review Reviewer Long bool Paper Categorization Overall Value Reccommendation
+openconf-people,People Domain Topic Author Member
+openconf-planed_paper,Planed Paper Conference Program
+openconf-portable_reject,Portable Reject Reccommendation
+openconf-postscript,PostScript Format
+openconf-program_committee,Program Committee 
+openconf-program_chair,Program chair Conference Program
+openconf-programming,Programming Topics
+openconf-rfc,RFC Topics
+openconf-rtf,RTF Format
+openconf-reccommendation,Reccommendation Review Values Must Accept Clear Accept Clear Reject Portable Reject Marginal Tend to Reject Marginal Tend to Accept
+openconf-result_of_advocate,Result of Advocate 
+openconf-review_committee,Review Committee 
+openconf-review_values,Review Values Value Partition Reccommendation Overall Value Paper Categorization
+openconf-reviewed_paper,Reviewed Paper 
+openconf-reviewer,Reviewer Paper Review
+openconf-reviewer_famliliarity,Reviewer Famliliarity High Moderate Low
+openconf-submitted_paper,Submitted Paper some has been sent by Contact Author Paper some is stored in Paper File Contact Author Paper File
+openconf-tends_towards_practical,Tends Towards Practical Paper Categorization
+openconf-tends_towards_theoretical,Tends Towards Theoretical Paper Categorization
+openconf-text,Text Format
+openconf-topics,Topics Value Partition RFC Programming Networking Humour Classic Papers Computer Science
+openconf-valuable_confirmation_of_present_knowledge,Valuable Confirmation of Present Knowledge Overall Value
+openconf-value_partition,Value Partition Topics Format Review Values
+cmt-acceptance,Acceptance Decision
+cmt-administrator,Administrator User Paper ProgramCommitteeMember Reviewer Conference
+cmt-associatedchair,AssociatedChair ConferenceMember
+cmt-author,Author ConferenceMember User Co-author AuthorNotReviewer Paper
+cmt-authornotreviewer,AuthorNotReviewer Author
+cmt-bid,Bid Reviewer
+cmt-chairman,Chairman Person
+cmt-co-author,Co-author Author Paper
+cmt-conference,Conference exactly 1 of name at least 1 of date Thing exactly 1 of reviewsPerPaper Administrator ConferenceMember
+cmt-conferencechair,ConferenceChair ConferenceMember
+cmt-conferencemember,ConferenceMember Person AssociatedChair Author Reviewer ConferenceChair ProgramCommitteeMember Conference
+cmt-decision,Decision Rejection Acceptance
+cmt-document,Document Paper Review
+cmt-externalreviewer,ExternalReviewer Person exactly 1 of assignedByReviewer Reviewer
+cmt-meta-review,Meta-Review Review
+cmt-meta-reviewer,Meta-Reviewer Reviewer
+cmt-paper,Paper at least 0 of hasDecision at least 1 of readByReviewer Document at most 1 of readByMeta-Reviewer at most 1 of hasDecision PaperAbstract PaperFullVersion Administrator Reviewer Author Bid Co-author Decision SubjectArea Meta-Reviewer
+cmt-paperabstract,PaperAbstract Paper
+cmt-paperfullversion,PaperFullVersion Paper
+cmt-person,Person ProgramCommitteeMember Chairman User ConferenceMember ExternalReviewer Document
+cmt-preference,Preference 
+cmt-programcommittee,ProgramCommittee ProgramCommitteeMember
+cmt-programcommitteechair,ProgramCommitteeChair ProgramCommitteeMember Review
+cmt-programcommitteemember,ProgramCommitteeMember Person ConferenceMember ProgramCommitteeChair Administrator ProgramCommittee
+cmt-rejection,Rejection Decision
+cmt-review,Review Document Meta-Review Reviewer
+cmt-reviewer,Reviewer User ConferenceMember Meta-Reviewer Bid ExternalReviewer Administrator Paper Review
+cmt-subjectarea,SubjectArea 
+cmt-user,User Person Administrator Reviewer Author
+cmt-thing,Thing Conference
+iasted-accepting_manuscript,Accepting manuscript Activity before conference
+iasted-activity,Activity Conference activity Activity after conference Activity before conference Time Place or Time
+iasted-activity_after_conference,Activity after conference Activity some is held after Conference days Full day tour Departure
+iasted-activity_before_conference,Activity before conference some is held before Conference days Activity Renting Receiving manuscript Research Accepting manuscript Refusing manuscript
+iasted-audiovisual_equipment,Audiovisual equipment some is designed for Listener some is situated in Session room Item some is used by Speaker Video cassette player LCD projector Computer Overhead projector
+iasted-author,Author some prepare Transparency some give Brief introduction for Session chair Speaker Tutorial speaker Lecturer Author cd proceedings included Plenary lecture speaker Author book proceedings included
+iasted-author_attendee_book_registration_fee,Author attendee book registration fee Registration fee some is paid for Book proceeding
+iasted-author_attendee_cd_registration_fee,Author attendee cd registration fee some is paid for Cd proceening Registration fee
+iasted-author_book_proceedings_included,Author book proceedings included Author some obtain Book proceeding
+iasted-author_cd_proceedings_included,Author cd proceedings included some obtain Cd proceening Author
+iasted-author_information_form,Author information form Form some is sent after Deadline for notification of acceptance
+iasted-bank_transfer,Bank transfer Payment document
+iasted-book_proceeding,Book proceeding Publication
+iasted-brief_introduction_for_session_chair,Brief introduction for Session chair some is given to Session chair some is given by Author Document
+iasted-building,Building Place Presenter university Conference hotel Conference restaurant Presenter house Conference building Conference airport Sponsor company house
+iasted-camera_ready_manuscript_deadline,Camera ready manuscript deadline Deadline
+iasted-car,Car Transport vehicle
+iasted-card,Card Item Credit card
+iasted-cd_proceening,Cd proceening Publication
+iasted-cheque,Cheque Payment document
+iasted-city,City some is situated in State Thing Conference city Presenter city Sponsor city Trip city
+iasted-coctail_reception,Coctail reception some is designed for Delegate Conference activity
+iasted-coffee_break,Coffee break some is designed for Delegate Conference activity
+iasted-computer,Computer Audiovisual equipment
+iasted-conference_hiker,Conference Hiker Delegate
+iasted-conference_activity,Conference activity some is held in Conference days some is held in Conference state Activity Welcome address Coctail reception Presentation Technic activity Coffee break Lecture Registration Social program Introduction
+iasted-conference_airport,Conference airport some is situated in Conference city some is situated in Conference state Building
+iasted-conference_building,Conference building some is situated in Conference city some is occupied by Delegate some is situated in Conference state Building
+iasted-conference_city,Conference city some is visited by Delegate City
+iasted-conference_days,Conference days some is designed for Delegate Time One conference day
+iasted-conference_hall,Conference hall some is situated in Conference building Place
+iasted-conference_hotel,Conference hotel some is situated in Conference city Building some is designed for Hotel presenter some is situated in Conference state
+iasted-conference_restaurant,Conference restaurant some is occupied by Delegate Building some is situated in Conference city some is situated in Conference state
+iasted-conference_state,Conference state State some is visited by Delegate
+iasted-credit_card,Credit card Card some is designed for Fee or Sponzorship or Tax
+iasted-currency,Currency 
+iasted-deadline,Deadline some is designed for Delegate Time Camera ready manuscript deadline Registation deadline Submissions deadline Deadline for notification of acceptance Deadline hotel reservation
+iasted-deadline_for_notification_of_acceptance,Deadline for notification of acceptance Deadline
+iasted-deadline_hotel_reservation,Deadline hotel reservation Deadline
+iasted-delegate,Delegate some send Registration form some obtain Invitation letter some occupy Presenter city some need Viza Person some occupy Presenter house some occupy Presenter state some pay Registration fee Speaker Listener Technical commitee IASTED member Conference Hiker Session chair One day presenter IASTED non member Non speaker Hotel presenter
+iasted-departure,Departure Activity after conference
+iasted-departure_tax,Departure tax some is designed for Departure Tax
+iasted-dinner_banquet,Dinner banquet Social program some is designed for not One day presenter
+iasted-document,Document Item Submission Form Transparency Brief introduction for Session chair Payment document Mailing list Viza Record of attendance Invitation letter Review
+iasted-double_hotel_room,Double hotel room Hotel room
+iasted-fee,Fee some is paid with Credit card or Payment document Money Registration fee Hotel fee Fee for extra trip
+iasted-fee_for_extra_trip,Fee for extra trip some is paid for Full day tour Fee some is paid by Conference Hiker
+iasted-final_manuscript,Final manuscript some go through Accepting manuscript Submission
+iasted-form,Form some is given to Delegate Document Registration form Author information form Hotel registration form
+iasted-full_day_tour,Full day tour some is designed for Delegate Activity after conference some is held in Trip day some is held in Trip city
+iasted-hotel_fee,Hotel fee some is paid by Hotel presenter Fee
+iasted-hotel_presenter,Hotel presenter both some occupy Conference hotel and some pay Hotel fee Delegate
+iasted-hotel_registration_form,Hotel registration form some is sent before Deadline hotel reservation Form
+iasted-hotel_room,Hotel room some is situated in Conference hotel some is designed for Hotel presenter Place Single hotel room Double hotel room
+iasted-iasted_member,IASTED member Delegate
+iasted-iasted_non_member,IASTED non member Delegate
+iasted-initial_manuscipt,Initial manuscipt Submission some go through Refusing manuscript
+iasted-introduction,Introduction Conference activity Introduction of speaker
+iasted-introduction_of_speaker,Introduction of speaker Introduction
+iasted-invitation_letter,Invitation letter some is designed for Delegate Document
+iasted-item,Item Audiovisual equipment Card Document Transport vehicle Publication Activity Person Item Time Activity or Money
+iasted-lcd_projector,LCD projector Audiovisual equipment
+iasted-lecture,Lecture Conference activity some is designed for Listener Tutorial Plenary lecture Session
+iasted-lecturer,Lecturer some speak in Session room Author Student lecturer Worker lecturer
+iasted-listener,Listener Delegate some is present in Conference hall or Session room some sign Record of attendance
+iasted-mailing_list,Mailing list Document some is designed for Delegate
+iasted-main_office,Main office Place
+iasted-memeber_registration_fee,Memeber registration fee some is designed for IASTED member Registration fee
+iasted-modelling,Modelling Research
+iasted-money,Money Tax Sponzorship Tip Fee Person Activity or Item Building Item
+iasted-non_speaker,Non speaker Delegate Student non speaker Worker non speaker
+iasted-nonauthor_registration_fee,Nonauthor registration fee some is designed for Non speaker Registration fee
+iasted-nonmember_registration_fee,Nonmember registration fee Registration fee some is designed for IASTED non member
+iasted-one_conference_day,One conference day Conference days
+iasted-one_day_presenter,One day presenter Delegate
+iasted-overhead_projector,Overhead projector Audiovisual equipment
+iasted-payment_document,Payment document some is designed for Fee or Tax Document Bank transfer Cheque
+iasted-person,Person Delegate Sponsor Activity or Item Time Place or Time Item Building or City or State Money
+iasted-place,Place Thing some is situated in Conference city some is situated in Conference state Session room Hotel room Main office Building Conference hall Item
+iasted-plenary_lecture,Plenary lecture Lecture
+iasted-plenary_lecture_speaker,Plenary lecture speaker Author some speak in Conference hall
+iasted-powerpoint_presentation,PowerPoint presentation Presentation
+iasted-presentation,Presentation Conference activity Video presentation PowerPoint presentation
+iasted-presenter_city,Presenter city some is occupied by Delegate City
+iasted-presenter_house,Presenter house Building some is situated in Presenter state some is situated in Presenter city some is occupied by Delegate
+iasted-presenter_state,Presenter state some is occupied by Delegate State
+iasted-presenter_university,Presenter university some is situated in Presenter city Building some is situated in Presenter state
+iasted-publication,Publication Item some is made from Final manuscript Book proceeding Cd proceening
+iasted-receiving_manuscript,Receiving manuscript Activity before conference
+iasted-record_of_attendance,Record of attendance some is situated in Session room some is signed by Listener Document
+iasted-refusing_manuscript,Refusing manuscript Activity before conference
+iasted-registation_deadline,Registation deadline Deadline
+iasted-registration,Registration some is designed for Delegate Conference activity
+iasted-registration_fee,Registration fee Fee some is paid for Conference activity some is paid by Delegate Nonauthor registration fee Nonmember registration fee Student registration fee Author attendee cd registration fee Memeber registration fee Author attendee book registration fee
+iasted-registration_form,Registration form Form some is sent by Delegate some is sent before Registation deadline
+iasted-renting,Renting Activity before conference some is connected with Car
+iasted-research,Research Activity before conference Modelling Simulating
+iasted-review,Review some is writen by Reviewer Document
+iasted-reviewer,Reviewer Speaker
+iasted-session,Session some is given by Author or Session chair Lecture some is held in Session room Speaker lecture
+iasted-session_chair,Session chair Delegate some obtain Brief introduction for Session chair
+iasted-session_room,Session room some is situated in Conference building some is equipped by Audiovisual equipment Place
+iasted-shuttle_bus,Shuttle bus Transport vehicle
+iasted-simulating,Simulating Research
+iasted-single_hotel_room,Single hotel room Hotel room
+iasted-social_program,Social program Conference activity some is designed for Delegate Dinner banquet
+iasted-speaker,Speaker Delegate some give Lecture some write Final manuscript Reviewer Author
+iasted-speaker_lecture,Speaker lecture Session
+iasted-sponsor,Sponsor some occupy Sponsor city Person some occupy Sponsor company house some occupy Sponsor state
+iasted-sponsor_city,Sponsor city City some is occupied by Sponsor
+iasted-sponsor_company_house,Sponsor company house some is occupied by Sponsor some is situated in Sponsor state some is situated in Sponsor city Building
+iasted-sponsor_state,Sponsor state State
+iasted-sponzorship,Sponzorship Money
+iasted-state,State Sponsor state Conference state Presenter state
+iasted-student_lecturer,Student lecturer Lecturer
+iasted-student_non_speaker,Student non speaker Non speaker
+iasted-student_registration_fee,Student registration fee some is designed for Student lecturer or Student non speaker Registration fee
+iasted-submission,Submission Document some is writen by Speaker Initial manuscipt Final manuscript
+iasted-submissions_deadline,Submissions deadline Deadline
+iasted-tax,Tax Money Value added tax Departure tax
+iasted-taxi,Taxi Transport vehicle
+iasted-technic_activity,Technic activity Conference activity some is given by Technical commitee
+iasted-technical_commitee,Technical commitee Delegate some go through Technic activity
+iasted-time,Time Trip day Conference days Deadline
+iasted-time_zone,Time zone 
+iasted-tip,Tip some is paid in Conference restaurant Money
+iasted-transparency,Transparency Document some is prepared by Speaker
+iasted-transport_vehicle,Transport vehicle Item some is used by Delegate Van Taxi Shuttle bus Car
+iasted-trip_city,Trip city some is visited by Conference Hiker City
+iasted-trip_day,Trip day some is designed for Delegate Time
+iasted-tutorial,Tutorial Lecture
+iasted-tutorial_speaker,Tutorial speaker Author some speak in Conference hall
+iasted-value_added_tax,Value added tax Tax
+iasted-van,Van Transport vehicle
+iasted-video_cassette_player,Video cassette player Audiovisual equipment
+iasted-video_presentation,Video presentation Presentation
+iasted-viza,Viza Document some is needed for Delegate
+iasted-welcome_address,Welcome address Conference activity
+iasted-worker_lecturer,Worker lecturer Lecturer
+iasted-worker_non_speaker,Worker non speaker Non speaker
+iasted-thing,Thing Place City
+crs_dr-abstract,abstract document article
+crs_dr-article,article document author abstract reviewer
+crs_dr-author,author person article
+crs_dr-chair,chair person reviewer program
+crs_dr-conference,conference event program
+crs_dr-document,document review abstract article
+crs_dr-event,event conference pc meeting session
+crs_dr-participant,participant person conference
+crs_dr-pc_meeting,pc meeting event
+crs_dr-person,person author participant reviewer chair
+crs_dr-program,program session chair
+crs_dr-review,review document reviewer
+crs_dr-reviewer,reviewer person review
+crs_dr-session,session event
+micro-activity,Activity some isConductedBy Author Thing some isPartOf Conference Lecture Tutorial WorkShop Topic Conference
+micro-activitysubmissionform,ActivitySubmissionForm some hasAuthor Author Thing only isSubmittedBy Author Paper TutorialProposal WorksopProposal Author
+micro-author,Author some isAuthorOf ActivitySubmissionForm some conducts Activity at least 0 of conducts at least 0 of conflictsWith Person some conflictsWith Author or Organizer or OutsideReferee Lecture or Tutorial or WorkShop Author or Organizer or OutsideReferee ActivitySubmissionForm
+micro-committeemember,CommitteeMember Organizer some isMemberOf OrganizingCommittee
+micro-conference,Conference Thing only isOrganizedBy OrganizingCommittee OrganizingCommittee Location
+micro-doubleblindreview,DoubleBlindReview Thing only isExecutedBy OutsideReferee or Reviewer only appliesTo Lecture Reviewer
+micro-financechair,FinanceChair OrganizingCommittee
+micro-generalcochair,GeneralCoChair OrganizingCommittee
+micro-lecture,Lecture Activity TraditionalLecture QualitatvieLecture
+micro-location,Location 
+micro-organizer,Organizer Person CommitteeMember Reviewer
+micro-organizingcommittee,OrganizingCommittee some organizes Conference only hasMembers CommitteeMember Thing PublicityWebChair PublicationsChair FinanceChair StudentAdvocate WorkshopTutorialChair PaperSubmissionChair RegistrationChair SteeringCommittee ProgramCoChair GeneralCoChair Conference
+micro-outsidereferee,OutsideReferee Person
+micro-paper,Paper only appliesTo Lecture ActivitySubmissionForm
+micro-papersubmissionchair,PaperSubmissionChair OrganizingCommittee
+micro-person,Person OutsideReferee Organizer Author
+micro-programcochair,ProgramCoChair OrganizingCommittee
+micro-publicationschair,PublicationsChair OrganizingCommittee
+micro-publicitywebchair,PublicityWebChair OrganizingCommittee
+micro-qualitatvielecture,"QualitatvieLecture some hasTopic one of Compilers, Microarchitecture, or Systems Lecture"
+micro-registrationchair,RegistrationChair OrganizingCommittee
+micro-reviewer,Reviewer some executes DoubleBlindReview Organizer DoubleBlindReview
+micro-steeringcommittee,SteeringCommittee OrganizingCommittee
+micro-studentadvocate,StudentAdvocate OrganizingCommittee
+micro-topic,Topic Activity
+micro-traditionallecture,TraditionalLecture Lecture some hasTopic one of ForwardLookingIdea
+micro-tutorial,Tutorial Activity
+micro-tutorialproposal,TutorialProposal only appliesTo Tutorial ActivitySubmissionForm
+micro-workshop,WorkShop Activity
+micro-workshoptutorialchair,WorkshopTutorialChair OrganizingCommittee
+micro-worksopproposal,WorksopProposal only appliesTo WorkShop ActivitySubmissionForm
+micro-thing,Thing Conference DoubleBlindReview OrganizingCommittee ActivitySubmissionForm Activity
+ekaw-abstract,Abstract Document Tutorial Abstract Invited Talk Abstract
+ekaw-academic_institution,Academic Institution Organisation Research Institute University
+ekaw-accepted_paper,Accepted Paper Evaluated Paper some hasReview Positive Review
+ekaw-agency_staff_member,Agency Staff Member Person
+ekaw-assigned_paper,Assigned Paper Submitted Paper at least 3 of hasReviewer Evaluated Paper
+ekaw-camera_ready_paper,Camera Ready Paper some writtenBy Conference Participant Paper some updatedVersionOf Accepted Paper
+ekaw-conference,Conference Scientific Event
+ekaw-conference_banquet,Conference Banquet Social Event
+ekaw-conference_paper,Conference Paper Paper
+ekaw-conference_participant,Conference Participant Person Tutorial Chair Presenter OC Member Early-Registered Participant Demo Chair Late-Registered Participant PC Chair Workshop Chair Session Chair
+ekaw-conference_proceedings,Conference Proceedings Proceedings only volumeContainsPaper Conference Paper or Invited Talk Abstract
+ekaw-conference_session,Conference Session some partOfEvent Conference Session Industrial Session
+ekaw-conference_trip,Conference Trip Social Event
+ekaw-contributed_talk,Contributed Talk Individual Presentation some presentationOfPaper Camera Ready Paper exactly 1 of presentationOfPaper
+ekaw-demo_chair,Demo Chair Conference Participant
+ekaw-demo_paper,Demo Paper Paper
+ekaw-demo_session,Demo Session Session
+ekaw-document,Document Paper Flyer Abstract Review Programme Brochure Web Site Multi-author Volume Document Person
+ekaw-early-registered_participant,Early-Registered Participant Conference Participant
+ekaw-evaluated_paper,Evaluated Paper Assigned Paper at least 3 of hasReview Accepted Paper Rejected Paper
+ekaw-event,Event Scientific Event Social Event Programme Brochure or Web Site Event Location Organisation or Person
+ekaw-flyer,Flyer Document
+ekaw-individual_presentation,Individual Presentation Scientific Event Invited Talk Contributed Talk Tutorial Abstract or Paper
+ekaw-industrial_paper,Industrial Paper Paper
+ekaw-industrial_session,Industrial Session Conference Session
+ekaw-invited_speaker,Invited Speaker Presenter
+ekaw-invited_talk,Invited Talk Individual Presentation
+ekaw-invited_talk_abstract,Invited Talk Abstract Abstract
+ekaw-late-registered_participant,Late-Registered Participant Conference Participant
+ekaw-location,Location Event
+ekaw-multi-author_volume,Multi-author Volume Document Proceedings
+ekaw-negative_review,Negative Review Review
+ekaw-neutral_review,Neutral Review Review
+ekaw-oc_chair,OC Chair OC Member
+ekaw-oc_member,OC Member Conference Participant OC Chair
+ekaw-organisation,Organisation Academic Institution Organising Agency Proceedings Publisher Flyer or Multi-author Volume or Programme Brochure or Web Site
+ekaw-organising_agency,Organising Agency Organisation
+ekaw-pc_chair,PC Chair PC Member Conference Participant
+ekaw-pc_member,PC Member Possible Reviewer Tutorial Chair PC Chair Workshop Chair SC Member Session Chair
+ekaw-paper,Paper Document Demo Paper Submitted Paper Conference Paper Regular Paper Workshop Paper Poster Paper Industrial Paper Camera Ready Paper Review Possible Reviewer
+ekaw-paper_author,Paper Author Person
+ekaw-person,Person Possible Reviewer Conference Participant Student Paper Author Agency Staff Member Document
+ekaw-positive_review,Positive Review Review
+ekaw-possible_reviewer,Possible Reviewer Person PC Member Paper
+ekaw-poster_paper,Poster Paper Paper
+ekaw-poster_session,Poster Session Session
+ekaw-presenter,Presenter Conference Participant Invited Speaker
+ekaw-proceedings,Proceedings Multi-author Volume at least 1 of volumeContainsPaper only volumeContainsPaper Accepted Paper or Invited Talk Abstract Conference Proceedings
+ekaw-proceedings_publisher,Proceedings Publisher Organisation
+ekaw-programme_brochure,Programme Brochure Document
+ekaw-regular_paper,Regular Paper Paper
+ekaw-regular_session,Regular Session Session
+ekaw-rejected_paper,Rejected Paper Evaluated Paper
+ekaw-research_institute,Research Institute Academic Institution
+ekaw-research_topic,Research Topic Event or Paper
+ekaw-review,Review Document Positive Review Neutral Review Negative Review Paper Possible Reviewer
+ekaw-sc_member,SC Member PC Member
+ekaw-scientific_event,Scientific Event Event Conference Session Track Workshop Individual Presentation
+ekaw-session,Session only partOfEvent Conference or Track or Workshop Scientific Event some hasEvent Individual Presentation some partOfEvent Conference or Workshop Poster Session Workshop Session Conference Session Demo Session Regular Session
+ekaw-session_chair,Session Chair Conference Participant PC Member
+ekaw-social_event,Social Event Event Conference Trip Conference Banquet
+ekaw-student,Student Person
+ekaw-submitted_paper,Submitted Paper Paper Assigned Paper
+ekaw-track,Track Scientific Event
+ekaw-tutorial,Tutorial Individual Presentation
+ekaw-tutorial_abstract,Tutorial Abstract Abstract
+ekaw-tutorial_chair,Tutorial Chair PC Member Conference Participant
+ekaw-university,University Academic Institution
+ekaw-web_site,Web Site Document
+ekaw-workshop,Workshop Scientific Event
+ekaw-workshop_chair,Workshop Chair PC Member Conference Participant
+ekaw-workshop_paper,Workshop Paper Paper
+ekaw-workshop_session,Workshop Session Session
+ekaw-thing,Thing 
+confious-accepted_paper,Accepted Paper paper
+confious-automatic_paper_assignment,Automatic Paper Assignment paper assignment
+confious-chair_url,Chair URL URL
+confious-contact_person,Contact Person some is concerned confernce setup conference setup human
+confious-contact_person_url,Contact Person URL URL
+confious-manual_paper_assignment,Manual Paper Assignment paper assignment
+confious-program_committee_chair,Program Committee Chair some performs activity managing of conference process some is concerned confernce setup conference setup human
+confious-program_committee_member,Program Committee member human some has topic of interest topic some is concerned confernce setup conference setup Senior Program Committee member Regular Program Committee member
+confious-regular_program_committee_member,Regular Program Committee member Program Committee member
+confious-regular_reviewer_url,Regular Reviewer URL URL
+confious-rejected_paper,Rejected Paper paper
+confious-senior_program_committee_member,Senior Program Committee member Program Committee member at most 4 of supervises
+confious-senior_reviewer_url,Senior Reviewer URL URL
+confious-url,URL Thing some is concerned confernce setup conference setup Chair URL Contact Person URL Regular Reviewer URL Senior Reviewer URL
+confious-undecided_paper,Undecided Paper paper some goes through reviewing proces
+confious-abstract_of_paper,abstract of paper article some is concerned paper paper
+confious-abstract_submission_date,abstract submission date date end date of abstract submission start date of abstract submission
+confious-acceptance_notification_email,acceptance notification email notification email only is concerned paper Accepted Paper
+confious-activity,activity notification submission process paper assignment managing of conference process bidding of reviewer reviewing proces intensity article activity human
+confious-article,article notification email review form summary of reviews group email review paper abstract of paper classification activity human
+confious-bidding_of_reviewer,bidding of reviewer activity only is performed by Program Committee member some has intensity intensity some is concerned paper paper exactly 1 of is performed by
+confious-camera-ready_submission_date,camera-ready submission date date start date of camera-ready submission end date of camera-ready submission
+confious-classification,classification 
+confious-conference,conference Thing some is concerned confernce setup conference setup some is in phase phase of conference phase of conference
+confious-conference_setup,conference setup some is made by Program Committee Chair Thing some sets end date of abstract submission end date of abstract submission some sets end date full paper submission end date of full paper submission some sets SPC URL Senior Reviewer URL some sets member SPC Senior Program Committee member some sets end date of conference end date of conference some sets member CP Contact Person only is made by Program Committee Chair some is concerned conference conference some sets member PCC Program Committee Chair some sets member RPC Regular Program Committee member some sets date of notification date of notification some sets start date of camera ready submission start date of camera-ready submission some sets start date or full paper submission start date of full paper submission some includes topic topic some sets RPC URL Regular Reviewer URL some sets start date of conference start date of conference some sets end date of camera ready submission end date of camera-ready submission some sets start date of abstract submission start date of abstract submission some sets CP URL Contact Person URL some sets Chair URL Chair URL topic human URL date
+confious-date,date some is concerned confernce setup conference setup Thing camera-ready submission date abstract submission date date of conference date of notification full paper submission date
+confious-date_of_conference,date of conference date start date of conference end date of conference
+confious-date_of_notification,date of notification date
+confious-end_date_of_abstract_submission,end date of abstract submission abstract submission date
+confious-end_date_of_camera-ready_submission,end date of camera-ready submission camera-ready submission date
+confious-end_date_of_conference,end date of conference date of conference
+confious-end_date_of_full_paper_submission,end date of full paper submission full paper submission date
+confious-full_paper_submission_date,full paper submission date date start date of full paper submission end date of full paper submission
+confious-group_email,group email some is concerned reviewing proces article some is sent to human
+confious-human,human Contact Person Program Committee member Program Committee Chair topic article institute activity
+confious-institute,institute 
+confious-intensity,intensity 
+confious-lower_tier_reviewing_process,lower tier reviewing process some has result review form some is supervised by Senior Program Committee member some is checked in upper tier reviewing process some has result review reviewing proces some is followed by upper tier reviewing process exactly 1 of is checked in some is performed by Regular Program Committee member
+confious-managing_of_conference_process,managing of conference process some is concerned conference conference activity some is performed by Program Committee Chair only is performed by Program Committee Chair
+confious-notification,notification at least 1 of is performed by some is concerned paper paper only is performed by Program Committee Chair activity exactly 1 of has result
+confious-notification_email,notification email some is sent to Contact Person article some is concerned paper paper some has author Program Committee Chair acceptance notification email rejection notification email
+confious-paper,paper only has author Contact Person article at least 1 of has author some is concerned conference conference Accepted Paper Undecided Paper Rejected Paper
+confious-paper_assignment,paper assignment some is concerned paper Undecided Paper only is performed by Program Committee Chair some is followed by lower tier reviewing process activity at least 1 of is performed by Manual Paper Assignment Automatic Paper Assignment Program Committee member
+confious-phase_of_conference,phase of conference 
+confious-rejection_notification_email,rejection notification email only is concerned paper Rejected Paper notification email
+confious-review,review exactly 1 of is created in only is created in lower tier reviewing process some has author Program Committee member some is concerned paper paper exactly 1 of gives classification article
+confious-review_form,review form some structure created by Program Committee Chair exactly 1 of is concerned review some has author Program Committee member only structure created by Program Committee Chair article some is created in lower tier reviewing process exactly 1 of is created in
+confious-reviewing_proces,reviewing proces activity some is concerned paper paper upper tier reviewing process lower tier reviewing process
+confious-start_date_of_abstract_submission,start date of abstract submission abstract submission date
+confious-start_date_of_camera-ready_submission,start date of camera-ready submission camera-ready submission date
+confious-start_date_of_conference,start date of conference date of conference
+confious-start_date_of_full_paper_submission,start date of full paper submission full paper submission date
+confious-submission_process,submission process activity exactly 1 of is performed by some is followed by paper assignment some is performed by Contact Person some is concerned paper Undecided Paper
+confious-summary_of_reviews,summary of reviews exactly 1 of is created in some has author Senior Program Committee member article some is created in upper tier reviewing process some is concerned review review
+confious-topic,topic 
+confious-upper_tier_reviewing_process,upper tier reviewing process only is performed by Senior Program Committee member reviewing proces at least 1 of is performed by some is followed by notification some has result summary of reviews
+confious-thing,Thing URL date conference setup conference
+cocus-abstract,Abstract Paper
+cocus-account,Account Person
+cocus-activity,Activity Registration Event Creation Request Event Approval Document or Event Person
+cocus-admin_role,Admin Role Role
+cocus-administrator,Administrator some execute Event Approval Person some approve Event Event Role
+cocus-approval_email,Approval Email Email Event
+cocus-assistance,Assistance Help Request
+cocus-author,Author some remove Author User some execute Event Creation some add Author some recieve Approval Email or Rejection Email Corresponding Author
+cocus-author_role,Author Role Role
+cocus-committe_role,Committe Role Role
+cocus-committee,Committee User
+cocus-conference,Conference Event
+cocus-corresponding_author,Corresponding Author Author
+cocus-description,Description 
+cocus-detail,Detail Thing some modified by Person
+cocus-document,Document Thing some used by Person Submission Paper Email Template Review User Person
+cocus-email,Email some recieved by Person Document Group Email Notification Email Rejection Email Approval Email
+cocus-email_template,Email Template Event Setup
+cocus-event,Event Thing some conists of Event Tracks some confirmed by Approval Email Symposium Workshop Conference Administrator Approval Email Event Tracks Event Setup
+cocus-event_approval,Event Approval Activity only has result Approval Email
+cocus-event_creation,Event Creation some has result Event Activity
+cocus-event_setup,Event Setup Event Tracks Email Template Submission Template Research Topic Paper Typologies Review Form Event
+cocus-event_tracks,Event Tracks Event Setup
+cocus-event_url,Event URL some concerned Event URL Event
+cocus-feature_request,Feature Request Help Request
+cocus-full_paper,Full Paper Paper
+cocus-group_email,Group Email Email
+cocus-head_role,Head Role Role
+cocus-help_request,Help Request Request Feature Request Misc Assistance
+cocus-inforamtion,Inforamtion 
+cocus-invited_paper,Invited Paper Paper
+cocus-misc,Misc Help Request
+cocus-notification_email,Notification Email Email
+cocus-paper,Paper Document some submited  by Corresponding Author Short Paper Full Paper Invited Paper Abstract
+cocus-paper_typologies,Paper Typologies Event Setup
+cocus-person,Person Thing some get Inforamtion Administrator User Person Activity or Role Inforamtion Document or Person Account or Detail Account Activity Event Document
+cocus-preview,Preview Review Form
+cocus-registration,Registration Activity some has result User
+cocus-rejection_email,Rejection Email Email
+cocus-request,Request Activity Help Request
+cocus-research_topic,Research Topic Event Setup
+cocus-review,Review Document
+cocus-review_form,Review Form Event Setup Review Form Setup Preview
+cocus-review_form_setup,Review Form Setup Review Form
+cocus-reviewer_role,Reviewer Role Role
+cocus-role,Role Thing some assigned by Administrator Admin Role Committe Role Reviewer Role Author Role Head Role Administrator
+cocus-short_paper,Short Paper Paper
+cocus-submission,Submission Document
+cocus-submission_template,Submission Template Event Setup
+cocus-symposium,Symposium Event
+cocus-template,Template Document some used by Person
+cocus-url,URL Event URL
+cocus-user,User some take part in Event some send Help Request Person Author Committee Document or Event Document
+cocus-workshop,Workshop Event
+cocus-thing,Thing Detail Role Document Person Event
