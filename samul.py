@@ -29,17 +29,19 @@ Current constraints:
     - If testing a small corpus, be careful not to feed a large ground truth file because there may be a mismatch between the ground truth 
         counts and the number in the activations dataset leading to a crash. The best way around this is to include only ground truth 
         values that are in the corpus
+    - There are 3 built-in SAEs that can be used by changing the congif value of sparse_autoencoder to either 
+        google/gemma-2-2b, google/gemma-3-1b-pt or openai/gpt2
 
     
-Code Version 1.0
-Latest Change: 04/01/2026
+Code Version 1.1
+Latest Change: 23/02/2026
 
 '''
 
 
 # load config
 config_file = "config.json"
-with open(config_file, "r") as f:
+with open(config_file, "r") as f:   
     config = json.load(f)
 
 process_validation = config["process_validation"]
@@ -178,7 +180,7 @@ if process_translations:
         os.makedirs(translations_folder)
 
     for lang in languages:
-        translate_from_source(lang, data_source_file, translations_folder, inspect_folder, log_file, delete_existing, inspect_bool, inspect_concepts)
+        translate_from_source(lang, data_source_file, translations_folder, log_file, delete_existing)
 
 
 
@@ -201,14 +203,17 @@ if process_activations:
         os.makedirs(activations_folder)
 
     # original language file
-    calculate_activations(thisProcess, log_file, s_autoencoder, activations_layer_list, layer_locations, data_source_file, translations_folder, activations_folder, delete_existing, languages, inspect_bool, inspect_concepts, inspect_folder, activation_function, filerepo, layer_sparsity_type)
+    calculate_activations(thisProcess, log_file, s_autoencoder, activations_layer_list, layer_locations, data_source_file, translations_folder, activations_folder, delete_existing, languages, activation_function, filerepo, layer_sparsity_type)
 
+    
     # translated language files
+
+    # add here an automated check for the translated files already in the source data folder
+
     for file in Path(translations_folder).iterdir():
         if '.DS_Store' not in file.name:
             fullFile = translations_folder + '/' + file.name
-            calculate_activations(thisProcess, log_file, s_autoencoder, activations_layer_list, layer_locations, fullFile, translations_folder, activations_folder, delete_existing, languages, inspect_bool, inspect_concepts, inspect_folder, activation_function, filerepo, layer_sparsity_type)
-
+            calculate_activations(thisProcess, log_file, s_autoencoder, activations_layer_list, layer_locations, fullFile, translations_folder, activations_folder, delete_existing, languages, activation_function, filerepo, layer_sparsity_type)
 
 
 
@@ -232,7 +237,7 @@ if process_averages:
     if s_autoencoder == 'openai/gpt2':
         activation_function = ''
     
-    calculate_averages(thisProcess, log_file, averages_folder, activations_folder, concept_pos_in_file, languages, inspect_bool, inspect_concepts, inspect_folder, activation_function, average_function)
+    calculate_averages(thisProcess, log_file, averages_folder, activations_folder, concept_pos_in_file, languages, activation_function, average_function)
 
 
 # ============================= differences =============================
@@ -267,7 +272,7 @@ if process_similarities:
         msg = "Ground truth variable is continuous. Using the non-cartesian method of difference calculation."
         update_log(log_file, msg)
     
-    calculate_similarities(thisProcess, log_file, ground_truth_file, languages, concept_pos_in_file, inspect_bool, inspect_concepts, inspect_folder, similarities_folder, averages_folder, activations_folder, data_start_file, binary_target, average_function)
+    calculate_similarities(thisProcess, log_file, ground_truth_file, languages, concept_pos_in_file, similarities_folder, averages_folder, activations_folder, data_start_file, binary_target, average_function)
 
 
 # ============================= correlations =============================
@@ -278,7 +283,7 @@ if process_correlations:
     msg = "starting process = " + thisProcess
     update_log(log_file, msg)
 
-    calculate_correlations(thisProcess, log_file, similarities_folder, this_exp_folder)
+    calculate_correlations(thisProcess, log_file, similarities_folder, this_exp_folder, languages)
 
 
 # ============================= inspect =============================
@@ -299,5 +304,5 @@ if inspect_bool:
         os.makedirs(inspect_folder)
 
 
-    calculate_inspect(thisProcess, log_file, source_data_folder + '/' + data_start_file, translations_folder, ground_truth_file, activations_folder, averages_folder, similarities_folder, inspect_concepts, inspect_folder)
+    calculate_inspect(thisProcess, log_file, source_data_folder + '/' + data_start_file, translations_folder, ground_truth_file, activations_folder, averages_folder, similarities_folder, inspect_concepts, inspect_folder, languages)
 
