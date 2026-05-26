@@ -197,7 +197,7 @@ def generalized_mean_ids(t1, t2, p: float = 1.0):
     return out
 
 
-def calculate_averages(thisProcess, log_file, averages_folders, activations_folder, concept_pos_in_file, languages, inspect, inspect_concepts, inspect_folder, activation_function, average_function):
+def calculate_averages(thisProcess, log_file, averages_folders, activations_folder, concept_pos_in_file, languages, activation_function, average_function):
 
     try:
 
@@ -235,11 +235,11 @@ def calculate_averages(thisProcess, log_file, averages_folders, activations_fold
                         if '.DS_Store' in file:
                             do_nothing = 1
                         elif '-' + l + '--' in file:
-                            ffile = in_dir2 + '/' + file
+                            ffile = in_dir2 + '/' + file.lower()
                             ta = [l,ffile]
                             filenameArr.append(ta)
                         elif '-' + languages[0] + '--' not in file and '-' + languages[1] + '--' not in file:
-                            ffile = in_dir2 + '/' + file
+                            ffile = in_dir2 + '/' + file.lower()
                             ta = ['en',ffile]
                             if ta not in filenameArr:
                                 filenameArr.append(ta)
@@ -293,32 +293,43 @@ def calculate_averages(thisProcess, log_file, averages_folders, activations_fold
 
                                 np.save(newFileName, avg_tensor.numpy())
 
-                                if inspect:
-                                    for inspect_concept in inspect_concepts:
-                                        ifilename = inspect_folder + '/inspect--' + inspect_concept + '.txt'
-                                        ifilename2 = inspect_folder + '/inspect--tensors.csv'
+                                '''
+                                for f1Y in lang2:
 
-                                        if inspect_concept == f1.split('--')[3]:
-                                            with open(ifilename, 'a') as file:
-                                                file.write("\n")
-                                                file.write("=========================================================")
-                                                file.write("\n")
-                                                file.write("average tensor for " + activation_function + " (" + newFileName + "): " + "\n" )
-                                                for snp in avg_tensor:
-                                                    '''
-                                                    if 'e+' in str(snp):
-                                                        ccpt = int(str(snp).split(', ')[0].replace('tensor(','').replace('[',''))  
-                                                    else:
-                                                        ccpt = str(snp).split(', ')[0].replace('tensor(','').replace('.0000','')
-                                                    actval = str(snp).split(', ')[1].replace(')','')
-                                                    '''
-                                                    val1, val2 = snp.tolist()
-                                                    file.write(str(int(val1)).strip() + ', ' + str(int(val2)).strip())
-                                                    file.write("\n")
+                                    f3 = f1Y[1]
+                                    concept3 = f3.split('--')[concept_pos_in_file]
 
-                                            sourceCorpusLang = newFileName.split('/')[-1].split('--')[1]
-                                            append_tensor_to_file_as_csv(ifilename2, 'average', sourceCorpusLang, inspect_concept, act_dir.name, activation_function, average_function, avg_tensor, '', '', '')
+                                    same = False
+                                    if concept1 == concept3:
+                                        same = True
 
+                                    if same:
+
+                                        t3 = np.load(f3)
+
+                                        newFileName = f1.lower().replace("-" + languages[0].lower() + "--", "-avg--").replace(".npy", "--avg-" + average_function + "--" + languages[0] + "-v-" + languages[1] + "-v-en.npy").replace(in_dir.lower(), out_dir_rep.lower())
+                                        if Path(newFileName).exists():
+                                            print("File exists")
+                                        else:
+                                            if average_function == 'intersection_mean':
+                                                avg_tensor = average_common_ids(t1,t2)
+                                                avg_tensor_2 = average_common_ids(avg_tensor,t3)
+                                            elif average_function == 'full_mean':
+                                                avg_tensor = average_all_ids(t1,t2)
+                                                avg_tensor_2 = average_common_ids(avg_tensor,t3)
+                                            elif average_function == 'full_mean_2':
+                                                avg_tensor = average_all_ids_2(t1,t2)
+                                                avg_tensor_2 = average_common_ids(avg_tensor,t3)
+                                            elif average_function == 'harmonic_mean':
+                                                avg_tensor = generalized_mean_ids(t1, t2, p=-1) # harmonic mean
+                                                avg_tensor_2 = average_common_ids(avg_tensor,t3)
+                                            elif average_function == 'geometric_mean':
+                                                avg_tensor = generalized_mean_ids(t1, t2, p=0) # geometric mean
+                                                avg_tensor_2 = average_common_ids(avg_tensor,t3)
+
+                                            np.save(newFileName, avg_tensor_2.numpy())
+                                '''
+                    
                     for f1X in lang2:
 
                         f1 = f1X[1]
@@ -348,26 +359,6 @@ def calculate_averages(thisProcess, log_file, averages_folders, activations_fold
                                     avg_tensor = generalized_mean_ids(t1, t2, p=0) # geometric mean
 
                                 np.save(newFileName, avg_tensor.numpy())
-
-                                if inspect:
-                                    for inspect_concept in inspect_concepts:
-                                        ifilename = inspect_folder + '/inspect--' + inspect_concept + '.txt'
-
-                                        if inspect_concept == f1.split('--')[3]:
-                                            with open(ifilename, 'a') as file:
-                                                file.write("\n")
-                                                file.write("=========================================================")
-                                                file.write("\n")
-                                                file.write("average tensor for agg_top1 (" + newFileName + "): " + "\n" )
-                                                for snp in avg_tensor:
-                                                    val1, val2 = snp.tolist()
-                                                    file.write(str(int(val1)).strip() + ', ' + str(int(val2)).strip())
-                                                    #ccpt = str(snp).split('. ')[0]
-                                                    #actval = str(snp).split('. ')[1]
-                                                    #file.write(ccpt.strip() + ', ' + actval.strip())
-                                                    file.write("\n")
-                                            sourceCorpusLang = newFileName.split('/')[-1].split('--')[1]
-                                            append_tensor_to_file_as_csv(ifilename2, 'average', sourceCorpusLang, inspect_concept, act_dir.name, activation_function, average_function, avg_tensor, '', '', '')
 
 
         update_log(log_file, thisProcess + ": end")
