@@ -8,18 +8,16 @@ import datetime
 import traceback
 from pathlib import Path
 from utils import *
-
+from sklearn.metrics import roc_auc_score
+        
 
 # ----------------------------
 # Helpers
 # ----------------------------
 
 def safe_auc(y_true: np.ndarray, y_score: np.ndarray) -> float:
-    try:
-        from sklearn.metrics import roc_auc_score
-        return float(roc_auc_score(y_true, y_score))
-    except Exception:
-        return float("nan")
+    return float(roc_auc_score(y_true, y_score))
+
 
 def cohens_d_two_groups(pos: np.ndarray, neg: np.ndarray) -> float:
     n1, n0 = len(pos), len(neg)
@@ -34,7 +32,7 @@ def cohens_d_two_groups(pos: np.ndarray, neg: np.ndarray) -> float:
 # Main
 # ----------------------------
 
-def calculate_correlations(thisProcess, log_file, similarities_folder, this_exp_folder):
+def calculate_correlations(thisProcess, log_file, similarities_folder, this_exp_folder, langs):
 
     try:
         # ---- Read config ----
@@ -77,13 +75,10 @@ def calculate_correlations(thisProcess, log_file, similarities_folder, this_exp_
 
                 language = ''
 
-                if '--en--' in sim_file.name:
-                    language = 'en'
-                elif '--fr--' in sim_file.name:
-                    language = 'fr'
-                elif '--zh-CN--' in sim_file.name:
-                    language = 'zh'
-                    
+                for l in langs:
+                    if '--' + l.lower() + '--' in sim_file.name.lower():
+                        language = l.lower()
+
 
                 activation_method = ''
 
@@ -170,11 +165,19 @@ def calculate_correlations(thisProcess, log_file, similarities_folder, this_exp_
                             # Point-biserial (equiv to Pearson(similarity, binary_label))
                             try:
                                 pb_r, pb_p = pointbiserialr(gt.astype(int), similarity.astype(float))
-                            except Exception:
+                            except Exception as e:
+                                update_log(log_file, thisProcess + ": Exception = " + str(e))
+                                update_log(log_file, thisProcess + ": Exception = " + traceback.format_exc())
+                                print("ERROR:", e)
                                 pb_r = pb_p = np.nan
 
                             # ROC-AUC
-                            auc = safe_auc(gt.astype(int), similarity.astype(float))
+                            try:
+                                auc = safe_auc(gt.astype(int), similarity.astype(float))
+                            except Exception as e:
+                                update_log(log_file, thisProcess + ": Exception = " + str(e))
+                                update_log(log_file, thisProcess + ": Exception = " + traceback.format_exc())
+                                print("ERROR:", e)
 
                             # Cohen's d
                             pos = similarity[gt == 1]
