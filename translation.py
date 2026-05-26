@@ -6,7 +6,7 @@ from utils import *
 from pathlib import Path
 
 
-def translate_from_source(lang, source_data_file, translated_folder, inspect_folder, log_file, delete_existing, inspect, inspect_concepts):
+def translate_from_source(lang, source_data_file, translated_folder, log_file, delete_existing):
 
     try:
 
@@ -42,21 +42,8 @@ def translate_from_source(lang, source_data_file, translated_folder, inspect_fol
             translated_word = asyncio.run(translate_word(p, lang))
             print(translated_word)
             if translated_word[0:9] != 'ERROR >> ':
-                output_t = output_t + concepts[cn] + "," + translated_word.replace(","," ") + "\n"
+                output_t = output_t + concepts[cn] + "," + translated_word.replace(","," ").replace("\n"," ") + "\n"
 
-                if inspect:
-                    for inspect_concept in inspect_concepts:
-                        #ifilename = inspect_folder + '/inspect--' + inspect_concept + '.txt'
-                        ifilename2 = inspect_folder + '/inspect--prompts.txt'
-                        
-                        if inspect_concept == concepts[cn]:
-                            #with open(ifilename, 'a') as file:
-                            #    file.write("concept value (orig): " + p + "\n")
-                            #    file.write("concept value (" + lang + "): " + translated_word + "\n")
-
-                            with open(ifilename2, 'a') as file:
-                                file.write("concept: " + str(inspect_concept) + ", value (orig): " + p + "\n")
-                                file.write("concept: " + str(inspect_concept) + ", value (" + lang + "): " + translated_word + "\n")
 
 
             cn = cn + 1
