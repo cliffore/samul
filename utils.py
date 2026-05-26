@@ -5,7 +5,7 @@ import numpy as np
 import datetime
 from pathlib import Path
 import pandas as pd
-
+import os
 
 def create_log(thisProcess, log_file):
     print(log_file + " doesn't exist.")
@@ -95,36 +95,22 @@ def print_tensor_nicely(t):
     for row in t:
         print(f"[{int(row[0])}, {row[1]:.9f}]")
 
+
+
 def return_tensor_nicely(t):
     r = ""
     for row in t:
         r = r + f"[{int(row[0])}, {row[1]:.9f}]" + "\n"
     return r
 
-# reformat a column in a csv file to be lowercase
 
-#source_data_file = '/Users/cliff/Documents/PhD/dev/samul_v2/source_data/ontology_classes_summary_full-fr.csv'
-#new_source_data_file = '/Users/cliff/Documents/PhD/dev/samul_v2/source_data/ontology_classes_summary_full-fr-2.csv'
-#lower_case_attribute(source_data_file, 'concept', new_source_data_file)
-
-
-# read a npy file tensor and print to screen
-
-#folder = '/Users/Shared/Documents/PhD/dev/year3/pramantha/samul_v1/ex1/activations_oaei/top-1-per-token/layer_2__width_16k__average_l0_13__params.npz'
-#filename = folder + '/' + 'google_gemma-2-2b--ontology_classes_summary_full_2-en--467--cmt-chairman--layer_2__width_16k__average_l0_13--agg_top1.npy'
-#read_npy(filename)
-
-
-# folder = '/Users/Shared/Documents/PhD/dev/year2/pramantha/millms_old9 copy/data-processing/experiments/ex_32/data'
-# summary--9--confOf-Conference--layer_11-width_16k-average_l0_22-params.npz.npy
-# summary-fr--9--confOf-Conference--layer_11-width_16k-average_l0_22-params.npz.npy - 1 extra token?! 
-# weighted_avg--fve--summary--9--confOf-Conference--layer_11-width_16k-average_l0_22-params.npz.npy
-
-# folder = '/Users/Shared/Documents/PhD/dev/year2/pramantha/millms_old9 copy/data-processing/experiments/ex_69/data'
-# summary-zh--9--confOf-Conference--layer_11-width_16k-average_l0_22-params.npz.npy
-# weighted_avg--fve--summary--9--confOf-Conference--layer_11-width_16k-average_l0_22-params.npz.npy
-
-
-# cmt-chairman	conference-chair	0.109621279
+def renameFiles(folder, from_str, to_str):
+    for filename in os.listdir(folder):
+        if from_str in filename:
+            old_path = os.path.join(folder, filename)
+            new_filename = filename.replace(from_str, to_str)
+            new_path = os.path.join(folder, new_filename)
+            os.rename(old_path, new_path)
+            print(f"Renamed: {filename} -> {new_filename}")
 
 
