@@ -1,0 +1,492 @@
+concept,prompt
+conference-abstract,classes associées abstraites : propriétés abstraites étendues : possède un résumé  est la 1ème partie de
+conference-accepted_contribution,Classes liées aux contributions acceptées : contribution prête à photographier  contribution rejetée  contribution révisée
+conference-active_conference_participant,classes associées aux participants actifs à la conférence : contributeur à la conférence  participant à la conférence  conférencier invité  participant passif à la conférence  auteur régulier propriétés : donne des présentations  est donné par
+conference-call_for_paper,appel à cours liés à la communication : document de conférence
+conference-call_for_participation,appel à participation cours liés : document de conférence
+conference-camera_ready_contribution,Classes liées à la contribution prête à l'emploi : contribution acceptée
+conference-chair,classes liées à la présidence : propriétés des membres du comité : a un président de comité  a été président d'un comité de
+conference-co-chair,classes liées au coprésident : propriétés des membres du comité : a un coprésident du comité  a été coprésident du comité de
+conference-committee,classes liées aux comités : comité d'organisation  comité de programme  comité directeur propriétés : a un président de comité  a un coprésident de comité  a un comité  a des membres  a été coprésident de comité  a été président de comité de  a été comité de  a été membre de
+conference-committee_member,classes liées aux membres du comité : président  coprésident  personne propriétés : a des membres  était membre de
+conference-conference,cours liés à la conférence : volume de la conférence
+conference-conference_announcement,Classes liées à l'annonce de la conférence : document de la conférence
+conference-conference_applicant,Classes liées aux candidats à la conférence : personne  candidat inscrit
+conference-conference_contribution,Classes liées aux contributions à la conférence : document de conférence  conférence invitée  affiche  présentation  contribution régulière  propriétés de contribution écrite : a des contributions  est soumise à
+conference-conference_contributor,Classes liées aux contributeurs à la conférence : participant actif à la conférence  conférencier invité  personne  auteur régulier
+conference-conference_document,Classes liées aux documents de conférence : appel à communication  appel à participation  annonce de conférence  contribution à la conférence  www de la conférence  informations pour les participants  propriétés de la revue : contribue  a une date de publication  a des auteurs
+conference-conference_fees,frais de conférence
+conference-conference_part,classes liées aux parties de conférence : piste  didacticiel  propriétés de l'atelier : possède une chaise de didacticiel d'atelier de piste  possède un sujet de didacticiel d'atelier de piste  comporte des parties  est un topis de parties de conférence  fait partie de volumes de conférence  était une chaise d'atelier de piste de
+conference-conference_participant,Classes liées aux participants à la conférence : participant actif à la conférence  participant passif à la conférence  personne
+conference-conference_proceedings,propriétés des actes de conférence : a un éditeur  a un volume  a un isbn  des numéros
+conference-conference_volume,classes liées aux volumes de conférence : propriétés de la conférence : appartiennent à un volume de conférence  a un comité  a un emplacement  a un comité de programme  a un comité directeur  a un comité d'organisation  a des contributions  a des dates importantes  a des parties  a des pistes  a des tutoriels  a des ateliers  fait partie des volumes de conférence  est soumis à  était un comité de  était un comité de programme de  était un comité directeur de  était un comité organisateur de
+conference-conference_www,conférence www classes associées : propriétés du document de conférence : possède une URL
+conference-contribution_1th-author,contribution 1ème auteur classes connexes : contribution co-auteur  auteur régulier
+conference-contribution_co-author,contribution co-auteur classes connexes : contribution 1ème auteur  auteur régulier
+conference-early_paid_applicant,Cours liés aux candidats payés tôt : candidat payé en retard  candidat payé
+conference-extended_abstract,cours connexes sur les résumés étendus : résumé  article  contribution régulière
+conference-important_dates,propriétés des dates importantes : appartiennent à un volume de conférence  ont des dates importantes  sont une date d'annonce d'acceptation  sont une date de soumission de l'article prêt à photographier  sont une date de soumission de l'article complet  sont une date de début  sont une date de soumission du résumé  sont une date de fin
+conference-information_for_participants,informations pour les participants cours liés : document de conférence
+conference-invited_speaker,cours liés aux conférenciers invités : contributeur à la conférence
+conference-invited_talk,cours liés aux conférences invitées : poster  présentation  contribution régulière
+conference-late_paid_applicant,Cours liés aux candidats payés en retard : candidat payé en avance  candidat payé
+conference-organization,organisation
+conference-organizer,classes liées à l'organisateur : membre du comité  organisation
+conference-organizing_committee,classes liées au comité organisateur : comité  comité de programme  comité directeur propriétés : a un comité organisateur  était un comité organisateur de
+conference-paid_applicant,cours liés aux candidats rémunérés : candidat payé en avance  candidat payé en retard  candidat enregistré
+conference-paper,cours liés à l'article : résumé étendu  contribution régulière
+conference-passive_conference_participant,Classes liées aux participants passifs à la conférence : participant actif à la conférence  participant à la conférence
+conference-person,classes liées à la personne : membre du comité  candidat à la conférence  contributeur à la conférence  participant à la conférence  évaluateur  suivi des propriétés du président d'atelier : contribue  a un e-mail  a des auteurs  a un sexe  a le prénom  a le nom de famille
+conference-poster,cours liés aux posters : contribution à une conférence  conférence invitée  contribution régulière
+conference-presentation,cours liés à la présentation : contribution à une conférence  conférence invitée propriétés : donne des présentations  est donné par
+conference-program_committee,classes liées au comité de programme : comité  comité d'organisation  comité directeur propriétés : a un comité de programme  était un comité de programme de
+conference-publisher,propriétés de l'éditeur : a un éditeur  des numéros
+conference-registeered_applicant,Cours liés aux candidats inscrits : candidat à une conférence  candidat rémunéré
+conference-regular_author,Cours réguliers liés à l'auteur : contributeur à la conférence  contribution 1ème auteur  contribution co-auteur
+conference-regular_contribution,cours liés aux contributions régulières : résumé étendu  conférence invitée  article  affiche  contribution écrite
+conference-rejected_contribution,classes liées aux contributions rejetées : contribution acceptée  contribution révisée
+conference-review,classes associées aux révisions : propriétés du document de conférence : a une révision  a des auteurs  des critiques
+conference-review_expertise,Propriétés de l'expertise en révision : appartient aux réviseurs  possède une expertise en révision  a une contribution soumise  possède une expertise
+conference-review_preference,Propriétés des préférences de révision : appartient à une référence de révision  appartient aux évaluateurs  possède un diplôme  a un sujet ou une contribution de soumission  s'est vu attribuer une référence de révision
+conference-reviewed_contribution,Classes associées aux contributions examinées : contribution acceptée  contribution rejetée  propriétés de la contribution soumise : a une révision  évalue
+conference-reviewer,classes liées aux réviseurs : propriétés de la personne : appartient aux réviseurs  possède une référence ou une expertise en matière de révision  invité par  invite les co-réviseurs
+conference-steering_committee,classes liées au comité directeur : comité  comité organisateur  propriétés du comité de programme : a un comité directeur  était un comité directeur de
+conference-submitted_contribution,classes liées à la contribution soumise : affiche  contribution régulière  contribution révisée  propriétés de la contribution écrite : possède une expertise en matière de révision  a une contribution soumise
+conference-topic,propriétés du sujet : appartient à une référence de révision  possède un sujet de didacticiel d'atelier de suivi  est un sujet de parties de conférence
+conference-track,suivre les cours associés : partie conférence  tutoriel  propriétés de l'atelier : contient des pistes
+conference-track-workshop_chair,Classes liées à la chaise d'atelier de piste : propriétés de la personne : possède une chaise de didacticiel d'atelier de piste  était une chaise d'atelier de piste de
+conference-tutorial,Classes liées au didacticiel : partie de conférence  piste  propriétés de l'atelier : contient des didacticiels
+conference-workshop,classes liées à l'atelier : partie conférence  piste  propriétés du didacticiel : comporte des ateliers
+conference-written_contribution,Cours liés aux contributions écrites : contribution à une conférence  affiche  contribution régulière  contribution soumise
+cmt-acceptance,cours liés à l'acceptation : décision  rejet
+cmt-administrator,classes liées à l'administrateur : propriétés utilisateur : accepter le papier  accepté par  ajouter un membre du comité de programme  ajouté par  attribuer un réviseur  attribué par l'administrateur  détails saisis par  activer la réunion virtuelle  saisir les détails de la conférence  saisir les critères de révision  finaliser l'attribution du papier  manifestes de courrier imprimés imprimés par  attribution du papier finalisé par  outils d'attribution du papier exécutés par  imprimer les manifestes de courrier papier  rejeter le papier  rejeté par  critères de révision saisis par  enchère du réviseur lancée par  exécuter les outils d'attribution du papier  définir le nombre maximum de documents  lancer les enchères des réviseurs  réunion virtuelle activée par
+cmt-associatedchair,classes associées à la chaise associée : président de conférence  membre de conférence
+cmt-author,classes liées à l'auteur : auteur non critique  co-auteur  membre de la conférence  propriétés de l'utilisateur : a un auteur  soumettre un article  rédiger un article
+cmt-authornotreviewer,Cours liés à l'auteur et non au réviseur : auteur  membre du comité de programme  réviseur
+cmt-bid,classes liées à l'offre : conférence  décision  document  personne  préférence  propriétés du comité de programme : ajuster l'offre  ajusté par  a enchéri
+cmt-chairman,classes liées au président : président associé  président de conférence  personne  président du comité de programme
+cmt-co-author,classes liées au co-auteur : propriétés de l'auteur : co-écrire un article  a un co-auteur
+cmt-conference,Classes liées à la conférence : offre  décision  document  personne  préférence  propriétés du comité de programme : accepte les soumissions sur papier  date  détails saisis par  activer la réunion virtuelle  saisir les détails de la conférence  saisir les critères de révision  finaliser l'affectation des documents  les manifestes d'envoi sur papier imprimés par  a un membre de la conférence  l'URL du logo  le membre de la conférence  le nom  l'affectation des documents finalisée par  les outils d'attribution des documents gérés par  imprimer les manifestes d'envoi sur papier  les critères d'examen entrés par  l'enchère des évaluateurs a commencé par  les critiques par article  exécuter les outils d'attribution des articles  site URL  lancer les enchères des évaluateurs  réunion virtuelle activée par
+cmt-conferencechair,Classes liées à la chaise de conférence : chaise associée  membre de la conférence
+cmt-conferencemember,Classes liées aux membres de la conférence : président associé  auteur  président de la conférence  personne  membre du comité de programme  réviseur propriétés : a un membre de la conférence  membre de la conférence
+cmt-decision,classes liées à la décision : acceptation  offre  conférence  document  personne  préférence  comité de programme  rejet propriétés : a une décision
+cmt-document,classes liées au document : offre  conférence  décision  article  personne  préférence  comité de programme  examen propriétés : a un conflit d'intérêts
+cmt-externalreviewer,classes associées au réviseur externe : personne  propriétés du réviseur : affecter un réviseur externe  attribuées par le réviseur
+cmt-meta-review,classes liées à la méta-revue : révision
+cmt-meta-reviewer,Classes liées au méta-réviseur : propriétés du réviseur : lues par le méta-réviseur
+cmt-paper,classes liées à l'article : document  résumé de l'article  version complète de l'article  propriétés de la révision : accepter l'article  accepté par  attribué à  co-rédiger l'article  a un auteur  a été attribué  a proposé  a un co-auteur  a une décision  a un domaine  marque un conflit d'intérêt  identifiant de l'article  lu par le méta-réviseur  lu par le réviseur  lu l'article  rejeter l'article  rejeté par  soumettre l'article  titre  rédiger l'article
+cmt-paperabstract,cours connexes sur le résumé papier : papier
+cmt-paperfullversion,version papier complète cours connexes : papier
+cmt-person,classes liées à la personne : candidature  président  conférence  membre de la conférence  décision  document  évaluateur externe  préférence  comité de programme  membre du comité de programme  propriétés de l'utilisateur : e-mail  a un conflit d'intérêts
+cmt-preference,classes liées aux préférences : candidature  conférence  décision  document  personne  comité de programme
+cmt-programcommittee,classes liées au comité de programme : offre  conférence  décision  document  personne  préférence propriétés : a un membre du comité de programme  membre du comité de programme
+cmt-programcommitteechair,classes associées au président du comité de programme : propriétés des membres du comité de programme : révision finale
+cmt-programcommitteemember,Classes associées aux membres du comité de programme : auteur et non évaluateur  membre de la conférence  personne  propriétés du président du comité de programme : ajouter un membre du comité de programme  ajouté par  a un membre du comité de programme  nombre maximal d'articles  membre du comité de programme  définir le nombre maximal d'articles
+cmt-rejection,cours liés au rejet : acceptation  décision
+cmt-review,classes associées à la révision : document  méta-révision  propriétés du papier : fin de la révision  écriture de la révision  rédigée par
+cmt-reviewer,classes liées au réviseur : auteur non réviseur  membre de la conférence  réviseur externe  méta réviseur  propriétés utilisateur : ajuster l'enchère  ajusté par  affecter un réviseur externe  attribuer un réviseur  attribué par l'administrateur  attribué par le réviseur  attribué à  a été attribué  lu par le réviseur  lire l'article  rédiger une critique  rédigé par
+cmt-subjectarea,propriétés du domaine : possède un domaine
+cmt-user,classes liées à l'utilisateur : administrateur  auteur  personne  réviseur
+confof-administrative_event,classes liées aux événements administratifs : événement prêt à photographier  événement  événement d'enregistrement des participants  événement de révision  événement de révision des résultats  événement social  événement de soumission  événement de travail propriétés : suit  a un événement administratif  parallèle à
+confof-administrator,classes liées à l'administrateur : personne
+confof-assistant,classes liées à l'assistant : personne
+confof-author,classes liées à l'auteur : propriétés de la personne : écrit  écrit par
+confof-banquet,cours liés au banquet : réception  événement social  voyage
+confof-camera_ready_event,Cours liés aux événements prêts à l'emploi : événement administratif  événement d'enregistrement des participants  événement de révision  événement de révision des résultats  événement de soumission
+confof-chair_pc,classes liées au PC chaise : personne
+confof-city,classes liées à la ville : contribution  événement  organisation  personne  propriétés du sujet : a une ville
+confof-company,cours liés à l'entreprise : organisation  université
+confof-conference,cours liés à la conférence : tutoriel  événement de travail  atelier
+confof-contribution,classes liées à la contribution : ville  pays  événement  organisation  article  personne  affiche  article court  propriétés du sujet : résumé  e-mail de contact  traite  a un mot-clé  a un titre  une remarque  des critiques  écrit  écrit par
+confof-country,classes liées au pays : contribution  événement  organisation  personne  propriétés du sujet : a un pays
+confof-event,classes liées à l'événement : événement administratif  ville  contribution  pays  organisation  personne  événement social  sujet  propriétés de l'événement de travail : se termine le  commence le
+confof-member,cours liés aux membres : participant
+confof-member_pc,classes liées au PC membre : propriétés de la personne : expert sur  avis
+confof-organization,classes liées à l'organisation : ville  entreprise  contribution  pays  événement  personne  sujet  université propriétés : employé par
+confof-paper,cours liés à l'article : contribution  poster  article court
+confof-participant,cours liés aux participants : membre  personne  régulier  étudiant propriétés : inscription anticipée
+confof-person,classes liées à la personne : administrateur  assistant  auteur  ordinateur de chaise  ville  contribution  pays  événement  ordinateur membre  organisation  participant  érudit  travailleur scientifique  sujet  bénévole propriétés : employé par  a une ville  a un pays  a un e-mail  a un fax  a un prénom  a une page d'accueil  a un téléphone  a un code postal  a une rue  a un nom de famille
+confof-poster,cours liés aux affiches : contribution  article  article court
+confof-reception,cours liés à la réception : banquet  événement social  voyage
+confof-registration_of_participants_event,inscription des participants aux cours liés à l'événement : événement administratif  événement de préparation à la caméra  événement de révision  événement de révision des résultats  événement de soumission
+confof-regular,cours réguliers connexes : participant
+confof-reviewing_event,révision des cours liés à l'événement : événement administratif  événement prêt à photographier  événement d'inscription des participants  événement de révision des résultats  événement de soumission
+confof-reviewing_results_event,cours liés à l'événement de révision des résultats : événement administratif  événement de préparation de la caméra  événement d'enregistrement des participants  événement de révision  événement de soumission
+confof-scholar,cours liés aux universitaires : propriétés de la personne : étudier à
+confof-science_worker,classes liées aux travailleurs scientifiques : personne
+confof-short_paper,cours courts liés à un article : contribution  article  affiche
+confof-social_event,classes liées aux événements sociaux : événement administratif  banquet  événement  réception  voyage  propriétés de l'événement de travail : choix par défaut  a un titre  un emplacement
+confof-student,cours liés aux étudiants : participant
+confof-submission_event,cours liés à l'événement de soumission : événement administratif  événement prêt à photographier  événement d'enregistrement des participants  événement de révision  événement de révision des résultats
+confof-topic,classes liées au sujet : ville  contribution  pays  événement  organisation  personne propriétés : s'occupe de  expert sur  a un sujet
+confof-trip,cours liés au voyage : banquet  réception  événement social
+confof-tutorial,cours liés au tutorat : conférence  événement de travail  atelier
+confof-university,cours liés à l'université : entreprise  propriétés de l'organisation : étudier à
+confof-volunteer,cours liés au bénévolat : personne
+confof-working_event,classes liées à un événement de travail : événement administratif  conférence  événement  événement social  didacticiel  propriétés de l'atelier : choix par défaut  a un événement administratif  a un titre  a un sujet  un emplacement
+confof-workshop,cours liés à l'atelier : conférence  tutoriel  événement de travail
+edas-academiaorganization,Classes liées aux organisations universitaires : organisation gouvernementale  organisation industrielle  ONG  organisation
+edas-academicevent,cours liés à un événement académique : conférence  événement non académique  réunion d'organisation  présentation d'article  conférence  propriétés de l'atelier : pour l'événement  a un appel
+edas-acceptrating,accepter les classes liées à la notation : accepter si la note de la chambre  la note de rejet  la note de révision  la note de rejet de la semaine
+edas-acceptedpaper,classes associées aux articles acceptés : article actif  article  article en attente  article publié  article rejeté  article retiré propriétés : liées à l'événement  liées au papier
+edas-accommodationplace,lieu d'hébergement classes liées: lieu
+edas-accpetifroomrating,accepter si les classes liées à l'évaluation de la chambre : accepter la note  rejeter la note  évaluer la note  rejeter la note de la semaine
+edas-activepaper,classes liées aux articles actifs : article accepté  article  article en attente  article publié  articles notés  article rejeté  article retiré propriétés : a une note
+edas-antennastopic,Cours connexes sur le sujet des antennes : sujet CAO  sujet de théorie de la communication  sujet de communication  sujet d'architecture informatique  sujet de réseaux informatiques  sujet de cryptographie  sujet de médecine  sujet de microélectronique  sujet d'informatique mobile  sujet multimédia  sujet d'exploitation  sujet d'informatique parallèle et distribuée  sujet de performance  sujet de transmission par ligne électrique  sujet de communications radio  sujet de communications par satellite et spatiales  sujet de sécurité  sujet de traitement du signal  sujet de test uniquement  sujet  sujet de communications sans fil.
+edas-attendee,cours liés au participant : personne
+edas-author,classes liées à l'auteur : président de conférence  personne  présentateur  président de session  propriétés de membre tpc : a un article connexe  est écrit par
+edas-breakevent,cours liés aux événements de pause : pause café  pause temps libre  pause repas  événement repas  événement non académique
+edas-cadtopic,Cours connexes sur le sujet CAO : sujet des antennes  sujet de la théorie de la communication  sujet des communications  sujet de l'architecture informatique  sujet des réseaux informatiques  sujet de la cryptographie  sujet de la médecine  sujet de la microélectronique  sujet de l'informatique mobile  sujet multimédia  sujet des systèmes d'exploitation  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet de la transmission par lignes électriques  sujet des communications radio  sujet des communications par satellite et spatiales  sujet de la sécurité  sujet du traitement du signal  sujet des tests uniquement  sujet  sujet des communications sans fil.
+edas-call,cours liés à l'appel : appel à manuscrits  appel à communications  appel à critiques  conférence  événement de conférence  session de conférence  informations de contact  pays  document  organisation  personne  histoire personnelle  lieu  formulaire de révision  question de révision  évaluation  parrainage  propriétés du sujet : pour l'événement  a un appel  a une date limite de soumission  a des instructions de soumission  initie  est initié par
+edas-callformanuscripts,appel à cours liés aux manuscrits : appel
+edas-callforpapers,appel à communications pour les cours liés : appel
+edas-callforreviews,appel à avis cours liés : appel
+edas-closingtalk,cours liés à la conférence de clôture : événement de discussion  conférence de bienvenue
+edas-coffeebreak,cours liés à la pause-café : événement de pause
+edas-communicationtheorytopic,Cours connexes sur le sujet de la théorie de la communication : sujet des antennes  sujet de la CAO  sujet des communications  sujet de l'architecture informatique  sujet des réseaux informatiques  sujet de la cryptographie  sujet de la médecine  sujet de la microélectronique  sujet de l'informatique mobile  sujet multimédia  sujet des systèmes d'exploitation  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet de la transmission par lignes électriques  sujet des communications radio  sujet des communications par satellite et spatiales  sujet de la sécurité  sujet du traitement du signal  sujet des tests uniquement  sujet  sujet des communications sans fil.
+edas-communicationstopic,Cours connexes sur le sujet des communications : sujet des antennes  sujet CAO  sujet de la théorie de la communication  sujet de l'architecture informatique  sujet des réseaux informatiques  sujet de la cryptographie  sujet de la médecine  sujet de la microélectronique  sujet de l'informatique mobile  sujet multimédia  sujet des systèmes d'exploitation  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet de la transmission par lignes électriques  sujet des communications radio  sujet des communications par satellite et spatiales  sujet de la sécurité  sujet du traitement du signal  sujet des tests uniquement  sujet  sujet des communications sans fil.
+edas-computerarchitecturetopic,Cours connexes sur le sujet de l'architecture informatique : sujet des antennes  sujet de la CAO  sujet de la théorie de la communication  sujet des communications  sujet des réseaux informatiques  sujet de la cryptographie  sujet de la médecine  sujet de la microélectronique  sujet de l'informatique mobile  sujet multimédia  sujet des systèmes d'exploitation  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet de la transmission par lignes électriques  sujet des communications radio  sujet des communications par satellite et spatiales  sujet de la sécurité  sujet du traitement du signal  sujet des tests uniquement  sujet  sujet des communications sans fil.
+edas-computernetworksaapplicationstopic,Cours connexes sur le sujet des applications et des réseaux informatiques : sujet d'entreprise sur les réseaux informatiques  sujet sur la gestion des réseaux informatiques  sujet sur les mesures des réseaux informatiques  sujet sur l'optique des réseaux informatiques  sujet sur la sécurité des réseaux informatiques  sujet sur les capteurs de réseaux informatiques  sujet sur la commutation des réseaux informatiques  sujet sur les réseaux informatiques
+edas-computernetworksenterprisetopic,Cours connexes sur le sujet d'entreprise des réseaux informatiques : sujet sur les applications et les réseaux informatiques  sujet sur la gestion des réseaux informatiques  sujet sur les mesures des réseaux informatiques  sujet sur l'optique des réseaux informatiques  sujet sur la sécurité des réseaux informatiques  sujet sur les capteurs de réseaux informatiques  sujet sur la commutation des réseaux informatiques  sujet sur les réseaux informatiques
+edas-computernetworksmanagementtopic,Cours connexes sur le sujet de gestion des réseaux informatiques : sujet sur les applications et les réseaux informatiques  sujet sur les entreprises de réseaux informatiques  sujet sur les mesures des réseaux informatiques  sujet sur l'optique des réseaux informatiques  sujet sur la sécurité des réseaux informatiques  sujet sur les capteurs de réseaux informatiques  sujet sur la commutation des réseaux informatiques  sujet sur les réseaux informatiques
+edas-computernetworksmeasurementstopic,Cours connexes sur le sujet des mesures des réseaux informatiques : sujet des applications et des réseaux informatiques  sujet de l'entreprise des réseaux informatiques  sujet de la gestion des réseaux informatiques  sujet de l'optique des réseaux informatiques  sujet de la sécurité des réseaux informatiques  sujet des capteurs de réseaux informatiques  sujet de la commutation des réseaux informatiques  sujet des réseaux informatiques.
+edas-computernetworksopticaltopic,Cours connexes sur le sujet optique des réseaux informatiques : sujet sur les applications et les réseaux informatiques  sujet sur les entreprises de réseaux informatiques  sujet sur la gestion des réseaux informatiques  sujet sur les mesures des réseaux informatiques  sujet sur la sécurité des réseaux informatiques  sujet sur les capteurs de réseaux informatiques  sujet sur la commutation des réseaux informatiques  sujet sur les réseaux informatiques
+edas-computernetworkssecuritytopic,Cours connexes sur le sujet de la sécurité des réseaux informatiques : sujet des applications et des réseaux informatiques  sujet de l'entreprise des réseaux informatiques  sujet de la gestion des réseaux informatiques  sujet des mesures des réseaux informatiques  sujet des réseaux informatiques optiques  sujet des capteurs de réseaux informatiques  sujet de la commutation des réseaux informatiques  sujet des réseaux informatiques.
+edas-computernetworkssensortopic,Cours connexes sur le sujet des capteurs de réseaux informatiques : sujet sur les applications et les réseaux informatiques  sujet sur l'entreprise des réseaux informatiques  sujet sur la gestion des réseaux informatiques  sujet sur les mesures des réseaux informatiques  sujet sur l'optique des réseaux informatiques  sujet sur la sécurité des réseaux informatiques  sujet sur la commutation des réseaux informatiques  sujet sur les réseaux informatiques
+edas-computernetworksswitchingtopic,Cours connexes sur le sujet de changement de réseaux informatiques : sujet d'applications de réseaux informatiques  sujet d'entreprise de réseaux informatiques  sujet de gestion de réseaux informatiques  sujet de mesures de réseaux informatiques  sujet optique de réseaux informatiques  sujet de sécurité des réseaux informatiques  sujet de capteurs de réseaux informatiques  sujet de réseaux informatiques
+edas-computernetworkstopic,Cours connexes sur le sujet des réseaux informatiques : sujet des antennes  sujet de la CAO  sujet de la théorie de la communication  sujet des communications  sujet de l'architecture informatique  sujet des applications des réseaux informatiques  sujet des entreprises de réseaux informatiques  sujet de la gestion des réseaux informatiques  sujet des mesures des réseaux informatiques  sujet des réseaux informatiques optiques  sujet de la sécurité des réseaux informatiques  sujet des capteurs de réseaux informatiques  sujet de la commutation des réseaux informatiques  sujet de la cryptographie  sujet de la médecine  sujet de la microélectronique  sujet de l'informatique mobile  sujet multimédia  sujet des systèmes d'exploitation  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet de la transmission par ligne électrique  sujet des communications radio  sujet des communications par satellite et spatiales  sujet de sécurité  sujet de traitement du signal  sujet de test uniquement  sujet  sujet de communications sans fil
+edas-conference,Cours liés à la conférence : appel  événement de conférence  session de conférence  informations de contact  pays  document  organisation  article  personne  histoire personnelle  lieu  formulaire d'évaluation  question d'évaluation  note d'évaluation  parrainage  propriétés du sujet : date de fin  a un pays  a un membre  a un nom  a un sujet  est membre de  manuscrit dû le  article dû le  inscription due le  date de début
+edas-conferencechair,Classes liées à la chaise de conférence : auteur  personne
+edas-conferencedinner,Cours liés au dîner-conférence : repas événementiel
+edas-conferenceevent,Classes liées à un événement de conférence : événement académique  appel  conférence  session de conférence  informations de contact  pays  document  événement non académique  organisation  personne  histoire personnelle  lieu  formulaire d'évaluation  question d'évaluation  évaluation  parrainage  propriétés du sujet : participant à  appartient à l'événement  a un participant  a une date et une heure de fin  a un lieu  a un programme  a une date et une heure de début  est le lieu de
+edas-conferencesession,Cours liés à la session de conférence : appel  conférence  événement de conférence  coordonnées  pays  document  organisation  personne  histoire personnelle  lieu  formulaire d'évaluation  question d'évaluation  note d'évaluation  parrainage  sujet.
+edas-conferencevenueplace,lieu de la conférence lieu cours liés : lieu
+edas-contactinformation,informations de contact classes liées : appel  conférence  événement de conférence  session de conférence  pays  document  organisation  histoire personnelle  lieu  formulaire d'évaluation  question d'évaluation  évaluation  parrainage  propriétés du sujet : a une ville  a un téléphone  a un code postal  a une rue
+edas-country,cours liés au pays : appel  conférence  événement de conférence  session de conférence  informations de contact  document  organisation  personne  histoire personnelle  lieu  formulaire d'évaluation  question d'évaluation  note d'évaluation  parrainage  propriétés du sujet : a un pays
+edas-cryptographytopic,Cours connexes sur le sujet de la cryptographie : sujet des antennes  sujet de la CAO  sujet de la théorie de la communication  sujet des communications  sujet de l'architecture informatique  sujet des réseaux informatiques  sujet de la médecine  sujet de la microélectronique  sujet de l'informatique mobile  sujet multimédia  sujet des systèmes d'exploitation  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet de la transmission par lignes électriques  sujet des communications radio  sujet des communications par satellite et spatiales  sujet de la sécurité  sujet du traitement du signal  sujet des tests uniquement  sujet  sujet des communications sans fil.
+edas-diningplace,classes liées au lieu de restauration : lieu
+edas-document,classes liées aux documents : appel  conférence  événement de conférence  séance de conférence  informations de contact  pays  menu de repas  organisation  article  personne  histoire personnelle  lieu  programme  évaluation  formulaire d'évaluation  question d'évaluation  évaluation  ensemble de diapositives  parrainage  propriétés du sujet : contient un document associé  se rapporte à
+edas-excursion,cours liés aux excursions : événement social
+edas-freetimebreak,cours liés aux pauses de temps libre : événement de pause
+edas-governmentorganization,cours liés aux organisations gouvernementales : organisation universitaire  organisation industrielle  ONG  organisation
+edas-industryorganization,cours liés à l'organisation industrielle : organisation universitaire  organisation gouvernementale  ONG  organisation
+edas-mealbreak,cours liés aux pauses repas : événement de pause
+edas-mealevent,cours liés à un événement repas : événement de pause  dîner de conférence  propriétés d'événement non académique : a un menu  est un menu de
+edas-mealmenu,classes liées au menu de repas : document  article  programme  révision  propriétés du jeu de diapositives : a un menu  est un menu de
+edas-medicinetopic,Cours connexes sur le sujet de la médecine : sujet des antennes  sujet de la CAO  sujet de la théorie de la communication  sujet des communications  sujet de l'architecture informatique  sujet des réseaux informatiques  sujet de la cryptographie  sujet de la microélectronique  sujet de l'informatique mobile  sujet multimédia  sujet des systèmes d'exploitation  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet de la transmission par lignes électriques  sujet des communications radio  sujet des communications par satellite et spatiales  sujet de la sécurité  sujet du traitement du signal  sujet des tests uniquement  sujet  sujet des communications sans fil.
+edas-meetingroomplace,salle de réunion lieu cours liés: lieu
+edas-microelectronicstopic,Cours connexes sur le sujet de la microélectronique : sujet des antennes  sujet de la CAO  sujet de la théorie de la communication  sujet des communications  sujet de l'architecture informatique  sujet des réseaux informatiques  sujet de la cryptographie  sujet de la médecine  sujet de l'informatique mobile  sujet multimédia  sujet des systèmes d'exploitation  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet de la transmission par lignes électriques  sujet des communications radio  sujet des communications par satellite et spatiales  sujet de la sécurité  sujet du traitement du signal  sujet des tests uniquement  sujet  sujet des communications sans fil.
+edas-mobilecomputingtopic,Cours connexes sur le sujet de l'informatique mobile : sujet des antennes  sujet de la CAO  sujet de la théorie de la communication  sujet des communications  sujet de l'architecture informatique  sujet des réseaux informatiques  sujet de la cryptographie  sujet de la médecine  sujet de la microélectronique  sujet multimédia  sujet des systèmes d'exploitation  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet de la transmission par lignes électriques  sujet des communications radio  sujet des communications par satellite et spatiales  sujet de la sécurité  sujet du traitement du signal  sujet des tests uniquement  sujet  sujet des communications sans fil.
+edas-multimediatopic,Cours connexes sur des sujets multimédia : sujet sur les antennes  sujet sur la CAO  sujet sur la théorie de la communication  sujet sur les communications  sujet sur l'architecture informatique  sujet sur les réseaux informatiques  sujet sur la cryptographie  sujet sur la médecine  sujet sur la microélectronique  sujet sur l'informatique mobile  sujet sur les systèmes d'exploitation  sujet sur l'informatique parallèle et distribuée  sujet sur les performances  sujet sur la transmission par lignes électriques  sujet sur les communications radio  sujet sur les communications par satellite et spatiales  sujet sur la sécurité  sujet sur le traitement du signal  sujet sur les tests uniquement  sujet  sujet sur les communications sans fil.
+edas-ngo,cours liés aux ONG : organisation universitaire  organisation gouvernementale  organisation industrielle  organisation
+edas-nonacademicevent,cours non liés à un événement académique : événement académique  événement de pause  événement de conférence  événement repas  événement social
+edas-numericalreviewquestion,Classes liées aux questions de révision numérique : question de révision
+edas-operatingtopicsystems,Sujets liés au fonctionnement des systèmes : sujet des antennes  sujet CAO  sujet de la théorie de la communication  sujet des communications  sujet de l'architecture informatique  sujet des réseaux informatiques  sujet de la cryptographie  sujet de la médecine  sujet de la microélectronique  sujet de l'informatique mobile  sujet multimédia  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet de la transmission par lignes électriques  sujet des communications radio  sujet des communications par satellite et spatiales  sujet de la sécurité  sujet du traitement du signal  sujet des tests uniquement  sujet  sujet des communications sans fil.
+edas-organization,Classes liées à l'organisation : organisation universitaire  appel  conférence  événement de conférence  séance de conférence  coordonnées  pays  document  organisation gouvernementale  organisation industrielle  ONG  personne  histoire personnelle  lieu  formulaire d'évaluation  question d'évaluation  évaluation  parrainage  propriétés du sujet : est le fournisseur de  fourni par
+edas-organizationalmeeting,cours liés aux réunions d'organisation : événement académique  présentation d'article  conférence  atelier
+edas-paper,classes liées à l'article : article accepté  article actif  conférence  document  menu de repas  article en attente  programme  article publié  article rejeté  révision  ensemble de diapositives  article retiré propriétés : a un article connexe  est révisé par  est en train de réviser  est rédigé par
+edas-paperpresentation,classes liées à la présentation de l'article : événement académique  réunion d'organisation  événement de discussion  propriétés de l'atelier : liées à l'événement  liées à l'article
+edas-parallelanddistributedcomputingtopic,Cours connexes sur le sujet de l'informatique parallèle et distribuée : sujet des antennes  sujet de la CAO  sujet de la théorie de la communication  sujet des communications  sujet de l'architecture informatique  sujet des réseaux informatiques  sujet de la cryptographie  sujet de la médecine  sujet de la microélectronique  sujet de l'informatique mobile  sujet multimédia  sujet des systèmes d'exploitation  sujet des performances  sujet de la transmission par lignes électriques  sujet des communications radio  sujet des communications par satellite et spatiales  sujet de la sécurité  sujet du traitement du signal  sujet des tests uniquement  sujet  sujet des communications sans fil.
+edas-pendingpaper,cours liés à l'article en attente : article accepté  article actif  article  article publié  article rejeté  article retiré
+edas-performancetopic,Cours liés au sujet de performance : sujet d'antennes  sujet de CAO  sujet de théorie de la communication  sujet de communications  sujet d'architecture informatique  sujet de réseaux informatiques  sujet de cryptographie  sujet de médecine  sujet de microélectronique  sujet d'informatique mobile  sujet multimédia  sujet d'exploitation  sujet d'informatique parallèle et distribuée  sujet de transmission par lignes électriques  sujet de communications radio  sujet de communications par satellite et spatiales  sujet de sécurité  sujet de traitement du signal  sujet de test uniquement  sujet  sujet de communications sans fil.
+edas-person,classes liées à la personne : participant  appel  conférence  président de conférence  événement de conférence  session de conférence  pays  document  organisation  histoire personnelle  lieu  formulaire d'évaluation  question de révision  note d'évaluation  président de session  parrainage  sujet  propriétés de membre tpc : participant à  a participant  a une biographie  a un prénom  a un nom de famille  a un membre  est membre de
+edas-personalhistory,cours liés à l'histoire personnelle : appel  conférence  événement de conférence  session de conférence  coordonnées  pays  document  organisation  personne  historique de publication personnel  historique d'évaluation personnelle  lieu  formulaire d'évaluation  question d'évaluation  note d'évaluation  parrainage  sujet
+edas-personalpublicationhistory,cours liés à l'histoire des publications personnelles : histoire personnelle
+edas-personalreviewhistory,classes liées à l'historique des avis personnels : propriétés de l'historique personnel : possède un historique des avis  est un historique des avis de
+edas-place,classes liées au lieu : lieu d'hébergement  appel  conférence  événement de conférence  séance de conférence  lieu de la conférence  coordonnées  pays  lieu de restauration  document  lieu de réunion  organisation  personne  historique personnel  formulaire d'évaluation  question d'évaluation  note d'évaluation  parrainage  propriétés du sujet : a un emplacement  est l'emplacement de
+edas-powerlinetransmissiontopic,Cours connexes sur le sujet de la transmission par lignes électriques : sujet des antennes  sujet de la CAO  sujet de la théorie de la communication  sujet des communications  sujet de l'architecture informatique  sujet des réseaux informatiques  sujet de la cryptographie  sujet de la médecine  sujet de la microélectronique  sujet de l'informatique mobile  sujet multimédia  sujet des systèmes d'exploitation  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet des communications radio  sujet des communications par satellite et spatiales  sujet de la sécurité  sujet du traitement du signal  sujet des tests uniquement  sujet  sujet des communications sans fil.
+edas-presenter,cours liés au présentateur : auteur
+edas-programme,classes liées au programme : document  menu de repas  article  révision  propriétés du jeu de diapositives : appartient à l'événement  a un programme
+edas-publishedpaper,classes liées aux articles publiés : article accepté  article actif  article  article en attente  article rejeté  article retiré
+edas-radiocommunicationstopic,Cours connexes sur le sujet des communications radio : sujet des antennes  sujet de la CAO  sujet de la théorie de la communication  sujet des communications  sujet de l'architecture informatique  sujet des réseaux informatiques  sujet de la cryptographie  sujet de la médecine  sujet de la microélectronique  sujet de l'informatique mobile  sujet multimédia  sujet des systèmes d'exploitation  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet de la transmission par lignes électriques  sujet des communications par satellite et spatiales  sujet de la sécurité  sujet du traitement du signal  sujet des tests uniquement  sujet  sujet des communications sans fil.
+edas-ratedpapers,classes liées aux articles notés : article actif
+edas-reception,cours liés à la réception : événement social
+edas-rejectrating,Classes liées à l'évaluation de rejet : accepter l'évaluation  accepter si l'évaluation de la chambre  évaluer l'évaluation  évaluer la semaine de rejet
+edas-rejectedpaper,classes liées aux articles rejetés : article accepté  article actif  article  article en attente  article publié  article retiré
+edas-review,réviser les cours associés : document  menu de repas  papier  programme  jeu de diapositives
+edas-reviewform,Classes associées au formulaire d'évaluation : appel  conférence  événement de conférence  session de conférence  informations de contact  pays  document  organisation  personne  historique personnel  lieu  question d'évaluation  note d'évaluation  parrainage  sujet.
+edas-reviewquestion,Classes liées aux questions de révision : appel  conférence  événement de conférence  session de conférence  informations de contact  pays  document  question de révision numérique  organisation  personne  historique personnel  lieu  formulaire d'évaluation  note d'évaluation  parrainage  question de révision textuelle  sujet
+edas-reviewrating,évaluer les classes liées à l'évaluation : accepter l'évaluation  accepter si l'évaluation de la chambre  appel  conférence  événement de conférence  session de conférence  informations de contact  pays  document  organisation  personne  historique personnel  lieu  rejeter l'évaluation  formulaire d'évaluation  question d'évaluation  parrainage  sujet  semaine rejeter l'évaluation propriétés : a une évaluation
+edas-reviewer,classes liées aux réviseurs : propriétés de la personne : possède un historique des révisions  est un historique des révisions de
+edas-satelliteandspacecommunicationstopic,Cours connexes sur le sujet des communications par satellite et spatiales : sujet des antennes  sujet de la CAO  sujet de la théorie de la communication  sujet des communications  sujet de l'architecture informatique  sujet des réseaux informatiques  sujet de la cryptographie  sujet de la médecine  sujet de la microélectronique  sujet de l'informatique mobile  sujet multimédia  sujet des systèmes d'exploitation  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet de la transmission par lignes électriques  sujet des communications radio  sujet de la sécurité  sujet du traitement du signal  sujet des tests uniquement  sujet  sujet des communications sans fil.
+edas-securitytopic,Cours connexes sur le sujet de la sécurité : sujet des antennes  sujet de la CAO  sujet de la théorie de la communication  sujet des communications  sujet de l'architecture informatique  sujet des réseaux informatiques  sujet de la cryptographie  sujet de la médecine  sujet de la microélectronique  sujet de l'informatique mobile  sujet multimédia  sujet des systèmes d'exploitation  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet de la transmission par lignes électriques  sujet des communications radio  sujet des communications par satellite et spatiales  sujet du traitement du signal  sujet des tests uniquement  sujet  sujet des communications sans fil.
+edas-sessionchair,Classes liées à la présidence de session : auteur  personne
+edas-signalprocessingtopic,Cours connexes sur le sujet du traitement du signal : sujet des antennes  sujet de la CAO  sujet de la théorie de la communication  sujet des communications  sujet de l'architecture informatique  sujet des réseaux informatiques  sujet de la cryptographie  sujet de la médecine  sujet de la microélectronique  sujet de l'informatique mobile  sujet multimédia  sujet des systèmes d'exploitation  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet de la transmission par lignes électriques  sujet des communications radio  sujet des communications par satellite et spatiales  sujet de la sécurité  sujet des tests uniquement  sujet  sujet des communications sans fil.
+edas-singlelevelconference,cours liés à une conférence à un seul niveau : conférence  conférence à deux niveaux
+edas-slideset,Classes liées aux jeux de diapositives : document  menu de repas  article  programme  révision
+edas-socialevent,cours liés à des événements sociaux : excursion  événement non académique  réception
+edas-sponsorship,cours liés au parrainage : appel  conférence  événement de conférence  session de conférence  informations de contact  pays  document  organisation  personne  histoire personnelle  lieu  formulaire d'évaluation  question d'évaluation  note d'évaluation  sujet  propriétés de subvention de voyage : a un montant de coût  a une devise de coût  est le fournisseur de  fourni par
+edas-tpcmember,Classes liées aux membres tpc : auteur  personne
+edas-talkevent,cours liés aux événements-débats : événement académique  discours de clôture  réunion d'organisation  présentation d'article  discours de bienvenue  atelier
+edas-testonlytopic,cours liés au sujet de test uniquement : sujet d'antennes  sujet de CAO  sujet de théorie de la communication  sujet de communications  sujet d'architecture informatique  sujet de réseaux informatiques  sujet de cryptographie  sujet de médecine  sujet de microélectronique  sujet d'informatique mobile  sujet multimédia  sujet d'exploitation  sujet d'informatique parallèle et distribuée  sujet de performances  sujet de transmission par lignes électriques  sujet de communications radio  sujet de communications par satellite et spatiales  sujet de sécurité  sujet de traitement du signal  sujet  sujet de communications sans fil
+edas-textualreviewquestion,Classes liées aux questions de révision textuelle : question de révision
+edas-topic,sujets liés aux cours : sujet des antennes  sujet de CAO  appel  sujet de théorie de la communication  sujet de communication  sujet d'architecture informatique  sujet de réseaux informatiques  conférence  événement de conférence  session de conférence  informations de contact  pays  sujet de cryptographie  document  sujet de médecine  sujet de microélectronique  sujet d'informatique mobile  sujet multimédia  sujet d'exploitation  organisation  sujet d'informatique parallèle et distribuée  sujet de performance  personne  histoire personnelle  lieu  sujet de transmission par lignes électriques  sujet de communications radio  formulaire d'évaluation  question d'évaluation  évaluation  sujet de communications par satellite et spatiales  sujet de sécurité  traitement du signal sujet  parrainage  sujet de test uniquement  propriétés du sujet de communications sans fil : a un sujet  est le sujet de
+edas-travelgrant,cours liés aux bourses de voyage : parrainage
+edas-twolevelconference,cours liés à la conférence à deux niveaux : conférence
+edas-weekrejectrating,Classes liées à l'évaluation du rejet de la semaine : accepter l'évaluation  accepter si l'évaluation de la chambre  rejeter l'évaluation  évaluer l'évaluation
+edas-welcometalk,Cours liés au discours de bienvenue : discours de clôture  événement de discussion
+edas-wirelesscommunicationstopic,Cours connexes sur le sujet des communications sans fil : sujet des antennes  sujet de la CAO  sujet de la théorie de la communication  sujet des communications  sujet de l'architecture informatique  sujet des réseaux informatiques  sujet de la cryptographie  sujet de la médecine  sujet de la microélectronique  sujet de l'informatique mobile  sujet multimédia  sujet des systèmes d'exploitation  sujet de l'informatique parallèle et distribuée  sujet des performances  sujet de la transmission par lignes électriques  sujet des communications radio  sujet des communications par satellite et spatiales  sujet de la sécurité  sujet du traitement du signal  sujet des tests uniquement  sujet
+edas-withdrawnpaper,classes liées aux articles retirés : article accepté  article actif  article  article en attente  article publié  article rejeté
+edas-workshop,cours liés à l'atelier : événement académique  réunion d'organisation  présentation d'article  événement-débat
+ekaw-abstract,cours associés au résumé : document  résumé de conférence invitée  résumé de didacticiel
+ekaw-academic_institution,cours liés à l'établissement universitaire : organisation  agence organisatrice  institut de recherche  propriétés universitaires : organisé scientifiquement par  organise scientifiquement
+ekaw-accepted_paper,classes liées au papier accepté : papier prêt à photographier  papier évalué  papier rejeté propriétés : a été révisé
+ekaw-agency_staff_member,classes liées aux membres du personnel de l'agence : personne
+ekaw-assigned_paper,classes liées à l'article attribuées : article évalué  article soumis propriétés : a un réviseur
+ekaw-camera_ready_paper,Classes liées aux papiers prêts à photographier : papier accepté  papier évalué  papier  propriétés du papier soumis : version mise à jour de  rédigé par
+ekaw-conference,cours liés à la conférence : conférence contribuée  conférence invitée  événement scientifique  session  événement social  piste  tutoriel  atelier
+ekaw-conference_banquet,cours liés au banquet de conférence : événement social
+ekaw-conference_paper,cours liés aux articles de conférence : article  article d'atelier
+ekaw-conference_participant,Classes liées aux participants à la conférence : président de démonstration  participant inscrit en avance  participant inscrit en retard  membre d'oc  président d'ordinateur  personne  présentateur  président de session  président de tutoriel  président d'atelier
+ekaw-conference_proceedings,Classes liées aux actes de conférence : propriétés des actes : le volume contient du papier
+ekaw-conference_session,cours liés à la session de conférence : session industrielle  session  propriétés de la session d'atelier : partie de l'événement
+ekaw-conference_trip,cours liés aux voyages de conférence : événement social
+ekaw-contributed_talk,cours liés à l'exposé contribué : conférence  présentation individuelle  exposé invité  session  événement social  piste  propriétés du didacticiel : présentation de l'article
+ekaw-demo_chair,Cours liés à la chaise de démonstration : participant à la conférence
+ekaw-demo_paper,Cours liés au papier de démonstration : papier industriel  papier  papier pour affiches  papier ordinaire
+ekaw-demo_session,Cours liés à la session de démonstration : session d'affiches  session régulière  session
+ekaw-document,classes liées aux documents : résumé  dépliant  volume multi-auteurs  article  personne  brochure du programme  critique  propriétés du site Web : auteur de  a une version mise à jour  version mise à jour de  écrit par
+ekaw-early-registered_participant,Cours liés aux participants inscrits en avance : participant à la conférence  participant inscrit en retard
+ekaw-evaluated_paper,classes liées au papier évalué : papier accepté  papier attribué  papier prêt à photographier  papier rejeté propriétés : a été révisée
+ekaw-event,classes liées à l'événement : personne  événement scientifique  propriétés d'événement social : événement sur la liste  a un événement  organisé dans  inverse d'une partie de 7  répertorie l'événement  le lieu de  organisé par  organise  partie de l'événement
+ekaw-flyer,cours liés au dépliant : document  volume multi-auteurs  article  actes  brochure du programme  critique  site Web
+ekaw-individual_presentation,cours liés à une présentation individuelle : conférence contribuée  conférence invitée  événement scientifique  tutoriel  propriétés de l'atelier : article présenté comme  présentation de l'article
+ekaw-industrial_paper,cours liés au papier industriel : papier de démonstration  papier  papier pour affiches  papier ordinaire  papier d'atelier
+ekaw-industrial_session,cours liés à la session industrielle : session de conférence
+ekaw-invited_speaker,cours liés au conférencier invité : présentateur
+ekaw-invited_talk,cours liés à la conférence invitée : conférence  conférence contribuée  présentation individuelle  session  événement social  piste  tutoriel  atelier
+ekaw-invited_talk_abstract,cours connexes sur le résumé de la conférence invitée : résumé
+ekaw-late-registered_participant,Cours liés aux participants inscrits tardivement : participant à la conférence  participant inscrit en avance
+ekaw-location,classes liées à l'emplacement : propriétés de la personne : détenues dans  emplacement de
+ekaw-multi-author_volume,cours liés aux volumes multi-auteurs : document  dépliant  article  actes  brochure du programme  revue  site Web
+ekaw-negative_review,classes liées aux avis négatifs : avis neutre  avis positif  avis
+ekaw-neutral_review,classes liées aux avis neutres : avis négatif  avis positif  avis
+ekaw-oc_chair,Classes liées à la chaise oc : membre oc
+ekaw-oc_member,Cours liés aux membres d'oc : participant à la conférence  président d'oc
+ekaw-organisation,classes liées à l'organisation : établissement universitaire  agence organisatrice  personne  actes propriétés de l'éditeur : éditeur de  organise techniquement
+ekaw-organising_agency,cours liés à l'agence organisatrice : établissement universitaire  organisation
+ekaw-pc_chair,Classes liées à la chaise PC : participant à une conférence  membre PC  chaise tutorielle  chaise d'atelier
+ekaw-pc_member,Classes liées aux membres du PC : président du PC  réviseur éventuel  membre du sc  président de session  président de tutoriel  président d'atelier
+ekaw-paper,cours liés à l'article : article prêt à photographier  article de conférence  article de démonstration  document  dépliant  article industriel  volume multi-auteurs  article d'affiche  actes  brochure de programme  article ordinaire  révision  article soumis  site Web  propriétés de l'article d'atelier : a une révision  a un réviseur  une révision de l'article  un réviseur d'article
+ekaw-paper_author,cours liés à l'auteur de l'article : personne
+ekaw-person,cours liés à la personne : membre du personnel de l'agence  participant à la conférence  document  événement  lieu  organisation  auteur de l'article  réviseur éventuel  propriétés de l'étudiant : auteur de  écrit par
+ekaw-positive_review,classes liées aux avis positifs : avis négatif  avis neutre  avis
+ekaw-possible_reviewer,Classes possibles liées au réviseur : membre du PC  propriétés de la personne : a un réviseur  avis rédigé par  réviseur d'article
+ekaw-poster_paper,cours liés au papier pour affiches : papier de démonstration  papier industriel  papier  papier ordinaire
+ekaw-poster_session,Cours liés à la session d'affiches : session de démonstration  session régulière  session
+ekaw-presenter,cours liés au présentateur : participant à la conférence  conférencier invité
+ekaw-proceedings,cours liés aux actes : actes de conférence  dépliant  volume multi-auteurs  article  brochure du programme  revue  propriétés du site Web : le volume contient un article
+ekaw-proceedings_publisher,classes liées à l'éditeur d'actes : organisation
+ekaw-programme_brochure,cours liés à la brochure du programme : document  dépliant  volume multi-auteurs  article  actes  revue  site Web
+ekaw-regular_paper,cours réguliers liés au papier : papier de démonstration  papier industriel  papier  papier pour affiches
+ekaw-regular_session,cours liés aux sessions régulières : session de démonstration  session d'affiches  session
+ekaw-rejected_paper,cours liés aux articles rejetés : article accepté  article évalué
+ekaw-research_institute,cours liés à un institut de recherche : établissement universitaire
+ekaw-research_topic,propriétés du sujet de recherche : sujet couvert  sujet couvert par
+ekaw-review,Classes liées à la révision : document  dépliant  volume multi-auteurs  critique négative  critique neutre  article  critique positive  actes  brochure du programme  propriétés du site Web : a une révision  révision d'un article  critique rédigée par
+ekaw-sc_member,Classes liées aux membres sc : membre PC
+ekaw-scientific_event,cours liés à un événement scientifique : conférence  événement  présentation individuelle  séance  track  atelier
+ekaw-session,cours liés à la session : conférence  session de conférence  exposé contribué  session de démonstration  exposé invité  session de posters  session régulière  événement scientifique  piste  tutoriel  atelier  propriétés de la session d'atelier : a un événement  une partie de l'événement
+ekaw-session_chair,Classes liées au président de session : participant à la conférence  membre du PC
+ekaw-social_event,cours liés à des événements sociaux : conférence  banquet de conférence  voyage de conférence  conférence contribuée  événement  conférence invitée  piste  tutoriel  atelier
+ekaw-student,cours liés aux étudiants : personne
+ekaw-submitted_paper,cours liés aux documents soumis : papier assigné  papier prêt à photographier  papier
+ekaw-track,suivre les cours associés : conférence  conférence contribuée  conférence invitée  événement scientifique  session  événement social  tutoriel  atelier
+ekaw-tutorial,cours liés au tutoriel : conférence  conférence contribuée  présentation individuelle  conférence invitée  session  événement social  piste  atelier
+ekaw-tutorial_abstract,cours associés au résumé du didacticiel : résumé
+ekaw-tutorial_chair,Classes liées à la chaise tutorielle : participant à la conférence  président du PC  membre du PC
+ekaw-university,cours liés à l'université : établissement universitaire
+ekaw-web_site,cours liés au site Web : document  dépliant  volume multi-auteurs  article  actes  brochure du programme  critique
+ekaw-workshop,cours liés à l'atelier : conférence  présentation individuelle  conférence invitée  événement scientifique  session  événement social  piste  tutoriel
+ekaw-workshop_chair,Classes liées aux chaises d'atelier : participant à la conférence  président du PC  membre du PC
+ekaw-workshop_paper,cours liés aux documents d'atelier : papier de conférence  papier industriel  papier
+ekaw-workshop_session,cours liés à la séance d'atelier : séance de conférence  séance
+iasted-accepting_manuscript,accepter des cours liés aux manuscrits : activité avant la conférence
+iasted-activity,classes liées à l'activité : activité après la conférence  activité avant la conférence  propriétés de l'activité de la conférence : terminée  est datée du  est organisée après  est organisée avant  est organisée dans
+iasted-activity_after_conference,activité après la conférence cours liés : activité  départ  visite d'une journée complète propriétés : a lieu après
+iasted-activity_before_conference,activité avant les cours liés à la conférence : acceptation du manuscrit  activité  réception du manuscrit  refus du manuscrit  location  recherche de propriétés : a lieu avant
+iasted-audiovisual_equipment,classes liées à l'équipement audiovisuel : ordinateur  objet  projecteur lcd  rétroprojecteur  lecteur de cassettes vidéo propriétés : est conçu pour  est situé dans  est utilisé par
+iasted-author,cours liés à l'auteur : actes du livre de l'auteur inclus  actes du cd de l'auteur inclus  conférencier  conférencier en conférence plénière  conférencier  propriétés du conférencier tutoriel : donner  préparer
+iasted-author_attendee_book_registration_fee,auteur participant livre frais d'inscription cours liés : frais d'inscription propriétés : est payé
+iasted-author_attendee_cd_registration_fee,auteur participant cd frais d'inscription cours liés : frais d'inscription propriétés : est payé
+iasted-author_book_proceedings_included,les actes du livre de l'auteur comprenaient des classes connexes : propriétés de l'auteur : obtenir
+iasted-author_cd_proceedings_included,les actes du cd de l'auteur comprenaient des classes associées : propriétés de l'auteur : obtenir
+iasted-author_information_form,Classes associées au formulaire d'informations sur l'auteur : propriétés du formulaire : est envoyé après
+iasted-bank_transfer,classes liées au virement bancaire : document de paiement
+iasted-book_proceeding,cours liés aux actes de livre : publication
+iasted-brief_introduction_for_session_chair,brève introduction aux classes liées aux présidents de session : propriétés du document : est donnée par  est donnée à
+iasted-building,classes liées au bâtiment : aéroport de conférence  bâtiment de conférence  hôtel de conférence  restaurant de conférence  lieu  maison du présentateur  université du présentateur  maison de la société sponsor Propriétés : est payé en
+iasted-camera_ready_manuscript_deadline,manuscrit prêt à photographier date limite cours connexes : date limite
+iasted-car,classes liées à l'automobile : véhicule de transport
+iasted-card,classes liées aux cartes : carte de crédit  article
+iasted-cd_proceening,cours liés à la préparation de cd : publication
+iasted-cheque,classes liées au chèque : titre de paiement
+iasted-city,classes liées à la ville : ville de la conférence  ville présentatrice  ville sponsor  ville du voyage propriétés : est située à
+iasted-coctail_reception,cours liés au cocktail : propriétés de l'activité de conférence : est conçu pour
+iasted-coffee_break,cours liés à la pause-café : propriétés de l'activité de conférence : est conçu pour
+iasted-computer,cours liés à l'informatique : équipement audiovisuel
+iasted-conference_hiker,Cours liés aux randonneurs de la conférence : délégué
+iasted-conference_activity,activité de conférence cours liés : activité  cocktail  pause café  introduction  conférence  présentation  inscription  programme social  activité technique  adresse de bienvenue propriétés : se déroule à
+iasted-conference_airport,cours liés à l'aéroport de la conférence : propriétés du bâtiment : est situé à
+iasted-conference_building,classes liées au bâtiment de conférence : propriétés du bâtiment : est occupé par  est situé dans
+iasted-conference_city,conférences cours liés à la ville : propriétés de la ville : est visité par
+iasted-conference_days,cours liés aux jours de conférence : un jour de conférence  propriétés temporelles : est conçu pour
+iasted-conference_hall,classes liées à la salle de conférence : propriétés du lieu : est situé dans
+iasted-conference_hotel,classes liées aux hôtels de conférence : propriétés du bâtiment : est conçu pour  est situé dans
+iasted-conference_restaurant,classes liées au restaurant de conférence : propriétés du bâtiment : est occupé par  est situé dans
+iasted-conference_state,classes liées à l'état de la conférence : propriétés de l'état : est visité par
+iasted-credit_card,classes liées aux cartes de crédit : propriétés de la carte : est conçu pour
+iasted-currency,devise
+iasted-deadline,cours liés à la date limite : date limite de manuscrit prêt à photographier  date limite de notification d'acceptation  date limite de réservation d'hôtel  date limite d'inscription  date limite de soumission  propriétés temporelles : terminé jusqu'à  est conçu pour
+iasted-deadline_for_notification_of_acceptance,date limite de notification des cours liés à l'acceptation : date limite
+iasted-deadline_hotel_reservation,date limite pour les cours liés à la réservation d'hôtel : date limite
+iasted-delegate,classes liées aux délégués : randonneur de conférence  présentateur d'hôtel  membre iasted  non membre iasted  auditeur  non conférencier  présentateur d'un jour  personne  président de séance  conférencier  propriétés du comité technique : besoin  obtenir  occuper  payer  envoyer
+iasted-departure,cours liés au départ : activité après conférence
+iasted-departure_tax,classes liées à la taxe de départ : propriétés fiscales : est conçu pour
+iasted-dinner_banquet,cours liés au dîner et au banquet : propriétés du programme social : est conçu pour
+iasted-document,cours liés aux documents : brève introduction pour le président de session  formulaire  lettre d'invitation  élément  liste de diffusion  document de paiement  relevé de présence  révision  soumission  transparence  viza
+iasted-double_hotel_room,chambre d'hôtel double classes connexes : chambre d'hôtel
+iasted-fee,cours liés aux frais : frais pour un voyage supplémentaire  frais d'hôtel  argent  frais d'inscription propriétés : est payé avec
+iasted-fee_for_extra_trip,frais pour les cours supplémentaires liés au voyage : propriétés des frais : est payé par  est payé pour
+iasted-final_manuscript,cours liés au manuscrit final : propriétés de soumission : passer par
+iasted-form,classes liées au formulaire : formulaire d'informations sur l'auteur  document  formulaire d'inscription à l'hôtel  propriétés du formulaire d'inscription : est donné à
+iasted-full_day_tour,cours liés à l'excursion d'une journée complète : activité après la conférence propriétés : est conçu pour  se déroule dans
+iasted-hotel_fee,classes liées aux frais d'hôtel : propriétés des frais : est payé par
+iasted-hotel_presenter,cours liés au présentateur hôtelier : délégué
+iasted-hotel_registration_form,formulaire d'inscription à l'hôtel classes associées : propriétés du formulaire : est envoyé avant
+iasted-hotel_room,classes liées aux chambres d'hôtel : chambre d'hôtel double  lieu  chambre d'hôtel simple propriétés : est conçu pour  est situé dans
+iasted-iasted_member,Classes liées aux membres iasted : délégué
+iasted-iasted_non_member,Classes non liées aux membres iasted : délégué
+iasted-initial_manuscipt,classes liées au manuscrit initial : propriétés de soumission : parcourir
+iasted-introduction,cours liés à l'introduction : activité de conférence  présentation de l'orateur
+iasted-introduction_of_speaker,introduction des cours liés aux conférenciers : introduction
+iasted-invitation_letter,classes liées à la lettre d'invitation : propriétés du document : est conçu pour
+iasted-item,classes liées à l'article : équipement audiovisuel  carte  document  publication  propriétés du véhicule de transport : passer par  est équipé par  est donné à  est fabriqué à partir de  est nécessaire pour  est payé avec  est préparé par  est envoyé après  est envoyé avant  est envoyé par  est signé par  est utilisé par  est utilisé pour  est écrit par  besoin  obtenir  préparer  envoyer  signer  écrire
+iasted-lcd_projector,Cours connexes sur les projecteurs lcd : équipement audiovisuel
+iasted-lecture,cours liés à un cours magistral : activité de conférence  cours plénière  session  propriétés du didacticiel : est conçu pour
+iasted-lecturer,cours liés au conférencier : auteur  étudiant-conférencier  travailleur propriétés du conférencier : parler dans
+iasted-listener,classes liées à l'écouteur : propriétés du délégué : est présent dans  signe
+iasted-mailing_list,classes liées à la liste de diffusion : propriétés du document : est conçu pour
+iasted-main_office,cours liés au bureau principal : lieu
+iasted-memeber_registration_fee,classes liées aux frais d'inscription des membres : propriétés des frais d'inscription : est conçu pour
+iasted-modelling,cours liés à la modélisation : recherche
+iasted-money,classes liées à l'argent : frais  parrainage  taxes  pourboire propriétés : a un montant de  est payé par  est payé  est payé  est payé avec  payer
+iasted-non_speaker,cours non liés aux locuteurs : délégué  conférencier  étudiant non locuteur  travailleur non locuteur
+iasted-nonauthor_registration_fee,classes liées aux frais d'inscription non-auteur : propriétés des frais d'inscription : est conçu pour
+iasted-nonmember_registration_fee,classes liées aux frais d'inscription des non-membres : propriétés des frais d'inscription : est conçu pour
+iasted-one_conference_day,une journée de conférence cours connexes : journées de conférence
+iasted-one_day_presenter,cours d'une journée liés aux présentateurs : délégué
+iasted-overhead_projector,cours liés aux rétroprojecteurs : matériel audiovisuel
+iasted-payment_document,classes liées aux documents de paiement : virement bancaire  chèque  propriétés du document : est conçu pour
+iasted-person,classes liées aux personnes : délégué  sponsor propriétés : donner  est donné par  est donné à  est nécessaire pour  est occupé par  est payé par  est préparé par  est présent  est présent dans  est envoyé par  est signé par  est utilisé par  est visité par  est écrit par  besoin  obtenir  occuper  payer  préparer  envoyer  signer  parler  écrire
+iasted-place,lieu classes liées : bâtiment  salle de conférence  chambre d'hôtel  bureau principal  salle de séance propriétés : est équipé par  est situé dans
+iasted-plenary_lecture,Cours plénières cours connexes : cours magistral
+iasted-plenary_lecture_speaker,cours liés aux conférenciers en conférence plénière : propriétés de l'auteur : parler en
+iasted-powerpoint_presentation,cours connexes de présentation PowerPoint : présentation
+iasted-presentation,cours liés à la présentation : activité de conférence  présentation PowerPoint  présentation vidéo
+iasted-presenter_city,classes liées à la ville présentatrice : propriétés de la ville : est occupée par
+iasted-presenter_house,classes liées à la maison du présentateur : propriétés du bâtiment : est occupé par  est situé dans
+iasted-presenter_state,classes liées à l'état du présentateur : propriétés de l'état : est occupé par
+iasted-presenter_university,cours liés à l'université présentatrice : propriétés du bâtiment : est situé dans
+iasted-publication,classes liées à la publication : procédure de livre  procédure de CD  propriétés de l'élément : est fabriqué à partir de
+iasted-receiving_manuscript,recevoir des cours liés aux manuscrits : activité avant la conférence
+iasted-record_of_attendance,relevé de présence aux cours liés : propriétés du document : est signé par  est situé dans
+iasted-refusing_manuscript,refus de cours liés aux manuscrits : activité avant la conférence
+iasted-registation_deadline,date limite d'inscription cours liés : date limite
+iasted-registration,cours liés à l'inscription : propriétés de l'activité de conférence : est conçu pour
+iasted-registration_fee,Cours liés aux frais d'inscription : frais d'inscription au livre de l'auteur  frais d'inscription au cd de l'auteur  frais  frais d'inscription des membres  frais d'inscription des non-auteurs  frais d'inscription des non-membres  frais d'inscription des étudiants propriétés : est payé par  est payé pour
+iasted-registration_form,cours liés au formulaire d'inscription : propriétés du formulaire : est envoyé avant  est envoyé par
+iasted-renting,location de cours liés : activité avant la conférence propriétés : est liée à
+iasted-research,cours liés à la recherche : activité avant conférence  modélisation  simulation
+iasted-review,réviser les classes associées : propriétés du document : est écrit par
+iasted-reviewer,cours liés aux évaluateurs : conférencier
+iasted-session,cours liés à la session : cours magistral  propriétés du cours du conférencier : est donné par  a lieu dans
+iasted-session_chair,classes liées au président de session : propriétés du délégué : obtenir
+iasted-session_room,classes liées à la salle de séance : propriétés du lieu : est équipé par  est situé dans
+iasted-shuttle_bus,classes liées aux navettes : véhicule de transport
+iasted-simulating,simulation de classes associées : recherche
+iasted-single_hotel_room,chambres d'hôtel individuelles classes connexes : chambre d'hôtel
+iasted-social_program,cours liés aux programmes sociaux : activité de conférence  dîner et banquet propriétés : est conçu pour
+iasted-speaker,classes liées au locuteur : auteur  délégué  non-orateur  évaluateur propriétés : donner  écrire
+iasted-speaker_lecture,cours liés aux conférences avec conférencier : session
+iasted-sponsor,classes liées au sponsor : propriétés de la personne : occuper
+iasted-sponsor_city,classes liées à la ville sponsor : propriétés de la ville : est occupé par
+iasted-sponsor_company_house,classes liées à la maison de l'entreprise sponsor : propriétés du bâtiment : est occupé par  est situé dans
+iasted-sponsor_state,classes liées à l'état parrain : état
+iasted-sponzorship,cours liés au parrainage : argent
+iasted-state,classes liées à l'état : état de la conférence  état du présentateur  état du sponsor
+iasted-student_lecturer,cours liés à l'étudiant-maître : maître de conférences
+iasted-student_non_speaker,cours liés aux étudiants non locuteurs : non locuteur
+iasted-student_registration_fee,cours liés aux frais d'inscription des étudiants : propriétés des frais d'inscription : est conçu pour
+iasted-submission,classes liées à la soumission : document  manuscrit final  propriétés du manuscrit initial : est rédigé par
+iasted-submissions_deadline,date limite de soumission pour les classes liées : date limite
+iasted-tax,classes liées à la fiscalité : taxe de départ  argent  taxe sur la valeur ajoutée
+iasted-taxi,cours liés au taxi : véhicule de transport
+iasted-technic_activity,classes liées à l'activité technique : propriétés de l'activité de conférence : est donnée par
+iasted-technical_commitee,classes liées au comité technique : propriétés déléguées : passer par
+iasted-time,cours liés au temps : jours de conférence  date limite  propriétés du jour de voyage : a lieu après  a lieu avant  est présent  est envoyé après  est envoyé avant
+iasted-time_zone,fuseau horaire
+iasted-tip,classes liées aux pourboires : propriétés monétaires : est payé
+iasted-transparency,classes liées à la transparence : propriétés du document : est préparée par
+iasted-transport_vehicle,classes liées aux véhicules de transport : voiture  objet  navette  taxi  fourgonnette propriétés : est utilisé par
+iasted-trip_city,cours liés à la ville : propriétés de la ville : est visité par
+iasted-trip_day,cours liés au jour du voyage : propriétés temporelles : est conçu pour
+iasted-tutorial,cours liés au tutoriel : cours magistral
+iasted-tutorial_speaker,classes liées au haut-parleur du didacticiel : propriétés de l'auteur : parler dans
+iasted-value_added_tax,classes liées à la taxe sur la valeur ajoutée : taxe
+iasted-van,classes liées aux fourgonnettes : véhicule de transport
+iasted-video_cassette_player,cours connexes aux lecteurs de cassettes vidéo : matériel audiovisuel
+iasted-video_presentation,cours liés à la présentation vidéo : présentation
+iasted-viza,classes liées à viza : propriétés du document : est nécessaire pour
+iasted-welcome_address,discours de bienvenue cours liés : activité de conférence
+iasted-worker_lecturer,cours liés au conférencier ouvrier : conférencier
+iasted-worker_non_speaker,classes liées aux travailleurs non locuteurs : non locuteur
+sigkdd-acm_sigkdd,Propriétés acm sigkdd : conception  conçu par  tenir  détenu par  rechercher  recherché par
+sigkdd-abstract,cours associés au résumé : document
+sigkdd-author,cours liés à l'auteur : auteur de l'article  auteur de l'article  étudiant  propriétés du locuteur : notification jusqu'à  obtenir  soumettre
+sigkdd-author_of_paper,auteur de cours liés à l'article : propriétés de l'auteur : récompense
+sigkdd-author_of_paper_student,auteur de l'article cours liés aux étudiants : propriétés de l'auteur : récompense
+sigkdd-award,classes liées au prix : prix du meilleur article de candidature  prix du meilleur article de recherche  prix du meilleur article étudiant propriétés : récompenser  décerné par  obtenir
+sigkdd-best_applications_paper_award,prix du meilleur article de candidature cours connexes : prix
+sigkdd-best_paper_awards_committee,cours liés au comité des prix du meilleur article : comité
+sigkdd-best_research_paper_award,prix du meilleur document de recherche cours connexes : prix
+sigkdd-best_student_paper_award,prix du meilleur article étudiant cours connexes : prix
+sigkdd-best_student_paper_supporter,meilleurs cours liés aux partisans des articles étudiants : sponsor
+sigkdd-bronze_supporter,Classes liées au supporter bronze : sponsor
+sigkdd-committee,cours liés aux comités : comité des prix du meilleur article  comité d'organisation  comité de programme
+sigkdd-conference,propriétés de la conférence : ville de la conférence  fin de la conférence  attente  détenu par  nom de la conférence  début de la conférence
+sigkdd-conference_hall,cours liés à la salle de conférence : lieu
+sigkdd-deadline,classes liées à la date limite : date limite de soumission du résumé  date limite de notification de l'auteur  propriétés de la date limite de soumission des articles : date  conception  conçu par  soumettre jusqu'à
+sigkdd-deadline_abstract_submission,cours liés à la soumission des résumés : date limite
+sigkdd-deadline_author_notification,classes liées à la notification de l'auteur de la date limite : propriétés de la date limite : notification jusqu'au
+sigkdd-deadline_paper_submission,date limite de soumission des documents pour les cours liés : date limite
+sigkdd-document,classes liées au document : résumé  article  propriétés de révision : présentation  présenté par  soumettre jusqu'à
+sigkdd-exhibitor,cours liés aux exposants : sponsor
+sigkdd-fee,cours liés aux frais : frais d'inscription  frais de sponsor
+sigkdd-general_chair,cours liés à la chaire générale : organisateur
+sigkdd-gold_supporter,Classes liées aux supporters d'or : sponsor
+sigkdd-hotel,cours liés à l'hôtellerie : lieu
+sigkdd-invited_speaker,cours liés au conférencier invité : conférencier
+sigkdd-listener,classes liées à l'auditeur : personne
+sigkdd-main_office,cours liés au bureau principal : lieu
+sigkdd-organizator,classes liées à l'organisateur : président général  membre du comité organisateur  personne  président du programme  membre du comité du programme  webmaster
+sigkdd-organizing_committee,cours liés au comité d'organisation : comité
+sigkdd-organizing_committee_member,Classes liées aux membres du comité organisateur : organisateur
+sigkdd-paper,classes liées au papier : propriétés du document : soumettre
+sigkdd-person,classes liées à la personne : auditeur  organisateur  propriétés du locuteur : peut rester  e-mail  nom  nation  payer  payé par
+sigkdd-place,cours liés au lieu : salle de conférence  hôtel  bureau principal propriétés : peut rester dans
+sigkdd-platinum_supporter,Classes liées aux supporters platine : sponsor
+sigkdd-program_chair,classes liées à la chaire de programme : organisateur
+sigkdd-program_committee,cours liés au comité de programme : comité
+sigkdd-program_committee_member,classes liées aux membres du comité de programme : organisateur
+sigkdd-registration_non-member,inscription cours non liés aux membres : frais d'inscription
+sigkdd-registration_sigkdd_member,inscription aux cours liés aux membres sigkdd : frais d'inscription
+sigkdd-registration_sigmod_member,inscription aux cours liés aux membres sigmod : frais d'inscription
+sigkdd-registration_student,inscription aux cours liés aux étudiants : frais d'inscription
+sigkdd-registration_fee,cours liés aux frais d'inscription : frais  inscription non membre  inscription membre sigkdd  inscription membre sigmod  inscription étudiant propriétés : devise  salaire  payé par  prix
+sigkdd-review,réviser les cours associés : document
+sigkdd-silver_supporter,Classes liées aux supporters argentés : sponsor
+sigkdd-speaker,cours liés au conférencier : auteur  conférencier invité  propriétés de la personne : présentation  présenté par
+sigkdd-sponzor,classes liées au sponsor : meilleur supporteur étudiant  supporteur bronze  exposant  supporteur or  supporteur platine  supporteur argent propriétés : nom du sponsor  recherche  recherché par
+sigkdd-sponzor_fee,Cours liés aux frais de parrainage : frais
+sigkdd-webmaster,Cours liés au webmaster : organisateur
