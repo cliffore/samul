@@ -1,0 +1,492 @@
+concept,prompt
+conference-abstract,"abstract  related classes: extended abstract  properties: has an abstract, is the 1th part of"
+conference-accepted_contribution,"accepted contribution  related classes: camera ready contribution, rejected contribution, reviewed contribution"
+conference-active_conference_participant,"active conference participant  related classes: conference contributor, conference participant, invited speaker, passive conference participant, regular author  properties: gives presentations, is given by"
+conference-call_for_paper,call for paper  related classes: conference document
+conference-call_for_participation,call for participation  related classes: conference document
+conference-camera_ready_contribution,camera ready contribution  related classes: accepted contribution
+conference-chair,"chair  related classes: committee member  properties: has a committee chair, was a committee chair of"
+conference-co-chair,"co chair  related classes: committee member  properties: has a committee co chair, was a committe co chair of"
+conference-committee,"committee  related classes: organizing committee, program committee, steering committee  properties: has a committee chair, has a committee co chair, has a commtitee, has members, was a committe co chair of, was a committee chair of, was a committee of, was a member of"
+conference-committee_member,"committee member  related classes: chair, co chair, person  properties: has members, was a member of"
+conference-conference,conference  related classes: conference volume
+conference-conference_announcement,conference announcement  related classes: conference document
+conference-conference_applicant,"conference applicant  related classes: person, registeered applicant"
+conference-conference_contribution,"conference contribution  related classes: conference document, invited talk, poster, presentation, regular contribution, written contribution  properties: has contributions, is submitted at"
+conference-conference_contributor,"conference contributor  related classes: active conference participant, invited speaker, person, regular author"
+conference-conference_document,"conference document  related classes: call for paper, call for participation, conference announcement, conference contribution, conference www, information for participants, review  properties: contributes, has a date of issue, has authors"
+conference-conference_fees,conference fees
+conference-conference_part,"conference part  related classes: track, tutorial, workshop  properties: has a track workshop tutorial chair, has a track workshop tutorial topic, has parts, is a topis of conference parts, is part of conference volumes, was a track workshop chair of"
+conference-conference_participant,"conference participant  related classes: active conference participant, passive conference participant, person"
+conference-conference_proceedings,"conference proceedings  properties: has a publisher, has a volume, has an isbn, issues"
+conference-conference_volume,"conference volume  related classes: conference  properties: belong to a conference volume, has a commtitee, has a location, has a program committee, has a steering committee, has an organizing committee, has contributions, has important dates, has parts, has tracks, has tutorials, has workshops, is part of conference volumes, is submitted at, was a committee of, was a program committee of, was a steering committee of, was an organizing committee of"
+conference-conference_www,conference www  related classes: conference document  properties: has a url
+conference-contribution_1th-author,"contribution 1th author  related classes: contribution co author, regular author"
+conference-contribution_co-author,"contribution co author  related classes: contribution 1th author, regular author"
+conference-early_paid_applicant,"early paid applicant  related classes: late paid applicant, paid applicant"
+conference-extended_abstract,"extended abstract  related classes: abstract, paper, regular contribution"
+conference-important_dates,"important dates  properties: belong to a conference volume, has important dates, is a date of acceptance announcement, is a date of camera ready paper submission, is a full paper submission date, is a starting date, is an abstract submission date, is an ending date"
+conference-information_for_participants,information for participants  related classes: conference document
+conference-invited_speaker,invited speaker  related classes: conference contributor
+conference-invited_talk,"invited talk  related classes: poster, presentation, regular contribution"
+conference-late_paid_applicant,"late paid applicant  related classes: early paid applicant, paid applicant"
+conference-organization,organization
+conference-organizer,"organizer  related classes: committee member, organization"
+conference-organizing_committee,"organizing committee  related classes: committee, program committee, steering committee  properties: has an organizing committee, was an organizing committee of"
+conference-paid_applicant,"paid applicant  related classes: early paid applicant, late paid applicant, registeered applicant"
+conference-paper,"paper  related classes: extended abstract, regular contribution"
+conference-passive_conference_participant,"passive conference participant  related classes: active conference participant, conference participant"
+conference-person,"person  related classes: committee member, conference applicant, conference contributor, conference participant, reviewer, track workshop chair  properties: contributes, has an email, has authors, has gender, has the first name, has the last name"
+conference-poster,"poster  related classes: conference contribution, invited talk, regular contribution"
+conference-presentation,"presentation  related classes: conference contribution, invited talk  properties: gives presentations, is given by"
+conference-program_committee,"program committee  related classes: committee, organizing committee, steering committee  properties: has a program committee, was a program committee of"
+conference-publisher,"publisher  properties: has a publisher, issues"
+conference-registeered_applicant,"registeered applicant  related classes: conference applicant, paid applicant"
+conference-regular_author,"regular author  related classes: conference contributor, contribution 1th author, contribution co author"
+conference-regular_contribution,"regular contribution  related classes: extended abstract, invited talk, paper, poster, written contribution"
+conference-rejected_contribution,"rejected contribution  related classes: accepted contribution, reviewed contribution"
+conference-review,"review  related classes: conference document  properties: has a review, has authors, reviews"
+conference-review_expertise,"review expertise  properties: belongs to reviewers, has a review expertise, has a submitted contribution, has an expertise"
+conference-review_preference,"review preference  properties: belongs to a review reference, belongs to reviewers, has a degree, has a topic or a submission contribution, has been assigned a review reference"
+conference-reviewed_contribution,"reviewed contribution  related classes: accepted contribution, rejected contribution, submitted contribution  properties: has a review, reviews"
+conference-reviewer,"reviewer  related classes: person  properties: belongs to reviewers, has a review reference or expertise, invited by, invites co reviewers"
+conference-steering_committee,"steering committee  related classes: committee, organizing committee, program committee  properties: has a steering committee, was a steering committee of"
+conference-submitted_contribution,"submitted contribution  related classes: poster, regular contribution, reviewed contribution, written contribution  properties: has a review expertise, has a submitted contribution"
+conference-topic,"topic  properties: belongs to a review reference, has a track workshop tutorial topic, is a topis of conference parts"
+conference-track,"track  related classes: conference part, tutorial, workshop  properties: has tracks"
+conference-track-workshop_chair,"track workshop chair  related classes: person  properties: has a track workshop tutorial chair, was a track workshop chair of"
+conference-tutorial,"tutorial  related classes: conference part, track, workshop  properties: has tutorials"
+conference-workshop,"workshop  related classes: conference part, track, tutorial  properties: has workshops"
+conference-written_contribution,"written contribution  related classes: conference contribution, poster, regular contribution, submitted contribution"
+cmt-acceptance,"acceptance  related classes: decision, rejection"
+cmt-administrator,"administrator  related classes: user  properties: accept paper, accepted by, add program committee member, added by, assign reviewer, assigned by administrator, details entered by, enable virtual meeting, enter conference details, enter review criteria, finalize paper assignment, hardcopy mailing manifests printed by, paper assignment finalized by, paper assignment tools run by, print hardcopy mailing manifests, reject paper, rejected by, review criteria entered by, reviewer bidding started by, run paper assignment tools, set max papers, start reviewer bidding, virtual meeting enabled by"
+cmt-associatedchair,"associated chair  related classes: conference chair, conference member"
+cmt-author,"author  related classes: author not reviewer, co author, conference member, user  properties: has author, submit paper, write paper"
+cmt-authornotreviewer,"author not reviewer  related classes: author, program committee member, reviewer"
+cmt-bid,"bid  related classes: conference, decision, document, person, preference, program committee  properties: adjust bid, adjusted by, has bid"
+cmt-chairman,"chairman  related classes: associated chair, conference chair, person, program committee chair"
+cmt-co-author,"co author  related classes: author  properties: co write paper, has co author"
+cmt-conference,"conference  related classes: bid, decision, document, person, preference, program committee  properties: accepts hardcopy submissions, date, details entered by, enable virtual meeting, enter conference details, enter review criteria, finalize paper assignment, hardcopy mailing manifests printed by, has conference member, logo url, member of conference, name, paper assignment finalized by, paper assignment tools run by, print hardcopy mailing manifests, review criteria entered by, reviewer bidding started by, reviews per paper, run paper assignment tools, site url, start reviewer bidding, virtual meeting enabled by"
+cmt-conferencechair,"conference chair  related classes: associated chair, conference member"
+cmt-conferencemember,"conference member  related classes: associated chair, author, conference chair, person, program committee member, reviewer  properties: has conference member, member of conference"
+cmt-decision,"decision  related classes: acceptance, bid, conference, document, person, preference, program committee, rejection  properties: has decision"
+cmt-document,"document  related classes: bid, conference, decision, paper, person, preference, program committee, review  properties: has conflict of interest"
+cmt-externalreviewer,"external reviewer  related classes: person, reviewer  properties: assign external reviewer, assigned by reviewer"
+cmt-meta-review,meta review  related classes: review
+cmt-meta-reviewer,meta reviewer  related classes: reviewer  properties: read by meta reviewer
+cmt-paper,"paper  related classes: document, paper abstract, paper full version, review  properties: accept paper, accepted by, assigned to, co write paper, has author, has been assigned, has bid, has co author, has decision, has subject area, mark conflict of interest, paper id, read by meta reviewer, read by reviewer, read paper, reject paper, rejected by, submit paper, title, write paper"
+cmt-paperabstract,paper abstract  related classes: paper
+cmt-paperfullversion,paper full version  related classes: paper
+cmt-person,"person  related classes: bid, chairman, conference, conference member, decision, document, external reviewer, preference, program committee, program committee member, user  properties: email, has conflict of interest"
+cmt-preference,"preference  related classes: bid, conference, decision, document, person, program committee"
+cmt-programcommittee,"program committee  related classes: bid, conference, decision, document, person, preference  properties: has program committee member, member of program committee"
+cmt-programcommitteechair,program committee chair  related classes: program committee member  properties: end review
+cmt-programcommitteemember,"program committee member  related classes: author not reviewer, conference member, person, program committee chair  properties: add program committee member, added by, has program committee member, max papers, member of program committee, set max papers"
+cmt-rejection,"rejection  related classes: acceptance, decision"
+cmt-review,"review  related classes: document, meta review, paper  properties: end review, write review, written by"
+cmt-reviewer,"reviewer  related classes: author not reviewer, conference member, external reviewer, meta reviewer, user  properties: adjust bid, adjusted by, assign external reviewer, assign reviewer, assigned by administrator, assigned by reviewer, assigned to, has been assigned, read by reviewer, read paper, write review, written by"
+cmt-subjectarea,subject area  properties: has subject area
+cmt-user,"user  related classes: administrator, author, person, reviewer"
+confof-administrative_event,"administrative event  related classes: camera ready event, event, registration of participants event, reviewing event, reviewing results event, social event, submission event, working event  properties: follows, has administrative event, parallel with"
+confof-administrator,administrator  related classes: person
+confof-assistant,assistant  related classes: person
+confof-author,"author  related classes: person  properties: writes, written by"
+confof-banquet,"banquet  related classes: reception, social event, trip"
+confof-camera_ready_event,"camera ready event  related classes: administrative event, registration of participants event, reviewing event, reviewing results event, submission event"
+confof-chair_pc,chair pc  related classes: person
+confof-city,"city  related classes: contribution, event, organization, person, topic  properties: has city"
+confof-company,"company  related classes: organization, university"
+confof-conference,"conference  related classes: tutorial, working event, workshop"
+confof-contribution,"contribution  related classes: city, country, event, organization, paper, person, poster, short paper, topic  properties: abstract, contact email, deals with, has keyword, has title, remark, reviewes, writes, written by"
+confof-country,"country  related classes: contribution, event, organization, person, topic  properties: has country"
+confof-event,"event  related classes: administrative event, city, contribution, country, organization, person, social event, topic, working event  properties: ends on, starts on"
+confof-member,member  related classes: participant
+confof-member_pc,"member pc  related classes: person  properties: expert on, reviewes"
+confof-organization,"organization  related classes: city, company, contribution, country, event, person, topic, university  properties: employed by"
+confof-paper,"paper  related classes: contribution, poster, short paper"
+confof-participant,"participant  related classes: member, person, regular, student  properties: early registration"
+confof-person,"person  related classes: administrator, assistant, author, chair pc, city, contribution, country, event, member pc, organization, participant, scholar, science worker, topic, volunteer  properties: employed by, has city, has country, has email, has fax, has first name, has home page, has phone, has postal code, has street, has surname"
+confof-poster,"poster  related classes: contribution, paper, short paper"
+confof-reception,"reception  related classes: banquet, social event, trip"
+confof-registration_of_participants_event,"registration of participants event  related classes: administrative event, camera ready event, reviewing event, reviewing results event, submission event"
+confof-regular,regular  related classes: participant
+confof-reviewing_event,"reviewing event  related classes: administrative event, camera ready event, registration of participants event, reviewing results event, submission event"
+confof-reviewing_results_event,"reviewing results event  related classes: administrative event, camera ready event, registration of participants event, reviewing event, submission event"
+confof-scholar,scholar  related classes: person  properties: study at
+confof-science_worker,science worker  related classes: person
+confof-short_paper,"short paper  related classes: contribution, paper, poster"
+confof-social_event,"social event  related classes: administrative event, banquet, event, reception, trip, working event  properties: default choice, has title, location"
+confof-student,student  related classes: participant
+confof-submission_event,"submission event  related classes: administrative event, camera ready event, registration of participants event, reviewing event, reviewing results event"
+confof-topic,"topic  related classes: city, contribution, country, event, organization, person  properties: deals with, expert on, has topic"
+confof-trip,"trip  related classes: banquet, reception, social event"
+confof-tutorial,"tutorial  related classes: conference, working event, workshop"
+confof-university,"university  related classes: company, organization  properties: study at"
+confof-volunteer,volunteer  related classes: person
+confof-working_event,"working event  related classes: administrative event, conference, event, social event, tutorial, workshop  properties: default choice, has administrative event, has title, has topic, location"
+confof-workshop,"workshop  related classes: conference, tutorial, working event"
+edas-academiaorganization,"academia organization  related classes: government organization, industry organization, ngo, organization"
+edas-academicevent,"academic event  related classes: conference event, non academic event, organizational meeting, paper presentation, talk event, workshop  properties: for event, has call"
+edas-acceptrating,"accept rating  related classes: accpet if room rating, reject rating, review rating, week reject rating"
+edas-acceptedpaper,"accepted paper  related classes: active paper, paper, pending paper, published paper, rejected paper, withdrawn paper  properties: related to event, related to paper"
+edas-accommodationplace,accommodation place  related classes: place
+edas-accpetifroomrating,"accpet if room rating  related classes: accept rating, reject rating, review rating, week reject rating"
+edas-activepaper,"active paper  related classes: accepted paper, paper, pending paper, published paper, rated papers, rejected paper, withdrawn paper  properties: has rating"
+edas-antennastopic,"antennas topic  related classes: cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-attendee,attendee  related classes: person
+edas-author,"author  related classes: conference chair, person, presenter, session chair, tpc member  properties: has related paper, is written by"
+edas-breakevent,"break event  related classes: coffee break, free time break, meal break, meal event, non academic event"
+edas-cadtopic,"cad topic  related classes: antennas topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-call,"call  related classes: call for manuscripts, call for papers, call for reviews, conference, conference event, conference session, contact information, country, document, organization, person, personal history, place, review form, review question, review rating, sponsorship, topic  properties: for event, has call, has submission deadline, has submission instructions, initiates, is initiated by"
+edas-callformanuscripts,call for manuscripts  related classes: call
+edas-callforpapers,call for papers  related classes: call
+edas-callforreviews,call for reviews  related classes: call
+edas-closingtalk,"closing talk  related classes: talk event, welcome talk"
+edas-coffeebreak,coffee break  related classes: break event
+edas-communicationtheorytopic,"communication theory topic  related classes: antennas topic, cad topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-communicationstopic,"communications topic  related classes: antennas topic, cad topic, communication theory topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-computerarchitecturetopic,"computer architecture topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-computernetworksaapplicationstopic,"computer networks aapplications topic  related classes: computer networks enterprise topic, computer networks management topic, computer networks measurements topic, computer networks optical topic, computer networks security topic, computer networks sensor topic, computer networks switching topic, computer networks topic"
+edas-computernetworksenterprisetopic,"computer networks enterprise topic  related classes: computer networks aapplications topic, computer networks management topic, computer networks measurements topic, computer networks optical topic, computer networks security topic, computer networks sensor topic, computer networks switching topic, computer networks topic"
+edas-computernetworksmanagementtopic,"computer networks management topic  related classes: computer networks aapplications topic, computer networks enterprise topic, computer networks measurements topic, computer networks optical topic, computer networks security topic, computer networks sensor topic, computer networks switching topic, computer networks topic"
+edas-computernetworksmeasurementstopic,"computer networks measurements topic  related classes: computer networks aapplications topic, computer networks enterprise topic, computer networks management topic, computer networks optical topic, computer networks security topic, computer networks sensor topic, computer networks switching topic, computer networks topic"
+edas-computernetworksopticaltopic,"computer networks optical topic  related classes: computer networks aapplications topic, computer networks enterprise topic, computer networks management topic, computer networks measurements topic, computer networks security topic, computer networks sensor topic, computer networks switching topic, computer networks topic"
+edas-computernetworkssecuritytopic,"computer networks security topic  related classes: computer networks aapplications topic, computer networks enterprise topic, computer networks management topic, computer networks measurements topic, computer networks optical topic, computer networks sensor topic, computer networks switching topic, computer networks topic"
+edas-computernetworkssensortopic,"computer networks sensor topic  related classes: computer networks aapplications topic, computer networks enterprise topic, computer networks management topic, computer networks measurements topic, computer networks optical topic, computer networks security topic, computer networks switching topic, computer networks topic"
+edas-computernetworksswitchingtopic,"computer networks switching topic  related classes: computer networks aapplications topic, computer networks enterprise topic, computer networks management topic, computer networks measurements topic, computer networks optical topic, computer networks security topic, computer networks sensor topic, computer networks topic"
+edas-computernetworkstopic,"computer networks topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks aapplications topic, computer networks enterprise topic, computer networks management topic, computer networks measurements topic, computer networks optical topic, computer networks security topic, computer networks sensor topic, computer networks switching topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-conference,"conference  related classes: call, conference event, conference session, contact information, country, document, organization, paper, person, personal history, place, review form, review question, review rating, sponsorship, topic  properties: end date, has country, has member, has name, has topic, is member of, manuscript due on, paper due on, registration due on, start date"
+edas-conferencechair,"conference chair  related classes: author, person"
+edas-conferencedinner,conference dinner  related classes: meal event
+edas-conferenceevent,"conference event  related classes: academic event, call, conference, conference session, contact information, country, document, non academic event, organization, person, personal history, place, review form, review question, review rating, sponsorship, topic  properties: attendee at, belongs to event, has attendee, has end date time, has location, has programme, has start date time, is location of"
+edas-conferencesession,"conference session  related classes: call, conference, conference event, contact information, country, document, organization, person, personal history, place, review form, review question, review rating, sponsorship, topic"
+edas-conferencevenueplace,conference venue place  related classes: place
+edas-contactinformation,"contact information  related classes: call, conference, conference event, conference session, country, document, organization, personal history, place, review form, review question, review rating, sponsorship, topic  properties: has city, has phone, has postal code, has street"
+edas-country,"country  related classes: call, conference, conference event, conference session, contact information, document, organization, person, personal history, place, review form, review question, review rating, sponsorship, topic  properties: has country"
+edas-cryptographytopic,"cryptography topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-diningplace,dining place  related classes: place
+edas-document,"document  related classes: call, conference, conference event, conference session, contact information, country, meal menu, organization, paper, person, personal history, place, programme, review, review form, review question, review rating, slide set, sponsorship, topic  properties: has related document, relates to"
+edas-excursion,excursion  related classes: social event
+edas-freetimebreak,free time break  related classes: break event
+edas-governmentorganization,"government organization  related classes: academia organization, industry organization, ngo, organization"
+edas-industryorganization,"industry organization  related classes: academia organization, government organization, ngo, organization"
+edas-mealbreak,meal break  related classes: break event
+edas-mealevent,"meal event  related classes: break event, conference dinner, non academic event  properties: has menu, is menu of"
+edas-mealmenu,"meal menu  related classes: document, paper, programme, review, slide set  properties: has menu, is menu of"
+edas-medicinetopic,"medicine topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-meetingroomplace,meeting room place  related classes: place
+edas-microelectronicstopic,"microelectronics topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-mobilecomputingtopic,"mobile computing topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-multimediatopic,"multimedia topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-ngo,"ngo  related classes: academia organization, government organization, industry organization, organization"
+edas-nonacademicevent,"non academic event  related classes: academic event, break event, conference event, meal event, social event"
+edas-numericalreviewquestion,numerical review question  related classes: review question
+edas-operatingtopicsystems,"operating topicsystems  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-organization,"organization  related classes: academia organization, call, conference, conference event, conference session, contact information, country, document, government organization, industry organization, ngo, person, personal history, place, review form, review question, review rating, sponsorship, topic  properties: is provider of, provided by"
+edas-organizationalmeeting,"organizational meeting  related classes: academic event, paper presentation, talk event, workshop"
+edas-paper,"paper  related classes: accepted paper, active paper, conference, document, meal menu, pending paper, programme, published paper, rejected paper, review, slide set, withdrawn paper  properties: has related paper, is reviewed by, is reviewing, is written by"
+edas-paperpresentation,"paper presentation  related classes: academic event, organizational meeting, talk event, workshop  properties: related to event, related to paper"
+edas-parallelanddistributedcomputingtopic,"parallel and distributed computing topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-pendingpaper,"pending paper  related classes: accepted paper, active paper, paper, published paper, rejected paper, withdrawn paper"
+edas-performancetopic,"performance topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-person,"person  related classes: attendee, call, conference, conference chair, conference event, conference session, country, document, organization, personal history, place, review form, review question, review rating, session chair, sponsorship, topic, tpc member  properties: attendee at, has attendee, has biography, has first name, has last name, has member, is member of"
+edas-personalhistory,"personal history  related classes: call, conference, conference event, conference session, contact information, country, document, organization, person, personal publication history, personal review history, place, review form, review question, review rating, sponsorship, topic"
+edas-personalpublicationhistory,personal publication history  related classes: personal history
+edas-personalreviewhistory,"personal review history  related classes: personal history  properties: has review history, is review history of"
+edas-place,"place  related classes: accommodation place, call, conference, conference event, conference session, conference venue place, contact information, country, dining place, document, meeting room place, organization, person, personal history, review form, review question, review rating, sponsorship, topic  properties: has location, is location of"
+edas-powerlinetransmissiontopic,"powerline transmission topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-presenter,presenter  related classes: author
+edas-programme,"programme  related classes: document, meal menu, paper, review, slide set  properties: belongs to event, has programme"
+edas-publishedpaper,"published paper  related classes: accepted paper, active paper, paper, pending paper, rejected paper, withdrawn paper"
+edas-radiocommunicationstopic,"radio communications topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-ratedpapers,rated papers  related classes: active paper
+edas-reception,reception  related classes: social event
+edas-rejectrating,"reject rating  related classes: accept rating, accpet if room rating, review rating, week reject rating"
+edas-rejectedpaper,"rejected paper  related classes: accepted paper, active paper, paper, pending paper, published paper, withdrawn paper"
+edas-review,"review  related classes: document, meal menu, paper, programme, slide set"
+edas-reviewform,"review form  related classes: call, conference, conference event, conference session, contact information, country, document, organization, person, personal history, place, review question, review rating, sponsorship, topic"
+edas-reviewquestion,"review question  related classes: call, conference, conference event, conference session, contact information, country, document, numerical review question, organization, person, personal history, place, review form, review rating, sponsorship, textual review question, topic"
+edas-reviewrating,"review rating  related classes: accept rating, accpet if room rating, call, conference, conference event, conference session, contact information, country, document, organization, person, personal history, place, reject rating, review form, review question, sponsorship, topic, week reject rating  properties: has rating"
+edas-reviewer,"reviewer  related classes: person  properties: has review history, is review history of"
+edas-satelliteandspacecommunicationstopic,"satellite and space communications topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, security topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-securitytopic,"security topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, signal processing topic, test only topic, topic, wireless communications topic"
+edas-sessionchair,"session chair  related classes: author, person"
+edas-signalprocessingtopic,"signal processing topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, test only topic, topic, wireless communications topic"
+edas-singlelevelconference,"single level conference  related classes: conference, two level conference"
+edas-slideset,"slide set  related classes: document, meal menu, paper, programme, review"
+edas-socialevent,"social event  related classes: excursion, non academic event, reception"
+edas-sponsorship,"sponsorship  related classes: call, conference, conference event, conference session, contact information, country, document, organization, person, personal history, place, review form, review question, review rating, topic, travel grant  properties: has cost amount, has cost currency, is provider of, provided by"
+edas-tpcmember,"tpc member  related classes: author, person"
+edas-talkevent,"talk event  related classes: academic event, closing talk, organizational meeting, paper presentation, welcome talk, workshop"
+edas-testonlytopic,"test only topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, topic, wireless communications topic"
+edas-textualreviewquestion,textual review question  related classes: review question
+edas-topic,"topic  related classes: antennas topic, cad topic, call, communication theory topic, communications topic, computer architecture topic, computer networks topic, conference, conference event, conference session, contact information, country, cryptography topic, document, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, organization, parallel and distributed computing topic, performance topic, person, personal history, place, powerline transmission topic, radio communications topic, review form, review question, review rating, satellite and space communications topic, security topic, signal processing topic, sponsorship, test only topic, wireless communications topic  properties: has topic, is topic of"
+edas-travelgrant,travel grant  related classes: sponsorship
+edas-twolevelconference,two level conference  related classes: conference
+edas-weekrejectrating,"week reject rating  related classes: accept rating, accpet if room rating, reject rating, review rating"
+edas-welcometalk,"welcome talk  related classes: closing talk, talk event"
+edas-wirelesscommunicationstopic,"wireless communications topic  related classes: antennas topic, cad topic, communication theory topic, communications topic, computer architecture topic, computer networks topic, cryptography topic, medicine topic, microelectronics topic, mobile computing topic, multimedia topic, operating topicsystems, parallel and distributed computing topic, performance topic, powerline transmission topic, radio communications topic, satellite and space communications topic, security topic, signal processing topic, test only topic, topic"
+edas-withdrawnpaper,"withdrawn paper  related classes: accepted paper, active paper, paper, pending paper, published paper, rejected paper"
+edas-workshop,"workshop  related classes: academic event, organizational meeting, paper presentation, talk event"
+ekaw-abstract,"abstract  related classes: document, invited talk abstract, tutorial abstract"
+ekaw-academic_institution,"academic institution  related classes: organisation, organising agency, research institute, university  properties: scientifically organised by, scientifically organises"
+ekaw-accepted_paper,"accepted paper  related classes: camera ready paper, evaluated paper, rejected paper  properties: has review"
+ekaw-agency_staff_member,agency staff member  related classes: person
+ekaw-assigned_paper,"assigned paper  related classes: evaluated paper, submitted paper  properties: has reviewer"
+ekaw-camera_ready_paper,"camera ready paper  related classes: accepted paper, evaluated paper, paper, submitted paper  properties: updated version of, written by"
+ekaw-conference,"conference  related classes: contributed talk, invited talk, scientific event, session, social event, track, tutorial, workshop"
+ekaw-conference_banquet,conference banquet  related classes: social event
+ekaw-conference_paper,"conference paper  related classes: paper, workshop paper"
+ekaw-conference_participant,"conference participant  related classes: demo chair, early registered participant, late registered participant, oc member, pc chair, person, presenter, session chair, tutorial chair, workshop chair"
+ekaw-conference_proceedings,conference proceedings  related classes: proceedings  properties: volume contains paper
+ekaw-conference_session,"conference session  related classes: industrial session, session, workshop session  properties: part of event"
+ekaw-conference_trip,conference trip  related classes: social event
+ekaw-contributed_talk,"contributed talk  related classes: conference, individual presentation, invited talk, session, social event, track, tutorial  properties: presentation of paper"
+ekaw-demo_chair,demo chair  related classes: conference participant
+ekaw-demo_paper,"demo paper  related classes: industrial paper, paper, poster paper, regular paper"
+ekaw-demo_session,"demo session  related classes: poster session, regular session, session"
+ekaw-document,"document  related classes: abstract, flyer, multi author volume, paper, person, programme brochure, review, web site  properties: author of, has updated version, updated version of, written by"
+ekaw-early-registered_participant,"early registered participant  related classes: conference participant, late registered participant"
+ekaw-evaluated_paper,"evaluated paper  related classes: accepted paper, assigned paper, camera ready paper, rejected paper  properties: has review"
+ekaw-event,"event  related classes: person, scientific event, social event  properties: event on list, has event, held in, inverse of part of 7, lists event, location of, organised by, organises, part of event"
+ekaw-flyer,"flyer  related classes: document, multi author volume, paper, proceedings, programme brochure, review, web site"
+ekaw-individual_presentation,"individual presentation  related classes: contributed talk, invited talk, scientific event, tutorial, workshop  properties: paper presented as, presentation of paper"
+ekaw-industrial_paper,"industrial paper  related classes: demo paper, paper, poster paper, regular paper, workshop paper"
+ekaw-industrial_session,industrial session  related classes: conference session
+ekaw-invited_speaker,invited speaker  related classes: presenter
+ekaw-invited_talk,"invited talk  related classes: conference, contributed talk, individual presentation, session, social event, track, tutorial, workshop"
+ekaw-invited_talk_abstract,invited talk abstract  related classes: abstract
+ekaw-late-registered_participant,"late registered participant  related classes: conference participant, early registered participant"
+ekaw-location,"location  related classes: person  properties: held in, location of"
+ekaw-multi-author_volume,"multi author volume  related classes: document, flyer, paper, proceedings, programme brochure, review, web site"
+ekaw-negative_review,"negative review  related classes: neutral review, positive review, review"
+ekaw-neutral_review,"neutral review  related classes: negative review, positive review, review"
+ekaw-oc_chair,oc chair  related classes: oc member
+ekaw-oc_member,"oc member  related classes: conference participant, oc chair"
+ekaw-organisation,"organisation  related classes: academic institution, organising agency, person, proceedings publisher  properties: publisher of, technically organises"
+ekaw-organising_agency,"organising agency  related classes: academic institution, organisation"
+ekaw-pc_chair,"pc chair  related classes: conference participant, pc member, tutorial chair, workshop chair"
+ekaw-pc_member,"pc member  related classes: pc chair, possible reviewer, sc member, session chair, tutorial chair, workshop chair"
+ekaw-paper,"paper  related classes: camera ready paper, conference paper, demo paper, document, flyer, industrial paper, multi author volume, poster paper, proceedings, programme brochure, regular paper, review, submitted paper, web site, workshop paper  properties: has review, has reviewer, review of paper, reviewer of paper"
+ekaw-paper_author,paper author  related classes: person
+ekaw-person,"person  related classes: agency staff member, conference participant, document, event, location, organisation, paper author, possible reviewer, student  properties: author of, written by"
+ekaw-positive_review,"positive review  related classes: negative review, neutral review, review"
+ekaw-possible_reviewer,"possible reviewer  related classes: pc member, person  properties: has reviewer, review written by, reviewer of paper"
+ekaw-poster_paper,"poster paper  related classes: demo paper, industrial paper, paper, regular paper"
+ekaw-poster_session,"poster session  related classes: demo session, regular session, session"
+ekaw-presenter,"presenter  related classes: conference participant, invited speaker"
+ekaw-proceedings,"proceedings  related classes: conference proceedings, flyer, multi author volume, paper, programme brochure, review, web site  properties: volume contains paper"
+ekaw-proceedings_publisher,proceedings publisher  related classes: organisation
+ekaw-programme_brochure,"programme brochure  related classes: document, flyer, multi author volume, paper, proceedings, review, web site"
+ekaw-regular_paper,"regular paper  related classes: demo paper, industrial paper, paper, poster paper"
+ekaw-regular_session,"regular session  related classes: demo session, poster session, session"
+ekaw-rejected_paper,"rejected paper  related classes: accepted paper, evaluated paper"
+ekaw-research_institute,research institute  related classes: academic institution
+ekaw-research_topic,"research topic  properties: covers topic, topic covered by"
+ekaw-review,"review  related classes: document, flyer, multi author volume, negative review, neutral review, paper, positive review, proceedings, programme brochure, web site  properties: has review, review of paper, review written by"
+ekaw-sc_member,sc member  related classes: pc member
+ekaw-scientific_event,"scientific event  related classes: conference, event, individual presentation, session, track, workshop"
+ekaw-session,"session  related classes: conference, conference session, contributed talk, demo session, invited talk, poster session, regular session, scientific event, track, tutorial, workshop, workshop session  properties: has event, part of event"
+ekaw-session_chair,"session chair  related classes: conference participant, pc member"
+ekaw-social_event,"social event  related classes: conference, conference banquet, conference trip, contributed talk, event, invited talk, track, tutorial, workshop"
+ekaw-student,student  related classes: person
+ekaw-submitted_paper,"submitted paper  related classes: assigned paper, camera ready paper, paper"
+ekaw-track,"track  related classes: conference, contributed talk, invited talk, scientific event, session, social event, tutorial, workshop"
+ekaw-tutorial,"tutorial  related classes: conference, contributed talk, individual presentation, invited talk, session, social event, track, workshop"
+ekaw-tutorial_abstract,tutorial abstract  related classes: abstract
+ekaw-tutorial_chair,"tutorial chair  related classes: conference participant, pc chair, pc member"
+ekaw-university,university  related classes: academic institution
+ekaw-web_site,"web site  related classes: document, flyer, multi author volume, paper, proceedings, programme brochure, review"
+ekaw-workshop,"workshop  related classes: conference, individual presentation, invited talk, scientific event, session, social event, track, tutorial"
+ekaw-workshop_chair,"workshop chair  related classes: conference participant, pc chair, pc member"
+ekaw-workshop_paper,"workshop paper  related classes: conference paper, industrial paper, paper"
+ekaw-workshop_session,"workshop session  related classes: conference session, session"
+iasted-accepting_manuscript,accepting manuscript  related classes: activity before conference
+iasted-activity,"activity  related classes: activity after conference, activity before conference, conference activity  properties: go through, is dated on, is held after, is held before, is held in"
+iasted-activity_after_conference,"activity after conference  related classes: activity, departure, full day tour  properties: is held after"
+iasted-activity_before_conference,"activity before conference  related classes: accepting manuscript, activity, receiving manuscript, refusing manuscript, renting, research  properties: is held before"
+iasted-audiovisual_equipment,"audiovisual equipment  related classes: computer, item, lcd projector, overhead projector, video cassette player  properties: is designed for, is situated in, is used by"
+iasted-author,"author  related classes: author book proceedings included, author cd proceedings included, lecturer, plenary lecture speaker, speaker, tutorial speaker  properties: give, prepare"
+iasted-author_attendee_book_registration_fee,author attendee book registration fee  related classes: registration fee  properties: is paid for
+iasted-author_attendee_cd_registration_fee,author attendee cd registration fee  related classes: registration fee  properties: is paid for
+iasted-author_book_proceedings_included,author book proceedings included  related classes: author  properties: obtain
+iasted-author_cd_proceedings_included,author cd proceedings included  related classes: author  properties: obtain
+iasted-author_information_form,author information form  related classes: form  properties: is sent after
+iasted-bank_transfer,bank transfer  related classes: payment document
+iasted-book_proceeding,book proceeding  related classes: publication
+iasted-brief_introduction_for_session_chair,"brief introduction for session chair  related classes: document  properties: is given by, is given to"
+iasted-building,"building  related classes: conference airport, conference building, conference hotel, conference restaurant, place, presenter house, presenter university, sponsor company house  properties: is paid in"
+iasted-camera_ready_manuscript_deadline,camera ready manuscript deadline  related classes: deadline
+iasted-car,car  related classes: transport vehicle
+iasted-card,"card  related classes: credit card, item"
+iasted-cd_proceening,cd proceening  related classes: publication
+iasted-cheque,cheque  related classes: payment document
+iasted-city,"city  related classes: conference city, presenter city, sponsor city, trip city  properties: is situated in"
+iasted-coctail_reception,coctail reception  related classes: conference activity  properties: is designed for
+iasted-coffee_break,coffee break  related classes: conference activity  properties: is designed for
+iasted-computer,computer  related classes: audiovisual equipment
+iasted-conference_hiker,conference hiker  related classes: delegate
+iasted-conference_activity,"conference activity  related classes: activity, coctail reception, coffee break, introduction, lecture, presentation, registration, social program, technic activity, welcome address  properties: is held in"
+iasted-conference_airport,conference airport  related classes: building  properties: is situated in
+iasted-conference_building,"conference building  related classes: building  properties: is occupied by, is situated in"
+iasted-conference_city,conference city  related classes: city  properties: is visited by
+iasted-conference_days,"conference days  related classes: one conference day, time  properties: is designed for"
+iasted-conference_hall,conference hall  related classes: place  properties: is situated in
+iasted-conference_hotel,"conference hotel  related classes: building  properties: is designed for, is situated in"
+iasted-conference_restaurant,"conference restaurant  related classes: building  properties: is occupied by, is situated in"
+iasted-conference_state,conference state  related classes: state  properties: is visited by
+iasted-credit_card,credit card  related classes: card  properties: is designed for
+iasted-currency,currency
+iasted-deadline,"deadline  related classes: camera ready manuscript deadline, deadline for notification of acceptance, deadline hotel reservation, registation deadline, submissions deadline, time  properties: done till, is designed for"
+iasted-deadline_for_notification_of_acceptance,deadline for notification of acceptance  related classes: deadline
+iasted-deadline_hotel_reservation,deadline hotel reservation  related classes: deadline
+iasted-delegate,"delegate  related classes: conference hiker, hotel presenter, iasted member, iasted non member, listener, non speaker, one day presenter, person, session chair, speaker, technical commitee  properties: need, obtain, occupy, pay, send"
+iasted-departure,departure  related classes: activity after conference
+iasted-departure_tax,departure tax  related classes: tax  properties: is designed for
+iasted-dinner_banquet,dinner banquet  related classes: social program  properties: is designed for
+iasted-document,"document  related classes: brief introduction for session chair, form, invitation letter, item, mailing list, payment document, record of attendance, review, submission, transparency, viza"
+iasted-double_hotel_room,double hotel room  related classes: hotel room
+iasted-fee,"fee  related classes: fee for extra trip, hotel fee, money, registration fee  properties: is paid with"
+iasted-fee_for_extra_trip,"fee for extra trip  related classes: fee  properties: is paid by, is paid for"
+iasted-final_manuscript,final manuscript  related classes: submission  properties: go through
+iasted-form,"form  related classes: author information form, document, hotel registration form, registration form  properties: is given to"
+iasted-full_day_tour,"full day tour  related classes: activity after conference  properties: is designed for, is held in"
+iasted-hotel_fee,hotel fee  related classes: fee  properties: is paid by
+iasted-hotel_presenter,hotel presenter  related classes: delegate
+iasted-hotel_registration_form,hotel registration form  related classes: form  properties: is sent before
+iasted-hotel_room,"hotel room  related classes: double hotel room, place, single hotel room  properties: is designed for, is situated in"
+iasted-iasted_member,iasted member  related classes: delegate
+iasted-iasted_non_member,iasted non member  related classes: delegate
+iasted-initial_manuscipt,initial manuscipt  related classes: submission  properties: go through
+iasted-introduction,"introduction  related classes: conference activity, introduction of speaker"
+iasted-introduction_of_speaker,introduction of speaker  related classes: introduction
+iasted-invitation_letter,invitation letter  related classes: document  properties: is designed for
+iasted-item,"item  related classes: audiovisual equipment, card, document, publication, transport vehicle  properties: go through, is equipped by, is given to, is made from, is needed for, is paid with, is prepared by, is sent after, is sent before, is sent by, is signed by, is used by, is used for, is writen by, need, obtain, prepare, send, sign, write"
+iasted-lcd_projector,lcd projector  related classes: audiovisual equipment
+iasted-lecture,"lecture  related classes: conference activity, plenary lecture, session, tutorial  properties: is designed for"
+iasted-lecturer,"lecturer  related classes: author, student lecturer, worker lecturer  properties: speak in"
+iasted-listener,"listener  related classes: delegate  properties: is present in, sign"
+iasted-mailing_list,mailing list  related classes: document  properties: is designed for
+iasted-main_office,main office  related classes: place
+iasted-memeber_registration_fee,memeber registration fee  related classes: registration fee  properties: is designed for
+iasted-modelling,modelling  related classes: research
+iasted-money,"money  related classes: fee, sponzorship, tax, tip  properties: has amount of, is paid by, is paid for, is paid in, is paid with, pay"
+iasted-non_speaker,"non speaker  related classes: delegate, speaker, student non speaker, worker non speaker"
+iasted-nonauthor_registration_fee,nonauthor registration fee  related classes: registration fee  properties: is designed for
+iasted-nonmember_registration_fee,nonmember registration fee  related classes: registration fee  properties: is designed for
+iasted-one_conference_day,one conference day  related classes: conference days
+iasted-one_day_presenter,one day presenter  related classes: delegate
+iasted-overhead_projector,overhead projector  related classes: audiovisual equipment
+iasted-payment_document,"payment document  related classes: bank transfer, cheque, document  properties: is designed for"
+iasted-person,"person  related classes: delegate, sponsor  properties: give, is given by, is given to, is needed for, is occupied by, is paid by, is prepared by, is present, is present in, is sent by, is signed by, is used by, is visited by, is writen by, need, obtain, occupy, pay, prepare, send, sign, speak in, write"
+iasted-place,"place  related classes: building, conference hall, hotel room, main office, session room  properties: is equipped by, is situated in"
+iasted-plenary_lecture,plenary lecture  related classes: lecture
+iasted-plenary_lecture_speaker,plenary lecture speaker  related classes: author  properties: speak in
+iasted-powerpoint_presentation,power point presentation  related classes: presentation
+iasted-presentation,"presentation  related classes: conference activity, power point presentation, video presentation"
+iasted-presenter_city,presenter city  related classes: city  properties: is occupied by
+iasted-presenter_house,"presenter house  related classes: building  properties: is occupied by, is situated in"
+iasted-presenter_state,presenter state  related classes: state  properties: is occupied by
+iasted-presenter_university,presenter university  related classes: building  properties: is situated in
+iasted-publication,"publication  related classes: book proceeding, cd proceening, item  properties: is made from"
+iasted-receiving_manuscript,receiving manuscript  related classes: activity before conference
+iasted-record_of_attendance,"record of attendance  related classes: document  properties: is signed by, is situated in"
+iasted-refusing_manuscript,refusing manuscript  related classes: activity before conference
+iasted-registation_deadline,registation deadline  related classes: deadline
+iasted-registration,registration  related classes: conference activity  properties: is designed for
+iasted-registration_fee,"registration fee  related classes: author attendee book registration fee, author attendee cd registration fee, fee, memeber registration fee, nonauthor registration fee, nonmember registration fee, student registration fee  properties: is paid by, is paid for"
+iasted-registration_form,"registration form  related classes: form  properties: is sent before, is sent by"
+iasted-renting,renting  related classes: activity before conference  properties: is connected with
+iasted-research,"research  related classes: activity before conference, modelling, simulating"
+iasted-review,review  related classes: document  properties: is writen by
+iasted-reviewer,reviewer  related classes: speaker
+iasted-session,"session  related classes: lecture, speaker lecture  properties: is given by, is held in"
+iasted-session_chair,session chair  related classes: delegate  properties: obtain
+iasted-session_room,"session room  related classes: place  properties: is equipped by, is situated in"
+iasted-shuttle_bus,shuttle bus  related classes: transport vehicle
+iasted-simulating,simulating  related classes: research
+iasted-single_hotel_room,single hotel room  related classes: hotel room
+iasted-social_program,"social program  related classes: conference activity, dinner banquet  properties: is designed for"
+iasted-speaker,"speaker  related classes: author, delegate, non speaker, reviewer  properties: give, write"
+iasted-speaker_lecture,speaker lecture  related classes: session
+iasted-sponsor,sponsor  related classes: person  properties: occupy
+iasted-sponsor_city,sponsor city  related classes: city  properties: is occupied by
+iasted-sponsor_company_house,"sponsor company house  related classes: building  properties: is occupied by, is situated in"
+iasted-sponsor_state,sponsor state  related classes: state
+iasted-sponzorship,sponzorship  related classes: money
+iasted-state,"state  related classes: conference state, presenter state, sponsor state"
+iasted-student_lecturer,student lecturer  related classes: lecturer
+iasted-student_non_speaker,student non speaker  related classes: non speaker
+iasted-student_registration_fee,student registration fee  related classes: registration fee  properties: is designed for
+iasted-submission,"submission  related classes: document, final manuscript, initial manuscipt  properties: is writen by"
+iasted-submissions_deadline,submissions deadline  related classes: deadline
+iasted-tax,"tax  related classes: departure tax, money, value added tax"
+iasted-taxi,taxi  related classes: transport vehicle
+iasted-technic_activity,technic activity  related classes: conference activity  properties: is given by
+iasted-technical_commitee,technical commitee  related classes: delegate  properties: go through
+iasted-time,"time  related classes: conference days, deadline, trip day  properties: is held after, is held before, is present, is sent after, is sent before"
+iasted-time_zone,time zone
+iasted-tip,tip  related classes: money  properties: is paid in
+iasted-transparency,transparency  related classes: document  properties: is prepared by
+iasted-transport_vehicle,"transport vehicle  related classes: car, item, shuttle bus, taxi, van  properties: is used by"
+iasted-trip_city,trip city  related classes: city  properties: is visited by
+iasted-trip_day,trip day  related classes: time  properties: is designed for
+iasted-tutorial,tutorial  related classes: lecture
+iasted-tutorial_speaker,tutorial speaker  related classes: author  properties: speak in
+iasted-value_added_tax,value added tax  related classes: tax
+iasted-van,van  related classes: transport vehicle
+iasted-video_cassette_player,video cassette player  related classes: audiovisual equipment
+iasted-video_presentation,video presentation  related classes: presentation
+iasted-viza,viza  related classes: document  properties: is needed for
+iasted-welcome_address,welcome address  related classes: conference activity
+iasted-worker_lecturer,worker lecturer  related classes: lecturer
+iasted-worker_non_speaker,worker non speaker  related classes: non speaker
+sigkdd-acm_sigkdd,"acm sigkdd  properties: design, designed by, hold, holded by, search, searched by"
+sigkdd-abstract,abstract  related classes: document
+sigkdd-author,"author  related classes: author of paper, author of paper student, speaker  properties: notification until, obtain, submit"
+sigkdd-author_of_paper,author of paper  related classes: author  properties: award
+sigkdd-author_of_paper_student,author of paper student  related classes: author  properties: award
+sigkdd-award,"award  related classes: best applications paper award, best research paper award, best student paper award  properties: award, awarded by, obtain"
+sigkdd-best_applications_paper_award,best applications paper award  related classes: award
+sigkdd-best_paper_awards_committee,best paper awards committee  related classes: committee
+sigkdd-best_research_paper_award,best research paper award  related classes: award
+sigkdd-best_student_paper_award,best student paper award  related classes: award
+sigkdd-best_student_paper_supporter,best student paper supporter  related classes: sponzor
+sigkdd-bronze_supporter,bronze supporter  related classes: sponzor
+sigkdd-committee,"committee  related classes: best paper awards committee, organizing committee, program committee"
+sigkdd-conference,"conference  properties: city of conference, end of conference, hold, holded by, name of conference, start of conference"
+sigkdd-conference_hall,conference hall  related classes: place
+sigkdd-deadline,"deadline  related classes: deadline abstract submission, deadline author notification, deadline paper submission  properties: date, design, designed by, submit until"
+sigkdd-deadline_abstract_submission,deadline abstract submission  related classes: deadline
+sigkdd-deadline_author_notification,deadline author notification  related classes: deadline  properties: notification until
+sigkdd-deadline_paper_submission,deadline paper submission  related classes: deadline
+sigkdd-document,"document  related classes: abstract, paper, review  properties: presentation, presentationed by, submit until"
+sigkdd-exhibitor,exhibitor  related classes: sponzor
+sigkdd-fee,"fee  related classes: registration fee, sponzor fee"
+sigkdd-general_chair,general chair  related classes: organizator
+sigkdd-gold_supporter,gold supporter  related classes: sponzor
+sigkdd-hotel,hotel  related classes: place
+sigkdd-invited_speaker,invited speaker  related classes: speaker
+sigkdd-listener,listener  related classes: person
+sigkdd-main_office,main office  related classes: place
+sigkdd-organizator,"organizator  related classes: general chair, organizing committee member, person, program chair, program committee member, webmaster"
+sigkdd-organizing_committee,organizing committee  related classes: committee
+sigkdd-organizing_committee_member,organizing committee member  related classes: organizator
+sigkdd-paper,paper  related classes: document  properties: submit
+sigkdd-person,"person  related classes: listener, organizator, speaker  properties: can stay in, e mail, name, nation, pay, payed by"
+sigkdd-place,"place  related classes: conference hall, hotel, main office  properties: can stay in"
+sigkdd-platinum_supporter,platinum supporter  related classes: sponzor
+sigkdd-program_chair,program chair  related classes: organizator
+sigkdd-program_committee,program committee  related classes: committee
+sigkdd-program_committee_member,program committee member  related classes: organizator
+sigkdd-registration_non-member,registration non member  related classes: registration fee
+sigkdd-registration_sigkdd_member,registration sigkdd member  related classes: registration fee
+sigkdd-registration_sigmod_member,registration sigmod member  related classes: registration fee
+sigkdd-registration_student,registration student  related classes: registration fee
+sigkdd-registration_fee,"registration fee  related classes: fee, registration non member, registration sigkdd member, registration sigmod member, registration student  properties: currency, pay, payed by, price"
+sigkdd-review,review  related classes: document
+sigkdd-silver_supporter,silver supporter  related classes: sponzor
+sigkdd-speaker,"speaker  related classes: author, invited speaker, person  properties: presentation, presentationed by"
+sigkdd-sponzor,"sponzor  related classes: best student paper supporter, bronze supporter, exhibitor, gold supporter, platinum supporter, silver supporter  properties: name of sponsor, search, searched by"
+sigkdd-sponzor_fee,sponzor fee  related classes: fee
+sigkdd-webmaster,webmaster  related classes: organizator
