@@ -1,0 +1,492 @@
+concept,prompt
+conference-abstract,抽象相关类：扩展抽象属性：有一个抽象，是第1部分
+conference-accepted_contribution,已接受贡献相关类：相机就绪贡献、拒绝贡献、已审核贡献
+conference-active_conference_participant,主动会议参与者相关类：会议贡献者、会议参与者、受邀演讲者、被动会议参与者、常规作者属性：进行演示，由以下人员给出
+conference-call_for_paper,征集论文相关课程：会议文件
+conference-call_for_participation,呼吁参与相关课程：会议文件
+conference-camera_ready_contribution,相机就绪贡献相关类：已接受的贡献
+conference-chair,主席相关类别： 委员会成员属性： 拥有委员会主席，曾担任以下委员会主席
+conference-co-chair,联合主席相关类别： 委员会成员属性： 曾担任委员会联合主席、曾担任委员会联合主席
+conference-committee,委员会相关类别：组织委员会、计划委员会、指导委员会属性：有委员会主席、有委员会联合主席、有委员会、有成员、曾是以下委员会的联合主席、曾是以下委员会的主席、曾是以下委员会的委员会、曾是以下委员会的成员
+conference-committee_member,委员会成员相关类别：主席、联合主席、个人属性：有成员、曾是以下成员
+conference-conference,会议相关类：会议卷
+conference-conference_announcement,会议公告相关类：会议文件
+conference-conference_applicant,会议申请人相关类别：个人、注册申请人
+conference-conference_contribution,会议贡献相关类：会议文件、邀请演讲、海报、演示文稿、定期贡献、书面贡献属性：有贡献，提交于
+conference-conference_contributor,会议贡献者相关类别：活跃会议参与者、受邀演讲者、个人、常规作者
+conference-conference_document,会议文件相关类：征集论文、征集参与、会议公告、会议贡献、会议 www、参与者信息、评论属性：贡献、有发布日期、有作者
+conference-conference_fees,会议费
+conference-conference_part,会议部分相关类：轨道、教程、研讨会属性：有一个轨道研讨会教程主席，有一个轨道研讨会教程主题，有零件，是会议部分的主题，是会议卷的一部分，是一个轨道研讨会主席
+conference-conference_participant,会议参与者相关类：主动会议参与者、被动会议参与者、人员
+conference-conference_proceedings,会议记录属性：有出版商、有卷、有 isbn、问题
+conference-conference_volume,会议卷相关类：会议属性：属于会议卷、有委员会、有地点、有计划委员会、有指导委员会、有组织委员会、有贡献、有重要日期、有部分、有曲目、有教程、有研讨会、是会议卷的一部分、提交于、是...的委员会、是...的计划委员会、是...的指导委员会、是...的组织委员会
+conference-conference_www,会议www相关类：会议文档属性：有一个url
+conference-contribution_1th-author,贡献第一作者相关类别：贡献共同作者、常规作者
+conference-contribution_co-author,贡献共同作者相关类别：贡献第一作者、常规作者
+conference-early_paid_applicant,早期付费申请人相关类别：延迟付费申请人、付费申请人
+conference-extended_abstract,扩展摘要相关类：摘要、论文、常规贡献
+conference-important_dates,重要日期属性：属于会议卷，具有重要日期，是接受公告的日期，是相机准备好的论文提交日期，是完整论文提交日期，是开始日期，是摘要提交日期，是结束日期
+conference-information_for_participants,给与会人员相关课程的信息：会议文件
+conference-invited_speaker,受邀演讲者相关课程：会议撰稿人
+conference-invited_talk,受邀演讲相关课程：海报、演示、定期贡献
+conference-late_paid_applicant,迟付申请人相关类别：早付申请人、已付申请人
+conference-organization,组织
+conference-organizer,组织者相关类别：委员会成员、组织
+conference-organizing_committee,组委会相关类：委员会、程序委员会、指导委员会属性：有一个组委会，是一个组委会
+conference-paid_applicant,付费申请人相关类别：早期付费申请人、延迟付费申请人、注册申请人
+conference-paper,论文相关类：扩展摘要、定期贡献
+conference-passive_conference_participant,被动会议参与者相关类：主动会议参与者、会议参与者
+conference-person,人员相关类：委员会成员、会议申请人、会议贡献者、会议参与者、审稿人、跟踪研讨会主席属性：贡献、有电子邮件、有作者、有性别、有名字、有姓氏
+conference-poster,海报相关课程：会议投稿、邀请演讲、定期投稿
+conference-presentation,与演示相关的课程：会议贡献、受邀演讲属性：进行演示、由以下人员给出
+conference-program_committee,程序委员会相关类：委员会、组委会、指导委员会属性：有一个程序委员会，是一个程序委员会
+conference-publisher,出版商属性：有出版商、问题
+conference-registeered_applicant,注册申请人相关类别：会议申请人、付费申请人
+conference-regular_author,常规作者相关类别：会议贡献者、贡献第一作者、贡献共同作者
+conference-regular_contribution,常规贡献相关课程：扩展摘要、邀请演讲、论文、海报、书面贡献
+conference-rejected_contribution,被拒绝的贡献相关类：已接受的贡献、已审核的贡献
+conference-review,评论相关类：会议文档属性：有评论、有作者、评论
+conference-review_expertise,评审专业知识属性：属于审稿人、具有评审专业知识、具有已提交的贡献、具有专业知识
+conference-review_preference,审稿偏好属性：属于审稿参考、属于审稿人、具有学位、有主题或提交贡献、已分配审稿参考
+conference-reviewed_contribution,已审核的贡献相关类别：已接受的贡献、已拒绝的贡献、已提交的贡献属性：有审核、评论
+conference-reviewer,审稿人相关类：人员属性：属于审稿人、具有审稿参考资料或专业知识、受邀请、邀请共同审稿人
+conference-steering_committee,指导委员会相关类：委员会、组委会、程序委员会属性：有一个指导委员会，是一个指导委员会
+conference-submitted_contribution,提交的贡献相关类别：海报、定期贡献、审阅的贡献、书面贡献属性：具有审阅专业知识、具有提交的贡献
+conference-topic,主题属性：属于评论参考，有跟踪研讨会教程主题，是会议部分的主题
+conference-track,轨道相关课程：会议部分、教程、研讨会属性：有轨道
+conference-track-workshop_chair,田径讲习班椅子 相关职业： 人物属性：拥有田径讲习班辅导椅，曾是田径讲习班主席
+conference-tutorial,教程相关课程：会议部分、轨道、研讨会属性：有教程
+conference-workshop,研讨会相关课程：会议部分、轨道、教程属性：有研讨会
+conference-written_contribution,书面投稿相关类别：会议投稿、海报、定期投稿、提交投稿
+cmt-acceptance,接受相关类：决定、拒绝
+cmt-administrator,管理员相关类：用户属性：接受论文、接受者、添加程序委员会成员、添加者、分配审阅者、管理员分配、输入详细信息、启用虚拟会议、输入会议详细信息、输入审阅标准、完成论文作业、打印硬拷贝邮寄清单、论文作业完成者、运行论文作业工具、打印硬拷贝邮寄清单、拒绝论文、拒绝者、输入审稿标准、审稿人开始投标、运行论文作业工具、设置最大论文数、启动审稿人投标、启用虚拟会议
+cmt-associatedchair,关联主席相关类别：会议主席、会议成员
+cmt-author,作者相关类：作者非审稿人、共同作者、会议成员、用户属性：有作者、提交论文、撰写论文
+cmt-authornotreviewer,作者非审稿人相关类：作者、程序委员会成员、审稿人
+cmt-bid,投标相关类：会议、决定、文件、人员、偏好、计划委员会属性：调整投标、调整者、已投标
+cmt-chairman,主席相关类别：副主席、会议主席、人员、程序委员会主席
+cmt-co-author,共同作者相关类： 作者属性：共同撰写论文，有共同作者
+cmt-conference,会议相关类别：投标、决定、文档、人员、偏好、计划委员会属性：接受硬拷贝提交、日期、输入详细信息、启用虚拟会议、输入会议详细信息、输入审核标准、最终确定论文作业、打印硬拷贝邮寄清单、有会议成员、徽标 url、会议成员、姓名、论文作业最终完成者、论文作业工具运行者、打印硬拷贝邮寄清单、输入评审标准、审稿人投标开始者、每篇论文的审阅、运行论文作业工具、站点 URL、启动审阅者投标，虚拟会议由
+cmt-conferencechair,会议主席相关类别：副主席、会议成员
+cmt-conferencemember,会议成员相关类：关联主席、作者、会议主席、人员、程序委员会成员、审稿人属性：有会议成员、会议成员
+cmt-decision,决策相关类：接受、投标、会议、文件、人员、偏好、计划委员会、拒绝属性：有决策
+cmt-document,文档相关类别：投标、会议、决定、论文、人员、偏好、计划委员会、审查属性：有利益冲突
+cmt-externalreviewer,外部审阅者相关类：人员、审阅者属性：分配外部审阅者、由审阅者分配
+cmt-meta-review,元评论相关类：评论
+cmt-meta-reviewer,元审阅者相关类：审阅者属性：由元审阅者读取
+cmt-paper,论文相关类：文档、论文摘要、论文完整版、审稿属性：接受论文、被接受、分配给、共同撰写论文、有作者、已分配、已出价、有共同作者、有决定、有主题领域、标记利益冲突、论文 ID、由元审稿人阅读、由审稿人阅读、阅读论文、拒绝论文、被拒绝、提交论文、标题、撰写论文
+cmt-paperabstract,论文摘要相关类：paper
+cmt-paperfullversion,paper完整版相关类：paper
+cmt-person,人员相关类别：投标、主席、会议、会议成员、决定、文件、外部审阅者、偏好、程序委员会、程序委员会成员、用户属性：电子邮件、存在利益冲突
+cmt-preference,偏好相关类别：投标、会议、决定、文件、人员、计划委员会
+cmt-programcommittee,程序委员会相关类：bid、conference、decision、document、person、preference 属性：有程序委员会成员、程序委员会成员
+cmt-programcommitteechair,程序委员会主席相关类别：程序委员会成员属性：最终审查
+cmt-programcommitteemember,程序委员会成员相关类：作者非审稿人、会议成员、人员、程序委员会主席属性：添加程序委员会成员、添加者、有程序委员会成员、最大论文数、程序委员会成员、设置最大论文数
+cmt-rejection,拒绝相关类：接受、决定
+cmt-review,评审相关类：文档、元评审、论文属性：最终评审、撰写评审、撰写人
+cmt-reviewer,审阅者相关类：作者非审阅者、会议成员、外部审阅者、元审阅者、用户属性：调整出价、调整者、分配外部审阅者、分配审阅者、由管理员分配、由审阅者分配、分配给、已分配、由审阅者阅读、阅读论文、撰写评论、撰写者
+cmt-subjectarea,主题区域属性：有主题区域
+cmt-user,用户相关类：管理员、作者、人员、审阅者
+confof-administrative_event,管理事件相关类：相机就绪事件、事件、参与者注册事件、审查事件、审查结果事件、社交事件、提交事件、工作事件属性：跟随、有管理事件、与
+confof-administrator,管理员相关类：person
+confof-assistant,助理相关类：人
+confof-author,作者相关类： 人物属性： 写、写者
+confof-banquet,宴会相关课程：接待、社交活动、旅行
+confof-camera_ready_event,相机就绪事件相关类：管理事件、参与者注册事件、审核事件、审核结果事件、提交事件
+confof-chair_pc,椅子电脑相关课程：人
+confof-city,城市相关类：贡献、事件、组织、人员、主题属性：有城市
+confof-company,公司相关课程：组织、大学
+confof-conference,会议相关课程：教程、工作活动、研讨会
+confof-contribution,贡献相关类：城市、国家、事件、组织、论文、人物、海报、短论文、主题属性：摘要、联系电子邮件、处理、有关键字、有标题、评论、评论、撰写、撰写者
+confof-country,国家相关类：贡献、事件、组织、人员、主题属性：有国家
+confof-event,事件相关类：行政事件、城市、贡献、国家、组织、人员、社交事件、主题、工作事件属性：结束于、开始于
+confof-member,成员相关类：参与者
+confof-member_pc,会员电脑相关类别：人物属性：专家、评论
+confof-organization,组织相关类：城市、公司、贡献、国家、事件、人物、主题、大学属性：受雇于
+confof-paper,论文相关类：投稿、海报、短论文
+confof-participant,参与者相关类别：会员、个人、常规、学生属性：提前注册
+confof-person,人员相关类：管理员、助理、作者、主席电脑、城市、贡献、国家、事件、成员电脑、组织、参与者、学者、科学工作者、主题、志愿者属性：受雇、有城市、有国家、有电子邮件、有传真、有名字、有主页、有电话、有邮政编码、有街道、有姓氏
+confof-poster,海报相关类别：贡献、论文、短论文
+confof-reception,接待相关课程：宴会、社交活动、旅行
+confof-registration_of_participants_event,参与者注册事件相关类：管理事件、相机就绪事件、审查事件、审查结果事件、提交事件
+confof-regular,常规相关课程：参与者
+confof-reviewing_event,审查事件相关类：管理事件、相机就绪事件、参与者注册事件、审查结果事件、提交事件
+confof-reviewing_results_event,审核结果事件相关类：管理事件、相机就绪事件、参与者注册事件、审核事件、提交事件
+confof-scholar,学者相关类别： 人物属性： 学习于
+confof-science_worker,科学工作者相关课程：人
+confof-short_paper,短论文相关课程：贡献、论文、海报
+confof-social_event,社交事件相关类：行政事件、宴会、事件、招待会、旅行、工作事件属性：默认选择，有标题、位置
+confof-student,学生相关课程：参与者
+confof-submission_event,提交事件相关类：管理事件、相机就绪事件、参与者注册事件、审核事件、审核结果事件
+confof-topic,主题相关类：城市、贡献、国家、事件、组织、人员属性：处理、专家、有主题
+confof-trip,旅行相关课程：宴会、招待会、社交活动
+confof-tutorial,教程相关课程：会议、工作活动、研讨会
+confof-university,大学相关课程：公司、组织性质：学习地点
+confof-volunteer,志愿者相关课程：人
+confof-working_event,工作事件相关类：管理事件、会议、事件、社交事件、教程、研讨会属性：默认选择、有管理事件、有标题、有主题、位置
+confof-workshop,研讨会相关课程：会议、教程、工作活动
+edas-academiaorganization,学术组织相关类：政府组织、行业组织、NGO、组织
+edas-academicevent,学术活动相关类：会议活动、非学术活动、组织会议、论文演示、谈话活动、研讨会属性：用于活动、已致电
+edas-acceptrating,接受评级相关类别：接受房间评级、拒绝评级、评论评级、周拒绝评级
+edas-acceptedpaper,接受的论文相关类别：活动论文、论文、待处理论文、已发表论文、拒绝论文、撤回论文属性：与事件相关、与论文相关
+edas-accommodationplace,住宿地点相关类别：地点
+edas-accpetifroomrating,是否接受客房评级相关类别：接受评级、拒绝评级、审核评级、周拒绝评级
+edas-activepaper,活动论文相关类别：已接受论文、论文、待处理论文、已发表论文、已评级论文、已拒绝论文、已撤回论文属性：已评级
+edas-antennastopic,天线主题相关课程：CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-attendee,与参加者相关的课程：人
+edas-author,作者相关类别：会议主席、人员、演示者、会议主席、tpc 成员属性：有相关论文，作者为
+edas-breakevent,休息活动相关课程：茶歇、自由时间、用餐休息、用餐活动、非学术活动
+edas-cadtopic,cad主题相关课程：天线主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-call,调用相关类：征集稿件、征集论文、征集评论、会议、会议活动、会议会议、联系信息、国家、文件、组织、人员、个人历史、地点、评审表、评审问题、评审评级、赞助、主题属性：对于事件、已调用、已提交截止日期、已提交说明、发起、发起人
+edas-callformanuscripts,相关课程征稿：致电
+edas-callforpapers,征集论文相关课程：call
+edas-callforreviews,呼吁评论相关课程：致电
+edas-closingtalk,结束演讲相关课程：演讲活动、欢迎演讲
+edas-coffeebreak,茶歇相关课程：茶歇活动
+edas-communicationtheorytopic,通信理论主题相关课程：天线主题、CAD主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-communicationstopic,通信主题相关课程：天线主题、CAD主题、通信理论主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-computerarchitecturetopic,计算机体系结构主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-computernetworksaapplicationstopic,计算机网络应用主题相关课程：计算机网络企业主题、计算机网络管理主题、计算机网络测量主题、计算机网络光学主题、计算机网络安全主题、计算机网络传感器主题、计算机网络交换主题、计算机网络主题
+edas-computernetworksenterprisetopic,计算机网络企业主题相关课程：计算机网络应用主题、计算机网络管理主题、计算机网络测量主题、计算机网络光学主题、计算机网络安全主题、计算机网络传感器主题、计算机网络交换主题、计算机网络主题
+edas-computernetworksmanagementtopic,计算机网络管理主题相关课程：计算机网络应用主题、计算机网络企业主题、计算机网络测量主题、计算机网络光学主题、计算机网络安全主题、计算机网络传感器主题、计算机网络交换主题、计算机网络主题
+edas-computernetworksmeasurementstopic,计算机网络测量主题相关课程：计算机网络应用主题、计算机网络企业主题、计算机网络管理主题、计算机网络光学主题、计算机网络安全主题、计算机网络传感器主题、计算机网络交换主题、计算机网络主题
+edas-computernetworksopticaltopic,计算机网络光学主题相关课程：计算机网络应用主题、计算机网络企业主题、计算机网络管理主题、计算机网络测量主题、计算机网络安全主题、计算机网络传感器主题、计算机网络交换主题、计算机网络主题
+edas-computernetworkssecuritytopic,计算机网络安全主题相关课程：计算机网络应用主题、计算机网络企业主题、计算机网络管理主题、计算机网络测量主题、计算机网络光学主题、计算机网络传感器主题、计算机网络交换主题、计算机网络主题
+edas-computernetworkssensortopic,计算机网络传感器主题相关课程：计算机网络应用主题、计算机网络企业主题、计算机网络管理主题、计算机网络测量主题、计算机网络光学主题、计算机网络安全主题、计算机网络交换主题、计算机网络主题
+edas-computernetworksswitchingtopic,计算机网络切换主题相关课程：计算机网络应用主题、计算机网络企业主题、计算机网络管理主题、计算机网络测量主题、计算机网络光学主题、计算机网络安全主题、计算机网络传感器主题、计算机网络主题
+edas-computernetworkstopic,计算机网络主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络应用主题、计算机网络企业主题、计算机网络管理主题、计算机网络测量主题、计算机网络光学主题、计算机网络安全主题、计算机网络传感器主题、计算机网络交换主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-conference,会议相关类：电话、会议活动、会议会议、联系信息、国家、文档、组织、论文、人员、个人历史、地点、评审表、评审问题、评审评级、赞助、主题属性：结束日期、有国家、有成员、有姓名、有主题、是成员、稿件到期日期、论文到期日期、注册到期日期、开始日期
+edas-conferencechair,会议主席相关类：作者、人物
+edas-conferencedinner,会议晚餐相关课程：用餐活动
+edas-conferenceevent,会议活动相关类：学术活动、电话、会议、会议会议、联系信息、国家、文档、非学术活动、组织、人员、个人历史、地点、审查表、审查问题、审查评级、赞助、主题属性：参加者、属于活动、有参加者、有结束日期时间、有位置、有计划、有开始日期时间、是位置
+edas-conferencesession,会议相关课程：电话、会议、会议活动、联系信息、国家、文档、组织、人员、个人历史、地点、评论表、评论问题、评论评级、赞助、主题
+edas-conferencevenueplace,会议地点 place 相关类： place
+edas-contactinformation,联系信息相关类：电话、会议、会议活动、会议会议、国家、文档、组织、个人历史、地点、评论表、评论问题、评论评级、赞助、主题属性：有城市、有电话、有邮政编码、有街道
+edas-country,国家相关类：电话、会议、会议活动、会议、联系信息、文档、组织、人员、个人历史、地点、评论表、评论问题、评论评级、赞助、主题属性：有国家/地区
+edas-cryptographytopic,密码学主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-diningplace,就餐场所相关类别：place
+edas-document,文档相关类：电话、会议、会议活动、会议会议、联系信息、国家、膳食菜单、组织、论文、人员、个人历史、地点、计划、评论、评论表、评论问题、评论评级、幻灯片集、赞助、主题属性：有相关文档，涉及
+edas-excursion,短途旅行相关课程：社交活动
+edas-freetimebreak,空闲时间休息相关课程：休息活动
+edas-governmentorganization,政府组织相关类：学术组织、行业组织、NGO、组织
+edas-industryorganization,行业组织相关类：学术组织、政府组织、NGO、组织
+edas-mealbreak,餐间休息相关课程：休息活动
+edas-mealevent,用餐活动相关类：休息活动、会议晚餐、非学术活动属性：有菜单，是菜单
+edas-mealmenu,餐菜单相关类：document、paper、programme、review、slide set属性：有菜单、是菜单
+edas-medicinetopic,医学主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-meetingroomplace,会议室地点相关课程：地点
+edas-microelectronicstopic,微电子主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-mobilecomputingtopic,移动计算主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-multimediatopic,多媒体主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-ngo,NGO相关类：学术界组织、政府组织、行业组织、组织
+edas-nonacademicevent,非学术活动相关课程：学术活动、休息活动、会议活动、用餐活动、社交活动
+edas-numericalreviewquestion,数值复习题相关类：复习题
+edas-operatingtopicsystems,操作主题系统相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-organization,组织相关类：学术界组织、电话、会议、会议活动、会议会议、联系信息、国家、文件、政府组织、行业组织、非政府组织、个人、个人历史、地点、评论表、评论问题、评论评级、赞助、主题属性：是提供者，由提供者提供
+edas-organizationalmeeting,组织会议相关课程：学术活动、论文展示、谈话活动、研讨会
+edas-paper,论文相关类别：已接受的论文、活动论文、会议、文件、膳食菜单、待处理论文、计划、已发表的论文、被拒绝的论文、评论、幻灯片集、撤回的论文属性：有相关论文、由谁审阅、正在审阅、由谁撰写
+edas-paperpresentation,论文展示相关类：学术活动、组织会议、演讲活动、研讨会属性：与活动相关、与论文相关
+edas-parallelanddistributedcomputingtopic,并行和分布式计算主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-pendingpaper,待处理论文相关类别：已接受论文、活跃论文、论文、已发表论文、已拒绝论文、已撤回论文
+edas-performancetopic,性能主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-person,人员相关类：与会者、通话、会议、会议主席、会议活动、会议会议、国家、文档、组织、个人历史、地点、审查表、审查问题、审查评级、会议主席、赞助、主题、tpc 成员属性：与会者位于、有与会者、有传记、有名字、有姓氏、有成员、是以下成员
+edas-personalhistory,个人历史相关类：电话、会议、会议活动、会议会议、联系信息、国家、文档、组织、人员、个人出版历史、个人评论历史、地点、评论表、评论问题、评论评级、赞助、主题
+edas-personalpublicationhistory,个人出版历史相关类：个人历史
+edas-personalreviewhistory,个人评论历史相关类：个人历史属性：有评论历史，是评论历史
+edas-place,地点相关类：住宿地点、电话、会议、会议活动、会议环节、会议地点、联系信息、国家、用餐地点、文档、会议室地点、组织、人员、个人历史、评论表、评论问题、评论评级、赞助、主题属性：有位置、是位置
+edas-powerlinetransmissiontopic,电力线传输主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-presenter,演讲者相关课程：作者
+edas-programme,节目相关类：文档、膳食菜单、论文、评论、幻灯片集属性：属于活动、有节目
+edas-publishedpaper,已发表论文相关类别：已接受论文、活跃论文、论文、待处理论文、拒绝论文、撤回论文
+edas-radiocommunicationstopic,无线电通信主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-ratedpapers,评级论文相关类别：活跃论文
+edas-reception,接待相关课程：社交活动
+edas-rejectrating,拒绝评级相关类别：接受评级、接受房间评级、评论评级、周拒绝评级
+edas-rejectedpaper,被拒绝的论文相关类别：已接受的论文、活跃的论文、论文、待处理的论文、已发表的论文、撤回的论文
+edas-review,复习相关课程：文档、膳食菜单、论文、计划、幻灯片
+edas-reviewform,审查表格相关类：电话、会议、会议活动、会议会议、联系信息、国家、文档、组织、人员、个人历史、地点、审查问题、审查评级、赞助、主题
+edas-reviewquestion,审查问题相关类：电话、会议、会议活动、会议会议、联系信息、国家、文档、数字审查问题、组织、人员、个人历史、地点、审查表、审查评级、赞助、文本审查问题、主题
+edas-reviewrating,评论评级相关类别：接受评级、接受房间评级、通话、会议、会议活动、会议会议、联系信息、国家、文档、组织、人员、个人历史、地点、拒绝评级、评论表格、评论问题、赞助、主题、周拒绝评级属性：有评级
+edas-reviewer,评论者相关类：人员属性：有评论历史记录，是评论历史记录
+edas-satelliteandspacecommunicationstopic,卫星和空间通信主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、安全主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-securitytopic,安全主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、信号处理主题、仅测试主题、主题、无线通信主题
+edas-sessionchair,会议主席相关课程：作者、人物
+edas-signalprocessingtopic,信号处理主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、仅测试主题、主题、无线通信主题
+edas-singlelevelconference,single level conference  related classes: conference  two level conference
+edas-slideset,幻灯片相关课程：文档、膳食菜单、论文、计划、评论
+edas-socialevent,社交活动相关课程：短途旅行、非学术活动、接待
+edas-sponsorship,赞助相关类别：电话、会议、会议活动、会议会议、联系信息、国家、文件、组织、人员、个人历史、地点、审核表、审核问题、审核评级、主题、旅行补助金属性：具有成本金额、具有成本货币、是提供者、由以下提供者
+edas-tpcmember,tpc 成员相关类：作者、人物
+edas-talkevent,演讲活动相关课程：学术活动、闭幕式演讲、组织会议、论文展示、欢迎演讲、研讨会
+edas-testonlytopic,仅测试主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、主题、无线通信主题
+edas-textualreviewquestion,文本复习题相关课程：复习题
+edas-topic,主题相关课程：天线主题、CAD主题、呼叫、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、会议、会议活动、会议会话、联系信息、国家、密码学主题、文档、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、组织、并行和分布式计算主题、性能主题、人物、个人历史、地点、电力线传输主题、无线电通信主题、评论表格、评论问题、评论评级、卫星和空间通信主题、安全主题、信号处理主题、赞助、仅测试主题、无线通信主题属性：有主题、是主题
+edas-travelgrant,旅费补助相关类别：赞助
+edas-twolevelconference,二级会议相关类：conference
+edas-weekrejectrating,周拒绝评级相关类别：接受评级、接受房间评级、拒绝评级、评论评级
+edas-welcometalk,欢迎演讲相关课程：闭幕演讲、演讲活动
+edas-wirelesscommunicationstopic,无线通信主题相关课程：天线主题、CAD主题、通信理论主题、通信主题、计算机体系结构主题、计算机网络主题、密码学主题、医学主题、微电子主题、移动计算主题、多媒体主题、操作主题系统、并行和分布式计算主题、性能主题、电力线传输主题、无线电通信主题、卫星和空间通信主题、安全主题、信号处理主题、仅测试主题、主题
+edas-withdrawnpaper,撤回论文相关类别：已接受论文、有效论文、论文、待处理论文、已发表论文、被拒绝论文
+edas-workshop,研讨会相关课程：学术活动、组织会议、论文展示、谈话活动
+ekaw-abstract,摘要相关类：文档、邀请演讲摘要、教程摘要
+ekaw-academic_institution,学术机构相关类：组织、组织机构、研究所、大学性质：科学地组织，科学地组织
+ekaw-accepted_paper,接受的纸张相关类别：相机就绪纸张、评估的纸张、拒绝的纸张属性：已审查
+ekaw-agency_staff_member,机构工作人员相关类别：人员
+ekaw-assigned_paper,分配的论文相关类别：评估的论文，提交的论文属性：有审稿人
+ekaw-camera_ready_paper,Camera Ready 论文相关类：接受的论文、评估的论文、论文、提交的论文属性：更新版本、编写者
+ekaw-conference,会议相关课程：贡献演讲、邀请演讲、科学活动、会议、社交活动、赛道、教程、研讨会
+ekaw-conference_banquet,会议宴会相关课程：社交活动
+ekaw-conference_paper,会议论文相关类：论文、研讨会论文
+ekaw-conference_participant,会议参与者相关类别：演示主席、早期注册参与者、后期注册参与者、OC 成员、PC 主席、人员、演示者、会议主席、辅导主席、研讨会主席
+ekaw-conference_proceedings,会议记录相关类： 会议记录属性： 卷包含纸张
+ekaw-conference_session,会议会议相关课程：工业会议、会议、研讨会会议属性：活动的一部分
+ekaw-conference_trip,会议旅行相关课程：社交活动
+ekaw-contributed_talk,贡献演讲相关课程：会议、个人演讲、邀请演讲、会议、社交活动、跟踪、教程属性：论文演示
+ekaw-demo_chair,演示椅相关课程：会议参与者
+ekaw-demo_paper,演示纸相关类别：工业用纸、纸张、海报纸、普通纸
+ekaw-demo_session,演示会议相关课程：海报会议、常规会议、会议
+ekaw-document,文档相关类：摘要、传单、多作者卷、论文、人物、程序手册、评论、网站属性：作者、已更新版本、更新版本、撰写者
+ekaw-early-registered_participant,早注册参会者相关类：会议参会者、晚注册参会者
+ekaw-evaluated_paper,评估的纸张相关类别：接受的纸张、指定的纸张、相机就绪的纸张、拒绝的纸张属性：已审查
+ekaw-event,事件相关类：人物、科学事件、社会事件属性：事件在列表中、有事件、举行时间、7 部分的反面、列出事件、位置、组织者、组织、事件的一部分
+ekaw-flyer,传单相关类别：文档、多作者卷、论文、会议记录、项目手册、评论、网站
+ekaw-individual_presentation,个人演讲相关课程：贡献演讲、邀请演讲、科学活动、教程、研讨会属性：论文呈现形式、论文呈现
+ekaw-industrial_paper,工业用纸相关类别：演示纸、纸张、海报纸、普通纸、研讨会纸
+ekaw-industrial_session,工业会议相关课程：会议会议
+ekaw-invited_speaker,邀请演讲者相关课程：演讲者
+ekaw-invited_talk,受邀演讲相关课程：会议、贡献演讲、个人演讲、会议、社交活动、赛道、教程、研讨会
+ekaw-invited_talk_abstract,受邀演讲摘要相关类：摘要
+ekaw-late-registered_participant,晚注册参会者相关类：会议参会者、早注册参会者
+ekaw-location,位置相关类：人员属性：持有、位置
+ekaw-multi-author_volume,多作者卷相关类别：文档、传单、论文、会议记录、程序手册、评论、网站
+ekaw-negative_review,负面评论相关类：中立评论、正面评论、评论
+ekaw-neutral_review,中性评论相关类：负面评论、正面评论、评论
+ekaw-oc_chair,OC主席相关课程：OC会员
+ekaw-oc_member,OC成员相关类别：会议参与者、OC主席
+ekaw-organisation,组织相关类：学术机构、组织机构、个人、会议记录出版商属性：出版商、技术上组织
+ekaw-organising_agency,组织机构相关类：学术机构、组织
+ekaw-pc_chair,电脑椅相关课程：会议参与者、电脑会员、辅导主席、研讨会主席
+ekaw-pc_member,与 PC 成员相关的课程：PC 主席、可能的审稿人、SC 成员、会议主席、辅导主席、研讨会主席
+ekaw-paper,纸张相关类：相机准备纸、会议文件、演示文件、文档、传单、工业用纸、多作者卷、海报纸、会议记录、程序手册、普通纸、评论、提交的文件、网站、研讨会纸张属性：有评论、有评论者、论文评论者、论文评论者
+ekaw-paper_author,论文作者相关类：人
+ekaw-person,与人相关的类别：机构工作人员、会议参与者、文档、事件、地点、组织、论文作者、可能的审稿人、学生属性：作者、撰写者
+ekaw-positive_review,正面评论相关类：负面评论、中立评论、评论
+ekaw-possible_reviewer,可能的审稿人相关类别：pc 成员、人员属性：有审稿人、审稿人、论文审稿人
+ekaw-poster_paper,海报纸相关​​类别：演示纸、工业纸、纸张、普通纸
+ekaw-poster_session,海报会议相关课程：演示会议、常规会议、会议
+ekaw-presenter,与演讲者相关的类：会议参与者、受邀演讲者
+ekaw-proceedings,与会议记录相关的类别：会议记录、传单、多作者卷、论文、议程手册、评论、网站属性：卷包含论文
+ekaw-proceedings_publisher,会议记录 出版商 相关类别: 组织
+ekaw-programme_brochure,项目手册相关类别：文档、传单、多作者卷、论文、会议记录、评论、网站
+ekaw-regular_paper,常规纸张相关类：演示纸、工业用纸、纸张、海报纸
+ekaw-regular_session,常规会议相关课程：演示会议、海报会议、会议
+ekaw-rejected_paper,被拒绝的论文相关类别：接受的论文、评估的论文
+ekaw-research_institute,研究所相关类：学术机构
+ekaw-research_topic,研究主题属性：涵盖主题、主题涵盖
+ekaw-review,评论相关类别：文档、传单、多作者卷、负面评论、中立评论、论文、正面评论、会议记录、程序手册、网站属性：有评论、论文评论、撰写评论
+ekaw-sc_member,sc会员相关类：pc会员
+ekaw-scientific_event,科学事件相关课程：会议、活动、个人演示、会议、赛道、研讨会
+ekaw-session,会议相关课程：会议、会议会议、贡献演讲、演示会议、邀请演讲、海报会议、常规会议、科学活动、跟踪、教程、研讨会、研讨会会议属性：有事件、部分事件
+ekaw-session_chair,会议主席相关类别：会议参与者、PC 成员
+ekaw-social_event,社交活动相关课程：会议、会议宴会、会议旅行、贡献演讲、活动、邀请演讲、赛道、教程、研讨会
+ekaw-student,学生相关课程：人
+ekaw-submitted_paper,提交的纸张相关类别：指定纸张、相机就绪纸张、纸张
+ekaw-track,跟踪相关课程：会议、贡献演讲、邀请演讲、科学活动、会议、社交活动、教程、研讨会
+ekaw-tutorial,教程相关课程：会议、贡献演讲、个人演讲、邀请演讲、会议、社交活动、赛道、研讨会
+ekaw-tutorial_abstract,教程摘要相关类：abstract
+ekaw-tutorial_chair,辅导主席相关类别：会议参与者、PC主席、PC成员
+ekaw-university,大学相关课程：学术机构
+ekaw-web_site,网站相关类别：文档、传单、多作者卷、论文、会议记录、项目手册、评论
+ekaw-workshop,研讨会相关课程：会议、个人演讲、邀请演讲、科学活动、会议、社交活动、赛道、教程
+ekaw-workshop_chair,研讨会主席相关类别：会议参与者、PC主席、PC成员
+ekaw-workshop_paper,研讨会论文相关类：会议论文、工业论文、论文
+ekaw-workshop_session,研讨会会议相关课程：会议会议、会议
+iasted-accepting_manuscript,接受稿件相关课程：会前活动
+iasted-activity,活动相关类：会议后活动、会议前活动、会议活动属性：通过、日期于、之后举行、之前举行、举行于
+iasted-activity_after_conference,会议后活动相关课程：活动、出发、全日游性质：在之后举行
+iasted-activity_before_conference,会前活动相关课程：接受稿件、活动、接收稿件、拒绝稿件、租赁、研究财产：在会议之前举行
+iasted-audiovisual_equipment,视听设备相关类别：计算机、物品、液晶投影仪、高射投影仪、录像带播放器属性：设计用于、位于、由...使用
+iasted-author,作者相关课程：包括作者书籍会议记录、包括作者 CD 会议记录、讲师、全体演讲演讲者、演讲者、教程演讲者属性：给予、准备
+iasted-author_attendee_book_registration_fee,作者参加者书籍注册费相关类别：注册费属性：已付费
+iasted-author_attendee_cd_registration_fee,作者 参加者 cd 注册费 相关类别： 注册费 属性： 已付费
+iasted-author_book_proceedings_included,作者书籍程序包括相关类别：作者属性：获取
+iasted-author_cd_proceedings_included,作者 CD 程序包括相关类：作者属性：获取
+iasted-author_information_form,作者信息表单相关类：表单属性：发送后
+iasted-bank_transfer,银行转账相关类：付款凭证
+iasted-book_proceeding,书籍出版相关课程：出版
+iasted-brief_introduction_for_session_chair,会议主席相关类简介： 文档属性：由...给出、由...给出
+iasted-building,建筑相关类别：会议机场、会议大楼、会议酒店、会议餐厅、场所、演讲者之家、演讲者大学、赞助商公司房屋物业：已支付
+iasted-camera_ready_manuscript_deadline,相机准备好手稿截止日期相关课程：截止日期
+iasted-car,汽车相关类别: 运输车辆
+iasted-card,卡相关类：信用卡、物品
+iasted-cd_proceening,光盘加工相关课程：出版
+iasted-cheque,检查相关类：付款凭证
+iasted-city,城市相关类别：会议城市、主办城市、赞助城市、旅行城市 属性：位于
+iasted-coctail_reception,酒会相关类别：会议活动属性：是专为
+iasted-coffee_break,茶歇相关类：会议活动属性：是专为
+iasted-computer,计算机相关类：视听设备
+iasted-conference_hiker,会议徒步旅行者相关课程：代表
+iasted-conference_activity,会议活动相关课程：活动、鸡尾酒招待会、茶歇、介绍、讲座、演示、注册、社交活动、技术活动、欢迎致辞属性：举行于
+iasted-conference_airport,会议机场相关类别： 建筑属性： 位于
+iasted-conference_building,会议大楼相关类别： 建筑属性： 被占用、位于
+iasted-conference_city,会议城市相关类： 城市属性： 被访问者
+iasted-conference_days,会议日相关类：一个会议日，时间属性：是专为
+iasted-conference_hall,会议厅相关类别： 地点属性： 位于
+iasted-conference_hotel,会议酒店相关类别： 建筑属性： 专为、 位于
+iasted-conference_restaurant,会议餐厅相关类别： 建筑属性： 被占用，位于
+iasted-conference_state,会议状态相关类： 状态属性： 被访问
+iasted-credit_card,信用卡相关类： 卡属性： 是专为
+iasted-currency,货币
+iasted-deadline,截止日期相关类：相机准备好稿件截止日期、接受通知截止日期、酒店预订截止日期、注册截止日期、提交截止日期、时间属性：完成直到，旨在
+iasted-deadline_for_notification_of_acceptance,相关课程录取通知截止日期：截止日期
+iasted-deadline_hotel_reservation,截止日期 酒店预订相关课程：截止日期
+iasted-delegate,与代表相关的类别：会议远足者、酒店主持人、iasted 会员、iasted 非会员、听众、非演讲者、一日演讲者、人员、会议主席、演讲者、技术委员会属性：需要、获取、占用、支付、发送
+iasted-departure,出发相关课程：会后活动
+iasted-departure_tax,离境税相关类别： 税务属性： 专为
+iasted-dinner_banquet,晚宴宴会相关类别：社交节目属性：专为
+iasted-document,文件相关课程：会议主席简介、表格、邀请函、项目、邮件列表、付款文件、出席记录、审查、提交、透明度、Viza
+iasted-double_hotel_room,双人酒店房间相关类别: 酒店房间
+iasted-fee,费用相关类别：加班费、酒店费、金钱、注册费属性：通过以下方式支付
+iasted-fee_for_extra_trip,额外行程相关费用类别： 费用属性： 支付者、支付者
+iasted-final_manuscript,最终稿件相关类：提交属性：通过
+iasted-form,表单相关类：作者信息表、文档、酒店登记表、登记表属性：被赋予
+iasted-full_day_tour,全日游相关课程：会议后的活动性质：专为、举办于
+iasted-hotel_fee,酒店费用相关类别： 费用属性： 支付方式
+iasted-hotel_presenter,酒店主持人相关类：Delegate
+iasted-hotel_registration_form,酒店登记表相关类： 表单属性： 之前发送
+iasted-hotel_room,酒店房间相关类别：双人酒店房间、地点、单人酒店房间属性：是专为、位于
+iasted-iasted_member,iasted成员相关类：delegate
+iasted-iasted_non_member,iasted非成员相关类：委托
+iasted-initial_manuscipt,初始稿件相关类：提交属性：通过
+iasted-introduction,介绍相关课程：会议活动、演讲者介绍
+iasted-introduction_of_speaker,演讲者相关课程介绍：简介
+iasted-invitation_letter,邀请函相关类： 文档属性： 是专为
+iasted-item,项目相关类别：视听设备、卡片、文件、出版物、运输工具属性：通过、配备、给予、制造、需要、支付、准备、之后发送、之前发送、发送、签名、使用、用于、书写、需要、获取、准备、发送、签名、书写
+iasted-lcd_projector,液晶投影机相关类: 视听设备
+iasted-lecture,讲座相关课程：会议活动、全体讲座、会议、教程属性：专为
+iasted-lecturer,讲师相关类别：作者、学生讲师、工人讲师属性：发言
+iasted-listener,监听器相关类：委托属性：存在于、标志中
+iasted-mailing_list,邮件列表相关类：文档属性：设计用于
+iasted-main_office,主要办公室相关类别：地点
+iasted-memeber_registration_fee,会员注册费相关类： 注册费属性： 是专为
+iasted-modelling,建模相关课程：研究
+iasted-money,与金钱相关的类别：费用、赞助、税收、小费属性：有金额、支付方式、支付方式、支付方式、支付方式、支付方式
+iasted-non_speaker,非演讲者相关类别：代表、演讲者、非演讲者学生、非演讲者工人
+iasted-nonauthor_registration_fee,非作者注册费相关类： 注册费属性： 专为
+iasted-nonmember_registration_fee,非会员注册费相关类： 注册费属性： 是专为
+iasted-one_conference_day,一个会议日相关课程：会议日
+iasted-one_day_presenter,一日演讲者相关课程：代表
+iasted-overhead_projector,高射投影机相关类别: 视听设备
+iasted-payment_document,付款凭证相关类：银行转账、支票、凭证属性：专为
+iasted-person,与人相关的类：代表、赞助商属性：给予、被给予、被给予、被需要、被占用、被支付、被准备、在场、在场、被发送、被签名、被使用、被访问、被写入、需要、获取、占用、支付、准备、发送、签名、发言、写入
+iasted-place,地点相关类：大楼、会议厅、酒店房间、主办公室、会议室属性：配备，位于
+iasted-plenary_lecture,全体讲座相关课程：讲座
+iasted-plenary_lecture_speaker,全体演讲演讲者相关课程：作者属性：发言
+iasted-powerpoint_presentation,Power Point 演示相关课程：演示
+iasted-presentation,演示相关课程：会议活动、PowerPoint 演示、视频演示
+iasted-presenter_city,演示者城市相关类： 城市属性： 被占用
+iasted-presenter_house,演示者房屋相关类别： 建筑属性： 被占用，位于
+iasted-presenter_state,Presenter状态相关类：state属性：被占用
+iasted-presenter_university,演讲者大学相关课程： 建筑属性： 位于
+iasted-publication,与出版相关的类别：书籍处理、CD 处理、项目属性：由
+iasted-receiving_manuscript,接收稿件相关课程：会前活动
+iasted-record_of_attendance,相关课程的出勤记录：文档属性：签名者，位于
+iasted-refusing_manuscript,拒绝稿件相关课程：会前活动
+iasted-registation_deadline,报名截止日期 相关课程：截止日期
+iasted-registration,注册相关类：会议活动属性：是专为
+iasted-registration_fee,注册费相关类别：作者参加者图书注册费、作者参加者光盘注册费、费用、会员注册费、非作者注册费、非会员注册费、学生注册费属性：支付者、支付者
+iasted-registration_form,注册表相关类： 表单属性： 之前发送、发送者
+iasted-renting,租赁相关课程： 会议财产之前的活动： 与
+iasted-research,研究相关课程：会前活动、建模、模拟
+iasted-review,查看相关类：文档属性：由以下人员编写
+iasted-reviewer,审稿人相关课程：演讲者
+iasted-session,与会话相关的课程：讲座、演讲者讲座属性：由以下人员给出、在以下地点举行
+iasted-session_chair,会议主席相关类：委托属性：获取
+iasted-session_room,会议室相关类：地点属性：配备，位于
+iasted-shuttle_bus,穿梭巴士相关类别: 运输车辆
+iasted-simulating,模拟相关课程：研究
+iasted-single_hotel_room,单人酒店房间相关类别： 酒店房间
+iasted-social_program,社交项目相关类：会议活动、晚宴宴会属性：专为
+iasted-speaker,演讲者相关类：作者、代表、非演讲者、审阅者属性：给予、写入
+iasted-speaker_lecture,演讲者讲座相关课程：会议
+iasted-sponsor,赞助商相关类别：人员属性：占据
+iasted-sponsor_city,赞助城市相关类别： 城市属性： 被占用
+iasted-sponsor_company_house,赞助公司房屋相关类别： 建筑物属性： 被占用，位于
+iasted-sponsor_state,赞助国相关类：state
+iasted-sponzorship,赞助相关课程：金钱
+iasted-state,状态相关类：会议状态、演示者状态、赞助者状态
+iasted-student_lecturer,学生讲师相关课程：讲师
+iasted-student_non_speaker,学生非演讲者相关课程：非演讲者
+iasted-student_registration_fee,学生注册费相关类： 注册费属性： 是专为
+iasted-submission,提交相关类：文档、最终稿件、初始稿件属性：由以下人员编写
+iasted-submissions_deadline,提交截止日期相关课程：截止日期
+iasted-tax,税务相关类别：离境税、货币、增值税
+iasted-taxi,出租车相关类别: 运输车辆
+iasted-technic_activity,技术活动相关类：会议活动属性：由下式给出
+iasted-technical_commitee,技术委员会相关类： 委托属性： 遍历
+iasted-time,时间相关类：会议日、截止日期、行程日属性：在之后举行、在之前举行、在场、在之后发送、在之前发送
+iasted-time_zone,时区
+iasted-tip,小费相关类： 货币属性： 支付于
+iasted-transparency,透明度相关类：文档属性：由以下人员准备
+iasted-transport_vehicle,运输车辆相关类别：汽车、物品、穿梭巴士、出租车、货车属性：由以下人员使用
+iasted-trip_city,旅行城市相关类： 城市属性： 被访问者
+iasted-trip_day,行程日相关类： 时间属性： 设计用于
+iasted-tutorial,辅导相关课程：讲座
+iasted-tutorial_speaker,教程演讲者相关类：作者属性：发言
+iasted-value_added_tax,增值税相关类别: 税
+iasted-van,厢式货车相关类别: 运输车辆
+iasted-video_cassette_player,录像带播放器相关类: 视听设备
+iasted-video_presentation,视频演示相关课程：演示
+iasted-viza,viza 相关类：文档属性：需要
+iasted-welcome_address,欢迎致辞相关课程：会议活动
+iasted-worker_lecturer,工人讲师相关课程：讲师
+iasted-worker_non_speaker,工人非说话者相关类别：非说话者
+sigkdd-acm_sigkdd,acm sigkdd 属性：设计、设计者、持有、持有者、搜索、搜索者
+sigkdd-abstract,抽象相关类：文档
+sigkdd-author,作者相关类：论文作者、论文学生作者、演讲者属性：通知直至、获取、提交
+sigkdd-author_of_paper,论文作者相关类别： 作者属性： 奖项
+sigkdd-author_of_paper_student,论文作者学生相关类别：作者属性：奖项
+sigkdd-award,奖项相关类别：最佳应用论文奖、最佳研究论文奖、最佳学生论文奖属性：奖项、授予者、获得
+sigkdd-best_applications_paper_award,最佳应用论文奖相关类别：奖
+sigkdd-best_paper_awards_committee,最佳论文奖委员会相关类别：委员会
+sigkdd-best_research_paper_award,最佳研究论文奖相关类别：奖
+sigkdd-best_student_paper_award,最佳学生论文奖相关班级：奖
+sigkdd-best_student_paper_supporter,最佳学生论文支持者相关课程：赞助商
+sigkdd-bronze_supporter,铜牌支持者相关类别：sponzor
+sigkdd-committee,委员会相关类：最佳论文奖委员会、组委会、程序委员会
+sigkdd-conference,会议属性：会议城市、会议结束、举行、举行者、会议名称、会议开始
+sigkdd-conference_hall,会议厅相关课程：地点
+sigkdd-deadline,截止日期相关类：截止日期摘要提交、截止日期作者通知、截止日期论文提交属性：日期、设计、设计者、提交至
+sigkdd-deadline_abstract_submission,摘要提交截止日期相关类：截止日期
+sigkdd-deadline_author_notification,截止日期作者通知相关类：截止日期属性：通知截止日期
+sigkdd-deadline_paper_submission,截止日期论文提交相关课程：截止日期
+sigkdd-document,文档相关类：摘要、论文、评论属性：演示文稿、演示者、提交至
+sigkdd-exhibitor,参展商相关类别: 赞助商
+sigkdd-fee,相关费用类别：注册费、赞助费
+sigkdd-general_chair,总主席相关课程：组织者
+sigkdd-gold_supporter,黄金支持者相关类别：赞助商
+sigkdd-hotel,酒店相关类别：地点
+sigkdd-invited_speaker,邀请演讲者相关课程：演讲者
+sigkdd-listener,监听器相关类：person
+sigkdd-main_office,主要办公室相关类别：地点
+sigkdd-organizator,组织者相关类别：主席、组委会成员、个人、程序主席、程序委员会成员、网站管理员
+sigkdd-organizing_committee,组委会相关班级：委员会
+sigkdd-organizing_committee_member,组委会成员相关班级：主办方
+sigkdd-paper,论文相关类：文档属性：提交
+sigkdd-person,与人员相关的类：听众、组织者、演讲者属性：可以停留、电子邮件、姓名、国家、付款、付款人
+sigkdd-place,场所相关类：会议厅、酒店、主要写字楼物业：可入住
+sigkdd-platinum_supporter,白金支持者相关类别：赞助商
+sigkdd-program_chair,程序主席相关课程：组织者
+sigkdd-program_committee,程序委员会相关类：committee
+sigkdd-program_committee_member,程序委员会成员相关班级：组织者
+sigkdd-registration_non-member,注册非会员相关课程：注册费
+sigkdd-registration_sigkdd_member,注册sigkdd会员相关课程：注册费
+sigkdd-registration_sigmod_member,注册sigmod会员相关课程：注册费
+sigkdd-registration_student,注册学生相关课程：注册费
+sigkdd-registration_fee,注册费相关类：费用、注册非会员、注册sigkdd会员、注册sigmod会员、注册学生属性：货币、支付、支付者、价格
+sigkdd-review,复习相关课程：文档
+sigkdd-silver_supporter,白银支持者相关类别：赞助商
+sigkdd-speaker,演讲者相关类：作者、受邀演讲者、人物属性：演示文稿、演示者
+sigkdd-sponzor,赞助商相关类别：最佳学生论文支持者、铜牌支持者、参展商、金牌支持者、白金支持者、银牌支持者属性：赞助者名称、搜索、搜索者
+sigkdd-sponzor_fee,赞助费相关类别：费用
+sigkdd-webmaster,站长相关课程：组织者
